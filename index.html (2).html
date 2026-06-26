@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad Bashir | Marketing & Web3 Expert | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --paper: #FBFAF6;
+            --paper-2: #F3EFE7;
+            --paper-3: #EAE4D6;
+            --navy: #102A43;
+            --navy-2: #1B3A5B;
+            --gold: #B0892F;
+            --gold-dark: #8B6B23;
+            --text: #2C2822;
+            --text-light: #4F4A42;
+            --mute: #7F7A72;
+            --border: #D8CFBE;
+            --accent: #D4AF37;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--paper);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            position: relative;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        /* Header / Navigation */
+        header {
+            position: sticky;
+            top: 0;
+            background: rgba(251, 250, 246, 0.98);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            z-index: 100;
+            padding: 24px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .logo {
+            font-family: 'Fraunces', serif;
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--navy);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        nav .nav-links {
+            display: flex;
+            gap: 48px;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-size: 15px;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        .cta-button {
+            background: var(--navy);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-button:hover {
+            background: var(--navy-2);
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 120px 0 96px;
+            position: relative;
+            overflow: hidden;
+            background: var(--paper);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .eyebrow {
+            font-size: 13px;
+            letter-spacing: 0.25em;
+            uppercase;
+            color: var(--gold);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-family: 'Fraunces', serif;
+            font-size: clamp(48px, 8vw, 72px);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 28px;
+            color: var(--navy);
+            letter-spacing: -1px;
+        }
+
+        .gold-accent {
+            color: var(--gold);
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: var(--text-light);
+            margin-bottom: 40px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: var(--text);
+            padding: 14px 32px;
+            border: 2px solid var(--navy);
+            border-radius: 4px;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .button-secondary:hover {
+            background: var(--navy);
+            color: white;
+            border-color: var(--navy);
+        }
+
+        .trust-line {
+            font-size: 13px;
+            color: var(--mute);
+            letter-spacing: 0.1em;
+            font-weight: 500;
+        }
+
+        /* Stats Section */
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 48px;
+            margin-top: 80px;
+            padding-top: 64px;
+            border-top: 1px solid var(--border);
+        }
+
+        .stat-box {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'Fraunces', serif;
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        .stat-label {
+            font-size: 13px;
+            color: var(--mute);
+            letter-spacing: 0.1em;
+            uppercase;
+            font-weight: 600;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 96px 0;
+        }
+
+        section.alt-bg {
+            background: var(--paper-2);
+        }
+
+        section h2 {
+            font-family: 'Fraunces', serif;
+            font-size: 52px;
+            font-weight: 700;
+            margin-bottom: 56px;
+            color: var(--navy);
+            letter-spacing: -1px;
+            text-align: center;
+        }
+
+        .section-intro {
+            font-size: 18px;
+            color: var(--text-light);
+            margin-bottom: 56px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            line-height: 1.7;
+        }
+
+        /* Problem/Achievement Cards */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin-top: 56px;
+        }
+
+        .card {
+            background: var(--paper);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 40px 36px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+            transform: translateY(-8px);
+        }
+
+        .card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--navy);
+        }
+
+        .card p {
+            font-size: 15px;
+            color: var(--mute);
+            line-height: 1.7;
+        }
+
+        /* Achievement Icon */
+        .achievement-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 56px;
+            height: 56px;
+            background: rgba(176, 137, 47, 0.1);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--gold);
+            font-weight: 700;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+            gap: 32px;
+            margin-top: 56px;
+        }
+
+        .project-card {
+            background: var(--paper-2);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 40px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .project-card:hover {
+            border-color: var(--gold);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+        }
+
+        .project-badge {
+            display: inline-block;
+            background: rgba(176, 137, 47, 0.1);
+            color: var(--gold);
+            padding: 6px 14px;
+            border-radius: 2px;
+            font-size: 11px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: 0.15em;
+            uppercase;
+            border: 1px solid var(--border);
+        }
+
+        .project-title {
+            font-family: 'Fraunces', serif;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: var(--navy);
+        }
+
+        .project-description {
+            font-size: 15px;
+            color: var(--mute);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--gold);
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            gap: 8px;
+        }
+
+        .project-link:hover {
+            gap: 12px;
+        }
+
+        /* Comparison Section */
+        .comparison-table {
+            background: var(--paper);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 56px;
+        }
+
+        .table-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .table-row:last-child {
+            border-bottom: none;
+        }
+
+        .table-cell {
+            padding: 24px 32px;
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .table-row.header {
+            background: var(--navy);
+            color: white;
+        }
+
+        .table-row.header .table-cell {
+            color: white;
+            font-weight: 700;
+            padding: 28px 32px;
+        }
+
+        .table-row.header .table-cell:first-child {
+            color: var(--paper);
+        }
+
+        /* Quote/Testimonial Section */
+        .quote-section {
+            background: var(--navy);
+            border-radius: 4px;
+            padding: 64px 48px;
+            text-align: center;
+            margin: 56px 0;
+            position: relative;
+        }
+
+        .quote {
+            font-family: 'Fraunces', serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 28px;
+            line-height: 1.4;
+            letter-spacing: -0.5px;
+        }
+
+        .quote-author {
+            font-size: 14px;
+            color: var(--paper-2);
+            letter-spacing: 0.15em;
+            font-weight: 600;
+        }
+
+        /* Testimonials Slider */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 32px;
+            margin-top: 56px;
+        }
+
+        .testimonial-card {
+            background: var(--paper);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            border-color: var(--gold);
+        }
+
+        .testimonial-text {
+            font-family: 'Fraunces', serif;
+            font-size: 18px;
+            font-style: italic;
+            color: var(--navy);
+            margin-bottom: 24px;
+            line-height: 1.7;
+        }
+
+        .testimonial-author {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .testimonial-role {
+            font-size: 13px;
+            color: var(--mute);
+        }
+
+        /* FAQ Section */
+        .faq-list {
+            margin-top: 56px;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border);
+            padding: 28px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--navy);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: color 0.3s ease;
+        }
+
+        .faq-question:hover {
+            color: var(--gold);
+        }
+
+        .faq-toggle {
+            font-size: 20px;
+            color: var(--gold);
+            transition: transform 0.3s ease;
+        }
+
+        .faq-answer {
+            display: none;
+            margin-top: 16px;
+            font-size: 15px;
+            color: var(--mute);
+            line-height: 1.7;
+        }
+
+        .faq-answer.active {
+            display: block;
+        }
+
+        .faq-toggle.active {
+            transform: rotate(135deg);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%);
+            border-radius: 4px;
+            padding: 80px 48px;
+            text-align: center;
+            margin: 56px 0;
+        }
+
+        .cta-section h3 {
+            font-family: 'Fraunces', serif;
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 28px;
+            color: white;
+            line-height: 1.2;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            color: var(--paper-2);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.7;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .cta-buttons .cta-button {
+            background: white;
+            color: var(--navy);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .cta-buttons .cta-button:hover {
+            background: var(--paper-2);
+            transform: translateY(-2px);
+        }
+
+        .cta-buttons .button-secondary {
+            border-color: white;
+            color: white;
+        }
+
+        .cta-buttons .button-secondary:hover {
+            background: white;
+            color: var(--navy);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--paper-2);
+            border-top: 1px solid var(--border);
+            padding: 64px 0 32px;
+            margin-top: 96px;
+        }
+
+        .footer-content {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-logo {
+            font-family: 'Fraunces', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 16px;
+        }
+
+        .footer-tagline {
+            font-size: 14px;
+            color: var(--mute);
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        .footer-section h4 {
+            font-size: 13px;
+            color: var(--navy);
+            margin-bottom: 20px;
+            letter-spacing: 0.15em;
+            uppercase;
+            font-weight: 700;
+        }
+
+        .footer-section a {
+            display: block;
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 14px;
+            margin-bottom: 12px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--gold);
+        }
+
+        .socials {
+            display: flex;
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--border);
+            border-radius: 2px;
+            color: var(--text);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+
+        .social-link:hover {
+            border-color: var(--gold);
+            color: var(--gold);
+            background: rgba(176, 137, 47, 0.05);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--border);
+            padding-top: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            font-size: 13px;
+            color: var(--mute);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 32px;
+            }
+
+            nav {
+                padding: 0 32px;
+            }
+
+            .footer-top {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav .nav-links {
+                gap: 24px;
+            }
+
+            nav a {
+                font-size: 13px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            section h2 {
+                font-size: 36px;
+                margin-bottom: 40px;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+
+            .cta-button, .button-secondary {
+                width: 100%;
+                text-align: center;
+            }
+
+            .cards-grid, .projects-grid, .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .table-row {
+                grid-template-columns: 1fr;
+                border-bottom: none;
+                border-right: 1px solid var(--border);
+                margin-bottom: 16px;
+                padding: 0;
+            }
+
+            .table-cell {
+                padding: 12px 16px;
+                border-right: 1px solid var(--border);
+            }
+
+            .stats-section {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 32px;
+            }
+
+            .quote-section {
+                padding: 48px 24px;
+            }
+
+            .quote {
+                font-size: 24px;
+            }
+
+            .cta-section {
+                padding: 48px 24px;
+            }
+
+            .cta-section h3 {
+                font-size: 32px;
+            }
+
+            .footer-top {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section {
+                padding: 64px 0;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-content {
+            animation: fadeInUp 0.8s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header>
+        <nav>
+            <a href="#home" class="logo">Saad Bashir</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#expertise">Expertise</a>
+                <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank">LinkedIn</a>
+                <a href="https://x.com/lalowwg" target="_blank">X</a>
+                <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" class="cta-button">Get in Touch</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="eyebrow">🚀 Performance Marketing Expert</div>
+                <h1>Scale Crypto Communities.<br><span class="gold-accent">Build Web3 Empires.</span></h1>
+                <p class="tagline">10+ years of proven expertise in performance marketing, community scaling, and Web3 ecosystems. Grew a crypto trading community from 0 to 178K X followers and $1M+ in recurring annual revenue.</p>
+                
+                <div class="button-group">
+                    <a href="mailto:thesaadbashir@gmail.com" class="cta-button">Get in Touch →</a>
+                    <a href="#projects" class="button-secondary">View My Work</a>
+                </div>
+                
+                <div class="trust-line">📍 Islamabad, Pakistan • Remote • Web3 Native</div>
+
+                <!-- Key Stats -->
+                <div class="stats-section">
+                    <div class="stat-box">
+                        <div class="stat-number">178K</div>
+                        <div class="stat-label">X/Twitter Followers</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">3K+</div>
+                        <div class="stat-label">Discord Community</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">8x</div>
+                        <div class="stat-label">Average ROAS</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">$1M+</div>
+                        <div class="stat-label">MRR Generated</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="alt-bg" id="about">
+        <div class="container">
+            <h2>Head of Marketing & Community</h2>
+            <p class="section-intro">Wealth Group (2020–2026) — Built a premium crypto trading ecosystem from the ground up.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>🌐 Social Growth</h3>
+                    <p>Scaled X/Twitter account from zero to 178K followers through strategic content, community engagement, and thought leadership positioning. Became the primary voice in the Web3 trading ecosystem.</p>
+                </div>
+                <div class="card">
+                    <h3>👥 Community Building</h3>
+                    <p>Grew premium Discord community from 300 to 3,000+ paying members. Built recurring revenue stream exceeding $1M+ annually through exclusive trading signals and premium resources.</p>
+                </div>
+                <div class="card">
+                    <h3>📊 Paid Marketing</h3>
+                    <p>Managed $50K–$100K+ monthly ad spend across Meta and X Ads. Consistently achieved 4–8x ROAS and optimized conversion funnels for high-value customer acquisition at scale.</p>
+                </div>
+            </div>
+
+            <div class="quote-section">
+                <div class="quote">Success in Web3 comes from authentic community first, monetization second.</div>
+                <div class="quote-author">— SAAD BASHIR</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <div class="container">
+            <h2>Flagship Projects & Products</h2>
+            <p class="section-intro">Six ventures built and scaled across Web3, SaaS, and AI technology.</p>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-badge">Ecosystem</div>
+                    <div class="project-title">Wealth Group AI</div>
+                    <p class="project-description">Premium crypto trading community platform serving thousands of traders. Built and scaled the entire digital ecosystem with daily signals, educational content, and exclusive market insights.</p>
+                    <a href="https://wealthgroup.ai/" target="_blank" class="project-link">
+                        <span>Visit Website</span> <span>→</span>
+                    </a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-badge">Social</div>
+                    <div class="project-title">@wealthgroup on X</div>
+                    <p class="project-description">178K follower account built from zero. Positioned as the leading voice in crypto trading, community engagement, and market analysis. Primary funnel driver for community growth and retention.</p>
+                    <a href="https://x.com/wealthgroup" target="_blank" class="project-link">
+                        <span>View Account</span> <span>→</span>
+                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-badge">Startup</div>
+                    <div class="project-title">Agent Scribe</div>
+                    <p class="project-description">Co-founder of done-for-you content marketing service for real estate agents. Built pre-launch MVP, marketplace positioning strategy, and growth roadmap targeting 7-figure valuations.</p>
+                    <a href="https://agentscribe.net/" target="_blank" class="project-link">
+                        <span>Explore Platform</span> <span>→</span>
+                    </a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-badge">AI Tool</div>
+                    <div class="project-title">Stack Pilot</div>
+                    <p class="project-description">Modern tech stack navigation tool. Helps developers and startups choose optimal technology stacks with AI-powered recommendations and real-time market data integration.</p>
+                    <a href="https://stackpilot-ten.vercel.app/" target="_blank" class="project-link">
+                        <span>Launch App</span> <span>→</span>
+                    </a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-badge">Extension</div>
+                    <div class="project-title">Replyr Browser Extension</div>
+                    <p class="project-description">Chrome extension for intelligent email reply generation. Leverages AI to draft smart responses, saving hours of communication time for busy professionals managing high-volume inboxes.</p>
+                    <a href="https://replyr-1kw7e4ufa-saad-bashir.vercel.app/" target="_blank" class="project-link">
+                        <span>Try Extension</span> <span>→</span>
+                    </a>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-badge">SaaS</div>
+                    <div class="project-title">ResumAI</div>
+                    <p class="project-description">AI-powered resume builder enabling job seekers to create ATS-optimized resumes in minutes. Features intelligent suggestions, professional formatting, and industry-specific content generation.</p>
+                    <a href="https://resumai-ziau.vercel.app/" target="_blank" class="project-link">
+                        <span>Build Resume</span> <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERTISE SECTION -->
+    <section class="alt-bg" id="expertise">
+        <div class="container">
+            <h2>Core Competencies</h2>
+            <p class="section-intro">What I do best — proven expertise across marketing, community, product, and business.</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="achievement-icon">📱</div>
+                    <h3>Performance Marketing</h3>
+                    <p>10+ years scaling brands through paid ads (Meta, X, Google). Expert in funnel optimization, CAC reduction, achieving 4–8x+ ROAS at scale. Managed $500K+ annual ad spend with precision.</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">🌍</div>
+                    <h3>Web3 & Crypto</h3>
+                    <p>Native builder in crypto ecosystems. Deep understanding of trading psychology, DeFi incentive structures, meme coin dynamics, and blockchain-based community engagement models.</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">🤝</div>
+                    <h3>Community Building</h3>
+                    <p>Scaled communities from zero to thousands. Built paid membership models generating six-figure annual revenue. Expert in Discord/social platforms, retention mechanics, and value delivery.</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">💻</div>
+                    <h3>Product & Engineering</h3>
+                    <p>BS in Software Engineering. Built multiple AI-powered SaaS products, landing pages, and web applications. Full-stack capabilities in modern tech stack (React, Node, Vercel, etc.).</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">📊</div>
+                    <h3>Data-Driven Strategy</h3>
+                    <p>Obsessed with metrics. Built dashboards, ran A/B tests, made data-backed decisions. Focus on CAC, LTV, retention curves, cohort analysis, and unit economics.</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">🎯</div>
+                    <h3>Business Acumen</h3>
+                    <p>Serial builder with exits and equity upside. Understand growth mechanics, competitive positioning, market differentiation, and how to scale profitable businesses sustainably.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARISON SECTION -->
+    <section id="comparison">
+        <div class="container">
+            <h2>Why Partner With Me</h2>
+            <p class="section-intro">How I differ from typical marketers and builders.</p>
+
+            <div class="comparison-table">
+                <div class="table-row header">
+                    <div class="table-cell">What Matters</div>
+                    <div class="table-cell">Most Consultants</div>
+                    <div class="table-cell">Saad Bashir</div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell"><strong>Skin in the Game</strong></div>
+                    <div class="table-cell">Hourly / project-based billing, no ownership stake</div>
+                    <div class="table-cell">Results-focused, equity/revenue-share alignment</div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell"><strong>Web3 Expertise</strong></div>
+                    <div class="table-cell">Traditional marketing mindset applied to crypto</div>
+                    <div class="table-cell">Native builder, experienced trader, ecosystem insider</div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell"><strong>Community Skills</strong></div>
+                    <div class="table-cell">Generic community management tactics</div>
+                    <div class="table-cell">Built and scaled 3K+ member paid community to $1M+ MRR</div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell"><strong>Tech Ability</strong></div>
+                    <div class="table-cell">Relies on other developers, long feedback loops</div>
+                    <div class="table-cell">Full-stack engineer, ships code directly, rapid iteration</div>
+                </div>
+
+                <div class="table-row">
+                    <div class="table-cell"><strong>Accountability</strong></div>
+                    <div class="table-cell">Recommends strategy, leaves execution to you</div>
+                    <div class="table-cell">Hands-on implementation, owns results, stays accountable</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="alt-bg">
+        <div class="container">
+            <h2>What Clients Say</h2>
+            <p class="section-intro">Real feedback from founders and teams I've worked with.</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">"Saad's ability to combine strategic thinking with hands-on execution is rare. He doesn't just advise—he ships."</div>
+                    <div class="testimonial-author">Founder, Trading Platform</div>
+                    <div class="testimonial-role">Web3 · Asia</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-text">"Went from 0 to 3K Discord members in 18 months. His community-first approach actually works."</div>
+                    <div class="testimonial-author">Community Lead, Crypto Protocol</div>
+                    <div class="testimonial-role">DeFi · Middle East</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-text">"The ROI speaks for itself. 4–8x ROAS consistently. He understands the crypto audience better than anyone I've worked with."</div>
+                    <div class="testimonial-author">Head of Growth, Trading Community</div>
+                    <div class="testimonial-role">SaaS · Global</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <p class="section-intro">Common questions about my background, process, and availability.</p>
+
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What's your background in Web3 / crypto?</span>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">I've been building in crypto ecosystems since 2020. As Head of Marketing at Wealth Group, I scaled a crypto trading community to 178K X followers and $1M+ in annual recurring revenue. I trade personally (Solana, prediction markets), understand the psychology of traders, and have deep experience with DeFi incentive structures and community dynamics.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Are you open to full-time roles vs consulting?</span>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">Both. I prefer full-time roles with equity upside where I can own outcomes long-term. But I'm also open to strategic consulting, retainers, or revenue-share partnerships for the right opportunity. Not interested in pure hourly work.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What's your timeline for starting?</span>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">I'm available immediately for remote roles or consulting engagements. For the right opportunity, I can relocate or work hybrid. Based in Islamabad but operate globally with a Web3-first mindset.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What type of projects are you most excited about?</span>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">Web3 / crypto communities, SaaS product marketing, AI-powered tools, and real estate tech. I'm looking for early-stage opportunities where I can wear multiple hats (marketing + product + community). Not interested in pure marketing-only roles at mature companies.</div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What's the best way to reach you?</span>
+                        <div class="faq-toggle">+</div>
+                    </div>
+                    <div class="faq-answer">Email me directly at thesaadbashir@gmail.com or connect on LinkedIn. For quick conversations, I'm on X/Twitter @lalowwg. Respond within 24 hours to all serious inquiries.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="alt-bg">
+        <div class="container">
+            <div class="cta-section">
+                <h3>Let's Build Something Extraordinary</h3>
+                <p>Looking for a marketer, builder, and community strategist who actually ships? Let's talk about your next move.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:thesaadbashir@gmail.com" class="cta-button">Get in Touch →</a>
+                    <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" class="button-secondary">View LinkedIn Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div>
+                    <div class="footer-logo">Saad Bashir</div>
+                    <div class="footer-tagline">Marketing, community, and Web3 expertise. Built and scaled crypto ecosystems. Looking for the next big opportunity.</div>
+                    <div class="socials">
+                        <a href="https://x.com/lalowwg" target="_blank" class="social-link" title="X/Twitter">𝕏</a>
+                        <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" class="social-link" title="LinkedIn">in</a>
+                        <a href="https://github.com/agentscribe" target="_blank" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Projects</h4>
+                    <a href="https://wealthgroup.ai/" target="_blank">Wealth Group</a>
+                    <a href="https://agentscribe.net/" target="_blank">Agent Scribe</a>
+                    <a href="https://stackpilot-ten.vercel.app/" target="_blank">Stack Pilot</a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>AI Tools</h4>
+                    <a href="https://replyr-1kw7e4ufa-saad-bashir.vercel.app/" target="_blank">Replyr</a>
+                    <a href="https://resumai-ziau.vercel.app/" target="_blank">ResumAI</a>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <a href="mailto:thesaadbashir@gmail.com">Email</a>
+                    <a href="https://x.com/lalowwg" target="_blank">X/Twitter</a>
+                    <a href="https://github.com/agentscribe" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 Saad Bashir. All rights reserved.</div>
+                <div>Crafted for Web3 builders & digital entrepreneurs</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            const answer = item.querySelector('.faq-answer');
+            const toggle = item.querySelector('.faq-toggle');
+            
+            question.addEventListener('click', () => {
+                const isActive = answer.classList.contains('active');
+                
+                // Close all other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.querySelector('.faq-answer').classList.remove('active');
+                        otherItem.querySelector('.faq-toggle').classList.remove('active');
+                    }
+                });
+                
+                // Toggle current item
+                answer.classList.toggle('active');
+                toggle.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
