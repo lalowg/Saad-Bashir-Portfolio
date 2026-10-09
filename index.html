@@ -344,6 +344,50 @@
         .agent strong { display: block; color: var(--accent); font-size: 16px; margin-bottom: 8px; }
         .agent span { display: block; color: var(--paper-2); font-size: 14px; line-height: 1.6; }
 
+        /* Nav fit */
+        .logo { white-space: nowrap; }
+        nav .nav-links { gap: 26px; }
+        nav a { white-space: nowrap; font-size: 14px; }
+        header .cta-button { padding: 12px 24px; }
+        @media (max-width: 1180px) {
+            nav { flex-direction: column; gap: 14px; }
+            nav .nav-links { flex-wrap: wrap; justify-content: center; gap: 12px 22px; }
+        }
+
+        /* Case studies */
+        .case { background: var(--paper-2); border: 1px solid var(--border); border-radius: 4px; padding: 48px; margin-top: 40px; }
+        .case-head { display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: start; }
+        .case h3 { font-family: 'Fraunces', serif; font-size: 30px; color: var(--navy); line-height: 1.2; margin-bottom: 14px; }
+        .case-head p { color: var(--text-light); font-size: 16px; }
+        .case-head p a { color: var(--gold-dark); font-weight: 600; }
+        .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        .metrics div { background: var(--paper); border: 1px solid var(--border); border-radius: 4px; padding: 18px; }
+        .metrics b { display: block; font-family: 'Fraunces', serif; font-size: 30px; color: var(--gold); line-height: 1.1; }
+        .metrics span { font-size: 12px; color: var(--mute); font-weight: 600; letter-spacing: 0.05em; }
+        .flow { display: flex; gap: 14px; margin-top: 36px; counter-reset: f; }
+        .flow-step { flex: 1; position: relative; background: var(--navy); color: white; border-radius: 4px; padding: 18px 16px; }
+        .flow-step::before { counter-increment: f; content: counter(f); display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--gold); color: var(--navy); font-size: 12px; font-weight: 700; margin-bottom: 10px; }
+        .flow-step:not(:last-child)::after { content: '\2192'; position: absolute; right: -12px; top: 50%; transform: translateY(-50%); color: var(--gold); font-weight: 700; z-index: 1; }
+        .flow-step b { display: block; font-size: 15px; margin-bottom: 4px; }
+        .flow-step span { display: block; font-size: 12.5px; color: var(--paper-3); line-height: 1.5; }
+        .comp-grid { grid-template-columns: repeat(4, 1fr); gap: 24px; }
+        .comp-grid .card { padding: 32px 28px; }
+        .tech { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+        .tech span { font-size: 11px; font-weight: 700; color: var(--navy-2); background: var(--paper-2); border: 1px solid var(--border); padding: 3px 9px; border-radius: 999px; }
+        @media (max-width: 1024px) {
+            .comp-grid { grid-template-columns: repeat(2, 1fr); }
+            .case-head { grid-template-columns: 1fr; gap: 28px; }
+            .flow { flex-wrap: wrap; }
+            .flow-step { flex: 1 1 30%; }
+            .flow-step::after { display: none; }
+        }
+        @media (max-width: 768px) {
+            .case { padding: 28px 20px; }
+            .case h3 { font-size: 24px; }
+            .flow-step { flex: 1 1 100%; }
+            .comp-grid { grid-template-columns: 1fr; }
+        }
+
         /* Projects Grid */
         .projects-grid {
             display: grid;
@@ -843,13 +887,12 @@
             <a href="#home" class="logo">Saad Bashir</a>
             <div class="nav-links">
                 <a href="#about">About</a>
+                <a href="#case-studies">Case Studies</a>
                 <a href="#projects">Projects</a>
                 <a href="#expertise">Expertise</a>
                 <a href="ai-automation.html">AI Automation</a>
                 <a href="automation.html">GHL Automation</a>
                 <a href="samples.html">Sample Work</a>
-                <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank">LinkedIn</a>
-                <a href="https://x.com/lalowwg" target="_blank">X</a>
                 <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" class="cta-button">Get in Touch</a>
             </div>
         </nav>
@@ -859,9 +902,9 @@
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="eyebrow">🚀 Performance Marketing Expert</div>
+                <div class="eyebrow">🚀 Software Engineer · Growth Marketer · AI Automation</div>
                 <h1>Scale Crypto Communities.<br><span class="gold-accent">Build Web3 Empires.</span></h1>
-                <p class="tagline">10+ years of proven expertise in performance marketing, community scaling, and Web3 ecosystems. Grew a crypto trading community from 0 to 178K X followers and $1M+ in recurring annual revenue.</p>
+                <p class="tagline">10+ years of proven expertise in performance marketing, community scaling, and Web3 ecosystems. Grew a crypto trading community from 0 to 178K X followers and generated $25M+ in revenue from $2.5M+ in ad spend.</p>
                 
                 <div class="button-group">
                     <a href="mailto:thesaadbashir@gmail.com" class="cta-button">Get in Touch →</a>
@@ -881,12 +924,12 @@
                         <div class="stat-label">Discord Community</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">8x</div>
-                        <div class="stat-label">Average ROAS</div>
+                        <div class="stat-number">$2.5M+</div>
+                        <div class="stat-label">Ad Spend Managed</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">$1M+</div>
-                        <div class="stat-label">MRR Generated</div>
+                        <div class="stat-number">$25M+</div>
+                        <div class="stat-label">Revenue Generated</div>
                     </div>
                 </div>
             </div>
@@ -906,17 +949,73 @@
                 </div>
                 <div class="card">
                     <h3>👥 Community Building</h3>
-                    <p>Grew premium Discord community from 300 to 3,000+ paying members. Built recurring revenue stream exceeding $1M+ annually through exclusive trading signals and premium resources.</p>
+                    <p>Grew premium Discord community from 300 to 3,000+ paying members. Built the recurring membership revenue engine behind $25M+ in revenue through exclusive trading signals and premium resources.</p>
                 </div>
                 <div class="card">
                     <h3>📊 Paid Marketing</h3>
-                    <p>Managed $50K to $100K+ monthly ad spend across Meta and X Ads. Consistently achieved 4 to 8x ROAS and optimized conversion funnels for high-value customer acquisition at scale.</p>
+                    <p>Spent $2.5M+ on Meta and X Ads over six years and turned it into $25M+ in revenue. Built the lead funnels and conversion tracking myself and consistently achieved 4 to 8x ROAS.</p>
                 </div>
             </div>
 
             <div class="quote-section">
                 <div class="quote">Success in Web3 comes from authentic community first, monetization second.</div>
                 <div class="quote-author">SAAD BASHIR</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section id="case-studies">
+        <div class="container">
+            <h2>Case Studies</h2>
+            <p class="section-intro">Two funnels I built from scratch: the strategy, the pages, the tracking, the paid ads and the automation behind them.</p>
+
+            <div class="case">
+                <div class="case-head">
+                    <div>
+                        <div class="project-badge">Paid Ads · Funnels · Community</div>
+                        <h3>Wealth Group: $2.5M in ads, $25M+ in revenue</h3>
+                        <p>Over six years I built the lead funnel, set up the conversion tracking, ran the paid ads and scaled the community that turned followers into paying members, and kept it profitable.</p>
+                    </div>
+                    <div class="metrics">
+                        <div><b>$2.5M+</b><span>Ad spend, 6 years</span></div>
+                        <div><b>$25M+</b><span>Revenue generated</span></div>
+                        <div><b>178K</b><span>X followers</span></div>
+                        <div><b>3K+</b><span>Paid members</span></div>
+                    </div>
+                </div>
+                <div class="flow">
+                    <div class="flow-step"><b>Traffic</b><span>Meta and X ads plus organic content on X and YouTube</span></div>
+                    <div class="flow-step"><b>Landing pages</b><span>Offer pages and lead capture built for cold traffic</span></div>
+                    <div class="flow-step"><b>Conversion tracking</b><span>Pixels and events so every dollar is measured</span></div>
+                    <div class="flow-step"><b>Paid membership</b><span>Premium signals and resources behind a subscription</span></div>
+                    <div class="flow-step"><b>Retention</b><span>Discord community that keeps members renewing</span></div>
+                </div>
+            </div>
+
+            <div class="case">
+                <div class="case-head">
+                    <div>
+                        <div class="project-badge">Lead Flow · Conversions · Automation</div>
+                        <h3>Australian mortgage brokerage: lead flow built from scratch</h3>
+                        <p>For <a href="https://fnsq.com.au" target="_blank">fnsq.com.au</a> I built the website, the qualifying lead forms, the CRM and the conversion signals, so ad platforms optimise for qualified borrowers instead of raw form fills and every lead is followed up within minutes.</p>
+                    </div>
+                    <div class="metrics">
+                        <div><b>46</b><span>Live workflows</span></div>
+                        <div><b>517</b><span>Automated steps</span></div>
+                        <div><b>3</b><span>Ad signals to Google and Meta</span></div>
+                        <div><b>24/7</b><span>Speed-to-lead follow-up</span></div>
+                    </div>
+                </div>
+                <div class="flow">
+                    <div class="flow-step"><b>Ads &amp; search</b><span>Google Ads, Meta lead forms and organic search</span></div>
+                    <div class="flow-step"><b>Qualifying form</b><span>Website form with SMS verification plus loan amount and income questions</span></div>
+                    <div class="flow-step"><b>CRM intake</b><span>Hot, warm and cold scoring, owner assigned, opportunity created</span></div>
+                    <div class="flow-step"><b>Speed to lead</b><span>Instant SMS and email, call tasks and 44-day follow-up ladder</span></div>
+                    <div class="flow-step"><b>Booking</b><span>Strategy call booking, reminders and no-show rebooking</span></div>
+                    <div class="flow-step"><b>Conversion signals</b><span>Qualified-lead conversions, Meta CAPI and offline CRM conversions</span></div>
+                </div>
+                <a href="automation.html" class="project-link" style="margin-top:24px"><span>See all 46 workflows</span> <span>→</span></a>
             </div>
         </div>
     </section>
@@ -1001,13 +1100,13 @@
     <section class="alt-bg" id="expertise">
         <div class="container">
             <h2>Core Competencies</h2>
-            <p class="section-intro">What I do best: proven expertise across marketing, community, product, AI automation, and business.</p>
+            <p class="section-intro">What I do best: proven expertise across marketing, conversion, product, AI automation, and business.</p>
 
-            <div class="cards-grid">
+            <div class="cards-grid comp-grid">
                 <div class="card">
                     <div class="achievement-icon">📱</div>
                     <h3>Performance Marketing</h3>
-                    <p>10+ years scaling brands through paid ads (Meta, X, Google). Expert in funnel optimization, CAC reduction, achieving 4 to 8x+ ROAS at scale. Managed $500K+ annual ad spend with precision.</p>
+                    <p>10+ years scaling brands through paid ads (Meta, X, Google). Expert in funnel optimization, CAC reduction, achieving 4 to 8x+ ROAS at scale. Managed $2.5M+ in ad spend over six years, generating $25M+ in revenue.</p>
                 </div>
 
                 <div class="card">
@@ -1019,13 +1118,14 @@
                 <div class="card">
                     <div class="achievement-icon">🤝</div>
                     <h3>Community Building</h3>
-                    <p>Scaled communities from zero to thousands. Built paid membership models generating six-figure annual revenue. Expert in Discord/social platforms, retention mechanics, and value delivery.</p>
+                    <p>Scaled communities from zero to thousands. Built paid membership models generating eight-figure annual revenue. Expert in Discord/social platforms, retention mechanics, and value delivery.</p>
                 </div>
 
                 <div class="card">
                     <div class="achievement-icon">💻</div>
                     <h3>Product & Engineering</h3>
-                    <p>BS in Software Engineering. Built multiple AI-powered SaaS products, landing pages, and web applications. Full-stack capabilities in modern tech stack (React, Node, Vercel, etc.).</p>
+                    <p>Software Engineer by profession (BS Software Engineering) with a hook in marketing. I build websites, landing pages, lead funnels, AI-powered SaaS products and web apps end to end.</p>
+                    <div class="tech"><span>Website Development</span><span>Next.js</span><span>React</span><span>Node.js</span><span>PostgreSQL</span><span>Vercel</span><span>GoHighLevel</span></div>
                 </div>
 
                 <div class="card">
@@ -1038,6 +1138,18 @@
                     <div class="achievement-icon">🎯</div>
                     <h3>Business Acumen</h3>
                     <p>Serial builder with exits and equity upside. Understand growth mechanics, competitive positioning, market differentiation, and how to scale profitable businesses sustainably.</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">📈</div>
+                    <h3>Conversion Rate Optimization</h3>
+                    <p>Funnel audits, landing page and form testing, A/B tests, qualification gates and end-to-end conversion tracking (GA4, Google Ads, Meta CAPI) that lift lead-to-booking rates.</p>
+                </div>
+
+                <div class="card">
+                    <div class="achievement-icon">🧭</div>
+                    <h3>UX Analyst</h3>
+                    <p>User journey mapping, usability audits and behaviour analysis to find where visitors drop off, then removing friction across mobile forms, booking flows and checkouts.</p>
                 </div>
 
                 <div class="card ai-card">
@@ -1089,7 +1201,7 @@
                 <div class="table-row">
                     <div class="table-cell"><strong>Community Skills</strong></div>
                     <div class="table-cell">Generic community management tactics</div>
-                    <div class="table-cell">Built and scaled 3K+ member paid community to $1M+ MRR</div>
+                    <div class="table-cell">Built and scaled a 3K+ member paid community; $25M+ revenue generated</div>
                 </div>
 
                 <div class="table-row">
@@ -1147,7 +1259,7 @@
                         <span>What's your background in Web3 / crypto?</span>
                         <div class="faq-toggle">+</div>
                     </div>
-                    <div class="faq-answer">I've been building in crypto ecosystems since 2020. As Head of Marketing at Wealth Group, I scaled a crypto trading community to 178K X followers and $1M+ in annual recurring revenue. I trade personally (Solana, prediction markets), understand the psychology of traders, and have deep experience with DeFi incentive structures and community dynamics.</div>
+                    <div class="faq-answer">I've been building in crypto ecosystems since 2020. As Head of Marketing at Wealth Group, I scaled a crypto trading community to 178K X followers and generated $25M+ in revenue from $2.5M+ in ad spend. I trade personally (Solana, prediction markets), understand the psychology of traders, and have deep experience with DeFi incentive structures and community dynamics.</div>
                 </div>
 
                 <div class="faq-item">

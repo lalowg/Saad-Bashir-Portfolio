@@ -37,6 +37,7 @@
         .tagline { font-size: 18px; color: var(--text-light); margin-bottom: 32px; }
         .btns { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 28px; }
         .flags { font-size: 14px; color: var(--mute); }
+        .flag { vertical-align: -2px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,0.08); margin-right: 4px; }
 
         /* Phone mock */
         .phone { background: var(--navy); border-radius: 28px; padding: 18px; box-shadow: 0 30px 60px rgba(16,42,67,0.25); max-width: 400px; margin-left: auto; }
@@ -192,7 +193,7 @@
                         <a href="#agents" class="cta-button">See the Agents →</a>
                         <a href="#demos" class="button-secondary">View Demo Builds</a>
                     </div>
-                    <div class="flags">🇺🇸 United States &nbsp;·&nbsp; 🇳🇿 New Zealand &nbsp;·&nbsp; 🇦🇺 Australia</div>
+                    <div class="flags"><img class="flag" src="https://flagcdn.com/w40/us.png" alt="" width="20" height="15"> United States &nbsp;·&nbsp; <img class="flag" src="https://flagcdn.com/w40/nz.png" alt="" width="20" height="15"> New Zealand &nbsp;·&nbsp; <img class="flag" src="https://flagcdn.com/w40/au.png" alt="" width="20" height="15"> Australia</div>
                 </div>
                 <div class="phone" aria-label="Example AI receptionist conversation">
                     <div class="phone-head"><div class="avatar">AI</div><div><b>AI Receptionist</b><small>● Online 24/7</small></div></div>
@@ -309,12 +310,12 @@
         <div class="container">
             <h2>Demo builds across 3 markets</h2>
             <p class="intro">Example setups showing how the agents fit different service businesses in the United States, New Zealand and Australia.</p>
-            <p class="notice">These are concept demos for fictional businesses, built to show what each setup looks like. They are not client projects.</p>
+            <p class="notice">These are concept demos for fictional businesses, built to show what each setup looks like. They are not client projects. Prices and figures in the sample conversations are illustrative.</p>
             <div class="tabs">
                 <button class="tab on" data-c="all">All markets</button>
-                <button class="tab" data-c="us">🇺🇸 United States</button>
-                <button class="tab" data-c="nz">🇳🇿 New Zealand</button>
-                <button class="tab" data-c="au">🇦🇺 Australia</button>
+                <button class="tab" data-c="us"><img class="flag" src="https://flagcdn.com/w40/us.png" alt="" width="20" height="15"> United States</button>
+                <button class="tab" data-c="nz"><img class="flag" src="https://flagcdn.com/w40/nz.png" alt="" width="20" height="15"> New Zealand</button>
+                <button class="tab" data-c="au"><img class="flag" src="https://flagcdn.com/w40/au.png" alt="" width="20" height="15"> Australia</button>
             </div>
             <div class="sites" id="sites"></div>
         </div>
@@ -333,7 +334,7 @@
 
     <footer>
         <div class="container foot">
-            <div>&copy; 2026 Saad Bashir. Demo businesses on this page are fictional.</div>
+            <div>&copy; 2026 Saad Bashir. Demo businesses and figures on this page are fictional and illustrative.</div>
             <div><a href="index.html">Home</a><a href="automation.html">GHL Automation</a><a href="samples.html">Sample Work</a></div>
         </div>
     </footer>
@@ -384,7 +385,7 @@
                 ['sys', 'Checking SMS before sending'],
                 ['user', 'Draft: "Get the BEST home loan rate, guaranteed! Free strategy call today."'],
                 ['bot', '3 issues found: "best" and "guaranteed" are unsubstantiated claims, "free" needs conditions, and the credit licence line is missing.'],
-                ['bot', 'Suggested: "Let’s review your home loan options. Book a strategy call today. Credit Licence 000000. Reply STOP to opt out."'],
+                ['bot', 'Suggested: "Let’s review your home loan options. Book a strategy call today. [Your ACL number added automatically]. Reply STOP to opt out."'],
                 ['sys', 'Approved version saved to workflow'] ] },
             quote: { title: 'Quote Agent', sub: '● Solar quote request', lines: [
                 ['bot', 'Kia ora! I can give you an instant solar estimate. What is your average monthly power bill?'],
@@ -431,7 +432,7 @@
                     </div>
                 </div>
                 <div class="site-body">
-                    <div class="site-meta"><span class="loc">${esc(s.loc)}</span><span class="concept">Concept demo</span></div>
+                    <div class="site-meta"><span class="loc"><img class="flag" src="https://flagcdn.com/w40/${s.c}.png" alt="" width="18" height="13">${esc(s.loc)}</span><span class="concept">Concept demo</span></div>
                     <h3>${esc(s.name)}</h3>
                     <p>${esc(s.desc)}</p>
                     <div class="chips">${s.agents.map(a => `<span class="chip">${esc(a)}</span>`).join('')}</div>

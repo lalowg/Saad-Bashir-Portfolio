@@ -805,6 +805,34 @@
         .hero-content {
             animation: fadeInUp 0.8s ease-out;
         }
+        .logo { white-space: nowrap; }
+        nav .nav-links { gap: 26px; }
+        nav a { white-space: nowrap; font-size: 14px; }
+        header .cta-button { padding: 12px 24px; }
+        @media (max-width: 1100px) { nav { flex-direction: column; gap: 14px; } nav .nav-links { flex-wrap: wrap; justify-content: center; gap: 12px 22px; } }
+        .funnel-steps { list-style: none; counter-reset: fs; display: flex; flex-direction: column; gap: 8px; }
+        .funnel-steps li { counter-increment: fs; position: relative; padding: 10px 12px 10px 44px; background: var(--paper-2); border: 1px solid var(--border); border-radius: 4px; font-size: 14px; color: var(--text-light); }
+        .funnel-steps li::before { content: counter(fs); position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--navy); color: var(--paper); font-size: 11px; font-weight: 700; display: grid; place-items: center; }
+        .funnel-steps.big li { font-size: 15px; padding: 12px 14px 12px 48px; }
+        .funnel-steps b { color: var(--navy); }
+        .funnel-intro { text-align: center; max-width: 820px; margin: 80px auto 40px; }
+        .funnel-intro h2 { font-family: 'Fraunces', serif; font-size: 34px; color: var(--navy); margin-bottom: 14px; line-height: 1.2; }
+        .funnel-intro p { color: var(--text-light); }
+        .funnel-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .funnel-card { background: var(--paper); border: 1px solid var(--border); border-radius: 4px; padding: 28px; display: flex; flex-direction: column; gap: 10px; transition: all 0.3s ease; }
+        .funnel-card:hover { border-color: var(--gold); box-shadow: 0 12px 28px rgba(0,0,0,0.07); transform: translateY(-4px); }
+        .funnel-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+        .funnel-loc { font-size: 12px; font-weight: 700; color: var(--gold-dark); display: inline-flex; align-items: center; gap: 6px; }
+        .funnel-loc img { border-radius: 2px; }
+        .funnel-tag { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--mute); border: 1px dashed var(--border); padding: 3px 8px; border-radius: 2px; }
+        .funnel-card h3 { font-family: 'Fraunces', serif; font-size: 24px; }
+        .funnel-card h3 a { color: var(--navy); text-decoration: none; }
+        .funnel-card h3 a:hover { color: var(--gold); }
+        .funnel-type { font-size: 13px; color: var(--mute); margin-top: -6px; }
+        .funnel-lesson { font-size: 14px; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 12px; margin-top: auto; }
+        .funnel-lesson b { color: var(--navy); }
+        @media (max-width: 1024px) { .funnel-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 768px) { .funnel-grid { grid-template-columns: 1fr; } .funnel-intro h2 { font-size: 26px; } }
     </style>
     <style>
   .page-hero { padding: 96px 0 56px; }
@@ -846,7 +874,6 @@
                 <a href="ai-automation.html">AI Automation</a>
                 <a href="automation.html">GHL Automation</a>
                 <a href="samples.html" class="active">Sample Work</a>
-                <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank">LinkedIn</a>
                 <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" class="cta-button">Get in Touch</a>
             </div>
         </nav>
@@ -856,13 +883,100 @@
         <div class="container">
             <div class="project-badge">Portfolio samples</div>
             <h1>Sample Work</h1>
-            <p>Five pieces of work that show how I handle the day-to-day of an admin and social media role: an Excel tracker built on real formulas, a client presentation, a branded proposal document, social media designs and a brand document. Every file below is downloadable and was produced start to finish by me.</p>
+            <p>Website and lead funnel work, funnel teardowns of top brands, and five pieces that show how I handle the day-to-day of an admin and social media role: an Excel tracker built on real formulas, a client presentation, a branded proposal document, social media designs and a brand document. The office files below are downloadable and were produced start to finish by me.</p>
             <div class="sample-nav">
+                <a href="#funnels">Websites &amp; lead funnels</a>
                 <a href="#excel">Excel tracker</a>
                 <a href="#presentation">Client presentation</a>
                 <a href="#document">Proposal document</a>
                 <a href="#social">Social media designs</a>
                 <a href="#brand">Brand document</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sample-section" id="funnels">
+        <div class="container">
+            <div class="sample-head">
+                <div>
+                    <div class="project-badge">Website &amp; Lead Funnel</div>
+                    <h2>Blank Financial: Mount Eliza Mortgage Broker</h2>
+                    <p>A mortgage broker website built to turn local visitors into qualified enquiries. Instead of a generic contact form, the funnel asks visitors to choose their situation first, then gives them a useful next step at every level of readiness.</p>
+                    <div class="download-row">
+                        <a href="https://blank.financial/" class="cta-button" target="_blank" rel="noopener">Visit the live site</a>
+                    </div>
+                </div>
+                <div>
+                    <ol class="funnel-steps big">
+                        <li><b>Self-segmentation:</b> "I want to buy a property" or "I want to refinance"</li>
+                        <li><b>Borrowing capacity:</b> calculators for visitors still researching</li>
+                        <li><b>Lead magnet:</b> free Property Profile Report in exchange for details</li>
+                        <li><b>Objection handling:</b> FAQ on credit scores, approval times and complex cases</li>
+                        <li><b>Direct line:</b> click-to-call 1800 number in the header</li>
+                        <li><b>Clear process:</b> "Qualify, Submit, Approved" with 45+ lenders</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="gallery">
+                <figure><a href="samples/blank-financial-home.png" target="_blank" rel="noopener"><img src="samples/blank-financial-home.png" alt="Blank Financial homepage with buy or refinance choice" loading="lazy"></a><figcaption>Homepage hero: visitors segment themselves with one click</figcaption></figure>
+            </div>
+
+            <div class="funnel-intro">
+                <h2>Lead funnel teardowns: how top lenders and SaaS brands convert</h2>
+                <p>Five well-known websites from the US, Australia and New Zealand, broken down step by step. These are my analysis of their public funnels (observed October 2026), not client work, and they shape how I design funnels for my own clients.</p>
+            </div>
+            <div class="funnel-grid">
+                <article class="funnel-card">
+                    <div class="funnel-top">
+                        <span class="funnel-loc"><img src="https://flagcdn.com/w40/us.png" alt="" width="18" height="13"> United States</span>
+                        <span class="funnel-tag">Funnel teardown</span>
+                    </div>
+                    <h3><a href="https://better.com/" target="_blank" rel="noopener">Better.com</a></h3>
+                    <p class="funnel-type">Digital mortgage lender</p>
+                    <ol class="funnel-steps"><li>One dominant "Get started" CTA</li><li>Online pre-approval application is the lead form</li><li>Calculators for buyers not ready yet</li><li>Cross-sell: insurance and agent matching</li></ol>
+                    <p class="funnel-lesson"><b>Takeaway:</b> One clear primary action, with tools to catch the visitors who are not ready to apply.</p>
+                </article>
+                <article class="funnel-card">
+                    <div class="funnel-top">
+                        <span class="funnel-loc"><img src="https://flagcdn.com/w40/us.png" alt="" width="18" height="13"> United States</span>
+                        <span class="funnel-tag">Funnel teardown</span>
+                    </div>
+                    <h3><a href="https://www.hubspot.com/" target="_blank" rel="noopener">HubSpot</a></h3>
+                    <p class="funnel-type">CRM software</p>
+                    <ol class="funnel-steps"><li>Free tools: website builder, forms, live chat, scheduler</li><li>Free account sign-up</li><li>Free CRM becomes the daily habit</li><li>In-product upgrades to paid hubs</li></ol>
+                    <p class="funnel-lesson"><b>Takeaway:</b> Free tools are the lead magnet; the product itself does the nurturing.</p>
+                </article>
+                <article class="funnel-card">
+                    <div class="funnel-top">
+                        <span class="funnel-loc"><img src="https://flagcdn.com/w40/au.png" alt="" width="18" height="13"> Australia</span>
+                        <span class="funnel-tag">Funnel teardown</span>
+                    </div>
+                    <h3><a href="https://www.lendi.com.au/" target="_blank" rel="noopener">Lendi</a></h3>
+                    <p class="funnel-type">Online home loan platform</p>
+                    <ol class="funnel-steps"><li>Borrowing power, repayment and stamp duty calculators</li><li>Home loan health check and rate comparison</li><li>"Find your home loan" guided questionnaire</li><li>Book an appointment with a home loan expert</li></ol>
+                    <p class="funnel-lesson"><b>Takeaway:</b> Tools capture intent and data before the visitor is asked to talk to anyone.</p>
+                </article>
+                <article class="funnel-card">
+                    <div class="funnel-top">
+                        <span class="funnel-loc"><img src="https://flagcdn.com/w40/au.png" alt="" width="18" height="13"> Australia</span>
+                        <span class="funnel-tag">Funnel teardown</span>
+                    </div>
+                    <h3><a href="https://www.aussie.com.au/" target="_blank" rel="noopener">Aussie</a></h3>
+                    <p class="funnel-type">Mortgage broker network</p>
+                    <ol class="funnel-steps"><li>Separate paths: buying, refinancing, pre-approval</li><li>Tools like the contract analyser</li><li>"Find a broker" local broker search</li><li>Book an appointment with a named local broker</li></ol>
+                    <p class="funnel-lesson"><b>Takeaway:</b> Route every visitor to a real, local person as early as possible.</p>
+                </article>
+                <article class="funnel-card">
+                    <div class="funnel-top">
+                        <span class="funnel-loc"><img src="https://flagcdn.com/w40/nz.png" alt="" width="18" height="13"> New Zealand</span>
+                        <span class="funnel-tag">Funnel teardown</span>
+                    </div>
+                    <h3><a href="https://www.squirrel.co.nz/" target="_blank" rel="noopener">Squirrel</a></h3>
+                    <p class="funnel-type">Mortgage broker and investments</p>
+                    <ol class="funnel-steps"><li>"Get a mortgage" as the main call to action</li><li>Speed promise: approval in under 24 hours</li><li>Online mortgage application</li><li>Housing news and savings products keep them engaged</li></ol>
+                    <p class="funnel-lesson"><b>Takeaway:</b> A concrete speed promise is the hook; content and a second product keep the relationship going.</p>
+                </article>
             </div>
         </div>
     </section>
