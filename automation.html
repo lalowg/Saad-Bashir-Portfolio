@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHL Automation | Saad Bashir</title>
+    <meta name="description" content="A full GoHighLevel automation system for an Australian mortgage brokerage: 46 live workflows covering capture, speed to lead, booking, pipeline, client care and compliance.">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --paper: #FBFAF6; --paper-2: #F3EFE7; --paper-3: #EAE4D6;
+            --navy: #102A43; --navy-2: #1B3A5B; --gold: #B0892F; --gold-dark: #8B6B23;
+            --text: #2C2822; --text-light: #4F4A42; --mute: #7F7A72; --border: #D8CFBE;
+            --c-email: #1B3A5B; --c-sms: #B0892F; --c-logic: #6B7F99; --c-wait: #CFC3A8;
+            --c-task: #3E7C6B; --c-alert: #A6553A; --c-crm: #9AA5B1;
+        }
+        html { scroll-behavior: smooth; }
+        body { background: var(--paper); color: var(--text); font-family: 'Inter', sans-serif; line-height: 1.6; overflow-x: hidden; }
+        .container { max-width: 1280px; margin: 0 auto; padding: 0 40px; }
+
+        header { position: sticky; top: 0; background: rgba(251,250,246,0.98); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); z-index: 100; padding: 24px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+        nav { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; padding: 0 40px; gap: 24px; }
+        .logo { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 700; color: var(--navy); text-decoration: none; letter-spacing: -0.5px; }
+        nav .nav-links { display: flex; gap: 40px; align-items: center; flex-wrap: wrap; }
+        nav a { color: var(--text); text-decoration: none; font-size: 15px; font-weight: 500; transition: color .3s; }
+        nav a:hover, nav a.active { color: var(--gold); }
+        .cta-button { background: var(--navy); color: #fff !important; padding: 14px 32px; border-radius: 4px; font-weight: 600; font-size: 14px; text-decoration: none; display: inline-block; letter-spacing: .5px; transition: all .3s; }
+        .cta-button:hover { background: var(--navy-2); transform: translateY(-2px); }
+
+        .hero { padding: 104px 0 72px; text-align: center; }
+        .eyebrow { font-size: 13px; letter-spacing: .25em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; font-weight: 600; }
+        h1 { font-family: 'Fraunces', serif; font-size: clamp(40px, 7vw, 66px); font-weight: 700; line-height: 1.12; color: var(--navy); letter-spacing: -1px; margin-bottom: 24px; }
+        .gold { color: var(--gold); }
+        .tagline { font-size: 18px; color: var(--text-light); max-width: 760px; margin: 0 auto 16px; }
+        .client-line { font-size: 14px; color: var(--mute); }
+        .client-line a { color: var(--gold-dark); font-weight: 600; text-decoration: none; }
+
+        .stats { display: grid; grid-template-columns: repeat(6, 1fr); gap: 24px; margin-top: 64px; padding-top: 48px; border-top: 1px solid var(--border); }
+        .stat-n { font-family: 'Fraunces', serif; font-size: 40px; font-weight: 700; color: var(--gold); line-height: 1.1; }
+        .stat-l { font-size: 12px; color: var(--mute); letter-spacing: .1em; text-transform: uppercase; font-weight: 600; margin-top: 6px; }
+
+        .journey-wrap { background: var(--navy); color: #fff; padding: 64px 0; }
+        .journey-wrap h2 { font-family: 'Fraunces', serif; font-size: 34px; text-align: center; margin-bottom: 8px; }
+        .journey-wrap .sub { text-align: center; color: var(--paper-3); margin-bottom: 40px; font-size: 15px; }
+        .journey { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 10px; }
+        .j-step { display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18); border-radius: 4px; padding: 14px 18px; color: #fff; text-decoration: none; transition: all .25s; }
+        .j-step:hover { border-color: var(--gold); background: rgba(176,137,47,0.15); }
+        .j-n { width: 26px; height: 26px; border-radius: 50%; background: var(--gold); color: var(--navy); font-weight: 700; font-size: 13px; display: grid; place-items: center; }
+        .j-t { font-weight: 600; font-size: 14px; }
+        .j-arrow { color: var(--gold); font-size: 20px; }
+        .guard { margin-top: 28px; text-align: center; }
+        .guard-l { font-size: 12px; letter-spacing: .2em; text-transform: uppercase; color: var(--paper-3); margin-bottom: 12px; }
+        .j-pill { display: inline-block; margin: 4px; padding: 8px 16px; border-radius: 999px; border: 1px dashed rgba(255,255,255,0.35); color: #fff; text-decoration: none; font-size: 13px; }
+        .j-pill:hover { border-color: var(--gold); color: var(--gold); }
+
+        .principles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; padding: 72px 0 24px; }
+        .pr { border-top: 2px solid var(--gold); padding-top: 18px; }
+        .pr h3 { font-family: 'Fraunces', serif; font-size: 19px; color: var(--navy); margin-bottom: 8px; }
+        .pr p { font-size: 14px; color: var(--mute); }
+
+        .toolbar { position: sticky; top: 89px; z-index: 50; background: rgba(251,250,246,0.97); border-bottom: 1px solid var(--border); padding: 16px 0; margin-top: 48px; }
+        .filters { display: flex; gap: 8px; flex-wrap: wrap; }
+        .f { border: 1px solid var(--border); background: var(--paper); color: var(--text-light); padding: 8px 14px; border-radius: 999px; font: 500 13px 'Inter', sans-serif; cursor: pointer; transition: all .2s; }
+        .f:hover { border-color: var(--gold); color: var(--gold-dark); }
+        .f.on { background: var(--navy); border-color: var(--navy); color: #fff; }
+        .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 12px; }
+
+        .cat-block { padding: 56px 0 8px; scroll-margin-top: 170px; }
+        .cat-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 28px; flex-wrap: wrap; }
+        .cat-head > div { display: flex; align-items: center; gap: 16px; }
+        .cat-letter { width: 44px; height: 44px; border-radius: 4px; background: var(--navy); color: var(--gold); font-family: 'Fraunces', serif; font-weight: 700; font-size: 22px; display: grid; place-items: center; }
+        .cat-title { font-family: 'Fraunces', serif; font-size: 30px; color: var(--navy); letter-spacing: -.5px; }
+        .cat-sub { color: var(--mute); font-size: 15px; }
+        .count { display: inline-block; margin-left: 10px; font-size: 12px; font-weight: 700; color: var(--gold-dark); background: rgba(176,137,47,0.1); border: 1px solid var(--border); padding: 3px 10px; border-radius: 2px; letter-spacing: .05em; }
+
+        .wf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 20px; }
+        .wf { background: var(--paper-2); border: 1px solid var(--border); border-radius: 4px; padding: 24px; display: flex; flex-direction: column; gap: 12px; transition: all .3s; }
+        .wf:hover { border-color: var(--gold); box-shadow: 0 12px 28px rgba(0,0,0,0.07); transform: translateY(-4px); }
+        .wf-top { display: flex; justify-content: space-between; align-items: center; }
+        .code { font-family: 'Fraunces', serif; font-weight: 700; color: var(--paper); background: var(--navy); padding: 3px 10px; border-radius: 2px; font-size: 14px; }
+        .steps { font-size: 12px; color: var(--mute); font-weight: 600; letter-spacing: .05em; }
+        .when { font-size: 13px; color: var(--text-light); }
+        .lbl { display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--gold-dark); margin-right: 8px; }
+        .then { font-size: 17px; font-weight: 700; color: var(--navy); line-height: 1.35; }
+        .trig { display: flex; gap: 6px; flex-wrap: wrap; }
+        .chip { font-size: 11px; font-weight: 600; color: var(--navy-2); background: var(--paper); border: 1px solid var(--border); padding: 3px 9px; border-radius: 999px; }
+        .bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--paper-3); margin-top: auto; gap: 2px; }
+        .seg { display: block; height: 100%; }
+        .minis { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+        .mini { font-size: 12px; color: var(--mute); display: inline-flex; align-items: center; gap: 6px; }
+        .dot { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
+        .seg-email { background: var(--c-email); } .seg-sms { background: var(--c-sms); } .seg-logic { background: var(--c-logic); }
+        .seg-wait { background: var(--c-wait); } .seg-task { background: var(--c-task); } .seg-alert { background: var(--c-alert); } .seg-crm { background: var(--c-crm); }
+
+        .stack { margin: 88px 0 0; padding: 64px 48px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%); border-radius: 4px; color: #fff; text-align: center; }
+        .stack h3 { font-family: 'Fraunces', serif; font-size: 34px; margin-bottom: 14px; }
+        .stack p { color: var(--paper-3); max-width: 720px; margin: 0 auto 28px; }
+        .tools { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .tool { border: 1px solid rgba(255,255,255,0.25); padding: 8px 16px; border-radius: 999px; font-size: 13px; }
+
+        footer { background: var(--paper-2); border-top: 1px solid var(--border); padding: 40px 0; margin-top: 96px; }
+        .foot { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; font-size: 13px; color: var(--mute); }
+        .foot a { color: var(--text-light); text-decoration: none; margin-left: 20px; }
+        .foot a:hover { color: var(--gold); }
+
+        @media (max-width: 1024px) { .stats { grid-template-columns: repeat(3, 1fr); } .principles { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 768px) {
+            .container, nav { padding: 0 16px; }
+            nav { flex-direction: column; } nav .nav-links { gap: 16px; justify-content: center; } nav a { font-size: 13px; }
+            .cta-button { padding: 10px 18px; }
+            .hero { padding: 64px 0 48px; }
+            .stats { grid-template-columns: repeat(2, 1fr); }
+            .principles { grid-template-columns: 1fr; }
+            .toolbar { position: static; }
+            .wf-grid { grid-template-columns: 1fr; }
+            .j-arrow { display: none; }
+            .stack { padding: 40px 20px; }
+            .foot a { margin: 0 16px 0 0; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Saad Bashir</a>
+            <div class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="automation.html" class="active">GHL Automation</a>
+                <a href="samples.html">Sample Work</a>
+                <a href="https://www.linkedin.com/in/saadbashirmarketing/" target="_blank" class="cta-button">Get in Touch</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="eyebrow">GoHighLevel Automation</div>
+            <h1>One CRM. <span class="gold">46 live workflows.</span><br>Zero leads left behind.</h1>
+            <p class="tagline">A complete lead-to-settlement automation system I designed, built and maintain in GoHighLevel for an Australian mortgage brokerage: every enquiry captured, scored, chased, booked, tracked through the loan pipeline and looked after long after settlement.</p>
+            <p class="client-line">Built for <a href="https://fnsq.com.au" target="_blank">Finance Square Group</a> &middot; Sydney, Australia</p>
+
+            <div class="stats">
+                <div><div class="stat-n">46</div><div class="stat-l">Live workflows</div></div>
+                <div><div class="stat-n">517</div><div class="stat-l">Automated steps</div></div>
+                <div><div class="stat-n">54</div><div class="stat-l">Email touchpoints</div></div>
+                <div><div class="stat-n">50</div><div class="stat-l">SMS &amp; relay steps</div></div>
+                <div><div class="stat-n">122</div><div class="stat-l">Decision branches</div></div>
+                <div><div class="stat-n">65</div><div class="stat-l">Tasks &amp; team alerts</div></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="journey-wrap">
+        <div class="container">
+            <h2>The lead journey</h2>
+            <p class="sub">Six stages carry a borrower from first click to settled client. Click a stage to jump to its workflows.</p>
+            <div class="journey"><a href="#cat-A" class="j-step" data-jump="A"><span class="j-n">1</span><span class="j-t">Capture</span></a><span class="j-arrow">→</span><a href="#cat-B" class="j-step" data-jump="B"><span class="j-n">2</span><span class="j-t">Intake & Speed to Lead</span></a><span class="j-arrow">→</span><a href="#cat-Q" class="j-step" data-jump="Q"><span class="j-n">3</span><span class="j-t">Qualification & Guards</span></a><span class="j-arrow">→</span><a href="#cat-C" class="j-step" data-jump="C"><span class="j-n">4</span><span class="j-t">Booking</span></a><span class="j-arrow">→</span><a href="#cat-D" class="j-step" data-jump="D"><span class="j-n">5</span><span class="j-t">Pipeline</span></a><span class="j-arrow">→</span><a href="#cat-E" class="j-step" data-jump="E"><span class="j-n">6</span><span class="j-t">Client Care</span></a></div>
+            <div class="guard">
+                <div class="guard-l">Running alongside every stage</div>
+                <a href="#cat-R" class="j-pill" data-jump="R">Reply Routing</a><a href="#cat-H" class="j-pill" data-jump="H">Accountability</a><a href="#cat-F" class="j-pill" data-jump="F">Nurture</a><a href="#cat-G" class="j-pill" data-jump="G">Compliance</a><a href="#cat-M" class="j-pill" data-jump="M">Ad Signal</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="principles">
+            <div class="pr"><h3>Speed to lead</h3><p>Hot leads get a call task in minutes and broker alerts at 1 and 4 hours if nobody has called.</p></div>
+            <div class="pr"><h3>Right lead, right path</h3><p>Leads are scored hot, warm or cold on intake; below-threshold leads are guarded out of the sales ladder and nurtured instead.</p></div>
+            <div class="pr"><h3>Clear ownership</h3><p>Every lead, reply and booking has an owner, a backup and an escalation timer, so nothing sits unanswered.</p></div>
+            <div class="pr"><h3>Compliant by design</h3><p>Consent records, quiet hours, STOP and unsubscribe handling, and credit-licence wording are built into the flows.</p></div>
+        </div>
+    </div>
+
+    <div class="toolbar">
+        <div class="container">
+            <div class="filters"><button class="f on" data-f="all">All</button><button class="f" data-f="A">Capture</button><button class="f" data-f="B">Intake & Speed to Lead</button><button class="f" data-f="R">Reply Routing</button><button class="f" data-f="Q">Qualification & Guards</button><button class="f" data-f="C">Booking</button><button class="f" data-f="D">Pipeline</button><button class="f" data-f="E">Client Care</button><button class="f" data-f="F">Nurture</button><button class="f" data-f="G">Compliance</button><button class="f" data-f="H">Accountability</button><button class="f" data-f="M">Ad Signal</button></div>
+            <div class="legend"><span class="mini"><i class="dot seg-email"></i>Emails</span><span class="mini"><i class="dot seg-sms"></i>SMS / relay</span><span class="mini"><i class="dot seg-logic"></i>Branches</span><span class="mini"><i class="dot seg-wait"></i>Timers</span><span class="mini"><i class="dot seg-task"></i>Tasks</span><span class="mini"><i class="dot seg-alert"></i>Team alerts</span><span class="mini"><i class="dot seg-crm"></i>CRM updates</span></div>
+        </div>
+    </div>
+
+    <div class="container" id="workflows">
+
+      <div class="cat-block" id="cat-A" data-cat="A">
+        <div class="cat-head">
+          <div><span class="cat-letter">A</span><h2 class="cat-title">Capture</h2></div>
+          <p class="cat-sub">Every lead source lands in one intake <span class="count">5 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="A">
+          <div class="wf-top"><span class="code">A1</span><span class="steps">16 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Website Form (webhook)</div>
+          <h3 class="then">Create Contact &amp; Send to Intake</h3>
+          <div class="trig"><span class="chip">Inbound webhook</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:9" title="Branches: 9"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-crm" style="flex:5" title="CRM updates: 5"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>9 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-crm"></i>5 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="A">
+          <div class="wf-top"><span class="code">A2</span><span class="steps">9 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Facebook Lead Ad (any form)</div>
+          <h3 class="then">Consent, Broker Email &amp; Send to Intake</h3>
+          <div class="trig"><span class="chip">Facebook lead ad</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-alert" style="flex:1" title="Team alerts: 1"></span><span class="seg seg-crm" style="flex:4" title="CRM updates: 4"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-alert"></i>1 team alert</span><span class="mini"><i class="dot seg-crm"></i>4 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="A">
+          <div class="wf-top"><span class="code">A4</span><span class="steps">21 steps</span></div>
+          <div class="when"><span class="lbl">When</span>FHB Quiz Submitted</div>
+          <h3 class="then">Tag fhb quiz submitted (Messages Come from B1 + B2)</h3>
+          <div class="trig"><span class="chip">Survey submitted</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:6" title="Emails: 6"></span><span class="seg seg-sms" style="flex:6" title="SMS / relay: 6"></span><span class="seg seg-wait" style="flex:8" title="Timers: 8"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>6 emails</span><span class="mini"><i class="dot seg-sms"></i>6 SMS steps</span><span class="mini"><i class="dot seg-wait"></i>8 timers</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="A">
+          <div class="wf-top"><span class="code">A6</span><span class="steps">7 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Google Ads Lead Form</div>
+          <h3 class="then">Consent Record &amp; Source Tag</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="A">
+          <div class="wf-top"><span class="code">A7</span><span class="steps">5 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Care Team Lead Form (webhook)</div>
+          <h3 class="then">Contact, Opportunity &amp; Send to Intake</h3>
+          <div class="trig"><span class="chip">Inbound webhook</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:5" title="CRM updates: 5"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>5 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-B" data-cat="B">
+        <div class="cat-head">
+          <div><span class="cat-letter">B</span><h2 class="cat-title">Intake & Speed to Lead</h2></div>
+          <p class="cat-sub">Score, assign and chase within minutes <span class="count">5 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="B">
+          <div class="wf-top"><span class="code">B1</span><span class="steps">24 steps</span></div>
+          
+          <h3 class="then">Welcome, Consent, Owner, Opportunity &amp; Hot/Warm/Cold Scoring</h3>
+          <div class="trig"><span class="chip">Quiz submitted</span><span class="chip">Survey submitted</span><span class="chip">Form submitted</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:6" title="Branches: 6"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-alert" style="flex:1" title="Team alerts: 1"></span><span class="seg seg-crm" style="flex:13" title="CRM updates: 13"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>6 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-alert"></i>1 team alert</span><span class="mini"><i class="dot seg-crm"></i>13 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="B">
+          <div class="wf-top"><span class="code">B2</span><span class="steps">32 steps</span></div>
+          
+          <h3 class="then">Speed-to-Lead Ladder: 6 Call Tasks, 5 Emails, 5 SMS (Day 0 to 44)</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:6" title="Emails: 6"></span><span class="seg seg-sms" style="flex:10" title="SMS / relay: 10"></span><span class="seg seg-wait" style="flex:9" title="Timers: 9"></span><span class="seg seg-task" style="flex:6" title="Tasks: 6"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>6 emails</span><span class="mini"><i class="dot seg-sms"></i>10 SMS steps</span><span class="mini"><i class="dot seg-wait"></i>9 timers</span><span class="mini"><i class="dot seg-task"></i>6 tasks</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="B">
+          <div class="wf-top"><span class="code">B3</span><span class="steps">17 steps</span></div>
+          
+          <h3 class="then">Hot Lead SLA: Alert Broker at 1h &amp; 4h if Not Called</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:2" title="SMS / relay: 2"></span><span class="seg seg-logic" style="flex:6" title="Branches: 6"></span><span class="seg seg-wait" style="flex:2" title="Timers: 2"></span><span class="seg seg-alert" style="flex:2" title="Team alerts: 2"></span><span class="seg seg-crm" style="flex:5" title="CRM updates: 5"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>2 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>6 branches</span><span class="mini"><i class="dot seg-wait"></i>2 timers</span><span class="mini"><i class="dot seg-alert"></i>2 team alerts</span><span class="mini"><i class="dot seg-crm"></i>5 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="B">
+          <div class="wf-top"><span class="code">B4</span><span class="steps">6 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Missed Inbound Call</div>
+          <h3 class="then">Text-Back &amp; Return-Call Task</h3>
+          <div class="trig"><span class="chip">Call status</span><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="B">
+          <div class="wf-top"><span class="code">B5</span><span class="steps">4 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Lead Replied</div>
+          <h3 class="then">Stop Ladder &amp; Notify Broker</h3>
+          <div class="trig"><span class="chip">Customer reply</span></div>
+          <div class="bar"><span class="seg seg-alert" style="flex:1" title="Team alerts: 1"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-alert"></i>1 team alert</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-R" data-cat="R">
+        <div class="cat-head">
+          <div><span class="cat-letter">R</span><h2 class="cat-title">Reply Routing</h2></div>
+          <p class="cat-sub">Two-way conversations, owned and escalated <span class="count">1 workflow</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="R">
+          <div class="wf-top"><span class="code">R1</span><span class="steps">31 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Customer Reply</div>
+          <h3 class="then">Route to Owner, Tasks &amp; Escalation Alerts</h3>
+          <div class="trig"><span class="chip">Customer reply</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:2" title="SMS / relay: 2"></span><span class="seg seg-logic" style="flex:12" title="Branches: 12"></span><span class="seg seg-wait" style="flex:2" title="Timers: 2"></span><span class="seg seg-task" style="flex:2" title="Tasks: 2"></span><span class="seg seg-alert" style="flex:6" title="Team alerts: 6"></span><span class="seg seg-crm" style="flex:7" title="CRM updates: 7"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>2 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>12 branches</span><span class="mini"><i class="dot seg-wait"></i>2 timers</span><span class="mini"><i class="dot seg-task"></i>2 tasks</span><span class="mini"><i class="dot seg-alert"></i>6 team alerts</span><span class="mini"><i class="dot seg-crm"></i>7 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-Q" data-cat="Q">
+        <div class="cat-head">
+          <div><span class="cat-letter">Q</span><h2 class="cat-title">Qualification & Guards</h2></div>
+          <p class="cat-sub">Only the right leads get the full ladder <span class="count">4 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="Q">
+          <div class="wf-top"><span class="code">Q1</span><span class="steps">6 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Below threshold</div>
+          <h3 class="then">Stop ladder &amp; Nurture</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-alert" style="flex:1" title="Team alerts: 1"></span><span class="seg seg-crm" style="flex:5" title="CRM updates: 5"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-alert"></i>1 team alert</span><span class="mini"><i class="dot seg-crm"></i>5 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="Q">
+          <div class="wf-top"><span class="code">Q2</span><span class="steps">8 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Website enquiry skipped intake</div>
+          <h3 class="then">Owner task</h3>
+          <div class="trig"><span class="chip">Contact created</span></div>
+          <div class="bar"><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-alert" style="flex:1" title="Team alerts: 1"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-alert"></i>1 team alert</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="Q">
+          <div class="wf-top"><span class="code">Q3</span><span class="steps">6 steps</span></div>
+          
+          <h3 class="then">Below-threshold lead must never run the B2 ladder</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="Q">
+          <div class="wf-top"><span class="code">Q4</span><span class="steps">2 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Opportunity moved to Qualified</div>
+          <h3 class="then">Tag qualified-confirmed</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-C" data-cat="C">
+        <div class="cat-head">
+          <div><span class="cat-letter">C</span><h2 class="cat-title">Booking</h2></div>
+          <p class="cat-sub">Reminders, no-shows, reschedules, cancellations <span class="count">8 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C1</span><span class="steps">24 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Appointment Booked</div>
+          <h3 class="then">Reminders 48h/24h/2h (skipped if late, quiet hours) &amp; Outcome Check</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:2" title="Emails: 2"></span><span class="seg seg-sms" style="flex:5" title="SMS / relay: 5"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:8" title="Timers: 8"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-alert" style="flex:2" title="Team alerts: 2"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>2 emails</span><span class="mini"><i class="dot seg-sms"></i>5 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>8 timers</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-alert"></i>2 team alerts</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C2</span><span class="steps">1 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Appointment Booked</div>
+          <h3 class="then">Stop Speed-to-Lead Ladder</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C3</span><span class="steps">5 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Appointment Booked</div>
+          <h3 class="then">Lifecycle Tags &amp; Move to Strategy Call Booked</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:5" title="CRM updates: 5"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>5 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C4</span><span class="steps">7 steps</span></div>
+          <div class="when"><span class="lbl">When</span>FHB Calendar Booked</div>
+          <h3 class="then">FHB Tag &amp; Stop FHB Series</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C5</span><span class="steps">5 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Appointment Showed</div>
+          <h3 class="then">Credit Guide Email &amp; Move to Call Attended</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C6</span><span class="steps">33 steps</span></div>
+          <div class="when"><span class="lbl">When</span>No-Show</div>
+          <h3 class="then">Rebook Sequence (3 Days)</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:4" title="Emails: 4"></span><span class="seg seg-sms" style="flex:5" title="SMS / relay: 5"></span><span class="seg seg-logic" style="flex:6" title="Branches: 6"></span><span class="seg seg-wait" style="flex:8" title="Timers: 8"></span><span class="seg seg-task" style="flex:2" title="Tasks: 2"></span><span class="seg seg-crm" style="flex:8" title="CRM updates: 8"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>4 emails</span><span class="mini"><i class="dot seg-sms"></i>5 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>6 branches</span><span class="mini"><i class="dot seg-wait"></i>8 timers</span><span class="mini"><i class="dot seg-task"></i>2 tasks</span><span class="mini"><i class="dot seg-crm"></i>8 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C7</span><span class="steps">14 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Booked or Rescheduled</div>
+          <h3 class="then">Client Confirmation or Moved Email + Alerts to Broker, Office &amp; Backup</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:3" title="Emails: 3"></span><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-alert" style="flex:6" title="Team alerts: 6"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>3 emails</span><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-alert"></i>6 team alerts</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="C">
+          <div class="wf-top"><span class="code">C8</span><span class="steps">8 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Appointment Cancelled</div>
+          <h3 class="then">Alert Broker &amp; Backup, Rebook Task &amp; Back to New Lead</h3>
+          <div class="trig"><span class="chip">Appointment status</span></div>
+          <div class="bar"><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-alert" style="flex:3" title="Team alerts: 3"></span><span class="seg seg-crm" style="flex:4" title="CRM updates: 4"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-alert"></i>3 team alerts</span><span class="mini"><i class="dot seg-crm"></i>4 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-D" data-cat="D">
+        <div class="cat-head">
+          <div><span class="cat-letter">D</span><h2 class="cat-title">Pipeline</h2></div>
+          <p class="cat-sub">Each loan stage drives its own tasks and chasers <span class="count">9 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D1</span><span class="steps">2 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Contact Attempted</div>
+          <h3 class="then">Tag contact-attempted</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D2</span><span class="steps">2 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Contacted or Qualified</div>
+          <h3 class="then">Tag contacted</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D3</span><span class="steps">27 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Documents Required</div>
+          <h3 class="then">Checklist &amp; Day 3/7/14 Chasers</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:4" title="Emails: 4"></span><span class="seg seg-sms" style="flex:2" title="SMS / relay: 2"></span><span class="seg seg-logic" style="flex:9" title="Branches: 9"></span><span class="seg seg-wait" style="flex:4" title="Timers: 4"></span><span class="seg seg-task" style="flex:3" title="Tasks: 3"></span><span class="seg seg-crm" style="flex:5" title="CRM updates: 5"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>4 emails</span><span class="mini"><i class="dot seg-sms"></i>2 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>9 branches</span><span class="mini"><i class="dot seg-wait"></i>4 timers</span><span class="mini"><i class="dot seg-task"></i>3 tasks</span><span class="mini"><i class="dot seg-crm"></i>5 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D4</span><span class="steps">30 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Pre-Approval</div>
+          <h3 class="then">90-Day Expiry Timers</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:2" title="Emails: 2"></span><span class="seg seg-sms" style="flex:2" title="SMS / relay: 2"></span><span class="seg seg-logic" style="flex:12" title="Branches: 12"></span><span class="seg seg-wait" style="flex:4" title="Timers: 4"></span><span class="seg seg-task" style="flex:3" title="Tasks: 3"></span><span class="seg seg-crm" style="flex:7" title="CRM updates: 7"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>2 emails</span><span class="mini"><i class="dot seg-sms"></i>2 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>12 branches</span><span class="mini"><i class="dot seg-wait"></i>4 timers</span><span class="mini"><i class="dot seg-task"></i>3 tasks</span><span class="mini"><i class="dot seg-crm"></i>7 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D5</span><span class="steps">4 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Submitted to Lender</div>
+          <h3 class="then">Client SMS &amp; 48h Turnaround Task</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D6</span><span class="steps">9 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Conditional Approval</div>
+          <h3 class="then">Conditions Task &amp; Chaser</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:2" title="Tasks: 2"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>2 tasks</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D7</span><span class="steps">3 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Unconditional</div>
+          <h3 class="then">Settlement Prep</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D8</span><span class="steps">4 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Settled / Won</div>
+          <h3 class="then">Client Tag &amp; Congratulations Email</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="D">
+          <div class="wf-top"><span class="code">D9</span><span class="steps">27 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Stage Lost</div>
+          <h3 class="then">Reason-Based Recovery</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:3" title="Emails: 3"></span><span class="seg seg-sms" style="flex:2" title="SMS / relay: 2"></span><span class="seg seg-logic" style="flex:12" title="Branches: 12"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:2" title="Tasks: 2"></span><span class="seg seg-crm" style="flex:7" title="CRM updates: 7"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>3 emails</span><span class="mini"><i class="dot seg-sms"></i>2 SMS steps</span><span class="mini"><i class="dot seg-logic"></i>12 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>2 tasks</span><span class="mini"><i class="dot seg-crm"></i>7 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-E" data-cat="E">
+        <div class="cat-head">
+          <div><span class="cat-letter">E</span><h2 class="cat-title">Client Care</h2></div>
+          <p class="cat-sub">Reviews, referrals, rate expiries, annual reviews <span class="count">4 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="E">
+          <div class="wf-top"><span class="code">E1</span><span class="steps">4 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag client-active</div>
+          <h3 class="then">Review Request (Day 3) &amp; Anniversary Timer</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-wait" style="flex:2" title="Timers: 2"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-wait"></i>2 timers</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="E">
+          <div class="wf-top"><span class="code">E2</span><span class="steps">7 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Settled + 30 Days</div>
+          <h3 class="then">Referral Ask Email</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="E">
+          <div class="wf-top"><span class="code">E3</span><span class="steps">3 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag annual review due</div>
+          <h3 class="then">Review Email &amp; Call Task</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>1 task</span></div>
+        </article>
+        <article class="wf" data-cat="E">
+          <div class="wf-top"><span class="code">E4</span><span class="steps">3 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag fixed rate expiring</div>
+          <h3 class="then">Email &amp; Call Task</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>1 task</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-F" data-cat="F">
+        <div class="cat-head">
+          <div><span class="cat-letter">F</span><h2 class="cat-title">Nurture</h2></div>
+          <p class="cat-sub">Long-cycle education and reactivation <span class="count">4 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="F">
+          <div class="wf-top"><span class="code">F1</span><span class="steps">11 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag lead-thinking</div>
+          <h3 class="then">Stop Ladder &amp; Move to Nurture Stage</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:2" title="Emails: 2"></span><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-wait" style="flex:3" title="Timers: 3"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-crm" style="flex:4" title="CRM updates: 4"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>2 emails</span><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-wait"></i>3 timers</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-crm"></i>4 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="F">
+          <div class="wf-top"><span class="code">F2</span><span class="steps">17 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag nurture-long</div>
+          <h3 class="then">6 Monthly Emails &amp; 2 SMS</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:6" title="Emails: 6"></span><span class="seg seg-sms" style="flex:4" title="SMS / relay: 4"></span><span class="seg seg-wait" style="flex:6" title="Timers: 6"></span><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>6 emails</span><span class="mini"><i class="dot seg-sms"></i>4 SMS steps</span><span class="mini"><i class="dot seg-wait"></i>6 timers</span><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="F">
+          <div class="wf-top"><span class="code">F3</span><span class="steps">8 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag fhb nurture</div>
+          <h3 class="then">4 FHB Emails over 14 Days</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:4" title="Emails: 4"></span><span class="seg seg-wait" style="flex:4" title="Timers: 4"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>4 emails</span><span class="mini"><i class="dot seg-wait"></i>4 timers</span></div>
+        </article>
+        <article class="wf" data-cat="F">
+          <div class="wf-top"><span class="code">F4</span><span class="steps">30 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Tag reactivation</div>
+          <h3 class="then">Email, SMS &amp; Call over 21 Days, Then Close</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-logic" style="flex:12" title="Branches: 12"></span><span class="seg seg-wait" style="flex:3" title="Timers: 3"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-crm" style="flex:12" title="CRM updates: 12"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-logic"></i>12 branches</span><span class="mini"><i class="dot seg-wait"></i>3 timers</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-crm"></i>12 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-G" data-cat="G">
+        <div class="cat-head">
+          <div><span class="cat-letter">G</span><h2 class="cat-title">Compliance</h2></div>
+          <p class="cat-sub">Opt-outs and DND handled instantly <span class="count">1 workflow</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="G">
+          <div class="wf-top"><span class="code">G1</span><span class="steps">4 steps</span></div>
+          <div class="when"><span class="lbl">When</span>STOP / Unsubscribe Reply</div>
+          <h3 class="then">Opt-Out Tag, DND &amp; Alert</h3>
+          <div class="trig"><span class="chip">Customer reply</span></div>
+          <div class="bar"><span class="seg seg-email" style="flex:1" title="Emails: 1"></span><span class="seg seg-alert" style="flex:1" title="Team alerts: 1"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-email"></i>1 email</span><span class="mini"><i class="dot seg-alert"></i>1 team alert</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-H" data-cat="H">
+        <div class="cat-head">
+          <div><span class="cat-letter">H</span><h2 class="cat-title">Accountability</h2></div>
+          <p class="cat-sub">No lead goes uncontacted or unanswered <span class="count">3 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="H">
+          <div class="wf-top"><span class="code">H1</span><span class="steps">14 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Lead Not Contacted in 4h</div>
+          <h3 class="then">Backup Task &amp; Alert to Backup Owner, 24h Escalation</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-logic" style="flex:4" title="Branches: 4"></span><span class="seg seg-wait" style="flex:2" title="Timers: 2"></span><span class="seg seg-task" style="flex:2" title="Tasks: 2"></span><span class="seg seg-alert" style="flex:3" title="Team alerts: 3"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-logic"></i>4 branches</span><span class="mini"><i class="dot seg-wait"></i>2 timers</span><span class="mini"><i class="dot seg-task"></i>2 tasks</span><span class="mini"><i class="dot seg-alert"></i>3 team alerts</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="H">
+          <div class="wf-top"><span class="code">H2</span><span class="steps">9 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Lead Reply Unanswered 2h</div>
+          <h3 class="then">Escalate to Backup Owner</h3>
+          <div class="trig"><span class="chip">Customer reply</span></div>
+          <div class="bar"><span class="seg seg-logic" style="flex:3" title="Branches: 3"></span><span class="seg seg-wait" style="flex:1" title="Timers: 1"></span><span class="seg seg-task" style="flex:1" title="Tasks: 1"></span><span class="seg seg-alert" style="flex:2" title="Team alerts: 2"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-logic"></i>3 branches</span><span class="mini"><i class="dot seg-wait"></i>1 timer</span><span class="mini"><i class="dot seg-task"></i>1 task</span><span class="mini"><i class="dot seg-alert"></i>2 team alerts</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        <article class="wf" data-cat="H">
+          <div class="wf-top"><span class="code">H3</span><span class="steps">4 steps</span></div>
+          
+          <h3 class="then">Send SMS Reply to Lead via SMS Relay</h3>
+          <div class="trig"><span class="chip">Tag added</span></div>
+          <div class="bar"><span class="seg seg-sms" style="flex:1" title="SMS / relay: 1"></span><span class="seg seg-crm" style="flex:3" title="CRM updates: 3"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-sms"></i>1 SMS step</span><span class="mini"><i class="dot seg-crm"></i>3 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+      <div class="cat-block" id="cat-M" data-cat="M">
+        <div class="cat-head">
+          <div><span class="cat-letter">M</span><h2 class="cat-title">Ad Signal</h2></div>
+          <p class="cat-sub">CRM outcomes fed back to Meta and Google <span class="count">2 workflows</span></p>
+        </div>
+        <div class="wf-grid">
+        <article class="wf" data-cat="M">
+          <div class="wf-top"><span class="code">M1</span><span class="steps">1 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Pipeline Stage Events</div>
+          <h3 class="then">Send Conversions to Meta</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-crm" style="flex:1" title="CRM updates: 1"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-crm"></i>1 CRM update</span></div>
+        </article>
+        <article class="wf" data-cat="M">
+          <div class="wf-top"><span class="code">M2</span><span class="steps">3 steps</span></div>
+          <div class="when"><span class="lbl">When</span>Opportunity moved to Qualified</div>
+          <h3 class="then">Send ’Qualified lead (CRM confirmed)’ conversion</h3>
+          <div class="trig"><span class="chip">Pipeline stage changed</span></div>
+          <div class="bar"><span class="seg seg-logic" style="flex:1" title="Branches: 1"></span><span class="seg seg-crm" style="flex:2" title="CRM updates: 2"></span></div>
+          <div class="minis"><span class="mini"><i class="dot seg-logic"></i>1 branch</span><span class="mini"><i class="dot seg-crm"></i>2 CRM updates</span></div>
+        </article>
+        </div>
+      </div>
+
+        <div class="stack">
+            <h3>Under the hood</h3>
+            <p>Workflows are wired to the website, ad platforms and messaging providers, so the CRM is the single source of truth and the ad algorithms learn from real CRM outcomes, not raw form fills.</p>
+            <div class="tools">
+                <span class="tool">GoHighLevel workflows</span><span class="tool">Inbound webhooks</span><span class="tool">Twilio SMS relay</span>
+                <span class="tool">Meta Conversions API</span><span class="tool">Google Ads offline conversions</span><span class="tool">Facebook &amp; Google lead forms</span>
+                <span class="tool">Calendars &amp; booking</span><span class="tool">Pipeline stages</span><span class="tool">Next.js website</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container foot">
+            <div>&copy; 2026 Saad Bashir. Workflow names and structure shown; client data, contacts and credentials are never published.</div>
+            <div><a href="index.html">Home</a><a href="samples.html">Sample Work</a><a href="mailto:thesaadbashir@gmail.com">Email</a></div>
+        </div>
+    </footer>
+
+    <script>
+        const btns = document.querySelectorAll('.f');
+        const blocks = document.querySelectorAll('.cat-block');
+        function show(f) {
+            btns.forEach(b => b.classList.toggle('on', b.dataset.f === f));
+            blocks.forEach(b => { b.style.display = (f === 'all' || b.dataset.cat === f) ? '' : 'none'; });
+        }
+        btns.forEach(b => b.addEventListener('click', () => show(b.dataset.f)));
+        document.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', () => show('all')));
+    </script>
+</body>
+</html>
