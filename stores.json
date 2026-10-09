@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "fernloom",
+    "name": "Fernloom",
+    "platform": "Shopify",
+    "category": "Wool sneakers",
+    "concept": "Sneakers knit from merino wool and tree fibre on sugarcane soles, with a carbon footprint printed on every pair.",
+    "url": "https://fernloom.vercel.app/",
+    "image": "samples/stores/fernloom.jpg",
+    "cro": [
+      "Carbon score on every shoe, plus a running CO2e total in the cart",
+      "30 day wear test and free returns remove sizing and fit risk",
+      "Sock subscription block with pack sizes, delivery gaps and 20% savings"
+    ]
+  },
+  {
+    "slug": "mireval",
+    "name": "Mireval",
+    "platform": "Shopify",
+    "category": "Skincare",
+    "concept": "Short skincare routines and soft makeup with the active ingredient and its percentage printed on the front of every bottle.",
+    "url": "https://mireval.vercel.app/",
+    "image": "samples/stores/mireval.jpg",
+    "cro": [
+      "Routine builder auto discounts 15% for three products and 20% for four",
+      "Shade finder filters tints by undertone, backed by a free 60 day swap",
+      "Loyalty calculator shows yearly points earned from a monthly spend"
+    ]
+  },
+  {
+    "slug": "furlong",
+    "name": "Furlong Roastworks",
+    "platform": "Shopify",
+    "category": "Specialty coffee",
+    "concept": "Small batch specialty coffee roasted Monday and Thursday, shipped within four days of roasting from six producers bought every year.",
+    "url": "https://furlongroastworks.vercel.app/",
+    "image": "samples/stores/furlong.jpg",
+    "cro": [
+      "Four step subscription builder with live per delivery price and 15% saving",
+      "Roast and flavour filters narrow eight coffees to a confident pick",
+      "Brew ratio calculator and gift cards with a live recipient preview"
+    ]
+  },
+  {
+    "slug": "rallyform",
+    "name": "Rallyform",
+    "platform": "Shopify",
+    "category": "Activewear",
+    "concept": "Performance training apparel tested by 40 coaches, with squat proof leggings and limited run drops for early morning lifters.",
+    "url": "https://rallyform.vercel.app/",
+    "image": "samples/stores/rallyform.jpg",
+    "cro": [
+      "Drop countdown with email capture for early access to a 900 unit run",
+      "Any three tees bundle applies 15% off in the bag, no code",
+      "Fit finder suggests a size from height and usual size elsewhere"
+    ]
+  },
+  {
+    "slug": "pellowyn",
+    "name": "Pellowyn",
+    "platform": "Shopify",
+    "category": "Bedding and linen",
+    "concept": "Percale, sateen and linen bedding woven in small mills, sold direct and backed by a 100 night home trial.",
+    "url": "https://pellowyn.vercel.app/",
+    "image": "samples/stores/pellowyn.jpg",
+    "cro": [
+      "Fabric comparison table matches percale, sateen or linen to how you sleep",
+      "Complete Bed Set builder takes 20% off once three pieces are picked",
+      "100 night trial and free returns shown beside every price"
+    ]
+  },
+  {
+    "slug": "snoutberry",
+    "name": "Snoutberry",
+    "platform": "Shopify",
+    "category": "Premium pet goods",
+    "concept": "Fresh dog and cat food from vet nutritionist recipes, cooked in small batches and portioned to each pet's daily calories.",
+    "url": "https://snoutberry.vercel.app/",
+    "image": "samples/stores/snoutberry.jpg",
+    "cro": [
+      "Pet profile builder turns four questions into a priced daily feeding plan",
+      "First box 40% off with skip, pause or cancel anytime messaging",
+      "New Pet Box bundle saves $50 on food, treats, harness and bed"
+    ]
+  },
+  {
+    "slug": "ilvane",
+    "name": "Ilvane",
+    "platform": "Shopify",
+    "category": "Fine jewellery",
+    "concept": "Solid recycled 14k gold rings, chains and name pieces finished by hand, made to be worn daily and passed on.",
+    "url": "https://ilvane.vercel.app/",
+    "image": "samples/stores/ilvane.jpg",
+    "cro": [
+      "Name necklace builder previews engraved text to scale with chain length options",
+      "Stack bundle lets shoppers pick any three rings and save 15%",
+      "Ring size calculator converts inside diameter, backed by free lifetime resizing"
+    ]
+  },
+  {
+    "slug": "kettlecairn",
+    "name": "Kettlecairn",
+    "platform": "Shopify",
+    "category": "Outdoor camping gear",
+    "concept": "Tents, sleeping bags, packs and camp cookware built in small runs, field tested on the Sawtooth crest and repaired free for life.",
+    "url": "https://kettlecairn.vercel.app/",
+    "image": "samples/stores/kettlecairn.jpg",
+    "cro": [
+      "Gear Finder quiz matches shelter, sleep, pack and stove to the trip",
+      "Kit builder discounts 10%, 15% or 20% by categories in the cart",
+      "Lifetime repair promise with repair stats and a two minute claim form"
+    ]
+  },
+  {
+    "slug": "panvale",
+    "name": "Panvale",
+    "platform": "Amazon",
+    "category": "Kitchen cookware",
+    "concept": "Brand store for granite nonstick pans, German steel knives and silicone tools, all tested in a 40 burner Austin kitchen.",
+    "url": "https://panvale.vercel.app/",
+    "image": "samples/stores/panvale.jpg",
+    "cro": [
+      "Frequently bought together block adds the full set in one click",
+      "Starter Kitchen Bundle packages cookware, knives and utensils for first apartments",
+      "Searchable Q&A, review star filters and helpful votes on product pages"
+    ]
+  },
+  {
+    "slug": "voltwren",
+    "name": "Voltwren",
+    "platform": "Amazon",
+    "category": "Phone accessories",
+    "concept": "Brand store for GaN chargers, braided cables, power banks and Qi2 magnetic gear tested on over 140 phone models.",
+    "url": "https://voltwren.vercel.app/",
+    "image": "samples/stores/voltwren.jpg",
+    "cro": [
+      "Phone compatibility checker shows the real charging speed for your model",
+      "Clip coupon banner and a free fast delivery threshold at $35",
+      "Frequently bought together pairs chargers with matching cables and cases"
+    ]
+  },
+  {
+    "slug": "pipwren",
+    "name": "Pipwren",
+    "platform": "Amazon",
+    "category": "Baby products",
+    "concept": "Brand store for glass bottles, organic muslin, silicone feeding sets and play mats for babies up to three years old.",
+    "url": "https://pipwren.vercel.app/",
+    "image": "samples/stores/pipwren.jpg",
+    "cro": [
+      "First Foods Kit bundles plate, bibs and straw cup at 15% off",
+      "Repeat and save sends replacement nipples and burp cloths on schedule",
+      "Independent lab testing panel answers safety questions before checkout"
+    ]
+  },
+  {
+    "slug": "torvane",
+    "name": "Torvane",
+    "platform": "Amazon",
+    "category": "Home fitness",
+    "concept": "Brand store for resistance bands, dial dumbbells, yoga mats and foam rollers designed for training in small apartments.",
+    "url": "https://torvanefitness.vercel.app/",
+    "image": "samples/stores/torvane.jpg",
+    "cro": [
+      "Band level chart recommends a resistance by goal and by move",
+      "Built in workout guide with tickable moves and a rest timer",
+      "Frequently bought together and filterable verified ratings on product pages"
+    ]
+  },
+  {
+    "slug": "ploverfield",
+    "name": "Ploverfield",
+    "platform": "Amazon",
+    "category": "Organic snacks",
+    "concept": "Brand store for certified organic nut butters, granola, protein bars and trail mixes roasted in small batches in Oregon.",
+    "url": "https://ploverfield.vercel.app/",
+    "image": "samples/stores/ploverfield.jpg",
+    "cro": [
+      "Repeat and save 10% with skip, swap or cancel from your inbox",
+      "Frequently bought together adds three pantry items to the cart at once",
+      "Nutrition facts and allergen panels on every product page"
+    ]
+  },
+  {
+    "slug": "tinbrook",
+    "name": "Tinbrook Camera Exchange",
+    "platform": "eBay",
+    "category": "Vintage film cameras",
+    "concept": "Seller store for vintage film cameras and lenses, each cleaned, repaired and tested with a real roll before listing.",
+    "url": "https://tinbrook.vercel.app/",
+    "image": "samples/stores/tinbrook.jpg",
+    "cro": [
+      "Make offer flow with instant counters that add accepted items to cart",
+      "Condition grade and tested with film filters plus a saved watchlist",
+      "Automatic 10% off any lens bought with a camera body"
+    ]
+  },
+  {
+    "slug": "tickwellvintage",
+    "name": "Tickwell Vintage",
+    "platform": "eBay",
+    "category": "Vintage watches",
+    "concept": "Seller store for vintage wristwatches, parts and straps, each opened, timed and photographed on the bench before listing.",
+    "url": "https://tickwellvintage.vercel.app/",
+    "image": "samples/stores/tickwellvintage.jpg",
+    "cro": [
+      "Listings show timegrapher rate and amplitude so buyers know how it runs",
+      "Make an offer flow with a review step before sending",
+      "Box and papers filter plus a clear authenticity check explainer"
+    ]
+  },
+  {
+    "slug": "platterfield",
+    "name": "Platterfield Records",
+    "platform": "eBay",
+    "category": "Vinyl records",
+    "concept": "Seller store for graded vintage vinyl, every record cleaned, play graded on both sides and photographed before it lists.",
+    "url": "https://platterfieldrecords.vercel.app/",
+    "image": "samples/stores/platterfield.jpg",
+    "cro": [
+      "Combined shipping shown upfront: $5.50 first record, $1.50 each extra",
+      "Ending within 24 hours filter and sort by pressing year",
+      "Goldmine grading guide with a free return if the grade is off"
+    ]
+  },
+  {
+    "slug": "halfcourtvault",
+    "name": "Halfcourt Vault",
+    "platform": "eBay",
+    "category": "Trading cards",
+    "concept": "Seller store for graded sports cards, rookies, autos and numbered parallels, sold through nightly auctions and Buy It Now.",
+    "url": "https://halfcourtvault.vercel.app/",
+    "image": "samples/stores/halfcourtvault.jpg",
+    "cro": [
+      "Live auction countdowns with a sticky bid button at the next increment",
+      "Cert checked badge and packing steps build trust in high value slabs",
+      "Combined shipping on auction wins plus Best Offer on Buy It Now"
+    ]
+  },
+  {
+    "slug": "kitebench",
+    "name": "Kitebench Renewed Tech",
+    "platform": "eBay",
+    "category": "Refurbished laptops",
+    "concept": "Seller store for refurbished laptops, tablets and monitors that pass a 62 point bench test and ship with written warranty.",
+    "url": "https://kitebench.vercel.app/",
+    "image": "samples/stores/kitebench.jpg",
+    "cro": [
+      "Battery health printed on every listing and sortable from highest first",
+      "Grade guide explains three cosmetic tiers with battery minimums for each",
+      "Sort by longest warranty, plus Best Offer with a review step"
+    ]
+  }
+]

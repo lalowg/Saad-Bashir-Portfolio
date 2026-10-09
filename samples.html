@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Work | Saad Bashir</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="icon-180.png" type="image/png" sizes="180x180">
+    <link rel="apple-touch-icon" href="icon-180.png">
+    <meta name="theme-color" content="#102A43">
     <meta name="description" content="Sample work by Saad Bashir: Excel job application tracker with formulas and dashboard, client presentation deck, branded proposal document, social media designs and brand document.">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -861,12 +865,55 @@
   .sample-nav a { font-size: 13px; font-weight: 600; color: var(--navy); background: var(--paper-2); border: 1px solid var(--border); padding: 9px 16px; border-radius: 999px; text-decoration: none; }
   .sample-nav a:hover { background: var(--paper-3); }
   @media (max-width: 900px) { .sample-head { grid-template-columns: 1fr; } .page-hero h1 { font-size: 38px; } .gallery.two { grid-template-columns: 1fr; } }
+
+  /* Ecommerce concept stores */
+  .eco-intro { text-align: center; max-width: 820px; margin: 0 auto 40px; }
+  .eco-intro .project-badge { margin-bottom: 16px; }
+  .eco-intro h2 { margin-bottom: 16px; }
+  .eco-intro p { color: var(--text-light); font-size: 17px; }
+  .eco-intro .eco-note { font-size: 13px; color: var(--mute); margin-top: 12px; }
+  .eco-approach { background: var(--paper); border: 1px solid var(--border); border-radius: 4px; padding: 26px 28px; margin-bottom: 40px; }
+  .eco-approach h3 { font-family: 'Fraunces', serif; font-size: 22px; color: var(--navy); margin-bottom: 18px; }
+  .eco-approach ol { list-style: none; counter-reset: ea; display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .eco-approach li { counter-increment: ea; position: relative; padding-top: 34px; font-size: 14px; color: var(--text-light); line-height: 1.6; }
+  .eco-approach li::before { content: counter(ea); position: absolute; left: 0; top: 0; width: 24px; height: 24px; border-radius: 50%; background: var(--navy); color: var(--paper); font-size: 11px; font-weight: 700; display: grid; place-items: center; }
+  .eco-approach li b { display: block; color: var(--navy); font-size: 15px; margin-bottom: 4px; }
+  .eco-tabs { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 32px; }
+  .eco-tab { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600; color: var(--navy); background: var(--paper); border: 1px solid var(--border); padding: 9px 18px; border-radius: 999px; cursor: pointer; transition: all 0.2s ease; }
+  .eco-tab:hover { border-color: var(--gold); }
+  .eco-tab[aria-pressed="true"] { background: var(--navy); color: var(--paper); border-color: var(--navy); }
+  .eco-tab .eco-count { opacity: 0.7; font-weight: 500; margin-left: 2px; }
+  .eco-tabs[hidden], .eco-empty[hidden] { display: none; }
+  .eco-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+  .eco-card { background: var(--paper); border: 1px solid var(--border); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; transition: all 0.3s ease; }
+  .eco-card:hover { border-color: var(--gold); box-shadow: 0 12px 28px rgba(0,0,0,0.07); transform: translateY(-4px); }
+  .eco-shot { aspect-ratio: 16 / 10; background: var(--paper-3); border-bottom: 1px solid var(--border); overflow: hidden; }
+  .eco-shot img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+  .eco-ph { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 20px; text-align: center; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 100%); position: relative; }
+  .eco-ph::after { content: ""; position: absolute; inset: 14px; border: 1px solid rgba(176, 137, 47, 0.45); border-radius: 2px; pointer-events: none; }
+  .eco-ph-name { font-family: 'Fraunces', serif; font-size: 26px; font-weight: 600; color: var(--paper); line-height: 1.2; overflow-wrap: anywhere; }
+  .eco-ph-rule { width: 36px; height: 2px; background: var(--gold); }
+  .eco-ph-cat { font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); }
+  .eco-body { padding: 22px 24px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .eco-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+  .eco-chip { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-dark); background: rgba(176, 137, 47, 0.1); border: 1px solid var(--border); padding: 3px 8px; border-radius: 2px; }
+  .eco-cat { font-size: 12px; color: var(--mute); }
+  .eco-card h3 { font-family: 'Fraunces', serif; font-size: 22px; color: var(--navy); line-height: 1.25; overflow-wrap: anywhere; }
+  .eco-concept { font-size: 14px; color: var(--text-light); }
+  .eco-cro-label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); border-top: 1px solid var(--border); padding-top: 12px; margin-top: 4px; }
+  .eco-cro { list-style: none; display: grid; gap: 6px; }
+  .eco-cro li { position: relative; padding-left: 18px; font-size: 14px; color: var(--text); }
+  .eco-cro li::before { content: ""; position: absolute; left: 0; top: 9px; width: 7px; height: 7px; background: var(--gold); border-radius: 50%; }
+  .eco-body .cta-button { margin-top: auto; text-align: center; padding: 12px 20px; }
+  .eco-empty { text-align: center; color: var(--text-light); background: var(--paper); border: 1px dashed var(--border); border-radius: 4px; padding: 28px 22px; font-size: 15px; }
+  @media (max-width: 1024px) { .eco-grid { grid-template-columns: repeat(2, 1fr); } .eco-approach ol { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 768px) { .eco-grid { grid-template-columns: 1fr; } .eco-approach ol { grid-template-columns: 1fr; } .eco-approach { padding: 22px 20px; } }
 </style>
 </head>
 <body>
     <header>
         <nav>
-            <a href="index.html" class="logo">Saad Bashir</a>
+            <a href="index.html" class="logo" aria-label="Saad Bashir, home"><img src="logo.svg" alt="Saad Bashir" width="200" height="48" style="height:46px;width:auto;display:block"></a>
             <div class="nav-links">
                 <a href="index.html#about">About</a>
                 <a href="index.html#projects">Projects</a>
@@ -883,8 +930,9 @@
         <div class="container">
             <div class="project-badge">Portfolio samples</div>
             <h1>Sample Work</h1>
-            <p>Website and lead funnel work, funnel teardowns of top brands, and five pieces that show how I handle the day-to-day of an admin and social media role: an Excel tracker built on real formulas, a client presentation, a branded proposal document, social media designs and a brand document. The office files below are downloadable and were produced start to finish by me.</p>
+            <p>Website and lead funnel work, funnel teardowns of top brands, and five pieces that show how I handle the daily work of an admin and social media role: an Excel tracker built on real formulas, a client presentation, a branded proposal document, social media designs and a brand document. The office files below are downloadable and were produced start to finish by me.</p>
             <div class="sample-nav">
+                <a href="#ecommerce">Ecommerce</a>
                 <a href="#funnels">Websites &amp; lead funnels</a>
                 <a href="#excel">Excel tracker</a>
                 <a href="#presentation">Client presentation</a>
@@ -895,6 +943,106 @@
         </div>
     </section>
 
+    <section class="sample-section alt-bg" id="ecommerce">
+        <div class="container">
+            <div class="eco-intro">
+                <div class="project-badge">CRO and UI/UX Analyst and Developer</div>
+                <h2>Ecommerce</h2>
+                <p>18 concept stores across Shopify style, Amazon style and eBay style storefronts, each built from scratch with its own brand, logo, cart and conversion features.</p>
+                <p class="eco-note">All brands are fictional concept builds, designed and developed by me and deployed live on Vercel.</p>
+            </div>
+
+            <div class="eco-approach">
+                <h3>How I approach ecommerce CRO</h3>
+                <ol>
+                    <li><b>One clear action per screen</b>Every page has a single main button, so a shopper never has to guess what to do next.</li>
+                    <li><b>A cart with no friction</b>A slide out cart, a free shipping progress bar and guest checkout, so nobody is forced to make an account to pay.</li>
+                    <li><b>Social proof where the decision happens</b>Star ratings, reviews and trust badges sit right beside the buy button, not buried at the bottom of the page.</li>
+                    <li><b>Mobile first add to cart</b>On phones the add to cart bar stays pinned to the screen, because most people shop with one thumb.</li>
+                </ol>
+            </div>
+
+            <div class="eco-tabs" id="eco-tabs" role="group" aria-label="Filter stores by platform" hidden></div>
+            <div class="eco-grid" id="eco-grid" aria-live="polite"></div>
+            <p class="eco-empty" id="eco-empty" hidden>The live store links are being added now. Check back shortly to browse all 18 builds.</p>
+            <noscript><p class="eco-empty">Please turn on JavaScript to browse the concept stores.</p></noscript>
+        </div>
+    </section>
+
+    <script>
+    (function () {
+        var grid = document.getElementById('eco-grid');
+        var tabs = document.getElementById('eco-tabs');
+        var empty = document.getElementById('eco-empty');
+        var platforms = ['Shopify', 'Amazon', 'eBay'];
+        var stores = [];
+        var active = 'All';
+
+        function esc(s) {
+            return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+            });
+        }
+
+        function card(s) {
+            var name = s.name || s.category || 'Concept store';
+            var shot = s.image
+                ? '<img src="' + esc(s.image) + '" alt="' + esc(name) + ' storefront screenshot" loading="lazy">'
+                : '<div class="eco-ph" aria-hidden="true"><span class="eco-ph-name">' + esc(name) + '</span><span class="eco-ph-rule"></span><span class="eco-ph-cat">' + esc(s.platform) + ' style store</span></div>';
+            var cro = (s.cro || []).filter(function (c) { return c && String(c).trim(); });
+            var croHtml = cro.length
+                ? '<p class="eco-cro-label">CRO and UX highlights</p><ul class="eco-cro">' + cro.map(function (c) { return '<li>' + esc(c) + '</li>'; }).join('') + '</ul>'
+                : '';
+            return '<article class="eco-card">' +
+                '<div class="eco-shot">' + shot + '</div>' +
+                '<div class="eco-body">' +
+                    '<div class="eco-meta"><span class="eco-chip">' + esc(s.platform) + '</span>' + (s.category ? '<span class="eco-cat">' + esc(s.category) + '</span>' : '') + '</div>' +
+                    '<h3>' + esc(name) + '</h3>' +
+                    (s.concept ? '<p class="eco-concept">' + esc(s.concept) + '</p>' : '') +
+                    croHtml +
+                    '<a class="cta-button" href="' + esc(s.url) + '" target="_blank" rel="noopener">Visit live store</a>' +
+                '</div>' +
+            '</article>';
+        }
+
+        function render() {
+            var list = stores.filter(function (s) { return active === 'All' || s.platform === active; });
+            grid.innerHTML = list.map(card).join('');
+            Array.prototype.forEach.call(tabs.querySelectorAll('.eco-tab'), function (b) {
+                b.setAttribute('aria-pressed', b.getAttribute('data-platform') === active ? 'true' : 'false');
+            });
+        }
+
+        function buildTabs() {
+            var counts = { All: stores.length };
+            platforms.forEach(function (p) {
+                counts[p] = stores.filter(function (s) { return s.platform === p; }).length;
+            });
+            tabs.innerHTML = ['All'].concat(platforms).filter(function (p) { return p === 'All' || counts[p] > 0; }).map(function (p) {
+                return '<button type="button" class="eco-tab" data-platform="' + p + '" aria-pressed="false">' + p +
+                    (p === 'All' ? '' : ' <span class="eco-count">(' + counts[p] + ')</span>') + '</button>';
+            }).join('');
+            tabs.addEventListener('click', function (e) {
+                var b = e.target.closest('.eco-tab');
+                if (!b) return;
+                active = b.getAttribute('data-platform');
+                render();
+            });
+        }
+
+        fetch('stores.json', { cache: 'no-cache' })
+            .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+            .then(function (data) {
+                // Only stores with a live link are shown
+                stores = (Array.isArray(data) ? data : []).filter(function (s) { return s && s.url && String(s.url).trim(); });
+                if (!stores.length) { empty.hidden = false; return; }
+                buildTabs();
+                tabs.hidden = false;
+                render();
+            })
+            .catch(function () { empty.hidden = false; });
+    })();
+    </script>
 
     <section class="sample-section" id="funnels">
         <div class="container">
@@ -909,11 +1057,11 @@
                 </div>
                 <div>
                     <ol class="funnel-steps big">
-                        <li><b>Self-segmentation:</b> "I want to buy a property" or "I want to refinance"</li>
+                        <li><b>Self segmentation:</b> "I want to buy a property" or "I want to refinance"</li>
                         <li><b>Borrowing capacity:</b> calculators for visitors still researching</li>
                         <li><b>Lead magnet:</b> free Property Profile Report in exchange for details</li>
                         <li><b>Objection handling:</b> FAQ on credit scores, approval times and complex cases</li>
-                        <li><b>Direct line:</b> click-to-call 1800 number in the header</li>
+                        <li><b>Direct line:</b> click to call 1800 number in the header</li>
                         <li><b>Clear process:</b> "Qualify, Submit, Approved" with 45+ lenders</li>
                     </ol>
                 </div>
@@ -924,7 +1072,7 @@
 
             <div class="funnel-intro">
                 <h2>Lead funnel teardowns: how top lenders and SaaS brands convert</h2>
-                <p>Five well-known websites from the US, Australia and New Zealand, broken down step by step. These are my analysis of their public funnels (observed October 2026), not client work, and they shape how I design funnels for my own clients.</p>
+                <p>Five well known websites from the US, Australia and New Zealand, broken down step by step. These are my analysis of their public funnels (observed October 2026), not client work, and they shape how I design funnels for my own clients.</p>
             </div>
             <div class="funnel-grid">
                 <article class="funnel-card">
@@ -934,7 +1082,7 @@
                     </div>
                     <h3><a href="https://better.com/" target="_blank" rel="noopener">Better.com</a></h3>
                     <p class="funnel-type">Digital mortgage lender</p>
-                    <ol class="funnel-steps"><li>One dominant "Get started" CTA</li><li>Online pre-approval application is the lead form</li><li>Calculators for buyers not ready yet</li><li>Cross-sell: insurance and agent matching</li></ol>
+                    <ol class="funnel-steps"><li>One dominant "Get started" CTA</li><li>Online preapproval application is the lead form</li><li>Calculators for buyers not ready yet</li><li>Cross sell: insurance and agent matching</li></ol>
                     <p class="funnel-lesson"><b>Takeaway:</b> One clear primary action, with tools to catch the visitors who are not ready to apply.</p>
                 </article>
                 <article class="funnel-card">
@@ -944,7 +1092,7 @@
                     </div>
                     <h3><a href="https://www.hubspot.com/" target="_blank" rel="noopener">HubSpot</a></h3>
                     <p class="funnel-type">CRM software</p>
-                    <ol class="funnel-steps"><li>Free tools: website builder, forms, live chat, scheduler</li><li>Free account sign-up</li><li>Free CRM becomes the daily habit</li><li>In-product upgrades to paid hubs</li></ol>
+                    <ol class="funnel-steps"><li>Free tools: website builder, forms, live chat, scheduler</li><li>Free account signup</li><li>Free CRM becomes the daily habit</li><li>In product upgrades to paid hubs</li></ol>
                     <p class="funnel-lesson"><b>Takeaway:</b> Free tools are the lead magnet; the product itself does the nurturing.</p>
                 </article>
                 <article class="funnel-card">
@@ -964,7 +1112,7 @@
                     </div>
                     <h3><a href="https://www.aussie.com.au/" target="_blank" rel="noopener">Aussie</a></h3>
                     <p class="funnel-type">Mortgage broker network</p>
-                    <ol class="funnel-steps"><li>Separate paths: buying, refinancing, pre-approval</li><li>Tools like the contract analyser</li><li>"Find a broker" local broker search</li><li>Book an appointment with a named local broker</li></ol>
+                    <ol class="funnel-steps"><li>Separate paths: buying, refinancing, preapproval</li><li>Tools like the contract analyser</li><li>"Find a broker" local broker search</li><li>Book an appointment with a named local broker</li></ol>
                     <p class="funnel-lesson"><b>Takeaway:</b> Route every visitor to a real, local person as early as possible.</p>
                 </article>
                 <article class="funnel-card">
@@ -987,7 +1135,7 @@
                 <div>
                     <div class="project-badge">Excel</div>
                     <h2>Job Application Tracker</h2>
-                    <p>A five-sheet workbook for running a job search on someone's behalf: an Applications table with dropdowns and validation, a Companies lookup sheet, list tables that feed the dropdowns, a dashboard that is 100 percent formulas, and a formula guide explaining every calculation.</p>
+                    <p>A five sheet workbook for running a job search on someone's behalf: an Applications table with dropdowns and validation, a Companies lookup sheet, list tables that feed the dropdowns, a dashboard that is 100 percent formulas, and a formula guide explaining every calculation.</p>
                     <div class="download-row">
                         <a href="samples/job-application-tracker.xlsx" class="cta-button" download>Download the workbook (.xlsx)</a>
                         <a href="samples/excel-formula-guide.png" class="button-secondary" target="_blank" rel="noopener">View the formula guide</a>
@@ -998,15 +1146,15 @@
                         <li>XLOOKUP with an INDEX/MATCH fallback, VLOOKUP, INDEX/MATCH and TRIM for clean lookups</li>
                         <li>COUNTIFS, SUMIFS, AVERAGEIFS, SUMIF and COUNTIF with array constants</li>
                         <li>Date formulas with TODAY, EOMONTH, WEEKDAY and TEXT for weekly and monthly reporting</li>
-                        <li>Nested IF follow-up flags: Overdue, Due today, Scheduled, Closed</li>
-                        <li>Data validation dropdowns, nine conditional-formatting rules, a reconciliation check and a chart</li>
+                        <li>Nested IF follow up flags: Overdue, Due today, Scheduled, Closed</li>
+                        <li>Data validation dropdowns, nine conditional formatting rules, a reconciliation check and a chart</li>
                     </ul>
                 </div>
             </div>
             <div class="gallery two">
-                <figure><a href="samples/excel-dashboard.png" target="_blank" rel="noopener"><img src="samples/excel-dashboard.png" alt="Excel dashboard with KPI tiles and breakdown tables" loading="lazy"></a><figcaption>Dashboard: pipeline, follow-ups, status, platform and weekly tables</figcaption></figure>
+                <figure><a href="samples/excel-dashboard.png" target="_blank" rel="noopener"><img src="samples/excel-dashboard.png" alt="Excel dashboard with KPI tiles and breakdown tables" loading="lazy"></a><figcaption>Dashboard: pipeline, follow ups, status, platform and weekly tables</figcaption></figure>
                 <figure><a href="samples/excel-applications-1.png" target="_blank" rel="noopener"><img src="samples/excel-applications-1.png" alt="Excel applications table with colour coding" loading="lazy"></a><figcaption>Applications table: dropdowns, status colours and duplicate detection</figcaption></figure>
-                <figure><a href="samples/excel-applications-2.png" target="_blank" rel="noopener"><img src="samples/excel-applications-2.png" alt="Excel formula columns with overdue highlights" loading="lazy"></a><figcaption>Formula columns: follow-up flags, lookups and week grouping</figcaption></figure>
+                <figure><a href="samples/excel-applications-2.png" target="_blank" rel="noopener"><img src="samples/excel-applications-2.png" alt="Excel formula columns with overdue highlights" loading="lazy"></a><figcaption>Formula columns: follow up flags, lookups and week grouping</figcaption></figure>
                 <figure><a href="samples/excel-chart.png" target="_blank" rel="noopener"><img src="samples/excel-chart.png" alt="Column chart of applications by status" loading="lazy"></a><figcaption>Applications by status chart</figcaption></figure>
             </div>
         </div>
@@ -1018,7 +1166,7 @@
                 <div>
                     <div class="project-badge">PowerPoint</div>
                     <h2>Client Presentation: Workshop Overview</h2>
-                    <p>A seven-slide deck prepared for a prospective client of a fictional training business. Built on a custom theme with named layouts so every slide can be restyled in one place, with a native chart, speaker notes and consistent typography.</p>
+                    <p>A seven slide deck prepared for a prospective client of a fictional training business. Built on a custom theme with named layouts so every slide can be restyled in one place, with a native chart, speaker notes and consistent typography.</p>
                     <div class="download-row">
                         <a href="samples/northlight-workshop-overview-deck.pptx" class="cta-button" download>Download the deck (.pptx)</a>
                         <a href="samples/northlight-workshop-overview-deck.pdf" class="button-secondary" download>Download as PDF</a>
@@ -1051,7 +1199,7 @@
                 <div>
                     <div class="project-badge">Word</div>
                     <h2>Branded Proposal Document</h2>
-                    <p>A four-page workshop proposal in Word: cover block, summary callout, contents list, numbered sections, agenda and logistics tables, and a header and footer with page numbering. Styles are defined once (Title, Heading 1, Heading 2, body) so the document stays consistent when edited.</p>
+                    <p>A four page workshop proposal in Word: cover block, summary callout, contents list, numbered sections, agenda and logistics tables, and a header and footer with page numbering. Styles are defined once (Title, Heading 1, Heading 2, body) so the document stays consistent when edited.</p>
                     <div class="download-row">
                         <a href="samples/northlight-workshop-proposal.docx" class="cta-button" download>Download the document (.docx)</a>
                         <a href="samples/northlight-workshop-proposal.pdf" class="button-secondary" download>Download as PDF</a>
@@ -1081,7 +1229,7 @@
                 <div>
                     <div class="project-badge">Social media</div>
                     <h2>Social Media Designs</h2>
-                    <p>Five 1080 x 1080 posts for the launch of a small business: announcement, educational tip, testimonial card, event promotion and a meet-the-founder post. One visual system throughout: navy, gold and cream, a serif headline face and a clean sans-serif for body text.</p>
+                    <p>Five 1080 x 1080 posts for the launch of a small business: announcement, educational tip, testimonial card, event promotion and a meet the founder post. One visual system throughout: navy, gold and cream, a serif headline face and a clean sans serif for body text.</p>
                     <div class="download-row">
                         <a href="samples/social-posts-overview.png" class="cta-button" target="_blank" rel="noopener">View all five together</a>
                     </div>
@@ -1091,7 +1239,7 @@
                         <li>Consistent margins, logo placement and footer handle on every post</li>
                         <li>One headline, one idea and one call to action per post</li>
                         <li>Formats that resize cleanly to LinkedIn, Instagram and Stories</li>
-                        <li>Captions, hashtags and a two-week posting calendar supplied with the set</li>
+                        <li>Captions, hashtags and a two week posting calendar supplied with the set</li>
                     </ul>
                 </div>
             </div>
@@ -1111,7 +1259,7 @@
                 <div>
                     <div class="project-badge">Branding</div>
                     <h2>Brand Document and Style Sheet</h2>
-                    <p>A three-page branded document for the same business: a professional profile one-pager, a workshop outline template with letterhead, and a brand sheet with logo lockups, colour palette, typography and the social post system. Comes with a build guide for recreating every piece in Canva.</p>
+                    <p>A three page branded document for the same business: a one page professional profile, a workshop outline template with letterhead, and a brand sheet with logo lockups, colour palette, typography and the social post system. Comes with a build guide for recreating every piece in Canva.</p>
                     <div class="download-row">
                         <a href="samples/northlight-branded-document.pdf" class="cta-button" download>Download the branded document (PDF)</a>
                         <a href="samples/canva-build-guide.pdf" class="button-secondary" download>Download the Canva build guide</a>
@@ -1119,15 +1267,15 @@
                 </div>
                 <div>
                     <ul class="demo-list">
-                        <li>Logo lockups for light, dark and mark-only use</li>
-                        <li>Five-colour palette with usage rules and hex codes</li>
+                        <li>Logo lockups for light, dark and icon only use</li>
+                        <li>Five colour palette with usage rules and hex codes</li>
                         <li>Typography scale for documents and social posts</li>
                         <li>Do and do not rules that keep the brand consistent</li>
                     </ul>
                 </div>
             </div>
             <div class="gallery">
-                <figure><a href="samples/brand-document-page-1.png" target="_blank" rel="noopener"><img src="samples/brand-document-page-1.png" alt="Brand document page 1" loading="lazy"></a><figcaption>Professional profile one-pager</figcaption></figure>
+                <figure><a href="samples/brand-document-page-1.png" target="_blank" rel="noopener"><img src="samples/brand-document-page-1.png" alt="Brand document page 1" loading="lazy"></a><figcaption>Professional one page profile</figcaption></figure>
                 <figure><a href="samples/brand-document-page-2.png" target="_blank" rel="noopener"><img src="samples/brand-document-page-2.png" alt="Brand document page 2" loading="lazy"></a><figcaption>Workshop outline template</figcaption></figure>
                 <figure><a href="samples/brand-document-page-3.png" target="_blank" rel="noopener"><img src="samples/brand-document-page-3.png" alt="Brand document page 3" loading="lazy"></a><figcaption>Brand sheet</figcaption></figure>
             </div>
@@ -1155,13 +1303,14 @@
                     <a href="samples.html">Sample Work</a>
                     <a href="https://wealthgroup.ai/" target="_blank">Wealth Group</a>
                     <a href="https://agentscribe.net/" target="_blank">Agent Scribe</a>
-                    <a href="https://stackpilot-ten.vercel.app/" target="_blank">Stack Pilot</a>
+                    <a href="https://fnsq.com.au" target="_blank">Mortgage Brokerage</a>
+                    <a href="https://blank.financial/" target="_blank">Blank Financial</a>
                 </div>
 
                 <div class="footer-section">
-                    <h4>AI Tools</h4>
-                    <a href="https://replyr-1kw7e4ufa-saad-bashir.vercel.app/" target="_blank">Replyr</a>
-                    <a href="https://resumai-ziau.vercel.app/" target="_blank">ResumAI</a>
+                    <h4>Automation</h4>
+                    <a href="ai-automation.html">AI Automation</a>
+                    <a href="automation.html">GHL Automation</a>
                 </div>
 
                 <div class="footer-section">
