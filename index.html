@@ -316,6 +316,34 @@
             margin-bottom: 20px;
         }
 
+        .ai-card {
+            grid-column: 1 / -1;
+            background: var(--navy);
+            border-color: var(--navy);
+        }
+
+        .ai-card h3 { color: white; font-size: 24px; }
+        .ai-card > p { color: var(--paper-3); max-width: 820px; margin-bottom: 28px; }
+        .ai-card .achievement-icon { background: rgba(176, 137, 47, 0.2); border-color: rgba(255,255,255,0.2); }
+
+        .agent-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .agent {
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 4px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.04);
+            transition: border-color 0.3s ease;
+        }
+
+        .agent:hover { border-color: var(--gold); }
+        .agent strong { display: block; color: var(--accent); font-size: 16px; margin-bottom: 8px; }
+        .agent span { display: block; color: var(--paper-2); font-size: 14px; line-height: 1.6; }
+
         /* Projects Grid */
         .projects-grid {
             display: grid;
@@ -737,6 +765,8 @@
                 text-align: center;
             }
 
+            .agent-grid { grid-template-columns: 1fr; }
+
             .cards-grid, .projects-grid, .testimonials-grid {
                 grid-template-columns: 1fr;
             }
@@ -970,7 +1000,7 @@
     <section class="alt-bg" id="expertise">
         <div class="container">
             <h2>Core Competencies</h2>
-            <p class="section-intro">What I do best: proven expertise across marketing, community, product, and business.</p>
+            <p class="section-intro">What I do best: proven expertise across marketing, community, product, AI automation, and business.</p>
 
             <div class="cards-grid">
                 <div class="card">
@@ -1007,6 +1037,20 @@
                     <div class="achievement-icon">🎯</div>
                     <h3>Business Acumen</h3>
                     <p>Serial builder with exits and equity upside. Understand growth mechanics, competitive positioning, market differentiation, and how to scale profitable businesses sustainably.</p>
+                </div>
+
+                <div class="card ai-card">
+                    <div class="achievement-icon">🤖</div>
+                    <h3>AI Automation & Agents</h3>
+                    <p>I design and ship AI agents that do real work inside the sales and operations stack, connected to the CRM, phone, website and inbox so every lead is captured, answered and checked without waiting on a human.</p>
+                    <div class="agent-grid">
+                        <div class="agent"><strong>🎙️ Voice Agents</strong><span>AI callers that answer inbound calls, call new leads back in seconds, qualify them and book appointments straight into the calendar.</span></div>
+                        <div class="agent"><strong>🛡️ Compliance Agents</strong><span>Review every SMS, email and ad before it goes out against regulatory and credit-licence rules, flagging risky wording automatically.</span></div>
+                        <div class="agent"><strong>🧲 Lead Capture Agents</strong><span>Website and chat agents that engage visitors, ask qualifying questions and push scored leads into the CRM with source tracking.</span></div>
+                        <div class="agent"><strong>🧾 Quote Agents</strong><span>Collect a prospect's details, calculate indicative quotes or borrowing figures and send a tailored follow-up instantly.</span></div>
+                        <div class="agent"><strong>⚙️ Workflow Automation</strong><span>46-workflow GoHighLevel systems covering speed to lead, booking, pipeline and nurture, plus webhooks, SMS relays and ad conversion APIs.</span></div>
+                        <div class="agent"><strong>📊 Reporting Agents</strong><span>Daily lead digests and accountability checks that surface uncontacted leads, missed replies and booked calls to the team.</span></div>
+                    </div>
                 </div>
             </div>
         </div>
