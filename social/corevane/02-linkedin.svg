@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350" role="img" aria-label="Corevane field notes: a fueling day in four moments">
+  <title>Corevane Field Notes — A fueling day, in four moments</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Manrope:wght@500;700;800&display=swap');
+  .serif{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+  .sans{font-family:Manrope,'Helvetica Neue',Arial,sans-serif}
+  .cap{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:4px}
+  .tick{stroke:#B8B0A2;stroke-width:1.5}
+  .lbl{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:500;font-size:18px;fill:#B8B0A2}]]></style>
+
+  <rect width="1200" height="1350" fill="#1B1A17"/>
+  <rect x="0" y="0" width="12" height="1350" fill="#C2410C"/>
+
+  <!-- Header -->
+  <g transform="translate(80,74) scale(0.16)">
+    <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+    <line x1="196" y1="256" x2="420" y2="256" stroke="#F4EFE6" stroke-width="14"/>
+    <polygon points="456,256 404,224 404,288" fill="#F4EFE6"/>
+    <polygon points="214,256 166,218 184,256 166,294" fill="#F4EFE6"/>
+    <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+  </g>
+  <text class="serif" x="172" y="140" font-size="58" font-weight="900" fill="#F4EFE6">Corevane</text>
+  <text class="cap" x="1120" y="132" font-size="18" fill="#E8B04A" text-anchor="end">FIELD NOTES · NO. 12</text>
+  <line x1="80" y1="180" x2="1120" y2="180" stroke="#F4EFE6" stroke-width="1" opacity="0.5"/>
+
+  <!-- Headline -->
+  <text class="serif" x="80" y="300" font-size="84" font-weight="700" fill="#F4EFE6">A fueling day,</text>
+  <text class="serif" x="80" y="396" font-size="84" font-weight="700" font-style="italic" fill="#E8B04A">in four moments.</text>
+  <text class="sans" x="80" y="466" font-size="28" font-weight="500" fill="#EAE3D6">A sample framework from the Corevane</text>
+  <text class="sans" x="80" y="506" font-size="28" font-weight="500" fill="#EAE3D6">editorial desk — a rhythm, not a rulebook.</text>
+
+  <!-- Day ruler -->
+  <text class="cap" x="80" y="580" font-size="16" fill="#B8B0A2">A TRAINING DAY, 05:00 – 23:00</text>
+  <text class="serif" x="420" y="618" font-size="24" font-style="italic" fill="#EAE3D6">— morning session, about 60 minutes</text>
+  <rect x="195.6" y="644" width="57.7" height="32" fill="#C2410C"/>
+  <line x1="80" y1="660" x2="1120" y2="660" stroke="#F4EFE6" stroke-width="2"/>
+  <g class="tick">
+    <line x1="80" y1="648" x2="80" y2="672"/><line x1="137.8" y1="654" x2="137.8" y2="666"/><line x1="195.6" y1="654" x2="195.6" y2="666"/>
+    <line x1="253.3" y1="648" x2="253.3" y2="672"/><line x1="311.1" y1="654" x2="311.1" y2="666"/><line x1="368.9" y1="654" x2="368.9" y2="666"/>
+    <line x1="426.7" y1="648" x2="426.7" y2="672"/><line x1="484.4" y1="654" x2="484.4" y2="666"/><line x1="542.2" y1="654" x2="542.2" y2="666"/>
+    <line x1="600" y1="648" x2="600" y2="672"/><line x1="657.8" y1="654" x2="657.8" y2="666"/><line x1="715.6" y1="654" x2="715.6" y2="666"/>
+    <line x1="773.3" y1="648" x2="773.3" y2="672"/><line x1="831.1" y1="654" x2="831.1" y2="666"/><line x1="888.9" y1="654" x2="888.9" y2="666"/>
+    <line x1="946.7" y1="648" x2="946.7" y2="672"/><line x1="1004.4" y1="654" x2="1004.4" y2="666"/><line x1="1062.2" y1="654" x2="1062.2" y2="666"/>
+    <line x1="1120" y1="648" x2="1120" y2="672"/>
+  </g>
+  <text class="lbl" x="80" y="704" text-anchor="start">05:00</text>
+  <text class="lbl" x="253.3" y="704" text-anchor="middle">08:00</text>
+  <text class="lbl" x="426.7" y="704" text-anchor="middle">11:00</text>
+  <text class="lbl" x="600" y="704" text-anchor="middle">14:00</text>
+  <text class="lbl" x="773.3" y="704" text-anchor="middle">17:00</text>
+  <text class="lbl" x="946.7" y="704" text-anchor="middle">20:00</text>
+  <text class="lbl" x="1120" y="704" text-anchor="end">23:00</text>
+  <g font-family="'Playfair Display',Georgia,serif" font-weight="700" font-size="22" text-anchor="middle">
+    <line x1="166.7" y1="622" x2="166.7" y2="660" stroke="#E8B04A" stroke-width="1.5"/>
+    <circle cx="166.7" cy="604" r="20" fill="#E8B04A"/><text x="166.7" y="612" fill="#1B1A17">1</text>
+    <circle cx="224.4" cy="604" r="20" fill="#F4EFE6"/><text x="224.4" y="612" fill="#1B1A17">2</text>
+    <line x1="296.7" y1="622" x2="296.7" y2="660" stroke="#E8B04A" stroke-width="1.5"/>
+    <circle cx="296.7" cy="604" r="20" fill="#E8B04A"/><text x="296.7" y="612" fill="#1B1A17">3</text>
+    <line x1="1033.3" y1="622" x2="1033.3" y2="660" stroke="#E8B04A" stroke-width="1.5"/>
+    <circle cx="1033.3" cy="604" r="20" fill="#E8B04A"/><text x="1033.3" y="612" fill="#1B1A17">4</text>
+  </g>
+
+  <!-- Four moments grid -->
+  <line x1="600" y1="770" x2="600" y2="1170" stroke="#F4EFE6" stroke-width="1" opacity="0.35"/>
+  <line x1="80" y1="970" x2="1120" y2="970" stroke="#F4EFE6" stroke-width="1" opacity="0.35"/>
+
+  <g>
+    <text class="serif" x="80" y="880" font-size="120" font-weight="900" fill="#C2410C">01</text>
+    <text class="cap" x="240" y="800" font-size="16" fill="#E8B04A">BEFORE · 06:30</text>
+    <text class="serif" x="240" y="846" font-size="38" font-weight="700" fill="#F4EFE6">Slow Oat Fuel</text>
+    <text class="sans" x="240" y="890" font-size="23" font-weight="500" fill="#EAE3D6">Easy carbohydrate, eaten</text>
+    <text class="sans" x="240" y="922" font-size="23" font-weight="500" fill="#EAE3D6">early enough to settle.</text>
+  </g>
+  <g>
+    <text class="serif" x="640" y="880" font-size="120" font-weight="900" fill="#C2410C">02</text>
+    <text class="cap" x="800" y="800" font-size="16" fill="#E8B04A">DURING · 07:00</text>
+    <text class="serif" x="800" y="846" font-size="38" font-weight="700" fill="#F4EFE6">Electrolyte</text>
+    <text class="sans" x="800" y="890" font-size="23" font-weight="500" fill="#EAE3D6">Fluids and sodium for</text>
+    <text class="sans" x="800" y="922" font-size="23" font-weight="500" fill="#EAE3D6">longer, sweatier work.</text>
+  </g>
+  <g>
+    <text class="serif" x="80" y="1090" font-size="120" font-weight="900" fill="#C2410C">03</text>
+    <text class="cap" x="240" y="1010" font-size="16" fill="#E8B04A">AFTER · 08:45</text>
+    <text class="serif" x="240" y="1056" font-size="38" font-weight="700" fill="#F4EFE6">Base Protein</text>
+    <text class="sans" x="240" y="1100" font-size="23" font-weight="500" fill="#EAE3D6">Protein alongside a real</text>
+    <text class="sans" x="240" y="1132" font-size="23" font-weight="500" fill="#EAE3D6">meal, not instead of one.</text>
+  </g>
+  <g>
+    <text class="serif" x="640" y="1090" font-size="120" font-weight="900" fill="#C2410C">04</text>
+    <text class="cap" x="800" y="1010" font-size="16" fill="#E8B04A">REST · 21:30</text>
+    <text class="serif" x="800" y="1056" font-size="38" font-weight="700" fill="#F4EFE6">Night Blend</text>
+    <text class="sans" x="800" y="1100" font-size="23" font-weight="500" fill="#EAE3D6">A warm, caffeine-free</text>
+    <text class="sans" x="800" y="1132" font-size="23" font-weight="500" fill="#EAE3D6">ritual to close the day.</text>
+  </g>
+
+  <!-- Footer -->
+  <line x1="80" y1="1206" x2="1120" y2="1206" stroke="#F4EFE6" stroke-width="1" opacity="0.5"/>
+  <text class="sans" x="80" y="1246" font-size="20" font-weight="500" fill="#B8B0A2">Sample framework only. Individual needs vary — speak with a registered dietitian.</text>
+  <text class="sans" x="80" y="1284" font-size="24" font-weight="800" fill="#E8B04A">Read the full protocol in Issue 07 →</text>
+</svg>

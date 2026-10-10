@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-label="Corevane logo">
+  <title>Corevane</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Manrope:wght@600&display=swap');
+  .w{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:84px;fill:#1B1A17}
+  .t{font-family:Manrope,Arial,sans-serif;font-weight:600;font-size:13px;letter-spacing:4px;fill:#14532D}]]></style>
+  <g transform="translate(8,8) scale(0.28125)">
+    <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+    <line x1="196" y1="256" x2="420" y2="256" stroke="#1B1A17" stroke-width="14"/>
+    <polygon points="456,256 404,224 404,288" fill="#1B1A17"/>
+    <polygon points="214,256 166,218 184,256 166,294" fill="#1B1A17"/>
+    <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+  </g>
+  <text class="w" x="170" y="100">Corevane</text>
+  <line x1="172" y1="118" x2="600" y2="118" stroke="#1B1A17" stroke-width="1"/>
+  <text class="t" x="172" y="140">PERFORMANCE NUTRITION JOURNAL</text>
+</svg>

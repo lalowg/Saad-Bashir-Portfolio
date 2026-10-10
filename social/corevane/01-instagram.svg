@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-label="Corevane Journal Issue 07 cover: Fuel is a discipline">
+  <title>Corevane Journal — Issue 07 cover</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Manrope:wght@500;700;800&display=swap');
+  .serif{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+  .sans{font-family:Manrope,'Helvetica Neue',Arial,sans-serif}
+  .cap{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:4px}]]></style>
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="3.2" fill="#E8B04A"/>
+    </pattern>
+    <clipPath id="panel"><rect x="420" y="268" width="540" height="700"/></clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C2410C" stop-opacity="0"/>
+      <stop offset="1" stop-color="#C2410C" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1350" fill="#F4EFE6"/>
+
+  <!-- Masthead -->
+  <g transform="translate(72,92) scale(0.22)">
+    <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+    <line x1="196" y1="256" x2="420" y2="256" stroke="#1B1A17" stroke-width="14"/>
+    <polygon points="456,256 404,224 404,288" fill="#1B1A17"/>
+    <polygon points="214,256 166,218 184,256 166,294" fill="#1B1A17"/>
+    <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+  </g>
+  <text class="serif" x="200" y="196" font-size="118" font-weight="900" fill="#1B1A17">Corevane</text>
+  <text class="cap" x="1008" y="128" font-size="20" fill="#14532D" text-anchor="end">THE JOURNAL</text>
+  <text class="cap" x="1008" y="160" font-size="20" fill="#1B1A17" text-anchor="end">ISSUE 07</text>
+  <text class="cap" x="1008" y="192" font-size="20" fill="#1B1A17" text-anchor="end">OCT 2026</text>
+  <line x1="72" y1="228" x2="1008" y2="228" stroke="#1B1A17" stroke-width="3"/>
+  <line x1="72" y1="238" x2="1008" y2="238" stroke="#1B1A17" stroke-width="1"/>
+
+  <!-- Duotone athlete panel -->
+  <g clip-path="url(#panel)">
+    <rect x="420" y="268" width="540" height="700" fill="#C2410C"/>
+    <rect x="420" y="268" width="540" height="700" fill="url(#dots)" opacity="0.35"/>
+    <circle cx="820" cy="420" r="220" fill="#E8B04A" opacity="0.9"/>
+    <g transform="translate(440,250) scale(1.55)" fill="none" stroke="#14532D" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="250" cy="90" r="40" fill="#14532D" stroke="none"/>
+      <polyline points="238,140 200,272" stroke-width="74"/>
+      <polyline points="226,165 166,228 118,190" stroke-width="34"/>
+      <polyline points="232,162 294,222 344,176" stroke-width="34"/>
+      <polyline points="202,272 292,342 262,452" stroke-width="50"/>
+      <polyline points="200,276 140,372 48,384" stroke-width="46"/>
+    </g>
+    <rect x="420" y="700" width="540" height="268" fill="url(#fade)"/>
+    <g stroke="#F4EFE6" stroke-width="1" opacity="0.7">
+      <line x1="440" y1="920" x2="940" y2="920"/>
+    </g>
+    <text class="cap" x="444" y="950" font-size="18" fill="#F4EFE6">COVER STORY · THE SLOW MORNING</text>
+  </g>
+  <rect x="820" y="292" width="116" height="44" fill="#1B1A17"/>
+  <text class="cap" x="878" y="321" font-size="16" fill="#E8B04A" text-anchor="middle">NO. 07</text>
+
+  <!-- Giant numeral -->
+  <text class="serif" x="56" y="660" font-size="420" font-weight="900" fill="#1B1A17" stroke="#F4EFE6" stroke-width="10" paint-order="stroke">07</text>
+  <text class="serif" x="76" y="740" font-size="34" font-style="italic" fill="#14532D">The autumn</text>
+  <text class="serif" x="76" y="782" font-size="34" font-style="italic" fill="#14532D">training issue</text>
+  <line x1="76" y1="812" x2="380" y2="812" stroke="#1B1A17" stroke-width="1"/>
+  <text class="sans" x="76" y="852" font-size="22" font-weight="500" fill="#1B1A17">Eat with the same</text>
+  <text class="sans" x="76" y="882" font-size="22" font-weight="500" fill="#1B1A17">intent you train with.</text>
+
+  <!-- Vertical running header -->
+  <text class="cap" font-size="18" fill="#1B1A17" transform="translate(988,290) rotate(90)">PERFORMANCE NUTRITION · VOL. II · ISSUE 07</text>
+
+  <!-- Headline -->
+  <text class="serif" x="72" y="1080" font-size="104" font-weight="700" fill="#1B1A17">Fuel is a</text>
+  <text class="serif" x="72" y="1180" font-size="104" font-weight="700" font-style="italic" fill="#C2410C">discipline.</text>
+
+  <!-- Cover lines -->
+  <line x1="72" y1="1214" x2="1008" y2="1214" stroke="#1B1A17" stroke-width="1"/>
+  <g>
+    <text class="serif" x="72" y="1266" font-size="44" font-weight="900" fill="#C2410C">01</text>
+    <text class="sans" x="132" y="1256" font-size="21" font-weight="700" fill="#1B1A17">The four-moment</text>
+    <text class="sans" x="132" y="1282" font-size="21" font-weight="500" fill="#1B1A17">fueling day</text>
+    <text class="serif" x="384" y="1266" font-size="44" font-weight="900" fill="#C2410C">02</text>
+    <text class="sans" x="444" y="1256" font-size="21" font-weight="700" fill="#1B1A17">A quieter</text>
+    <text class="sans" x="444" y="1282" font-size="21" font-weight="500" fill="#1B1A17">night ritual</text>
+    <text class="serif" x="696" y="1266" font-size="44" font-weight="900" fill="#C2410C">03</text>
+    <text class="sans" x="756" y="1256" font-size="21" font-weight="700" fill="#1B1A17">The Long</text>
+    <text class="sans" x="756" y="1282" font-size="21" font-weight="500" fill="#1B1A17">Table Run</text>
+  </g>
+</svg>

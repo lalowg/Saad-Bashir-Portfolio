@@ -1,0 +1,52 @@
+{
+  "slug": "corevane",
+  "name": "Corevane",
+  "industry": "fitness",
+  "category": "Performance nutrition & wellness",
+  "tagline": "Fuel is a discipline.",
+  "positioning": "Corevane is the performance-nutrition brand that publishes like a sports journal: short, transparent formulas framed by editorial guidance on when and why to use them.",
+  "audience": "Committed amateur athletes aged 25–45 (runners, cyclists, hybrid trainers) who read labels, distrust hype, and want nutrition that fits a training week rather than a trend.",
+  "strategy": "Lead with editorial authority instead of supplement-aisle shouting: every product is presented as a chapter in a quarterly journal, with ingredient ledgers and a simple four-moment fueling framework. Community rituals such as the Long Table Run turn readers into regulars, while restrained, claim-free copy builds trust over time.",
+  "voice": ["confident", "editorial", "precise", "unhurried"],
+  "palette": [
+    {"name": "Newsprint Cream", "hex": "#F4EFE6", "role": "bg"},
+    {"name": "Press Black", "hex": "#1B1A17", "role": "ink"},
+    {"name": "Ember Orange", "hex": "#C2410C", "role": "primary"},
+    {"name": "Track Green", "hex": "#14532D", "role": "secondary"},
+    {"name": "Oat Gold", "hex": "#E8B04A", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#1B1A17", "bg": "#F4EFE6", "ratio": "15.19:1", "use": "body text on cream"},
+    {"fg": "#F4EFE6", "bg": "#1B1A17", "ratio": "15.19:1", "use": "body text on dark sections"},
+    {"fg": "#EAE3D6", "bg": "#1B1A17", "ratio": "13.64:1", "use": "secondary body text on dark"},
+    {"fg": "#E8B04A", "bg": "#1B1A17", "ratio": "8.90:1", "use": "accent numerals and labels on dark"},
+    {"fg": "#B8B0A2", "bg": "#1B1A17", "ratio": "8.10:1", "use": "captions on dark"},
+    {"fg": "#14532D", "bg": "#F4EFE6", "ratio": "7.96:1", "use": "kickers and italic deks on cream"},
+    {"fg": "#F4EFE6", "bg": "#14532D", "ratio": "7.96:1", "use": "body text on green blocks"},
+    {"fg": "#9A3412", "bg": "#F4EFE6", "ratio": "6.38:1", "use": "small links and labels on cream (deep ember)"},
+    {"fg": "#5C574E", "bg": "#F4EFE6", "ratio": "6.26:1", "use": "muted captions and disclaimers on cream"},
+    {"fg": "#3D3A34", "bg": "#E8B04A", "ratio": "5.80:1", "use": "body text on gold"},
+    {"fg": "#FFFFFF", "bg": "#C2410C", "ratio": "5.18:1", "use": "button labels on ember"},
+    {"fg": "#14532D", "bg": "#E8B04A", "ratio": "4.66:1", "use": "numerals on gold"},
+    {"fg": "#C2410C", "bg": "#F4EFE6", "ratio": "4.52:1", "use": "display headlines and large numerals on cream"}
+  ],
+  "fonts": {"display": "Playfair Display", "body": "Manrope", "mono": ""},
+  "designSystem": {
+    "spacing": "8px base; editorial rhythm of 24 / 48 / 96px between blocks; generous outer gutters (clamp 20–72px)",
+    "radius": "0 on cards, panels and buttons (print-like); full pill only for small tags",
+    "borders": "Thin 1px ink rules as dividers, paired 3px+1px double rules under mastheads and section heads",
+    "imagery": "Cropped duotone athlete illustrations (track green figure on ember or gold) with halftone dot overlays; no photography",
+    "shapes": "Hard-edged rectangles, the open-C vane mark, circular halftone suns, dotted route lines",
+    "buttons": "Square, solid Press Black or Ember with uppercase Manrope 700 tracked labels and an arrow; outline variant with 1px ink border",
+    "cards": "Borderless columns separated by hairline rules, each led by a large Playfair numeral",
+    "motifs": "Large serif numerals, thin editorial rules, cropped duotone athletes, vertical running headers, pull quotes"
+  },
+  "artDirection": "Treat every post like a page from a premium sports journal: a masthead, a running header, a large Playfair numeral and one confident headline. Alternate cream, Press Black, Track Green and Oat Gold grounds so the grid feels varied while type and rules stay constant. Athletes appear only as cropped duotone illustrations with halftone texture, never as faces. Copy states what a product is and when to use it, never what it cures.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post 1080×1350", "width": 1080, "height": 1350, "title": "Issue 07 Cover", "headline": "Fuel is a discipline.", "summary": "Magazine-cover composition with a giant serif 07, duotone runner panel and three cover lines."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Feed post 1200×1350", "width": 1200, "height": 1350, "title": "Field Notes: Four Moments", "headline": "A fueling day, in four moments.", "summary": "Data-led day ruler mapping a sample fueling framework across a training day, with four numbered moments."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "Night Blend Launch", "headline": "Night Magnesium Blend is here.", "summary": "Split announcement with headline and CTA beside a green still-life panel of the new tin and crescent."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign 1200×1500", "width": 1200, "height": 1500, "title": "The Long Table Run", "headline": "The Long Table Run.", "summary": "Community run-and-breakfast invite with a dotted 5 km route, top-down long table and RSVP CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Carousel cover / infographic 1080×1080", "width": 1080, "height": 1080, "title": "The Ingredient Ledger", "headline": "The Ingredient Ledger.", "summary": "Gold infographic ledger listing Base Protein's six ingredients and the job each one does."}
+  ]
+}

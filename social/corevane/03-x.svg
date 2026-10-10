@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Corevane announces Night Magnesium Blend">
+  <title>Corevane — Night Magnesium Blend is here</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Manrope:wght@500;700;800&display=swap');
+  .serif{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+  .sans{font-family:Manrope,'Helvetica Neue',Arial,sans-serif}
+  .cap{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:4px}]]></style>
+  <defs>
+    <pattern id="dotsX" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="2.6" fill="#E8B04A"/>
+    </pattern>
+    <clipPath id="rp"><rect x="1000" y="0" width="600" height="900"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="#F4EFE6"/>
+
+  <!-- Right panel: product still life -->
+  <g clip-path="url(#rp)">
+    <rect x="1000" y="0" width="600" height="900" fill="#14532D"/>
+    <rect x="1000" y="560" width="600" height="340" fill="url(#dotsX)" opacity="0.22"/>
+    <text class="serif" x="1020" y="560" font-size="440" font-weight="900" fill="none" stroke="#E8B04A" stroke-width="3" opacity="0.8">04</text>
+    <!-- crescent -->
+    <circle cx="1440" cy="180" r="74" fill="#E8B04A"/>
+    <circle cx="1474" cy="158" r="66" fill="#14532D"/>
+    <!-- tin -->
+    <ellipse cx="1300" cy="742" rx="170" ry="22" fill="#0B2E19" opacity="0.6"/>
+    <rect x="1170" y="330" width="260" height="410" rx="14" fill="#F4EFE6"/>
+    <rect x="1158" y="300" width="284" height="58" rx="10" fill="#1B1A17"/>
+    <rect x="1170" y="430" width="260" height="168" fill="#C2410C"/>
+    <g transform="translate(1269,364) scale(0.12)">
+      <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+      <line x1="196" y1="256" x2="420" y2="256" stroke="#1B1A17" stroke-width="14"/>
+      <polygon points="456,256 404,224 404,288" fill="#1B1A17"/>
+      <polygon points="214,256 166,218 184,256 166,294" fill="#1B1A17"/>
+      <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+    </g>
+    <text class="serif" x="1300" y="502" font-size="46" font-weight="900" fill="#F4EFE6" text-anchor="middle">Night</text>
+    <text class="cap" x="1300" y="540" font-size="15" fill="#F4EFE6" text-anchor="middle">MAGNESIUM BLEND</text>
+    <line x1="1200" y1="562" x2="1400" y2="562" stroke="#F4EFE6" stroke-width="1"/>
+    <text class="cap" x="1300" y="586" font-size="12" fill="#F4EFE6" text-anchor="middle">NO. 04 · 300 G</text>
+    <text class="serif" x="1300" y="660" font-size="22" font-style="italic" fill="#1B1A17" text-anchor="middle">warm cacao &amp; cherry</text>
+    <!-- running header -->
+    <text class="cap" font-size="16" fill="#E8B04A" transform="translate(1516,300) rotate(90)">THE CORE FOUR · FORMULA 04</text>
+  </g>
+
+  <!-- Left: announcement -->
+  <g transform="translate(80,58) scale(0.15)">
+    <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+    <line x1="196" y1="256" x2="420" y2="256" stroke="#1B1A17" stroke-width="14"/>
+    <polygon points="456,256 404,224 404,288" fill="#1B1A17"/>
+    <polygon points="214,256 166,218 184,256 166,294" fill="#1B1A17"/>
+    <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+  </g>
+  <text class="serif" x="166" y="120" font-size="52" font-weight="900" fill="#1B1A17">Corevane</text>
+  <rect x="80" y="182" width="290" height="44" rx="22" fill="#C2410C"/>
+  <text class="cap" x="225" y="211" font-size="16" fill="#FFFFFF" text-anchor="middle">NEW FORMULA · 04</text>
+  <line x1="390" y1="204" x2="920" y2="204" stroke="#1B1A17" stroke-width="1"/>
+
+  <text class="serif" x="80" y="350" font-size="96" font-weight="700" fill="#1B1A17">Night Magnesium</text>
+  <text class="serif" x="80" y="456" font-size="96" font-weight="700" font-style="italic" fill="#C2410C">Blend is here.</text>
+
+  <text class="sans" x="80" y="540" font-size="30" font-weight="500" fill="#1B1A17">A warm, caffeine-free evening ritual with</text>
+  <text class="sans" x="80" y="582" font-size="30" font-weight="500" fill="#1B1A17">magnesium glycinate, tart cherry and cacao.</text>
+
+  <rect x="80" y="642" width="420" height="80" fill="#1B1A17"/>
+  <text class="sans" x="290" y="692" font-size="26" font-weight="800" fill="#F4EFE6" text-anchor="middle">Read the formula notes →</text>
+  <text class="serif" x="530" y="694" font-size="26" font-style="italic" fill="#14532D">Ships 20 Oct 2026</text>
+
+  <line x1="80" y1="784" x2="920" y2="784" stroke="#1B1A17" stroke-width="1"/>
+  <text class="sans" x="80" y="822" font-size="18" font-weight="500" fill="#5C574E">Food supplement. Not intended to diagnose, treat, cure or prevent any disease.</text>
+</svg>

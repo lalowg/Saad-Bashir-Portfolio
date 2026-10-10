@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Corevane mark">
+  <title>Corevane mark</title>
+  <rect width="512" height="512" rx="96" fill="#1B1A17"/>
+  <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+  <line x1="196" y1="256" x2="420" y2="256" stroke="#F4EFE6" stroke-width="14"/>
+  <polygon points="456,256 404,224 404,288" fill="#F4EFE6"/>
+  <polygon points="214,256 166,218 184,256 166,294" fill="#F4EFE6"/>
+  <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+</svg>

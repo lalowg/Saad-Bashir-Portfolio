@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" role="img" aria-label="Corevane infographic: The Ingredient Ledger for Base Protein">
+  <title>Corevane — The Ingredient Ledger</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Manrope:wght@500;700;800&display=swap');
+  .serif{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+  .sans{font-family:Manrope,'Helvetica Neue',Arial,sans-serif}
+  .cap{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:4px}
+  .num{font-family:'Playfair Display',Georgia,serif;font-weight:900;font-size:40px;fill:#14532D}
+  .ing{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:800;font-size:29px;fill:#1B1A17}
+  .why{font-family:'Playfair Display',Georgia,serif;font-style:italic;font-size:28px;fill:#1B1A17}
+  .rule{stroke:#1B1A17;stroke-width:1}]]></style>
+
+  <rect width="1080" height="1080" fill="#E8B04A"/>
+  <!-- giant background numeral -->
+  <text class="serif" x="1060" y="560" font-size="560" font-weight="900" fill="#F4EFE6" opacity="0.35" text-anchor="end">6</text>
+
+  <!-- vertical running header -->
+  <text class="cap" font-size="16" fill="#1B1A17" transform="translate(84,1000) rotate(-90)">CAROUSEL · 1 OF 7 · BASE PROTEIN</text>
+  <line x1="108" y1="72" x2="108" y2="1008" stroke="#1B1A17" stroke-width="1"/>
+
+  <!-- header -->
+  <g transform="translate(140,72) scale(0.12)">
+    <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+    <line x1="196" y1="256" x2="420" y2="256" stroke="#1B1A17" stroke-width="14"/>
+    <polygon points="456,256 404,224 404,288" fill="#1B1A17"/>
+    <polygon points="214,256 166,218 184,256 166,294" fill="#1B1A17"/>
+    <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+  </g>
+  <text class="serif" x="210" y="120" font-size="44" font-weight="900" fill="#1B1A17">Corevane</text>
+  <text class="cap" x="1008" y="114" font-size="16" fill="#1B1A17" text-anchor="end">TRANSPARENCY SERIES</text>
+
+  <text class="serif" x="140" y="250" font-size="96" font-weight="900" fill="#1B1A17">The Ingredient</text>
+  <text class="serif" x="140" y="346" font-size="96" font-weight="900" font-style="italic" fill="#14532D">Ledger.</text>
+  <text class="sans" x="140" y="404" font-size="26" font-weight="500" fill="#1B1A17">Base Protein, line by line. Six inputs, six jobs.</text>
+
+  <!-- ledger -->
+  <line x1="140" y1="448" x2="1008" y2="448" stroke="#1B1A17" stroke-width="3"/>
+  <text class="cap" x="140" y="480" font-size="14" fill="#1B1A17">NO.</text>
+  <text class="cap" x="220" y="480" font-size="14" fill="#1B1A17">INGREDIENT</text>
+  <text class="cap" x="660" y="480" font-size="14" fill="#1B1A17">ITS JOB</text>
+  <line x1="140" y1="496" x2="1008" y2="496" class="rule"/>
+
+  <text class="num" x="140" y="548">01</text><text class="ing" x="220" y="545">Whey protein isolate</text><text class="why" x="660" y="545">the protein base</text>
+  <line x1="140" y1="572" x2="1008" y2="572" class="rule"/>
+  <text class="num" x="140" y="624">02</text><text class="ing" x="220" y="621">Micellar casein</text><text class="why" x="660" y="621">a thicker shake</text>
+  <line x1="140" y1="648" x2="1008" y2="648" class="rule"/>
+  <text class="num" x="140" y="700">03</text><text class="ing" x="220" y="697">Fine oat flour</text><text class="why" x="660" y="697">body and texture</text>
+  <line x1="140" y1="724" x2="1008" y2="724" class="rule"/>
+  <text class="num" x="140" y="776">04</text><text class="ing" x="220" y="773">Unsweetened cacao</text><text class="why" x="660" y="773">flavour, honestly</text>
+  <line x1="140" y1="800" x2="1008" y2="800" class="rule"/>
+  <text class="num" x="140" y="852">05</text><text class="ing" x="220" y="849">Sea salt</text><text class="why" x="660" y="849">rounds the taste</text>
+  <line x1="140" y1="876" x2="1008" y2="876" class="rule"/>
+  <text class="num" x="140" y="928">06</text><text class="ing" x="220" y="925">Monk fruit extract</text><text class="why" x="660" y="925">light sweetness</text>
+  <line x1="140" y1="952" x2="1008" y2="952" stroke="#1B1A17" stroke-width="3"/>
+
+  <text class="sans" x="140" y="1000" font-size="22" font-weight="800" fill="#1B1A17">Swipe for the full ledger →</text>
+  <text class="sans" x="1008" y="1000" font-size="18" font-weight="500" fill="#3D3A34" text-anchor="end">No colours. No fillers. No secrets.</text>
+</svg>

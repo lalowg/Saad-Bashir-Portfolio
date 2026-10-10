@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Corevane community campaign: The Long Table Run, Sunday 25 October 2026">
+  <title>Corevane — The Long Table Run</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Manrope:wght@500;700;800&display=swap');
+  .serif{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+  .sans{font-family:Manrope,'Helvetica Neue',Arial,sans-serif}
+  .cap{font-family:Manrope,'Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:4px}]]></style>
+  <defs>
+    <pattern id="dotsF" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="2.4" fill="#F4EFE6"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="1500" fill="#F4EFE6"/>
+
+  <!-- Green campaign block -->
+  <rect x="0" y="0" width="1200" height="820" fill="#14532D"/>
+  <rect x="760" y="0" width="440" height="820" fill="url(#dotsF)" opacity="0.08"/>
+
+  <g transform="translate(80,64) scale(0.16)">
+    <path d="M371 159.5 A150 150 0 1 0 371 352.5" fill="none" stroke="#C2410C" stroke-width="56"/>
+    <line x1="196" y1="256" x2="420" y2="256" stroke="#F4EFE6" stroke-width="14"/>
+    <polygon points="456,256 404,224 404,288" fill="#F4EFE6"/>
+    <polygon points="214,256 166,218 184,256 166,294" fill="#F4EFE6"/>
+    <circle cx="256" cy="256" r="20" fill="#E8B04A"/>
+  </g>
+  <text class="serif" x="172" y="130" font-size="56" font-weight="900" fill="#F4EFE6">Corevane</text>
+  <text class="cap" x="1120" y="124" font-size="18" fill="#E8B04A" text-anchor="end">COMMUNITY · NO. 03</text>
+  <line x1="80" y1="172" x2="1120" y2="172" stroke="#F4EFE6" stroke-width="1" opacity="0.5"/>
+
+  <text class="sans" x="80" y="240" font-size="28" font-weight="700" fill="#E8B04A">Sunday 25 October 2026 · free · all paces</text>
+  <text class="serif" x="80" y="390" font-size="140" font-weight="900" font-style="italic" fill="#F4EFE6">The Long</text>
+  <text class="serif" x="80" y="530" font-size="140" font-weight="900" font-style="italic" fill="#F4EFE6">Table Run.</text>
+
+  <!-- Route -->
+  <path d="M110 700 C 260 590, 380 760, 540 660 S 820 560, 960 650 S 1080 720, 1090 640" fill="none" stroke="#E8B04A" stroke-width="5" stroke-dasharray="2 14" stroke-linecap="round"/>
+  <circle cx="110" cy="700" r="14" fill="#E8B04A"/>
+  <circle cx="1090" cy="640" r="14" fill="none" stroke="#E8B04A" stroke-width="5"/>
+  <text class="cap" x="134" y="740" font-size="16" fill="#F4EFE6">START 07:30</text>
+  <text class="cap" x="1090" y="610" font-size="16" fill="#F4EFE6" text-anchor="end">5 KM · TABLE</text>
+  <text class="serif" x="1120" y="440" font-size="200" font-weight="900" fill="none" stroke="#E8B04A" stroke-width="2" text-anchor="end" opacity="0.6">5</text>
+
+  <!-- Long table, top-down -->
+  <rect x="120" y="760" width="960" height="130" rx="65" fill="#F4EFE6" stroke="#1B1A17" stroke-width="3"/>
+  <line x1="190" y1="825" x2="1010" y2="825" stroke="#1B1A17" stroke-width="1" stroke-dasharray="6 8"/>
+  <g stroke="#1B1A17" stroke-width="2.5" fill="#F4EFE6">
+    <circle cx="230" cy="796" r="22"/><circle cx="360" cy="796" r="22"/><circle cx="490" cy="796" r="22"/><circle cx="620" cy="796" r="22"/><circle cx="750" cy="796" r="22"/><circle cx="880" cy="796" r="22"/>
+    <circle cx="295" cy="856" r="22"/><circle cx="425" cy="856" r="22"/><circle cx="555" cy="856" r="22"/><circle cx="685" cy="856" r="22"/><circle cx="815" cy="856" r="22"/><circle cx="945" cy="856" r="22"/>
+  </g>
+  <g fill="#C2410C">
+    <circle cx="230" cy="796" r="8"/><circle cx="490" cy="796" r="8"/><circle cx="750" cy="796" r="8"/>
+    <circle cx="425" cy="856" r="8"/><circle cx="685" cy="856" r="8"/><circle cx="945" cy="856" r="8"/>
+  </g>
+  <g fill="#E8B04A">
+    <circle cx="360" cy="796" r="8"/><circle cx="620" cy="796" r="8"/><circle cx="880" cy="796" r="8"/>
+    <circle cx="295" cy="856" r="8"/><circle cx="555" cy="856" r="8"/><circle cx="815" cy="856" r="8"/>
+  </g>
+
+  <!-- Details -->
+  <g>
+    <text class="serif" x="80" y="1010" font-size="72" font-weight="700" fill="#C2410C">07:30</text>
+    <text class="sans" x="80" y="1058" font-size="24" font-weight="700" fill="#1B1A17">Gather at the</text>
+    <text class="sans" x="80" y="1090" font-size="24" font-weight="500" fill="#1B1A17">Riverside Commons</text>
+    <line x1="410" y1="950" x2="410" y2="1110" stroke="#1B1A17" stroke-width="1"/>
+    <text class="serif" x="440" y="1010" font-size="72" font-weight="700" fill="#C2410C">5 km</text>
+    <text class="sans" x="440" y="1058" font-size="24" font-weight="700" fill="#1B1A17">Conversational pace,</text>
+    <text class="sans" x="440" y="1090" font-size="24" font-weight="500" fill="#1B1A17">every level welcome</text>
+    <line x1="770" y1="950" x2="770" y2="1110" stroke="#1B1A17" stroke-width="1"/>
+    <text class="serif" x="800" y="1010" font-size="72" font-weight="700" fill="#C2410C">08:30</text>
+    <text class="sans" x="800" y="1058" font-size="24" font-weight="700" fill="#1B1A17">Breakfast at the</text>
+    <text class="sans" x="800" y="1090" font-size="24" font-weight="500" fill="#1B1A17">long table, on us</text>
+  </g>
+
+  <line x1="80" y1="1160" x2="1120" y2="1160" stroke="#1B1A17" stroke-width="3"/>
+  <line x1="80" y1="1170" x2="1120" y2="1170" stroke="#1B1A17" stroke-width="1"/>
+  <text class="serif" x="80" y="1250" font-size="52" font-style="italic" fill="#14532D">“Run together, eat together.”</text>
+
+  <rect x="80" y="1310" width="520" height="96" fill="#C2410C"/>
+  <text class="sans" x="340" y="1370" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle">RSVP free · 120 places</text>
+  <text class="sans" x="1120" y="1352" font-size="24" font-weight="700" fill="#1B1A17" text-anchor="end">Comment “table”</text>
+  <text class="sans" x="1120" y="1386" font-size="24" font-weight="500" fill="#1B1A17" text-anchor="end">to save your seat</text>
+</svg>
