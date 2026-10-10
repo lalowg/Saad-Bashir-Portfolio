@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-label="Diodeline logo">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@800&amp;display=swap');
+  .wm{font-family:'Red Hat Display',Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:-2px}</style>
+  <g transform="translate(16,16) scale(0.25)">
+    <rect width="512" height="512" rx="112" fill="#0A0F1C"/>
+    <line x1="64" y1="256" x2="448" y2="256" stroke="#10B981" stroke-width="22" stroke-linecap="round"/>
+    <polygon points="168,128 340,256 168,384" fill="#6D28D9"/>
+    <polygon points="196,184 292,256 196,328" fill="#E0E7FF" opacity="0.18"/>
+    <rect x="344" y="128" width="32" height="256" rx="8" fill="#10B981"/>
+    <circle cx="64" cy="256" r="26" fill="#0A0F1C" stroke="#10B981" stroke-width="12"/>
+    <circle cx="448" cy="256" r="26" fill="#0A0F1C" stroke="#10B981" stroke-width="12"/>
+  </g>
+  <text class="wm" x="168" y="106" font-size="76" fill="#0A0F1C">diode<tspan fill="#6D28D9">line</tspan></text>
+  <rect x="172" y="122" width="40" height="6" rx="3" fill="#10B981"/>
+</svg>

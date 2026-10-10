@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Diodeline mark: a diode symbol on a circuit trace">
+  <rect width="512" height="512" rx="112" fill="#0A0F1C"/>
+  <g fill="none" stroke="#1E2640" stroke-width="6" stroke-linecap="round">
+    <path d="M96 120 H176 L208 88"/>
+    <path d="M416 392 H336 L304 424"/>
+    <path d="M96 392 H136"/>
+    <path d="M416 120 H376"/>
+  </g>
+  <line x1="64" y1="256" x2="448" y2="256" stroke="#10B981" stroke-width="22" stroke-linecap="round"/>
+  <polygon points="168,128 340,256 168,384" fill="#6D28D9"/>
+  <polygon points="196,184 292,256 196,328" fill="#E0E7FF" opacity="0.18"/>
+  <rect x="344" y="128" width="32" height="256" rx="8" fill="#10B981"/>
+  <circle cx="64" cy="256" r="26" fill="#0A0F1C" stroke="#10B981" stroke-width="12"/>
+  <circle cx="448" cy="256" r="26" fill="#0A0F1C" stroke="#10B981" stroke-width="12"/>
+</svg>

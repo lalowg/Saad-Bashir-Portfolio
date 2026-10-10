@@ -1,0 +1,53 @@
+{
+  "slug": "diodeline",
+  "name": "Diodeline",
+  "industry": "news",
+  "category": "Technology news & product explainers",
+  "tagline": "Tech news, traced to the source.",
+  "positioning": "Diodeline is the tech newsroom that turns launch-day noise into dated briefings, versioned explainers and spec cards that print the fine print, so readers know what a claim actually depends on.",
+  "audience": "Curious, busy gadget owners and early-career tech professionals (24-45) who want to decide whether to update, upgrade or wait without wading through hype.",
+  "strategy": "Own clarity over speed: every story is dated, every explainer is versioned, and every spec claim carries its condition. A running changelog and a weekday email build a habit, while social turns the method itself (spec cards, launch anatomy, Ask the Desk) into save-worthy, shareable formats.",
+  "voice": ["Crisp", "Electric", "Precise", "Plain-spoken"],
+  "palette": [
+    {"name": "Cleanroom", "hex": "#F7F8FA", "role": "bg"},
+    {"name": "Substrate Ink", "hex": "#0A0F1C", "role": "ink"},
+    {"name": "Diode Violet", "hex": "#6D28D9", "role": "primary"},
+    {"name": "Signal Green", "hex": "#10B981", "role": "secondary"},
+    {"name": "Indigo Haze", "hex": "#E0E7FF", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#0A0F1C", "bg": "#F7F8FA", "ratio": "18.0:1", "use": "body text and headlines on light"},
+    {"fg": "#F7F8FA", "bg": "#0A0F1C", "ratio": "18.0:1", "use": "text on dark panels"},
+    {"fg": "#6D28D9", "bg": "#F7F8FA", "ratio": "6.69:1", "use": "links and accent headlines"},
+    {"fg": "#FFFFFF", "bg": "#6D28D9", "ratio": "7.10:1", "use": "primary buttons and purple panels"},
+    {"fg": "#10B981", "bg": "#0A0F1C", "ratio": "7.54:1", "use": "signal-green text on dark"},
+    {"fg": "#0A0F1C", "bg": "#10B981", "ratio": "7.54:1", "use": "labels on green chips and buttons"},
+    {"fg": "#6D28D9", "bg": "#E0E7FF", "ratio": "5.77:1", "use": "SAMPLE STORY chips"},
+    {"fg": "#4A5168", "bg": "#F7F8FA", "ratio": "7.41:1", "use": "muted body text"},
+    {"fg": "#4A5168", "bg": "#FFFFFF", "ratio": "7.87:1", "use": "card body text"},
+    {"fg": "#047857", "bg": "#F7F8FA", "ratio": "5.16:1", "use": "green kicker text on light"},
+    {"fg": "#047857", "bg": "#E7F8F1", "ratio": "4.99:1", "use": "version-tag chips"},
+    {"fg": "#C9CEDC", "bg": "#0A0F1C", "ratio": "12.15:1", "use": "secondary body text on dark"},
+    {"fg": "#9AA3BC", "bg": "#0A0F1C", "ratio": "7.59:1", "use": "timestamps on dark"},
+    {"fg": "#0A0F1C", "bg": "#C4B5FD", "ratio": "10.36:1", "use": "major-release version chips"}
+  ],
+  "fonts": {"display": "Red Hat Display", "body": "Red Hat Text", "mono": "Red Hat Mono"},
+  "designSystem": {
+    "spacing": "8px base grid; section padding 56-96px; 16-40px fluid gutters; 18px card gaps.",
+    "radius": "Tight 6px for cards, chips and buttons; 12-20px for dark 'board' panels; full pills only for filters.",
+    "borders": "1px cool-grey hairlines (#D9DDE7); 2px ink rules under section heads; 4px violet left-border on lead stories; dashed rules for 'why it matters'.",
+    "imagery": "Original inline SVG only: circuit boards, chip packages, device line-drawings and diagrams on dot-grid substrates. No photos.",
+    "shapes": "Diode triangle-and-bar, right-angled circuit traces with 45-degree jogs, round solder nodes, rectangular version tags.",
+    "buttons": "Solid violet primary with white text, ink outline ghost, green 'terminal' submit; mono arrow glyph (->) as affordance.",
+    "cards": "White briefing cards with SAMPLE STORY + category + date chips, a headline, summary and a dashed 'Why it matters' footer; dark spec cards pair a device drawing with a claim/condition table.",
+    "motifs": "Diode/arrow logo, circuit traces, version-tag chips (v4.0, fw 2.6.1), product spec cards, vertical changelog rails with nodes."
+  },
+  "artDirection": "Compose every piece like a circuit board: a dark substrate or a light cleanroom grid, with one signal-green trace carrying the eye from the headline to the evidence. Headlines are heavy Red Hat Display set tight, with violet reserved for the key word; all metadata (dates, versions, SAMPLE labels) lives in Red Hat Mono chips. Each asset shows the method, not hype: spec claims always appear with their condition, and timelines read like changelogs. Keep one diode mark visible, generous 64px+ margins and no more than one accent colour per focal point.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Chiplet explainer carousel cover", "headline": "What is a chiplet?", "summary": "Slide 1 of 5 explainer cover with a four-tile chip package illustration on a dark circuit board."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led post 1200×1350", "width": 1200, "height": 1350, "title": "Battery claim spec-card method", "headline": "The battery claim is a condition, not a number.", "summary": "Bar chart comparing headline claims with mixed-use estimates for three fictional devices (illustrative data)."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "The Changelog newsletter launch", "headline": "The Changelog, now in your inbox.", "summary": "Launch announcement for the weekday email with a dark changelog-rail panel of sample entries."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community event post 1200×1500", "width": 1200, "height": 1500, "title": "Ask the Desk live Q&A", "headline": "Ask the Desk.", "summary": "Community Q&A invite with a circuit-trace speech bubble, event card and example reader questions."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Anatomy of a launch infographic", "headline": "Anatomy of a launch.", "summary": "Vertical changelog timeline from rumor to first patch, with a trust meter for each stage."}
+  ]
+}

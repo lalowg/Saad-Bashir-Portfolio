@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Diodeline X announcement: The Changelog, now in your inbox">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800;900&amp;family=Red+Hat+Text:wght@400;500;700&amp;family=Red+Hat+Mono:wght@500;600&amp;display=swap');
+  .d{font-family:'Red Hat Display',Arial,Helvetica,sans-serif}.t{font-family:'Red Hat Text',Arial,Helvetica,sans-serif}.m{font-family:'Red Hat Mono','Courier New',monospace}</style>
+  <defs>
+    <symbol id="mk" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#0A0F1C"/><line x1="64" y1="256" x2="448" y2="256" stroke="#10B981" stroke-width="22" stroke-linecap="round"/><polygon points="168,128 340,256 168,384" fill="#6D28D9"/><polygon points="196,184 292,256 196,328" fill="#E0E7FF" opacity="0.18"/><rect x="344" y="128" width="32" height="256" rx="8" fill="#10B981"/><circle cx="64" cy="256" r="26" fill="#0A0F1C" stroke="#10B981" stroke-width="12"/><circle cx="448" cy="256" r="26" fill="#0A0F1C" stroke="#10B981" stroke-width="12"/></symbol>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#E0E7FF" stroke-width="1.5"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#F7F8FA"/><stop offset="1" stop-color="#F7F8FA" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#F7F8FA"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <rect width="900" height="900" fill="url(#fade)"/>
+  <!-- trace from headline into rail -->
+  <path d="M960 690 H1010 L1040 660 H1064" fill="none" stroke="#10B981" stroke-width="5" stroke-linecap="round"/>
+  <use href="#mk" x="80" y="72" width="68" height="68"/>
+  <text class="d" x="164" y="121" font-size="44" font-weight="800" fill="#0A0F1C" letter-spacing="-1.5">diode<tspan fill="#6D28D9">line</tspan></text>
+  <rect x="80" y="196" width="344" height="46" rx="6" fill="#10B981"/>
+  <text class="m" x="98" y="227" font-size="22" font-weight="600" fill="#0A0F1C">NEW · THE DAILY · v1.0</text>
+  <text class="d" x="76" y="350" font-size="90" font-weight="900" fill="#0A0F1C" letter-spacing="-3">The Changelog,</text>
+  <text class="d" x="76" y="452" font-size="90" font-weight="900" fill="#6D28D9" letter-spacing="-3">now in your inbox.</text>
+  <text class="t" x="80" y="530" font-size="32" fill="#4A5168">Every release, patch and recall from yesterday,</text>
+  <text class="t" x="80" y="574" font-size="32" fill="#4A5168">diffed into one five-minute read.</text>
+  <rect x="80" y="632" width="360" height="76" rx="8" fill="#6D28D9"/>
+  <text class="d" x="260" y="681" font-size="30" font-weight="800" fill="#FFFFFF" text-anchor="middle">Subscribe free -&gt;</text>
+  <text class="m" x="470" y="678" font-size="22" font-weight="500" fill="#0A0F1C">Weekdays · 07:00 GMT</text>
+  <text class="m" x="80" y="820" font-size="18" fill="#4A5168">Fictional concept brand · all entries shown are SAMPLE items about fictional products</text>
+  <!-- rail -->
+  <rect x="1064" y="72" width="456" height="756" rx="20" fill="#0A0F1C"/>
+  <text class="m" x="1100" y="124" font-size="20" font-weight="600" fill="#10B981">$ diff --since yesterday</text>
+  <line x1="1100" y1="146" x2="1484" y2="146" stroke="#232B45" stroke-width="2"/>
+  <line x1="1116" y1="190" x2="1116" y2="740" stroke="#232B45" stroke-width="3"/>
+  <g class="m" font-size="17" font-weight="600">
+    <circle cx="1116" cy="196" r="10" fill="#6D28D9"/>
+    <rect x="1146" y="178" width="70" height="28" rx="4" fill="#C4B5FD"/><text x="1158" y="198" fill="#0A0F1C">v4.0</text>
+    <text x="1232" y="198" fill="#9AA3BC" font-weight="500">09 OCT 2026</text>
+    <circle cx="1116" cy="306" r="10" fill="#0A0F1C" stroke="#10B981" stroke-width="3"/>
+    <rect x="1146" y="288" width="92" height="28" rx="4" fill="#10B981"/><text x="1158" y="308" fill="#0A0F1C">11.0b3</text>
+    <text x="1254" y="308" fill="#9AA3BC" font-weight="500">08 OCT 2026</text>
+    <circle cx="1116" cy="416" r="10" fill="#0A0F1C" stroke="#10B981" stroke-width="3"/>
+    <rect x="1146" y="398" width="102" height="28" rx="4" fill="#10B981"/><text x="1158" y="418" fill="#0A0F1C">fw 2.6.1</text>
+    <text x="1264" y="418" fill="#9AA3BC" font-weight="500">06 OCT 2026</text>
+    <circle cx="1116" cy="526" r="10" fill="#0A0F1C" stroke="#10B981" stroke-width="3"/>
+    <rect x="1146" y="508" width="52" height="28" rx="4" fill="#10B981"/><text x="1156" y="528" fill="#0A0F1C">EOL</text>
+    <text x="1214" y="528" fill="#9AA3BC" font-weight="500">05 OCT 2026</text>
+    <circle cx="1116" cy="636" r="10" fill="#6D28D9"/>
+    <rect x="1146" y="618" width="52" height="28" rx="4" fill="#C4B5FD"/><text x="1158" y="638" fill="#0A0F1C">1.0</text>
+    <text x="1214" y="638" fill="#9AA3BC" font-weight="500">03 OCT 2026</text>
+  </g>
+  <g class="t">
+    <text x="1146" y="240" font-size="22" font-weight="700" fill="#FFFFFF">Lumen Slate 4 announced</text>
+    <text x="1146" y="268" font-size="18" fill="#C9CEDC">Corvane Labs · ships 28 Oct</text>
+    <text x="1146" y="350" font-size="22" font-weight="700" fill="#FFFFFF">Tallowmere OS beta 3</text>
+    <text x="1146" y="378" font-size="18" fill="#C9CEDC">Urgency-lane notifications</text>
+    <text x="1146" y="460" font-size="22" font-weight="700" fill="#FFFFFF">Quillon Arc hotfix</text>
+    <text x="1146" y="488" font-size="18" fill="#C9CEDC">Fixes pairing drops from 2.6.0</text>
+    <text x="1146" y="570" font-size="22" font-weight="700" fill="#FFFFFF">Brightwick Hub (2021)</text>
+    <text x="1146" y="598" font-size="18" fill="#C9CEDC">Security fixes end March 2027</text>
+    <text x="1146" y="680" font-size="22" font-weight="700" fill="#FFFFFF">Wavelane mesh spec</text>
+    <text x="1146" y="708" font-size="18" fill="#C9CEDC">Open router standard hits 1.0</text>
+  </g>
+  <text class="m" x="1100" y="796" font-size="16" fill="#9AA3BC">SAMPLE ENTRIES · FICTIONAL PRODUCTS</text>
+</svg>

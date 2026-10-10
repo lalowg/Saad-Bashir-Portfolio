@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="Diodeline Instagram Story infographic: Anatomy of a launch, from rumor to first patch">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;800;900&amp;family=Red+Hat+Text:wght@400;500;700&amp;family=Red+Hat+Mono:wght@500;600&amp;display=swap');
+  .d{font-family:'Red Hat Display',Arial,Helvetica,sans-serif}.t{font-family:'Red Hat Text',Arial,Helvetica,sans-serif}.m{font-family:'Red Hat Mono','Courier New',monospace}</style>
+  <defs>
+    <symbol id="mk" viewBox="0 0 512 512"><rect width="512" height="512" rx="112" fill="#141B2E"/><line x1="64" y1="256" x2="448" y2="256" stroke="#10B981" stroke-width="22" stroke-linecap="round"/><polygon points="168,128 340,256 168,384" fill="#6D28D9"/><polygon points="196,184 292,256 196,328" fill="#E0E7FF" opacity="0.18"/><rect x="344" y="128" width="32" height="256" rx="8" fill="#10B981"/><circle cx="64" cy="256" r="26" fill="#141B2E" stroke="#10B981" stroke-width="12"/><circle cx="448" cy="256" r="26" fill="#141B2E" stroke="#10B981" stroke-width="12"/></symbol>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.5" fill="#182037"/></pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#6D28D9" stop-opacity="0.45"/><stop offset="1" stop-color="#6D28D9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#39436A"/><stop offset="1" stop-color="#10B981"/></linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="#0A0F1C"/>
+  <rect width="1080" height="1920" fill="url(#dots)"/>
+  <circle cx="900" cy="330" r="320" fill="url(#glow)"/>
+  <g fill="none" stroke="#1E2640" stroke-width="3"><path d="M1080 230 H930 L890 270 H820"/><path d="M1080 300 H980 L950 330"/></g>
+  <circle cx="820" cy="270" r="6" fill="#10B981"/>
+  <!-- header -->
+  <use href="#mk" x="64" y="120" width="68" height="68"/>
+  <text class="d" x="148" y="168" font-size="44" font-weight="800" fill="#FFFFFF" letter-spacing="-1.5">diode<tspan fill="#C4B5FD">line</tspan></text>
+  <text class="m" x="64" y="270" font-size="22" font-weight="600" fill="#10B981">INFOGRAPHIC · SAVE THIS</text>
+  <text class="d" x="58" y="400" font-size="124" font-weight="900" fill="#FFFFFF" letter-spacing="-4">Anatomy</text>
+  <text class="d" x="58" y="520" font-size="124" font-weight="900" fill="#C4B5FD" letter-spacing="-4">of a launch.</text>
+  <text class="t" x="64" y="596" font-size="34" fill="#C9CEDC">What to trust at each stage,</text>
+  <text class="t" x="64" y="640" font-size="34" fill="#C9CEDC">from rumor to first patch.</text>
+  <!-- legend -->
+  <g class="m" font-size="18" fill="#9AA3BC">
+    <text x="1016" y="700" text-anchor="end">TRUST LEVEL</text>
+  </g>
+  <line x1="64" y1="716" x2="1016" y2="716" stroke="#232B45" stroke-width="2"/>
+  <!-- timeline wire -->
+  <line x1="120" y1="770" x2="120" y2="1660" stroke="url(#wire)" stroke-width="6" stroke-linecap="round"/>
+  <!-- stage 1 -->
+  <g>
+    <circle cx="120" cy="780" r="16" fill="#0A0F1C" stroke="#39436A" stroke-width="5"/>
+    <rect x="170" y="760" width="190" height="38" rx="5" fill="none" stroke="#39436A" stroke-width="2"/>
+    <text class="m" x="186" y="786" font-size="20" font-weight="600" fill="#A5B4FC">v0.0 · RUMOR</text>
+    <g fill="#232B45"><rect x="760" y="768" width="44" height="20" rx="4" fill="#6D28D9"/><rect x="812" y="768" width="44" height="20" rx="4"/><rect x="864" y="768" width="44" height="20" rx="4"/><rect x="916" y="768" width="44" height="20" rx="4"/><rect x="968" y="768" width="44" height="20" rx="4"/></g>
+    <text class="d" x="170" y="846" font-size="40" font-weight="800" fill="#FFFFFF">A rumor</text>
+    <text class="t" x="170" y="884" font-size="26" fill="#C9CEDC">Treat it like weather: maybe, maybe not.</text>
+  </g>
+  <!-- stage 2 -->
+  <g>
+    <circle cx="120" cy="960" r="16" fill="#0A0F1C" stroke="#6D28D9" stroke-width="5"/>
+    <rect x="170" y="940" width="248" height="38" rx="5" fill="none" stroke="#39436A" stroke-width="2"/>
+    <text class="m" x="186" y="966" font-size="20" font-weight="600" fill="#A5B4FC">v0.9 · ANNOUNCED</text>
+    <g fill="#232B45"><rect x="760" y="948" width="44" height="20" rx="4" fill="#6D28D9"/><rect x="812" y="948" width="44" height="20" rx="4" fill="#6D28D9"/><rect x="864" y="948" width="44" height="20" rx="4"/><rect x="916" y="948" width="44" height="20" rx="4"/><rect x="968" y="948" width="44" height="20" rx="4"/></g>
+    <text class="d" x="170" y="1026" font-size="40" font-weight="800" fill="#FFFFFF">The announcement</text>
+    <text class="t" x="170" y="1064" font-size="26" fill="#C9CEDC">A real product, with best-case numbers.</text>
+  </g>
+  <!-- stage 3 -->
+  <g>
+    <circle cx="120" cy="1140" r="16" fill="#0A0F1C" stroke="#6D28D9" stroke-width="5"/>
+    <rect x="170" y="1120" width="260" height="38" rx="5" fill="none" stroke="#39436A" stroke-width="2"/>
+    <text class="m" x="186" y="1146" font-size="20" font-weight="600" fill="#A5B4FC">v0.9.5 · PRE-ORDER</text>
+    <g fill="#232B45"><rect x="760" y="1128" width="44" height="20" rx="4" fill="#6D28D9"/><rect x="812" y="1128" width="44" height="20" rx="4" fill="#6D28D9"/><rect x="864" y="1128" width="44" height="20" rx="4" fill="#6D28D9"/><rect x="916" y="1128" width="44" height="20" rx="4"/><rect x="968" y="1128" width="44" height="20" rx="4"/></g>
+    <text class="d" x="170" y="1206" font-size="40" font-weight="800" fill="#FFFFFF">Pre-orders open</text>
+    <text class="t" x="170" y="1244" font-size="26" fill="#C9CEDC">Price and date are firm. Specs, mostly.</text>
+  </g>
+  <!-- stage 4 -->
+  <g>
+    <circle cx="120" cy="1320" r="16" fill="#0A0F1C" stroke="#10B981" stroke-width="5"/>
+    <rect x="170" y="1300" width="248" height="38" rx="5" fill="none" stroke="#10B981" stroke-width="2"/>
+    <text class="m" x="186" y="1326" font-size="20" font-weight="600" fill="#10B981">v1.0-rc · REVIEWS</text>
+    <g fill="#232B45"><rect x="760" y="1308" width="44" height="20" rx="4" fill="#10B981"/><rect x="812" y="1308" width="44" height="20" rx="4" fill="#10B981"/><rect x="864" y="1308" width="44" height="20" rx="4" fill="#10B981"/><rect x="916" y="1308" width="44" height="20" rx="4" fill="#10B981"/><rect x="968" y="1308" width="44" height="20" rx="4"/></g>
+    <text class="d" x="170" y="1386" font-size="40" font-weight="800" fill="#FFFFFF">Independent reviews</text>
+    <text class="t" x="170" y="1424" font-size="26" fill="#C9CEDC">Tested claims. Now read the conditions.</text>
+  </g>
+  <!-- stage 5 (highlighted) -->
+  <g>
+    <rect x="150" y="1462" width="866" height="146" rx="14" fill="#141B2E" stroke="#232B45" stroke-width="2"/>
+    <circle cx="120" cy="1500" r="18" fill="#10B981"/>
+    <rect x="170" y="1480" width="166" height="38" rx="5" fill="#10B981"/>
+    <text class="m" x="186" y="1506" font-size="20" font-weight="600" fill="#0A0F1C">v1.0 · SHIP</text>
+    <g fill="#232B45"><rect x="760" y="1488" width="44" height="20" rx="4" fill="#10B981"/><rect x="812" y="1488" width="44" height="20" rx="4" fill="#10B981"/><rect x="864" y="1488" width="44" height="20" rx="4" fill="#10B981"/><rect x="916" y="1488" width="44" height="20" rx="4" fill="#10B981"/><rect x="968" y="1488" width="44" height="20" rx="4"/></g>
+    <text class="d" x="170" y="1564" font-size="40" font-weight="800" fill="#FFFFFF">Ship day</text>
+    <text class="t" x="380" y="1564" font-size="26" fill="#C9CEDC">What is in the box, today.</text>
+  </g>
+  <!-- stage 6 -->
+  <g>
+    <polygon points="104,1640 136,1660 104,1680" fill="#6D28D9"/><rect x="138" y="1640" width="6" height="40" fill="#10B981"/>
+    <rect x="170" y="1642" width="196" height="38" rx="5" fill="#C4B5FD"/>
+    <text class="m" x="186" y="1668" font-size="20" font-weight="600" fill="#0A0F1C">v1.0.1 · PATCH</text>
+    <g><rect x="760" y="1650" width="44" height="20" rx="4" fill="#C4B5FD"/><rect x="812" y="1650" width="44" height="20" rx="4" fill="#C4B5FD"/><rect x="864" y="1650" width="44" height="20" rx="4" fill="#C4B5FD"/><rect x="916" y="1650" width="44" height="20" rx="4" fill="#C4B5FD"/><rect x="968" y="1650" width="44" height="20" rx="4" fill="#C4B5FD"/></g>
+    <text class="d" x="170" y="1728" font-size="40" font-weight="800" fill="#FFFFFF">The first patch</text>
+    <text class="t" x="170" y="1766" font-size="26" fill="#C9CEDC">The fixes arrive. Worth waiting for.</text>
+  </g>
+  <!-- footer -->
+  <line x1="64" y1="1800" x2="1016" y2="1800" stroke="#232B45" stroke-width="2"/>
+  <text class="m" x="64" y="1840" font-size="16" fill="#9AA3BC">Fictional concept brand · educational sample graphic</text>
+  <text class="d" x="1016" y="1842" font-size="26" font-weight="800" fill="#10B981" text-anchor="end">Follow for the Daily -&gt;</text>
+</svg>
