@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160" role="img" aria-label="Flowcairn logo">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500;600&amp;display=swap');
+    .wm{font-family:'Lexend',system-ui,sans-serif;font-weight:600;letter-spacing:-1px}</style>
+  <title>Flowcairn</title>
+  <g transform="translate(16 16)">
+    <path d="M34 116 C34 104 60 98 64 98" fill="none" stroke="#0F766E" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+    <rect x="8" y="88" width="112" height="34" rx="17" fill="#0F766E"/>
+    <rect x="22" y="54" width="84" height="30" rx="15" fill="#13261F" transform="rotate(-4 64 69)"/>
+    <rect x="38" y="22" width="52" height="28" rx="14" fill="#F59E0B" transform="rotate(3 64 36)"/>
+    <circle cx="64" cy="8" r="6" fill="#0F766E"/>
+  </g>
+  <text x="168" y="104" class="wm" font-size="72" fill="#13261F">Flowcairn</text>
+</svg>

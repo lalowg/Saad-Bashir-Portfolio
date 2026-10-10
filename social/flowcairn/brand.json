@@ -1,0 +1,47 @@
+{
+  "slug": "flowcairn",
+  "name": "Flowcairn",
+  "industry": "tech",
+  "category": "Business automation SaaS",
+  "tagline": "Stack the busywork. Let it flow.",
+  "positioning": "Flowcairn is the calm, visual automation platform that lets operations teams stack small, dependable workflow steps into systems they can trust, without writing code.",
+  "audience": "Operations leads, founders and team managers at 10 to 250 person companies who juggle many tools and want reliable automation they can read at a glance.",
+  "strategy": "Own 'calm reliability' in a category that usually sells speed and hype. Every touchpoint uses the stacked-stones metaphor: each automation step is a stone, balanced deliberately on the one below, so the product feels understandable and safe. Content is product-led, showing real-looking workflow diagrams and step sequences rather than abstract promises.",
+  "voice": ["calm", "systematic", "reassuring", "plain-spoken"],
+  "palette": [
+    {"name": "Mist", "hex": "#F3F6F4", "role": "bg"},
+    {"name": "Deep Moss", "hex": "#13261F", "role": "ink"},
+    {"name": "Cairn Teal", "hex": "#0F766E", "role": "primary"},
+    {"name": "Trail Amber", "hex": "#F59E0B", "role": "secondary"},
+    {"name": "Lichen", "hex": "#D1E7DD", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#13261F", "bg": "#F3F6F4", "ratio": "14.57:1", "use": "body text on page background"},
+    {"fg": "#3E5249", "bg": "#F3F6F4", "ratio": "7.70:1", "use": "secondary body text (tint of ink)"},
+    {"fg": "#0F766E", "bg": "#F3F6F4", "ratio": "5.03:1", "use": "links and teal headline accents"},
+    {"fg": "#FFFFFF", "bg": "#0F766E", "ratio": "5.47:1", "use": "button labels and text on teal panels"},
+    {"fg": "#13261F", "bg": "#D1E7DD", "ratio": "12.22:1", "use": "body text on lichen cards"},
+    {"fg": "#13261F", "bg": "#F59E0B", "ratio": "7.38:1", "use": "labels on amber pills and highlights"},
+    {"fg": "#F3F6F4", "bg": "#13261F", "ratio": "14.57:1", "use": "body text on dark sections"},
+    {"fg": "#F59E0B", "bg": "#13261F", "ratio": "7.38:1", "use": "amber eyebrows and numbers on dark"}
+  ],
+  "fonts": {"display": "Lexend", "body": "Source Sans 3", "mono": "none (Source Sans 3 with tabular figures for data)"},
+  "designSystem": {
+    "spacing": "8px base unit; section padding 96px desktop / 64px mobile; generous whitespace around diagrams",
+    "radius": "Pill and stone radii: fully rounded ends (height / 2) for steps and buttons, 24 to 40px for panels",
+    "borders": "Hairline 1-2px ink at 12-15% opacity; dashed teal connectors for workflow links",
+    "imagery": "Original vector workflow diagrams, stacked stones, dotted canvas grids and soft contour hills; no photography",
+    "shapes": "Slightly rotated rounded rectangles (stones), small circular nodes, bezier connector paths with arrowheads",
+    "buttons": "Pill buttons: solid teal with white label for primary, ink outline for secondary, amber reserved for highlights",
+    "cards": "Stone cards with rounded ends, lichen or white fills, gentle 1 to 3 degree rotation in hero contexts, flat in data contexts",
+    "motifs": "Stacked rounded stones logo, node-and-connector workflow diagrams, flowing dashed paths, cairns that grow with each step"
+  },
+  "artDirection": "Lead every creative with a workflow you could actually build: stones are steps, connectors are logic, and the stack always reads bottom-up or top-down in order. Keep the canvas calm, using Mist or Lichen backgrounds with a dotted grid, and reserve Trail Amber for the single most important stone or call to action. Headlines are short, confident Lexend statements; supporting copy explains the mechanism in plain words. Dark Deep Moss compositions are reserved for data-led and thought-leadership pieces.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Stack the Busywork", "headline": "Stack the busywork. Let it flow.", "summary": "Carousel cover showing a four-step order workflow stacked as a cairn of task stones on a node spine."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "The Quiet Cost of Handoffs", "headline": "Small handoffs add up to whole workdays.", "summary": "Data-led illustrative equation (12 × 6 min × 22 days ≈ 26h) with an example breakdown bar chart."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "Branch Steps Launch", "headline": "Workflows that know when to wait.", "summary": "Feature announcement pairing the headline with a live-looking branching contract-flow diagram."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "The Cairn Challenge", "headline": "The Cairn Challenge", "summary": "Five-day build-along campaign where each day's automation adds a stone to a growing cairn."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Instagram Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Anatomy of a Calm Workflow", "headline": "Anatomy of a calm workflow.", "summary": "Vertical field-guide infographic explaining trigger, filter, action, branch and notify as five stacked stones."}
+  ]
+}

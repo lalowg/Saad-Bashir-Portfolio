@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap');
+    .d{font-family:'Lexend',system-ui,sans-serif}
+    .b{font-family:'Source Sans 3','Segoe UI',sans-serif}</style>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0 H0 V48" fill="none" stroke="#D1E7DD" stroke-opacity=".06" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx=".85" cy=".1" r=".6"><stop offset="0" stop-color="#0F766E" stop-opacity=".55"/><stop offset="1" stop-color="#0F766E" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="1350" fill="#13261F"/>
+  <rect width="1200" height="1350" fill="url(#grid)"/>
+  <rect width="1200" height="1350" fill="url(#glow)"/>
+  <path d="M-20 1180 C300 1110 520 1240 820 1170 S1120 1080 1240 1110" fill="none" stroke="#0F766E" stroke-width="3" opacity=".6"/>
+
+  <!-- header -->
+  <g transform="translate(72 64) scale(.42)">
+    <circle cx="64" cy="8" r="6" fill="#D1E7DD"/>
+    <rect x="38" y="22" width="52" height="28" rx="14" fill="#F59E0B" transform="rotate(3 64 36)"/>
+    <rect x="22" y="54" width="84" height="30" rx="15" fill="#D1E7DD" transform="rotate(-4 64 69)"/>
+    <rect x="8" y="88" width="112" height="34" rx="17" fill="#0F766E"/>
+  </g>
+  <text x="138" y="106" class="d" font-size="36" font-weight="600" fill="#F3F6F4">Flowcairn</text>
+  <text x="1128" y="100" class="b" font-size="24" font-weight="600" fill="#D1E7DD" text-anchor="end" letter-spacing="2">FIELD NOTES ON OPERATIONS</text>
+
+  <!-- headline -->
+  <text x="72" y="214" class="b" font-size="26" font-weight="700" fill="#F59E0B" letter-spacing="4">ILLUSTRATIVE MATH</text>
+  <text class="d" font-size="80" font-weight="700" fill="#F3F6F4" letter-spacing="-2">
+    <tspan x="72" y="310">Small handoffs add</tspan>
+    <tspan x="72" y="402">up to whole</tspan>
+    <tspan x="72" y="494" fill="#F59E0B">workdays.</tspan>
+  </text>
+
+  <!-- equation of stones -->
+  <rect x="72" y="548" width="1056" height="236" rx="32" fill="#F3F6F4" fill-opacity=".05" stroke="#D1E7DD" stroke-opacity=".2"/>
+  <g class="b" text-anchor="middle">
+    <rect x="104" y="590" width="210" height="110" rx="55" fill="#D1E7DD"/>
+    <text x="209" y="664" class="d" font-size="52" font-weight="700" fill="#13261F">12</text>
+    <text x="209" y="746" font-size="24" fill="#D1E7DD">handoffs a day</text>
+
+    <text x="354" y="664" class="d" font-size="44" fill="#F59E0B">×</text>
+
+    <rect x="394" y="590" width="210" height="110" rx="55" fill="#D1E7DD"/>
+    <text x="499" y="664" class="d" font-size="52" font-weight="700" fill="#13261F">6 min</text>
+    <text x="499" y="746" font-size="24" fill="#D1E7DD">each one</text>
+
+    <text x="644" y="664" class="d" font-size="44" fill="#F59E0B">×</text>
+
+    <rect x="684" y="590" width="170" height="110" rx="55" fill="#D1E7DD"/>
+    <text x="769" y="664" class="d" font-size="52" font-weight="700" fill="#13261F">22</text>
+    <text x="769" y="746" font-size="24" fill="#D1E7DD">workdays</text>
+
+    <text x="892" y="664" class="d" font-size="44" fill="#F59E0B">=</text>
+
+    <rect x="930" y="584" width="166" height="122" rx="61" fill="#F59E0B"/>
+    <text x="1013" y="658" class="d" font-size="44" font-weight="700" fill="#13261F">≈26h</text>
+    <text x="1013" y="746" font-size="24" font-weight="700" fill="#F59E0B">every month</text>
+  </g>
+
+  <!-- bars -->
+  <text x="72" y="840" class="d" font-size="32" font-weight="600" fill="#F3F6F4">Where those 26 hours tend to hide</text>
+  <text x="72" y="878" class="b" font-size="24" fill="#D1E7DD">Example breakdown for one team, for illustration only</text>
+  <g class="b">
+    <text x="72" y="940" font-size="28" fill="#F3F6F4">Copying data between tools</text>
+    <rect x="72" y="956" width="1056" height="26" rx="13" fill="#F3F6F4" fill-opacity=".08"/>
+    <rect x="72" y="956" width="366" height="26" rx="13" fill="#0F766E"/>
+    <text x="1128" y="940" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="end">9h</text>
+
+    <text x="72" y="1026" font-size="28" fill="#F3F6F4">Status updates and check-ins</text>
+    <rect x="72" y="1042" width="1056" height="26" rx="13" fill="#F3F6F4" fill-opacity=".08"/>
+    <rect x="72" y="1042" width="284" height="26" rx="13" fill="#0F766E"/>
+    <text x="1128" y="1026" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="end">7h</text>
+
+    <text x="72" y="1112" font-size="28" fill="#F3F6F4">Chasing approvals</text>
+    <rect x="72" y="1128" width="1056" height="26" rx="13" fill="#F3F6F4" fill-opacity=".08"/>
+    <rect x="72" y="1128" width="244" height="26" rx="13" fill="#0F766E"/>
+    <text x="1128" y="1112" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="end">6h</text>
+
+    <text x="72" y="1198" font-size="28" fill="#F3F6F4">Renaming and routing files</text>
+    <rect x="72" y="1214" width="1056" height="26" rx="13" fill="#F3F6F4" fill-opacity=".08"/>
+    <rect x="72" y="1214" width="162" height="26" rx="13" fill="#0F766E"/>
+    <text x="1128" y="1198" font-size="28" font-weight="700" fill="#F59E0B" text-anchor="end">4h</text>
+  </g>
+
+  <text x="1128" y="1280" class="b" font-size="24" font-weight="600" fill="#D1E7DD" text-anchor="end">Map your first workflow in an afternoon with Flowcairn</text>
+</svg>

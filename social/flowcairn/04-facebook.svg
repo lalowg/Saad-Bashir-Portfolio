@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap');
+    .d{font-family:'Lexend',system-ui,sans-serif}
+    .b{font-family:'Source Sans 3','Segoe UI',sans-serif}</style>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F766E"/><stop offset="1" stop-color="#0B5E58"/></linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#sky)"/>
+  <circle cx="930" cy="640" r="150" fill="#F59E0B" opacity=".9"/>
+  <circle cx="930" cy="640" r="200" fill="none" stroke="#F59E0B" stroke-opacity=".35" stroke-width="2"/>
+  <circle cx="930" cy="640" r="250" fill="none" stroke="#F59E0B" stroke-opacity=".18" stroke-width="2"/>
+  <path d="M0 820 C200 700 380 760 560 800 S900 700 1200 760 V1500 H0Z" fill="#13261F" opacity=".35"/>
+  <path d="M0 940 C260 880 520 960 760 920 S1060 880 1200 900 V1500 H0Z" fill="#13261F" opacity=".55"/>
+  <rect x="0" y="1060" width="1200" height="440" fill="#13261F"/>
+
+  <!-- logo -->
+  <g transform="translate(72 64) scale(.42)">
+    <circle cx="64" cy="8" r="6" fill="#D1E7DD"/>
+    <rect x="38" y="22" width="52" height="28" rx="14" fill="#F59E0B" transform="rotate(3 64 36)"/>
+    <rect x="22" y="54" width="84" height="30" rx="15" fill="#13261F" transform="rotate(-4 64 69)"/>
+    <rect x="8" y="88" width="112" height="34" rx="17" fill="#D1E7DD"/>
+  </g>
+  <text x="138" y="106" class="d" font-size="36" font-weight="600" fill="#FFFFFF">Flowcairn</text>
+  <text x="1128" y="100" class="b" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="end" letter-spacing="3">COMMUNITY</text>
+
+  <text x="72" y="214" class="b" font-size="28" font-weight="700" fill="#F59E0B" letter-spacing="4">FIVE-DAY BUILD-ALONG</text>
+  <text class="d" font-size="104" font-weight="700" fill="#FFFFFF" letter-spacing="-3">
+    <tspan x="72" y="320">The Cairn</tspan>
+    <tspan x="72" y="428">Challenge</tspan>
+  </text>
+  <text class="b" font-size="34" fill="#FFFFFF">
+    <tspan x="72" y="500">Automate one small task a day.</tspan>
+    <tspan x="72" y="544">Five days, five stones, one calmer week.</tspan>
+  </text>
+
+  <!-- flowing path through cairn tops -->
+  <path d="M177 1008 C260 1000 300 972 388 968 S520 930 599 928 S730 890 810 888 S940 850 1021 848" fill="none" stroke="#F3F6F4" stroke-width="3" stroke-dasharray="4 12" stroke-linecap="round"/>
+
+  <!-- cairns: day n has n stones -->
+  <g>
+    <rect x="102" y="1020" width="150" height="40" rx="20" fill="#D1E7DD"/>
+  </g>
+  <g>
+    <rect x="313" y="1020" width="150" height="40" rx="20" fill="#D1E7DD"/>
+    <rect x="328" y="980" width="120" height="38" rx="19" fill="#F3F6F4" transform="rotate(-3 388 999)"/>
+  </g>
+  <g>
+    <rect x="524" y="1020" width="150" height="40" rx="20" fill="#D1E7DD"/>
+    <rect x="539" y="980" width="120" height="38" rx="19" fill="#F3F6F4" transform="rotate(3 599 999)"/>
+    <rect x="554" y="940" width="90" height="36" rx="18" fill="#D1E7DD" transform="rotate(-2 599 958)"/>
+  </g>
+  <g>
+    <rect x="735" y="1020" width="150" height="40" rx="20" fill="#D1E7DD"/>
+    <rect x="750" y="980" width="120" height="38" rx="19" fill="#F3F6F4" transform="rotate(-2 810 999)"/>
+    <rect x="765" y="940" width="90" height="36" rx="18" fill="#D1E7DD" transform="rotate(3 810 958)"/>
+    <rect x="778" y="902" width="64" height="34" rx="17" fill="#F3F6F4" transform="rotate(-3 810 919)"/>
+  </g>
+  <g>
+    <rect x="946" y="1020" width="150" height="40" rx="20" fill="#D1E7DD"/>
+    <rect x="961" y="980" width="120" height="38" rx="19" fill="#F3F6F4" transform="rotate(2 1021 999)"/>
+    <rect x="976" y="940" width="90" height="36" rx="18" fill="#D1E7DD" transform="rotate(-3 1021 958)"/>
+    <rect x="989" y="902" width="64" height="34" rx="17" fill="#F3F6F4" transform="rotate(2 1021 919)"/>
+    <rect x="997" y="864" width="48" height="34" rx="17" fill="#F59E0B" transform="rotate(-4 1021 881)"/>
+  </g>
+  <g fill="#F59E0B">
+    <circle cx="177" cy="1008" r="7"/><circle cx="388" cy="968" r="7"/><circle cx="599" cy="928" r="7"/><circle cx="810" cy="888" r="7"/><circle cx="1021" cy="848" r="9"/>
+  </g>
+
+  <!-- labels -->
+  <g class="b" text-anchor="middle">
+    <g font-size="22" font-weight="700" fill="#13261F" letter-spacing="2">
+      <rect x="137" y="1088" width="80" height="34" rx="17" fill="#F59E0B"/><text x="177" y="1113">MON</text>
+      <rect x="348" y="1088" width="80" height="34" rx="17" fill="#F59E0B"/><text x="388" y="1113">TUE</text>
+      <rect x="559" y="1088" width="80" height="34" rx="17" fill="#F59E0B"/><text x="599" y="1113">WED</text>
+      <rect x="770" y="1088" width="80" height="34" rx="17" fill="#F59E0B"/><text x="810" y="1113">THU</text>
+      <rect x="981" y="1088" width="80" height="34" rx="17" fill="#F59E0B"/><text x="1021" y="1113">FRI</text>
+    </g>
+    <g font-size="26" fill="#F3F6F4">
+      <text x="177" y="1162">Auto-file</text><text x="177" y="1194">attachments</text>
+      <text x="388" y="1162">Route new</text><text x="388" y="1194">form leads</text>
+      <text x="599" y="1162">Draft weekly</text><text x="599" y="1194">status notes</text>
+      <text x="810" y="1162">Sync invoices</text><text x="810" y="1194">to the ledger</text>
+      <text x="1021" y="1162">Share your</text><text x="1021" y="1194">finished flow</text>
+    </g>
+  </g>
+
+  <!-- CTA panel -->
+  <rect x="72" y="1250" width="1056" height="176" rx="40" fill="#F3F6F4"/>
+  <text x="120" y="1322" class="d" font-size="40" font-weight="700" fill="#13261F">Join the build-along</text>
+  <text x="120" y="1370" class="b" font-size="26" fill="#3E5249">Live sessions every Thursday in the</text>
+  <text x="120" y="1402" class="b" font-size="26" fill="#3E5249">Flowcairn community space.</text>
+  <rect x="790" y="1302" width="290" height="72" rx="36" fill="#0F766E"/>
+  <text x="935" y="1348" class="b" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Save my spot</text>
+</svg>
