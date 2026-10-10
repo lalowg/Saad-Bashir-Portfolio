@@ -1,0 +1,47 @@
+{
+  "slug": "tracelark",
+  "name": "Tracelark",
+  "industry": "tech",
+  "category": "Developer observability & analytics",
+  "tagline": "Observe every signal.",
+  "positioning": "Tracelark turns traces, metrics and logs into one readable waterfall so engineering teams can find the slow span before their users do.",
+  "audience": "Backend, platform and SRE engineers at product teams of 10 to 500 people who own services in production and carry the pager.",
+  "strategy": "Win developer trust by speaking in the language of the terminal: real-looking traces, precise numbers and zero marketing fluff. Content teaches observability habits (reading the tail, slicing by route, alerting on budgets) so the brand earns attention as a field guide first and a product second.",
+  "voice": ["precise", "dev-centric", "calm under pressure", "quietly witty"],
+  "palette": [
+    { "name": "Void", "hex": "#05070A", "role": "bg" },
+    { "name": "Signal White", "hex": "#E6EDF3", "role": "ink" },
+    { "name": "Trace Cyan", "hex": "#00E5FF", "role": "primary" },
+    { "name": "Span Violet", "hex": "#B388FF", "role": "secondary" },
+    { "name": "Alert Ember", "hex": "#FF7849", "role": "accent" }
+  ],
+  "contrastPairs": [
+    { "fg": "#E6EDF3", "bg": "#05070A", "ratio": "17.07:1", "use": "body text" },
+    { "fg": "#E6EDF3", "bg": "#0D1117", "ratio": "16.02:1", "use": "body text on panels" },
+    { "fg": "#8B98A5", "bg": "#05070A", "ratio": "6.85:1", "use": "secondary body text" },
+    { "fg": "#8B98A5", "bg": "#0D1117", "ratio": "6.43:1", "use": "secondary text on panels" },
+    { "fg": "#00E5FF", "bg": "#05070A", "ratio": "13.11:1", "use": "links, highlights, mono values" },
+    { "fg": "#B388FF", "bg": "#05070A", "ratio": "7.57:1", "use": "eyebrows, labels" },
+    { "fg": "#FF7849", "bg": "#05070A", "ratio": "7.72:1", "use": "alerts, slow-span callouts" },
+    { "fg": "#05070A", "bg": "#00E5FF", "ratio": "13.11:1", "use": "primary button label" }
+  ],
+  "fonts": { "display": "Chakra Petch", "body": "Inter", "mono": "Fira Code" },
+  "designSystem": {
+    "spacing": "8px base unit; sections breathe at 96-128px on desktop, 64px on mobile; 64px minimum safe margin on social canvases.",
+    "radius": "Small and technical: 6px on chips and bars, 12-20px on panels and windows, full pill on primary CTAs.",
+    "borders": "1-2px hairlines in #1B2430 on #0D1117 panels; dashed hairlines for time axes and percentile markers.",
+    "imagery": "No photography. Product UI screens, trace waterfalls, terminal sessions and histograms drawn as inline SVG with illustrative sample data.",
+    "shapes": "Horizontal span bars, polyline sparklines, sine waveforms, concentric oscilloscope rings and a 40px blueprint grid.",
+    "buttons": "Primary: cyan pill with Void label in Inter 600. Secondary: transparent with 1px cyan outline. Mono command chips prefixed with a violet $.",
+    "cards": "Dark #0D1117 panels with a window chrome strip (three status dots: ember, violet, cyan) and mono headers.",
+    "motifs": "Trace waterfalls, latency sparklines, terminal windows, waveform signals; one ember-highlighted slow span per composition as the focal point."
+  },
+  "artDirection": "Every creative reads like a screenshot from a calm, well-instrumented production system: void background, blueprint grid, one glowing data object. Cyan carries the healthy signal, violet carries structure and secondary series, and ember is reserved for the single anomaly the eye should land on. Headlines are short Chakra Petch statements; supporting detail lives in Fira Code labels so the copy feels measured, not shouted. Sample data is always labelled illustrative and never claims real customer results.",
+  "assets": [
+    { "file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Find the slow span", "headline": "Find the slow span in seconds.", "summary": "Carousel cover built around a trace waterfall with one ember-highlighted database span." },
+    { "file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "Your p99 is a story", "headline": "Your p99 is a story, not a number.", "summary": "Data-led field note with an illustrative latency histogram and three percentile takeaways." },
+    { "file": "03-x.svg", "platform": "x", "format": "Announcement image 1600×900", "width": 1600, "height": 900, "title": "Live waterfalls launch", "headline": "Watch traces land live.", "summary": "Feature announcement pairing the headline with a streaming terminal session and p95 sparkline." },
+    { "file": "04-facebook.svg", "platform": "facebook", "format": "Community event post 1200×1500", "width": 1200, "height": 1500, "title": "Trace Night", "headline": "Trace Night: bring your gnarliest trace.", "summary": "Community debugging-session invite with oscilloscope waveform art and a ticket-style detail card." },
+    { "file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Anatomy of a trace", "headline": "Anatomy of a trace", "summary": "Signature vertical infographic explaining trace, span, attributes, sparkline and alert." }
+  ]
+}

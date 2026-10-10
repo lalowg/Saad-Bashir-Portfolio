@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Tracelark mark">
+  <title>Tracelark mark</title>
+  <defs>
+    <linearGradient id="tlIconG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#B388FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#05070A"/>
+  <rect x="12" y="12" width="488" height="488" rx="100" fill="none" stroke="#1B2430" stroke-width="4"/>
+  <g stroke="#1B2430" stroke-width="2">
+    <line x1="96" y1="128" x2="416" y2="128"/>
+    <line x1="96" y1="384" x2="416" y2="384"/>
+  </g>
+  <path d="M84 300 H168 L204 196 L252 360 L300 140 L336 300 H372" fill="none" stroke="url(#tlIconG)" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 140 L384 112 L344 180" fill="none" stroke="#B388FF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="420" cy="300" r="30" fill="#FF7849"/>
+</svg>
