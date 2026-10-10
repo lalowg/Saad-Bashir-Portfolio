@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="140" viewBox="0 0 560 140" role="img" aria-label="Cuewright logo">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;display=swap');
+    .wm{font-family:'Instrument Serif',Georgia,'Times New Roman',serif;font-size:88px;fill:#1A1A1A}
+    .it{font-style:italic;fill:#FF4F00}</style>
+  <g transform="translate(8 14)">
+    <rect x="18" y="18" width="96" height="80" rx="14" fill="#FF4F00"/>
+    <rect x="4" y="4" width="96" height="80" rx="14" fill="#FAF8F5" stroke="#1A1A1A" stroke-width="6"/>
+    <path d="M28 28 L52 44 L28 60" fill="none" stroke="#1A1A1A" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="62" y="24" width="12" height="40" rx="2" fill="#FF4F00"/>
+  </g>
+  <text x="146" y="100" class="wm">Cue<tspan class="it">wright</tspan></text>
+</svg>

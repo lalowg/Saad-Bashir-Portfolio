@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Cuewright mark: a prompt card with a chevron and a cursor caret">
+  <rect width="512" height="512" rx="112" fill="#FF4F00"/>
+  <rect x="120" y="150" width="304" height="248" rx="40" fill="#1A1A1A"/>
+  <rect x="88" y="114" width="304" height="248" rx="40" fill="#FAF8F5" stroke="#1A1A1A" stroke-width="16"/>
+  <path d="M160 186 L236 238 L160 290" fill="none" stroke="#1A1A1A" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="268" y="178" width="38" height="120" rx="6" fill="#FF4F00"/>
+  <circle cx="352" cy="152" r="10" fill="#1A1A1A"/>
+</svg>

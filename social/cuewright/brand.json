@@ -1,0 +1,47 @@
+{
+  "slug": "cuewright",
+  "name": "Cuewright",
+  "industry": "tech",
+  "category": "AI prompting & workflow productivity",
+  "tagline": "Prompts, built like tools.",
+  "positioning": "Cuewright is the prompt workshop for knowledge workers who want reusable, labelled prompt patterns instead of one-off guesses typed into a chat box.",
+  "audience": "Writers, product people, analysts and small teams who use AI assistants daily and are tired of rewriting the same vague request three times.",
+  "strategy": "Position prompting as a craft with tools, templates and a bench, not a magic trick. Lead with annotated before/after examples and a free weekly clinic to build trust, then convert to the paid Cue Library and team shelves.",
+  "voice": ["craftsmanlike", "nerdy", "tactile", "plain-spoken"],
+  "palette": [
+    {"name": "Bench Paper", "hex": "#FAF8F5", "role": "bg"},
+    {"name": "Graphite", "hex": "#1A1A1A", "role": "ink"},
+    {"name": "Cue Orange", "hex": "#FF4F00", "role": "primary"},
+    {"name": "Workshop Charcoal", "hex": "#2B2B2B", "role": "secondary"},
+    {"name": "Tracing Peach", "hex": "#FFD8C2", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#1A1A1A", "bg": "#FAF8F5", "ratio": "16.42:1", "use": "body text"},
+    {"fg": "#2B2B2B", "bg": "#FAF8F5", "ratio": "13.36:1", "use": "secondary body text"},
+    {"fg": "#1A1A1A", "bg": "#FFD8C2", "ratio": "13.14:1", "use": "body text on accent panels"},
+    {"fg": "#FAF8F5", "bg": "#1A1A1A", "ratio": "16.42:1", "use": "body text on dark sections"},
+    {"fg": "#FFD8C2", "bg": "#2B2B2B", "ratio": "10.69:1", "use": "supporting text on charcoal"},
+    {"fg": "#1A1A1A", "bg": "#FF4F00", "ratio": "5.28:1", "use": "button labels on orange"},
+    {"fg": "#FF4F00", "bg": "#1A1A1A", "ratio": "5.28:1", "use": "orange labels on dark"},
+    {"fg": "#FF4F00", "bg": "#FAF8F5", "ratio": "3.11:1", "use": "large display type and graphics only"}
+  ],
+  "fonts": {"display": "Instrument Serif", "body": "Geist", "mono": "Geist Mono"},
+  "designSystem": {
+    "spacing": "8px base grid; sections breathe at 96-128px desktop, 64px mobile; notebook ruled-line rhythm of 28px",
+    "radius": "12-28px on cards and keycaps, 999px only on small tag pills",
+    "borders": "Solid 2-3px graphite outlines on cards and buttons; dashed hairlines for blueprint guides and dividers",
+    "imagery": "No photography. Inline SVG prompt cards, keycaps, blueprint grids and hand-drawn-style annotation arrows",
+    "shapes": "Rounded rectangles offset over a solid orange or graphite 'shadow card'; circular stamp marks",
+    "buttons": "Graphite or orange slabs with a hard offset shadow and a blinking caret block; press state drops the offset",
+    "cards": "Prompt cards with a title bar, labelled mono lines (ROLE / TASK / LIMITS) and a caret on the last line",
+    "motifs": "Cursor carets, blueprint dimension arrows, keyboard keycaps, WORKSHOP TESTED stamps, notebook margin rule"
+  },
+  "artDirection": "Every creative should feel like a page torn from a careful maker's notebook: paper ground, a ruled or blueprint grid, one hero prompt card and a few annotations explaining it. Instrument Serif carries the voice with an orange italic turn of phrase; Geist Mono carries anything a user would actually type. Use orange sparingly for carets, arrows and stamps, never for small text on light grounds. Alternate light paper, peach and charcoal grounds so the feed reads as one bench with different lighting.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Field Note 14", "headline": "Prompts are tools. Sharpen them.", "summary": "Notebook-page carousel cover with an annotated prompt card and a workshop stamp."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led feed post 1200×1350", "width": 1200, "height": 1350, "title": "Bench Report", "headline": "Vague prompts cost you the second draft.", "summary": "Blueprint-grid keycap bar chart comparing rewrites per brief style, clearly labelled illustrative."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement image 1600×900", "width": 1600, "height": 900, "title": "Cue Library Launch", "headline": "The Cue Library is open.", "summary": "Dark blueprint announcement with C-U-E keycaps, a dimension line and a shelf of prompt cards."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "Prompt Clinic", "headline": "Bring a messy prompt. Leave with a sharp one.", "summary": "Peach event poster with a perforated ticket, ADMIT ONE stamp and a Save your seat CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Square infographic 1080×1080", "width": 1080, "height": 1080, "title": "Anatomy of a Cue", "headline": "Anatomy of a cue.", "summary": "Charcoal blueprint infographic exploding one prompt card into five labelled, annotated parts."}
+  ]
+}
