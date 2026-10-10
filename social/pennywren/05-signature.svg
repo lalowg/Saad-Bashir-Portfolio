@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="Pennywren Instagram Story infographic: your month in four envelopes">
+  <title>Your month in four envelopes</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Figtree:wght@400;600;700&amp;display=swap');
+  .d{font-family:'Bricolage Grotesque','Trebuchet MS',Arial,sans-serif;font-weight:800;letter-spacing:-0.02em}
+  .b{font-family:'Figtree','Segoe UI',Arial,sans-serif}</style>
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="3" fill="#1F7A5A" opacity="0.12"/></pattern>
+    <g id="wren">
+      <path d="M196 262 L118 132 Q110 114 128 110 L150 106 Q166 104 174 120 L240 236 Z" fill="#1F7A5A"/>
+      <ellipse cx="262" cy="292" rx="118" ry="92" fill="#1F7A5A"/>
+      <circle cx="334" cy="222" r="64" fill="#1F7A5A"/>
+      <path d="M392 206 L440 222 L392 238 Z" fill="#F2B544"/>
+      <circle cx="350" cy="208" r="12" fill="#FFFFFF"/>
+      <circle cx="246" cy="290" r="50" fill="#F2B544"/>
+      <circle cx="246" cy="290" r="34" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+      <path d="M232 380 L226 412 M282 380 L288 412" stroke="#1D2939" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="1080" height="1920" fill="#FFFFFF"/>
+  <path d="M0 0 H1080 V560 Q540 640 0 560 Z" fill="#E8F3EE"/>
+  <rect x="740" y="60" width="300" height="220" fill="url(#dots)"/>
+  <g transform="translate(64 120) scale(0.156)">
+    <rect width="512" height="512" rx="120" fill="#1F7A5A"/>
+    <path d="M196 262 L118 132 Q110 114 128 110 L150 106 Q166 104 174 120 L240 236 Z" fill="#FFFFFF"/>
+    <ellipse cx="262" cy="292" rx="118" ry="92" fill="#FFFFFF"/>
+    <circle cx="334" cy="222" r="64" fill="#FFFFFF"/>
+    <path d="M392 206 L440 222 L392 238 Z" fill="#F2B544"/>
+    <circle cx="350" cy="208" r="11" fill="#1D2939"/>
+    <circle cx="246" cy="290" r="50" fill="#F2B544"/>
+    <rect x="140" y="406" width="248" height="18" rx="9" fill="#E8F3EE"/>
+  </g>
+  <text class="d" x="162" y="176" font-size="44" fill="#1D2939">penny<tspan fill="#1F7A5A">wren</tspan></text>
+  <text class="b" x="64" y="310" font-size="26" font-weight="700" fill="#1F7A5A" letter-spacing="3">INFOGRAPHIC · AN OCTOBER PLAN</text>
+  <text class="d" x="64" y="420" font-size="100" fill="#1D2939">Your month in</text>
+  <text class="d" x="64" y="525" font-size="100" fill="#1D2939">four <tspan fill="#1F7A5A">envelopes.</tspan></text>
+  <use xlink:href="#wren" href="#wren" transform="translate(880 496) scale(0.3)"/>
+  <g>
+    <rect x="64" y="620" width="952" height="210" rx="32" fill="#E8F3EE"/>
+    <rect x="100" y="672" width="128" height="88" rx="16" fill="#1F7A5A"/>
+    <path d="M108 682 L164 722 L220 682" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="164" cy="724" r="12" fill="#F2B544"/>
+    <text class="d" x="260" y="698" font-size="40" fill="#1D2939">Home</text>
+    <text class="b" x="260" y="734" font-size="24" fill="#475467">Rent, power, internet</text>
+    <text class="d" x="976" y="702" font-size="64" fill="#1F7A5A" text-anchor="end">$1,450</text>
+    <rect x="260" y="762" width="716" height="18" rx="9" fill="#FFFFFF"/>
+    <rect x="260" y="762" width="644" height="18" rx="9" fill="#1F7A5A"/>
+    <text class="b" x="976" y="810" font-size="22" font-weight="700" fill="#1D2939" text-anchor="end">90% used</text>
+  </g>
+  <g>
+    <rect x="64" y="860" width="952" height="210" rx="32" fill="#FFFFFF" stroke="#E8F3EE" stroke-width="4"/>
+    <rect x="100" y="912" width="128" height="88" rx="16" fill="#F2B544"/>
+    <path d="M108 922 L164 962 L220 922" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="164" cy="964" r="12" fill="#1D2939"/>
+    <text class="d" x="260" y="938" font-size="40" fill="#1D2939">Food</text>
+    <text class="b" x="260" y="974" font-size="24" fill="#475467">Groceries and a treat or two</text>
+    <text class="d" x="976" y="942" font-size="64" fill="#1F7A5A" text-anchor="end">$560</text>
+    <rect x="260" y="1002" width="716" height="18" rx="9" fill="#E8F3EE"/>
+    <rect x="260" y="1002" width="444" height="18" rx="9" fill="#F2B544"/>
+    <text class="b" x="976" y="1050" font-size="22" font-weight="700" fill="#1D2939" text-anchor="end">62% used</text>
+  </g>
+  <g>
+    <rect x="64" y="1100" width="952" height="210" rx="32" fill="#E8F3EE"/>
+    <rect x="100" y="1152" width="128" height="88" rx="16" fill="#1D2939"/>
+    <path d="M108 1162 L164 1202 L220 1162" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="164" cy="1204" r="12" fill="#F2B544"/>
+    <text class="d" x="260" y="1178" font-size="40" fill="#1D2939">Getting around</text>
+    <text class="b" x="260" y="1214" font-size="24" fill="#475467">Transit pass, bike repair</text>
+    <text class="d" x="976" y="1182" font-size="64" fill="#1F7A5A" text-anchor="end">$240</text>
+    <rect x="260" y="1242" width="716" height="18" rx="9" fill="#FFFFFF"/>
+    <rect x="260" y="1242" width="286" height="18" rx="9" fill="#1D2939"/>
+    <text class="b" x="976" y="1290" font-size="22" font-weight="700" fill="#1D2939" text-anchor="end">40% used</text>
+  </g>
+  <g>
+    <rect x="64" y="1340" width="952" height="210" rx="32" fill="#FFFFFF" stroke="#E8F3EE" stroke-width="4"/>
+    <rect x="100" y="1392" width="128" height="88" rx="16" fill="#1F7A5A"/>
+    <path d="M108 1402 L164 1442 L220 1402" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="164" cy="1444" r="12" fill="#F2B544"/>
+    <text class="d" x="260" y="1418" font-size="40" fill="#1D2939">Future you</text>
+    <text class="b" x="260" y="1454" font-size="24" fill="#475467">Moved to savings on payday</text>
+    <text class="d" x="976" y="1422" font-size="64" fill="#1F7A5A" text-anchor="end">$600</text>
+    <rect x="260" y="1482" width="716" height="18" rx="9" fill="#E8F3EE"/>
+    <rect x="260" y="1482" width="716" height="18" rx="9" fill="#1F7A5A"/>
+    <text class="b" x="976" y="1530" font-size="22" font-weight="700" fill="#1D2939" text-anchor="end">Saved first</text>
+  </g>
+
+  <text class="d" x="64" y="1660" font-size="88" fill="#1F7A5A">$0</text>
+  <text class="b" x="200" y="1626" font-size="30" font-weight="700" fill="#1D2939">left to assign.</text>
+  <text class="b" x="200" y="1662" font-size="30" fill="#475467">$2,850 take-home, every dollar has a job.</text>
+  <rect x="64" y="1712" width="640" height="92" rx="46" fill="#1F7A5A"/>
+  <text class="b" x="104" y="1771" font-size="36" font-weight="700" fill="#FFFFFF">Build yours in the demo  →</text>
+  <text class="b" x="64" y="1852" font-size="22" fill="#475467">Illustrative amounts. Educational, not financial advice.</text>
+</svg>

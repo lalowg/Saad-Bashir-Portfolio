@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350" role="img" aria-label="Pennywren LinkedIn data post: where does a 4,000 dollar paycheck actually go, shown as a 50/30/20 donut chart">
+  <title>Where does a $4,000 paycheck actually go?</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Figtree:wght@400;600;700&amp;display=swap');
+  .d{font-family:'Bricolage Grotesque','Trebuchet MS',Arial,sans-serif;font-weight:800;letter-spacing:-0.02em}
+  .b{font-family:'Figtree','Segoe UI',Arial,sans-serif}</style>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.06"/></pattern>
+  </defs>
+  <rect width="1200" height="1350" fill="#FFFFFF"/>
+  <!-- header band -->
+  <rect width="1200" height="580" fill="#1D2939"/>
+  <rect width="1200" height="580" fill="url(#grid)"/>
+  <circle cx="1080" cy="120" r="210" fill="#1F7A5A" opacity="0.35"/>
+  <circle cx="1080" cy="120" r="120" fill="#1F7A5A" opacity="0.45"/>
+  <g transform="translate(64 64) scale(0.14)">
+    <rect width="512" height="512" rx="120" fill="#1F7A5A"/>
+    <path d="M196 262 L118 132 Q110 114 128 110 L150 106 Q166 104 174 120 L240 236 Z" fill="#FFFFFF"/>
+    <ellipse cx="262" cy="292" rx="118" ry="92" fill="#FFFFFF"/>
+    <circle cx="334" cy="222" r="64" fill="#FFFFFF"/>
+    <path d="M392 206 L440 222 L392 238 Z" fill="#F2B544"/>
+    <circle cx="350" cy="208" r="11" fill="#1D2939"/>
+    <circle cx="246" cy="290" r="50" fill="#F2B544"/>
+    <rect x="140" y="406" width="248" height="18" rx="9" fill="#E8F3EE"/>
+  </g>
+  <text class="d" x="152" y="113" font-size="40" fill="#FFFFFF">pennywren</text>
+  <text class="b" x="64" y="210" font-size="24" font-weight="700" fill="#F2B544" letter-spacing="3">PAYCHECK CHECK-IN · ILLUSTRATIVE</text>
+  <text class="d" x="64" y="310" font-size="80" fill="#FFFFFF">Where does a</text>
+  <text class="d" x="64" y="400" font-size="80" fill="#F2B544">$4,000 paycheck</text>
+  <text class="d" x="64" y="490" font-size="80" fill="#FFFFFF">actually go?</text>
+
+  <!-- donut -->
+  <g transform="rotate(-90 360 920)">
+    <circle cx="360" cy="920" r="200" fill="none" stroke="#E8F3EE" stroke-width="72"/>
+    <circle cx="360" cy="920" r="200" fill="none" stroke="#1F7A5A" stroke-width="72" stroke-dasharray="616.3 1256.6"/>
+    <circle cx="360" cy="920" r="200" fill="none" stroke="#F2B544" stroke-width="72" stroke-dasharray="365 1256.6" stroke-dashoffset="-628.3"/>
+    <circle cx="360" cy="920" r="200" fill="none" stroke="#1D2939" stroke-width="72" stroke-dasharray="239.3 1256.6" stroke-dashoffset="-1005.3"/>
+  </g>
+  <text class="d" x="360" y="925" font-size="72" fill="#1D2939" text-anchor="middle">$4,000</text>
+  <text class="b" x="360" y="970" font-size="26" font-weight="600" fill="#475467" text-anchor="middle">take-home / month</text>
+
+  <!-- legend -->
+  <g>
+    <rect x="660" y="690" width="24" height="128" rx="12" fill="#1F7A5A"/>
+    <text class="d" x="712" y="742" font-size="64" fill="#1D2939">$2,000</text>
+    <text class="b" x="712" y="782" font-size="28" font-weight="700" fill="#1F7A5A">Needs · 50%</text>
+    <text class="b" x="712" y="814" font-size="24" font-weight="400" fill="#475467">Rent, bills, groceries</text>
+  </g>
+  <g>
+    <rect x="660" y="850" width="24" height="128" rx="12" fill="#F2B544"/>
+    <text class="d" x="712" y="902" font-size="64" fill="#1D2939">$1,200</text>
+    <text class="b" x="712" y="942" font-size="28" font-weight="700" fill="#1D2939">Wants · 30%</text>
+    <text class="b" x="712" y="974" font-size="24" font-weight="400" fill="#475467">Dinners, hobbies, trips</text>
+  </g>
+  <g>
+    <rect x="660" y="1010" width="24" height="128" rx="12" fill="#1D2939"/>
+    <text class="d" x="712" y="1062" font-size="64" fill="#1D2939">$800</text>
+    <text class="b" x="712" y="1102" font-size="28" font-weight="700" fill="#1D2939">Savings · 20%</text>
+    <text class="b" x="712" y="1134" font-size="24" font-weight="400" fill="#475467">Buffer and goals</text>
+  </g>
+
+  <!-- footer insight -->
+  <rect x="64" y="1170" width="1072" height="2" fill="#E8F3EE"/>
+  <text class="b" x="64" y="1228" font-size="30" font-weight="700" fill="#1D2939">Your split can look different. The point is knowing it.</text>
+  <text class="b" x="64" y="1278" font-size="22" font-weight="400" fill="#475467">Illustrative 50/30/20 example. Educational, not financial advice.</text>
+</svg>

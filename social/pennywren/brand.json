@@ -1,0 +1,48 @@
+{
+  "slug": "pennywren",
+  "name": "Pennywren",
+  "industry": "finance",
+  "category": "Personal finance & budgeting",
+  "tagline": "Give every dollar a little nest.",
+  "positioning": "Pennywren is the calm, plain-language budgeting companion that helps everyday earners give every dollar a job with envelopes, jars and a five-minute weekly check-in.",
+  "audience": "Early-career earners, freelancers and young households who feel anxious about money and want a friendly, judgement-free way to start budgeting.",
+  "strategy": "Lead with reassurance rather than urgency: small wins, big friendly numbers and a recurring Sunday check-in ritual. Content teaches simple envelope and 50/30/20 habits as education, never as advice or promised outcomes. Community moments like the No-Spend Weekend turn budgeting into something social and kind.",
+  "voice": ["friendly", "reassuring", "plain-spoken", "trustworthy"],
+  "palette": [
+    { "name": "Paper White", "hex": "#FFFFFF", "role": "bg" },
+    { "name": "Midnight Ink", "hex": "#1D2939", "role": "ink" },
+    { "name": "Slate", "hex": "#475467", "role": "ink" },
+    { "name": "Wren Green", "hex": "#1F7A5A", "role": "primary" },
+    { "name": "Penny Gold", "hex": "#F2B544", "role": "secondary" },
+    { "name": "Mint Mist", "hex": "#E8F3EE", "role": "accent" }
+  ],
+  "contrastPairs": [
+    { "fg": "#1D2939", "bg": "#FFFFFF", "ratio": "14.70:1", "use": "body text" },
+    { "fg": "#1D2939", "bg": "#E8F3EE", "ratio": "12.94:1", "use": "body text on mint panels" },
+    { "fg": "#475467", "bg": "#FFFFFF", "ratio": "7.69:1", "use": "secondary body text" },
+    { "fg": "#1F7A5A", "bg": "#FFFFFF", "ratio": "5.26:1", "use": "links, numbers, headings" },
+    { "fg": "#FFFFFF", "bg": "#1F7A5A", "ratio": "5.26:1", "use": "primary buttons, green panels" },
+    { "fg": "#1D2939", "bg": "#F2B544", "ratio": "8.03:1", "use": "gold buttons and badges" },
+    { "fg": "#F2B544", "bg": "#1D2939", "ratio": "8.03:1", "use": "highlight headline on ink band" },
+    { "fg": "#E8F3EE", "bg": "#1F7A5A", "ratio": "4.63:1", "use": "small supporting text on green" }
+  ],
+  "fonts": { "display": "Bricolage Grotesque", "body": "Figtree", "mono": "none (Figtree tabular numerals)" },
+  "designSystem": {
+    "spacing": "8px base grid; sections breathe at 96-128px desktop, 64px mobile; cards use 24-40px padding.",
+    "radius": "Generous and friendly: 12px chips, 20-28px cards, 40-48px panels, full pills for buttons.",
+    "borders": "Mostly borderless; 2-3px Midnight Ink outlines only on jars and product cards for a drawn, approachable feel.",
+    "imagery": "Original flat vector illustration: wren mark, envelopes, budget jars, coins, simple bar and donut charts. No photography.",
+    "shapes": "Rounded rectangles, circles, soft arches; a penny-coin circle with an inner ring recurs as a seal and wing.",
+    "buttons": "Pill buttons: Wren Green with white text as primary, Penny Gold with ink text as secondary, arrow suffix for direction.",
+    "cards": "White or Mint Mist cards with large radius, big friendly number in Bricolage, label in Figtree, progress bar at the base.",
+    "motifs": "Small wren perched on cards and jars, envelope flaps, budget jars with fill levels, 50/30/20 donuts, weekly bar charts, light dot grids."
+  },
+  "artDirection": "Every creative leads with one big friendly number or a single plain-language promise, then supports it with a simple chart, jar or envelope illustration. The wren always perches somewhere on the composition, as if it has just landed on the data. Keep backgrounds white or Mint Mist for calm, reserving full Wren Green for community campaigns and Midnight Ink for data-led thought leadership. Copy stays kind and specific, all figures are labelled illustrative, and 'educational, not financial advice' appears on every post.",
+  "assets": [
+    { "file": "01-instagram.svg", "platform": "instagram", "format": "Feed carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Give every dollar a job", "headline": "Give every dollar a job.", "summary": "Carousel cover with three budget jars and a perched wren introducing five envelope rules." },
+    { "file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led post 1200×1350", "width": 1200, "height": 1350, "title": "Where does a $4,000 paycheck go?", "headline": "Where does a $4,000 paycheck actually go?", "summary": "Ink header band over an illustrative 50/30/20 donut chart with big friendly dollar figures." },
+    { "file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "Five minutes. Every Sunday.", "headline": "Five minutes. Every Sunday.", "summary": "Feature announcement for Wren Check-ins with a weekly spending bar-chart product card." },
+    { "file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign 1200×1500", "width": 1200, "height": 1500, "title": "The No-Spend Weekend", "headline": "The No-Spend Weekend.", "summary": "Full-green community challenge with an envelope illustration, three steps and a join CTA." },
+    { "file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Your month in four envelopes", "headline": "Your month in four envelopes.", "summary": "Vertical infographic of four envelope cards with amounts and progress bars ending at $0 left to assign." }
+  ]
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="200" viewBox="0 0 760 200" role="img" aria-label="Pennywren logo">
+  <title>Pennywren</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&amp;display=swap');
+  .wm{font-family:'Bricolage Grotesque','Trebuchet MS',Arial,sans-serif;font-weight:800;letter-spacing:-2px}</style>
+  <g transform="translate(24 24) scale(0.297)">
+    <rect width="512" height="512" rx="120" fill="#1F7A5A"/>
+    <circle cx="256" cy="268" r="182" fill="#24886A"/>
+    <path d="M196 262 L118 132 Q110 114 128 110 L150 106 Q166 104 174 120 L240 236 Z" fill="#FFFFFF"/>
+    <ellipse cx="262" cy="292" rx="118" ry="92" fill="#FFFFFF"/>
+    <circle cx="334" cy="222" r="64" fill="#FFFFFF"/>
+    <path d="M392 206 L440 222 L392 238 Z" fill="#F2B544"/>
+    <circle cx="350" cy="208" r="11" fill="#1D2939"/>
+    <circle cx="246" cy="290" r="50" fill="#F2B544"/>
+    <circle cx="246" cy="290" r="34" fill="none" stroke="#FFFFFF" stroke-width="7" opacity="0.85"/>
+    <path d="M232 380 L226 412 M282 380 L288 412" stroke="#E8F3EE" stroke-width="12" stroke-linecap="round"/>
+    <rect x="140" y="406" width="248" height="18" rx="9" fill="#E8F3EE"/>
+  </g>
+  <text class="wm" x="204" y="130" font-size="92" fill="#1D2939">penny<tspan fill="#1F7A5A">wren</tspan></text>
+</svg>

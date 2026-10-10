@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Pennywren X announcement: Wren Check-ins, five minutes every Sunday">
+  <title>Five minutes. Every Sunday.</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&amp;family=Figtree:wght@400;600;700&amp;display=swap');
+  .d{font-family:'Bricolage Grotesque','Trebuchet MS',Arial,sans-serif;font-weight:800;letter-spacing:-0.02em}
+  .b{font-family:'Figtree','Segoe UI',Arial,sans-serif}</style>
+  <defs>
+    <g id="wren">
+      <path d="M196 262 L118 132 Q110 114 128 110 L150 106 Q166 104 174 120 L240 236 Z" fill="#1F7A5A"/>
+      <ellipse cx="262" cy="292" rx="118" ry="92" fill="#1F7A5A"/>
+      <circle cx="334" cy="222" r="64" fill="#1F7A5A"/>
+      <path d="M392 206 L440 222 L392 238 Z" fill="#F2B544"/>
+      <circle cx="350" cy="208" r="12" fill="#FFFFFF"/>
+      <circle cx="246" cy="290" r="50" fill="#F2B544"/>
+      <circle cx="246" cy="290" r="34" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+      <path d="M232 380 L226 412 M282 380 L288 412" stroke="#1D2939" stroke-width="12" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <rect width="1600" height="900" fill="#E8F3EE"/>
+  <circle cx="1420" cy="800" r="300" fill="none" stroke="#FFFFFF" stroke-width="64" opacity="0.7"/>
+  <circle cx="860" cy="110" r="22" fill="#F2B544"/>
+  <circle cx="860" cy="110" r="13" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+  <circle cx="820" cy="800" r="14" fill="#F2B544" opacity="0.7"/>
+
+  <!-- logo -->
+  <g transform="translate(64 64) scale(0.14)">
+    <rect width="512" height="512" rx="120" fill="#1F7A5A"/>
+    <path d="M196 262 L118 132 Q110 114 128 110 L150 106 Q166 104 174 120 L240 236 Z" fill="#FFFFFF"/>
+    <ellipse cx="262" cy="292" rx="118" ry="92" fill="#FFFFFF"/>
+    <circle cx="334" cy="222" r="64" fill="#FFFFFF"/>
+    <path d="M392 206 L440 222 L392 238 Z" fill="#F2B544"/>
+    <circle cx="350" cy="208" r="11" fill="#1D2939"/>
+    <circle cx="246" cy="290" r="50" fill="#F2B544"/>
+    <rect x="140" y="406" width="248" height="18" rx="9" fill="#E8F3EE"/>
+  </g>
+  <text class="d" x="152" y="113" font-size="40" fill="#1D2939">penny<tspan fill="#1F7A5A">wren</tspan></text>
+
+  <rect x="64" y="182" width="392" height="48" rx="24" fill="#1F7A5A"/>
+  <text class="b" x="90" y="214" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="2">NEW · WREN CHECK-INS</text>
+  <text class="d" x="64" y="350" font-size="96" fill="#1D2939">Five minutes.</text>
+  <text class="d" x="64" y="458" font-size="96" fill="#1F7A5A">Every Sunday.</text>
+  <text class="b" x="64" y="540" font-size="32" font-weight="400" fill="#1D2939">A calm weekly check-in that shows</text>
+  <text class="b" x="64" y="584" font-size="32" font-weight="400" fill="#1D2939">exactly where your envelopes stand.</text>
+  <rect x="64" y="638" width="580" height="88" rx="44" fill="#1D2939"/>
+  <text class="b" x="104" y="694" font-size="34" font-weight="700" fill="#FFFFFF">Try a demo check-in  →</text>
+  <text class="b" x="64" y="830" font-size="22" font-weight="400" fill="#475467">Educational, not financial advice.</text>
+
+  <!-- product card -->
+  <rect x="918" y="150" width="636" height="640" rx="40" fill="#1F7A5A" opacity="0.14"/>
+  <rect x="900" y="130" width="636" height="640" rx="40" fill="#FFFFFF" stroke="#1D2939" stroke-width="3"/>
+  <use xlink:href="#wren" href="#wren" transform="translate(1356 6) scale(0.3)"/>
+  <text class="b" x="948" y="200" font-size="26" font-weight="700" fill="#1D2939">This week · Groceries</text>
+  <text class="d" x="948" y="312" font-size="96" fill="#1F7A5A">$214</text>
+  <text class="b" x="948" y="354" font-size="26" font-weight="600" fill="#475467">left of $520 · on pace</text>
+  <!-- bars -->
+  <line x1="948" y1="520" x2="1488" y2="520" stroke="#F2B544" stroke-width="3" stroke-dasharray="10 8"/>
+  <text class="b" x="1488" y="508" font-size="20" font-weight="700" fill="#1D2939" text-anchor="end">daily pace</text>
+  <rect x="948" y="520" width="52" height="120" rx="12" fill="#1F7A5A"/>
+  <rect x="1026" y="560" width="52" height="80" rx="12" fill="#1F7A5A"/>
+  <rect x="1104" y="480" width="52" height="160" rx="12" fill="#1F7A5A"/>
+  <rect x="1182" y="580" width="52" height="60" rx="12" fill="#1F7A5A"/>
+  <rect x="1260" y="540" width="52" height="100" rx="12" fill="#1F7A5A"/>
+  <rect x="1338" y="600" width="52" height="40" rx="12" fill="#1F7A5A"/>
+  <rect x="1416" y="560" width="52" height="80" rx="12" fill="#F2B544"/>
+  <g class="b" font-size="20" font-weight="600" fill="#475467" text-anchor="middle">
+    <text x="974" y="672">Mon</text><text x="1052" y="672">Tue</text><text x="1130" y="672">Wed</text><text x="1208" y="672">Thu</text><text x="1286" y="672">Fri</text><text x="1364" y="672">Sat</text><text x="1442" y="672" fill="#1D2939">Sun</text>
+  </g>
+  <rect x="948" y="712" width="540" height="16" rx="8" fill="#E8F3EE"/>
+  <rect x="948" y="712" width="318" height="16" rx="8" fill="#1F7A5A"/>
+  <text class="b" x="1488" y="752" font-size="18" font-weight="600" fill="#475467" text-anchor="end">59% of month used</text>
+</svg>
