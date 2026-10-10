@@ -1,0 +1,49 @@
+{
+  "slug": "synvane-studio",
+  "name": "Synvane Studio",
+  "industry": "tech",
+  "category": "AI-assisted creative production",
+  "tagline": "Make the weird thing.",
+  "positioning": "Synvane Studio is the experimental production studio that uses AI to explore hundreds of directions and human craft to finish the few worth shipping, for brands that refuse the template.",
+  "audience": "Brand, marketing and creative leads at culture-facing companies (music, fashion, food and drink, publishing, events) who want distinctive campaign visuals at speed without losing authorship.",
+  "strategy": "Own the space between generic AI output and slow traditional agencies by making the process itself the product: a visible 'diverge, then decide' method, open studio Labs and a published set of AI principles. Content leads with the work and the craft behind it, turning transparency about tools into a trust advantage.",
+  "voice": ["experimental", "witty", "candid", "craft-proud"],
+  "palette": [
+    {"name": "Bone", "hex": "#F0EEE9", "role": "bg"},
+    {"name": "Carbon", "hex": "#111111", "role": "ink"},
+    {"name": "Hot Signal Pink", "hex": "#FF3EA5", "role": "primary"},
+    {"name": "Render Blue", "hex": "#3D5AFE", "role": "secondary"},
+    {"name": "Acid Lime", "hex": "#C6FF3D", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#111111", "bg": "#F0EEE9", "ratio": "16.29:1", "use": "body text and headlines on Bone"},
+    {"fg": "#F0EEE9", "bg": "#111111", "ratio": "16.29:1", "use": "body text on dark sections and dark social canvases"},
+    {"fg": "#C6FF3D", "bg": "#111111", "ratio": "15.98:1", "use": "accent labels, CTA text on Carbon buttons"},
+    {"fg": "#111111", "bg": "#C6FF3D", "ratio": "15.98:1", "use": "text on lime stickers, bands and buttons"},
+    {"fg": "#111111", "bg": "#FF3EA5", "ratio": "5.83:1", "use": "body text on the pink principles section and pink tags"},
+    {"fg": "#FF3EA5", "bg": "#111111", "ratio": "5.83:1", "use": "step numbers and eyebrows on Carbon"},
+    {"fg": "#FFFFFF", "bg": "#3D5AFE", "ratio": "5.13:1", "use": "body text on Render Blue sections and Facebook canvas"},
+    {"fg": "#4A4A4A", "bg": "#F0EEE9", "ratio": "7.64:1", "use": "secondary body text on Bone"},
+    {"fg": "#4A4A4A", "bg": "#FFFFFF", "ratio": "8.86:1", "use": "card metadata on white cards"},
+    {"fg": "#D6D4CF", "bg": "#111111", "ratio": "12.75:1", "use": "muted body text on Carbon"}
+  ],
+  "fonts": {"display": "Unbounded", "body": "Sora", "mono": ""},
+  "designSystem": {
+    "spacing": "8px base; section padding clamp(4rem, 9vw, 8rem); 12-column grid with deliberate offsets and negative margins so blocks overlap",
+    "radius": "Two extremes only: 0 for frames, cards and fields; full pill (999px) for buttons, tags and stickers",
+    "borders": "Hard 2-3px Carbon outlines on every frame; a second Render Blue outline offset and counter-rotated behind key frames",
+    "imagery": "Iridescent gradient meshes (blurred pink, blue and lime blobs) clipped into collage frames, overlaid with generative wave lines and paper grain",
+    "shapes": "Tilted rectangular collage frames (plus or minus 2 to 7 degrees), wobbling concentric rings, pinwheel vane blades, diagonal stripes",
+    "buttons": "Pill buttons in Carbon with Acid Lime uppercase Unbounded text; hover lifts up-left with a hard pink offset shadow",
+    "cards": "White or Bone cards with 3px Carbon borders, slight rotation, a pill tag breaking the top edge, hover/focus reveals a Carbon 'how it was made' layer",
+    "motifs": "Chromatic-aberration type (pink and blue offsets behind Carbon), horizontally stretched display words, rotated marquee bands, the four-blade vane mark"
+  },
+  "artDirection": "Every creative is a collage: at least one tilted frame holding an iridescent mesh, one generative line layer, and one piece of distorted type with pink and blue offsets. Alternate canvases between Bone, Carbon and Render Blue so the feed reads as a rhythm, and use Acid Lime only for stickers, bands and the single most important action. Headlines are short, uppercase Unbounded statements set big enough to break into neighbouring frames; supporting copy in Sora stays calm and plain-spoken. Always credit the human craft alongside the machine, and never imitate a named artist's style.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Make the Weird Thing", "headline": "MAKE THE WEIRD THING.", "summary": "Carousel cover introducing the studio with a tilted iridescent collage frame and chromatic distorted type."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership data post 1200×1350", "width": 1200, "height": 1350, "title": "We Make 400 So You See the Right 3", "headline": "WE MAKE 400 SO YOU SEE THE RIGHT 3.", "summary": "Dark data-led post visualising an illustrative diverge-then-decide sprint from one brief to three finished pieces."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement post 1600×900", "width": 1600, "height": 900, "title": "Noise Into Form: Lab 04", "headline": "NOISE INTO FORM.", "summary": "Announces the free Lab 04 open studio on Thu 22 Oct 2026 with a generative ring sculpture in a mesh frame."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "The Synthetic Postcard Club", "headline": "THE SYNTHETIC POSTCARD CLUB", "summary": "Invites the community to a free monthly critique group, shown as a scattered grid of six collage postcards."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story campaign visual 1080×1920", "width": 1080, "height": 1920, "title": "The Synvane Method", "headline": "SYN / VANE: THE METHOD", "summary": "Signature story with stretched chromatic SYNVANE type over a glowing mesh and the four-step Moodfield, Generate, Curate, Craft method."}
+  ]
+}

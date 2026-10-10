@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="140" viewBox="0 0 520 140" role="img" aria-label="Synvane Studio logo">
+<title>Synvane Studio</title>
+<style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;800;900&family=Sora:wght@400;600;700&display=swap');
+.d{font-family:'Unbounded','Arial Black',sans-serif}.b{font-family:'Sora','Helvetica Neue',Arial,sans-serif}]]></style>
+<g><g transform="translate(20 20) scale(1)">
+<path d="M50 50 C50 28 64 10 88 10 C88 34 72 50 50 50Z" fill="#FF3EA5" transform="rotate(0 50 50)"/><path d="M50 50 C50 28 64 10 88 10 C88 34 72 50 50 50Z" fill="#3D5AFE" transform="rotate(90 50 50)"/><path d="M50 50 C50 28 64 10 88 10 C88 34 72 50 50 50Z" fill="#C6FF3D" transform="rotate(180 50 50)"/><path d="M50 50 C50 28 64 10 88 10 C88 34 72 50 50 50Z" fill="#111111" transform="rotate(270 50 50)"/>
+<circle cx="50" cy="50" r="7" fill="#F0EEE9"/></g>
+<text class="d" x="138" y="76" font-size="42" font-weight="800" fill="#111111" letter-spacing="1">SYNVANE</text>
+<text class="b" x="140" y="112" font-size="19" font-weight="600" fill="#111111" letter-spacing="9">STUDIO</text></g>
+</svg>
