@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Liftwright mark">
+  <defs>
+    <pattern id="lwHz" width="44" height="44" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="44" height="44" fill="#0B0B0B"/>
+      <rect width="22" height="44" fill="#D7FF1F"/>
+    </pattern>
+    <clipPath id="lwClip"><rect width="512" height="512" rx="72"/></clipPath>
+  </defs>
+  <g clip-path="url(#lwClip)">
+    <rect width="512" height="512" fill="#0B0B0B"/>
+    <rect y="448" width="512" height="64" fill="url(#lwHz)"/>
+    <g transform="translate(66 -14) skewX(-12)">
+      <polygon points="150,84 258,84 258,318 386,318 386,414 150,414" fill="#D7FF1F"/>
+      <polygon points="284,84 334,84 334,286 284,286" fill="#FF3B1F"/>
+      <polygon points="358,84 386,84 386,286 358,286" fill="#F5F5F0"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-label="Liftwright logo">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Anton&amp;family=Barlow:wght@600&amp;display=swap');
+    .wm{font-family:'Anton','Impact','Arial Narrow',sans-serif;font-size:104px;fill:#F5F5F0;letter-spacing:2px}
+    .tg{font-family:'Barlow','Arial',sans-serif;font-weight:600;font-size:17px;fill:#8A8A8A;letter-spacing:5px}</style>
+  <rect width="720" height="180" fill="#0B0B0B"/>
+  <g transform="translate(16 14) scale(0.29)">
+    <g transform="translate(66 -14) skewX(-12)">
+      <polygon points="150,84 258,84 258,318 386,318 386,414 150,414" fill="#D7FF1F"/>
+      <polygon points="284,84 334,84 334,286 284,286" fill="#FF3B1F"/>
+      <polygon points="358,84 386,84 386,286 358,286" fill="#F5F5F0"/>
+    </g>
+  </g>
+  <text class="wm" x="168" y="122">LIFTWRIGHT</text>
+  <polygon points="170,136 640,136 636,146 166,146" fill="#D7FF1F"/>
+  <text class="tg" x="168" y="170">STRENGTH TRAINING · GYM FLOOR</text>
+</svg>

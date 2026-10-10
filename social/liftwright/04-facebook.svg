@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Liftwright Facebook community post: Saturday Deadlift Social">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Anton&amp;family=Barlow:wght@400;600;800&amp;display=swap');
+    .d{font-family:'Anton','Impact','Arial Narrow',sans-serif}
+    .b{font-family:'Barlow','Arial',sans-serif}</style>
+  <defs>
+    <pattern id="dotsB" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="6" fill="#0B0B0B"/></pattern>
+    <radialGradient id="fadeB" cx="0.85" cy="0.2" r="0.7"><stop offset="0" stop-color="#fff" stop-opacity="0.45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <mask id="mB"><rect width="1200" height="860" fill="url(#fadeB)"/></mask>
+    <pattern id="hz" width="56" height="56" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="56" height="56" fill="#0B0B0B"/><rect width="28" height="56" fill="#D7FF1F"/></pattern>
+  </defs>
+  <rect width="1200" height="1500" fill="#0B0B0B"/>
+  <polygon points="0,0 1200,0 1200,700 0,860" fill="#FF3B1F"/>
+  <polygon points="0,0 1200,0 1200,700 0,860" fill="url(#dotsB)" mask="url(#mB)"/>
+  <!-- plate outline -->
+  <g fill="none" stroke="#0B0B0B" opacity="0.28">
+    <circle cx="1010" cy="330" r="270" stroke-width="14"/>
+    <circle cx="1010" cy="330" r="200" stroke-width="6"/>
+    <circle cx="1010" cy="330" r="46" stroke-width="14"/>
+  </g>
+  <polygon points="0,860 1200,700 1200,760 0,920" fill="url(#hz)"/>
+
+  <!-- logo -->
+  <g transform="translate(64 56) scale(0.15)"><g transform="translate(66 -14) skewX(-12)">
+    <polygon points="150,84 258,84 258,318 386,318 386,414 150,414" fill="#0B0B0B"/>
+    <polygon points="284,84 334,84 334,286 284,286" fill="#F5F5F0"/>
+    <polygon points="358,84 386,84 386,286 358,286" fill="#0B0B0B"/></g></g>
+  <text class="d" x="146" y="116" font-size="52" fill="#0B0B0B" letter-spacing="1">LIFTWRIGHT</text>
+  <text class="b" x="64" y="216" font-size="30" font-weight="800" fill="#0B0B0B" letter-spacing="5">COMMUNITY · EVERY SATURDAY</text>
+
+  <text class="d" x="58" y="450" font-size="230" fill="#0B0B0B">DEADLIFT</text>
+  <text class="d" x="58" y="680" font-size="230" fill="#0B0B0B">SOCIAL.</text>
+
+  <!-- info strip -->
+  <g>
+    <rect x="64" y="990" width="1072" height="170" fill="none" stroke="#F5F5F0" stroke-width="3"/>
+    <line x1="421" y1="990" x2="421" y2="1160" stroke="#F5F5F0" stroke-width="3"/>
+    <line x1="778" y1="990" x2="778" y2="1160" stroke="#F5F5F0" stroke-width="3"/>
+    <text class="b" x="96" y="1040" font-size="22" font-weight="800" fill="#8A8A8A" letter-spacing="4">WHEN</text>
+    <text class="d" x="96" y="1122" font-size="62" fill="#D7FF1F">SAT 10:00</text>
+    <text class="b" x="453" y="1040" font-size="22" font-weight="800" fill="#8A8A8A" letter-spacing="4">WHO</text>
+    <text class="d" x="453" y="1122" font-size="62" fill="#F5F5F0">ALL LEVELS</text>
+    <text class="b" x="810" y="1040" font-size="22" font-weight="800" fill="#8A8A8A" letter-spacing="4">COST</text>
+    <text class="d" x="810" y="1122" font-size="62" fill="#F5F5F0">FREE</text>
+  </g>
+
+  <text class="b" x="64" y="1236" font-size="32" font-weight="600" fill="#F5F5F0">Coaches set up the platforms. You bring a friend.</text>
+  <text class="b" x="64" y="1278" font-size="32" font-weight="400" fill="#8A8A8A">Learn the hinge, find a working weight, stay for the chat.</text>
+
+  <polygon points="80,1330 560,1330 548,1420 68,1420" fill="#D7FF1F"/>
+  <text class="d" x="314" y="1390" font-size="40" fill="#0B0B0B" text-anchor="middle" letter-spacing="2">RSVP ON OUR PAGE →</text>
+  <text class="b" x="1136" y="1372" font-size="24" font-weight="600" fill="#F5F5F0" text-anchor="end">Members + guests welcome</text>
+  <text class="b" x="1136" y="1406" font-size="22" font-weight="400" fill="#8A8A8A" text-anchor="end">Spaces capped at 24 lifters</text>
+</svg>

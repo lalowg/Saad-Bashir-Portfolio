@@ -1,0 +1,47 @@
+{
+  "slug": "liftwright",
+  "name": "Liftwright",
+  "industry": "fitness",
+  "category": "Strength training & gym",
+  "tagline": "Earn every rep.",
+  "positioning": "Liftwright is the no-nonsense strength gym for people who want real barbell coaching, honest programming and a floor built for lifting heavy.",
+  "audience": "Beginner-to-intermediate lifters aged 20-45 who are tired of glossy fitness clubs and want structured strength training, platforms and racks, and coaches who actually teach technique.",
+  "strategy": "Own the loud, raw end of the gym market with poster-like creative that feels like a flyer on a warehouse door. Lead with structure (programs, blocks, coached sessions) rather than body-image promises, and build community through recurring free events like the Saturday Deadlift Social.",
+  "voice": ["loud", "direct", "gritty", "encouraging"],
+  "palette": [
+    {"name": "Floor Black", "hex": "#0B0B0B", "role": "bg"},
+    {"name": "Chalk", "hex": "#F5F5F0", "role": "ink"},
+    {"name": "Volt Lime", "hex": "#D7FF1F", "role": "primary"},
+    {"name": "Hazard Red", "hex": "#FF3B1F", "role": "secondary"},
+    {"name": "Steel Grey", "hex": "#8A8A8A", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#F5F5F0", "bg": "#0B0B0B", "ratio": "18.00:1", "use": "body text"},
+    {"fg": "#D7FF1F", "bg": "#0B0B0B", "ratio": "17.07:1", "use": "headlines, links, highlights"},
+    {"fg": "#0B0B0B", "bg": "#D7FF1F", "ratio": "17.07:1", "use": "button labels on lime"},
+    {"fg": "#8A8A8A", "bg": "#0B0B0B", "ratio": "5.70:1", "use": "secondary body text and captions"},
+    {"fg": "#FF3B1F", "bg": "#0B0B0B", "ratio": "5.53:1", "use": "kickers and labels"},
+    {"fg": "#0B0B0B", "bg": "#FF3B1F", "ratio": "5.53:1", "use": "body and display text on red blocks"},
+    {"fg": "#0B0B0B", "bg": "#F5F5F0", "ratio": "18.00:1", "use": "body text on chalk sections"},
+    {"fg": "#F5F5F0", "bg": "#FF3B1F", "ratio": "3.26:1", "use": "large display type only (never body text)"}
+  ],
+  "fonts": {"display": "Anton", "body": "Barlow", "mono": "None (Barlow 800 uppercase, wide tracking, for labels and data)"},
+  "designSystem": {
+    "spacing": "8px base unit; blocks use 64-128px vertical padding; full-bleed sections with 16-64px gutters",
+    "radius": "0 everywhere. Hard corners only; the only curves are barbell plates",
+    "borders": "3px solid Chalk or Lime rules; hazard-tape bands as section dividers",
+    "imagery": "No photos. Original vector barbells, plates and racks, halftone dot fields and hazard stripes",
+    "shapes": "Parallelograms skewed -12deg, diagonal slashes, stacked full-bleed bands",
+    "buttons": "Skewed parallelogram, Lime fill, black Anton uppercase label; hover shifts to Hazard Red",
+    "cards": "Flat black or chalk blocks with a 3px rule, oversized outline numerals, no shadows",
+    "motifs": "Massive condensed uppercase type, diagonal slashes, halftone textures, hazard-tape stripes"
+  },
+  "artDirection": "Every piece should read like a gym-door poster from across the room: one massive Anton headline, often breaking the grid or bleeding off the edge, set in Chalk or Volt Lime on Floor Black. Add one diagonal Hazard Red slash and one halftone dot field per composition, and use hazard tape to separate information. Supporting copy is short, direct Barlow; CTAs are skewed lime parallelograms. Never show bodies or before/after imagery; show equipment, numbers and structure instead.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post 1080×1350", "width": 1080, "height": 1350, "title": "Earn Every Rep", "headline": "EARN EVERY REP.", "summary": "Poster-style launch of the free 6-week strength block for new members."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led post 1200×1350", "width": 1200, "height": 1350, "title": "Strength Is Planned", "headline": "STRENGTH IS PLANNED, NOT HOPED.", "summary": "Thought-leadership piece showing how a sample 12-week block waves intensity with deloads."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "The Iron Room Opens", "headline": "24/7 PLATFORMS. NO EXCUSES LEFT.", "summary": "Announces the round-the-clock Floor 2 lifting room with platforms, racks and calibrated plates."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community event post 1200×1500", "width": 1200, "height": 1500, "title": "Saturday Deadlift Social", "headline": "DEADLIFT SOCIAL.", "summary": "Invites members and guests of all levels to a free coached Saturday deadlift session."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "The Big 5 Field Guide", "headline": "THE BIG 5", "summary": "Save-worthy infographic of the five core barbell lifts with two coaching cues each."}
+  ]
+}
