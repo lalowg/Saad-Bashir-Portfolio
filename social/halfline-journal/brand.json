@@ -1,0 +1,47 @@
+{
+  "slug": "halfline-journal",
+  "name": "Halfline Journal",
+  "industry": "news",
+  "category": "Multi-sport longform & documentary editorial",
+  "tagline": "The rest of the story, told slowly.",
+  "positioning": "Halfline Journal is a multi-sport longform publication that treats athletes, grounds and seasons with the patience of documentary photojournalism, publishing fewer stories that go much further.",
+  "audience": "Thoughtful sports readers aged 25-55 who follow several sports, read weekend features, listen to documentary podcasts and want the human story behind results rather than another hot take.",
+  "strategy": "Own the slow lane of sports media: one flagship longform feature a week, serialised in numbered chapters, with a strong monochrome visual identity that stands out in colour-saturated sports feeds. Social works as a trailer for the chapters (carousel covers, contact sheets, reporting notes) and drives sign-ups to the Sunday Long Read newsletter. All stories in this concept are clearly labelled SAMPLE STORY and feature fictional athletes, teams and places.",
+  "voice": ["documentary", "measured", "humane", "exacting"],
+  "palette": [
+    { "name": "Newsprint", "hex": "#F2F0EB", "role": "bg" },
+    { "name": "Darkroom Black", "hex": "#121212", "role": "ink" },
+    { "name": "Rule Red", "hex": "#B91C1C", "role": "primary" },
+    { "name": "Silver Gelatin", "hex": "#6B6B6B", "role": "secondary" },
+    { "name": "Proof Paper", "hex": "#E5E1D8", "role": "accent" }
+  ],
+  "contrastPairs": [
+    { "fg": "#121212", "bg": "#F2F0EB", "ratio": "16.45:1", "use": "body text and headlines on newsprint" },
+    { "fg": "#121212", "bg": "#E5E1D8", "ratio": "14.36:1", "use": "body text on proof-paper panels" },
+    { "fg": "#F2F0EB", "bg": "#121212", "ratio": "16.45:1", "use": "body text on darkroom sections" },
+    { "fg": "#B91C1C", "bg": "#F2F0EB", "ratio": "5.68:1", "use": "kickers, links and SAMPLE labels on newsprint" },
+    { "fg": "#6B6B6B", "bg": "#F2F0EB", "ratio": "4.68:1", "use": "captions and metadata on newsprint" },
+    { "fg": "#FFFFFF", "bg": "#B91C1C", "ratio": "6.47:1", "use": "button and CTA text on red" },
+    { "fg": "#9A9A9A", "bg": "#121212", "ratio": "6.66:1", "use": "captions and metadata on darkroom sections" },
+    { "fg": "#F87171", "bg": "#121212", "ratio": "6.77:1", "use": "red kicker text on darkroom sections (tint of Rule Red)" }
+  ],
+  "fonts": { "display": "DM Serif Display", "body": "Libre Franklin", "mono": "none (Libre Franklin tabular figures for data)" },
+  "designSystem": {
+    "spacing": "8px base unit; generous vertical rhythm of 64-128px between features; text columns capped near 68 characters",
+    "radius": "0 everywhere: square plates, square buttons, square tags, like a printed broadsheet",
+    "borders": "Hairline 1px ink column rules, 4px ink masthead rules, double rules around the masthead, short 4-6px red rule segments marking kickers and captions",
+    "imagery": "Original grainy monochrome illustration plates (SVG noise filter over grey gradients) with simplified silhouettes of athletes, grounds and equipment; never stock photography; every plate carries a numbered caption",
+    "shapes": "Rectangles and hard horizontal lines; the halved-circle mark referencing a halfway line; film-strip sprockets and contact-sheet frames",
+    "buttons": "Square solid red buttons with white uppercase tracked Libre Franklin labels; secondary buttons are 2px ink outlines that invert on hover",
+    "cards": "Borderless story cards separated by column rules: plate, red kicker, serif headline, deck, byline, SAMPLE STORY tag",
+    "motifs": "Large chapter numerals in DM Serif Display, drop caps, red rule lines, pull quotes, captions with plate numbers, contact sheets marked in red grease pencil"
+  },
+  "artDirection": "Every creative should feel like a page lifted from a serious weekend broadsheet: newsprint or darkroom black backgrounds, one grainy monochrome plate, and red used sparingly as a rule, a circle or a single call to action. Headlines are set big in DM Serif Display with an italic second line, supported by small tracked Libre Franklin kickers and captions. Chapter numerals, plate captions and SAMPLE STORY labels appear on every piece so the series logic is legible at a glance. Avoid colour photography, gradients in hue, emoji and stadium-hype language.",
+  "assets": [
+    { "file": "01-instagram.svg", "platform": "instagram", "format": "Carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "The Long Quiet of Lane Eight", "headline": "The Long Quiet of Lane Eight", "summary": "Carousel cover for Chapter One of a sample longform feature about a fictional 400m runner's return." },
+    { "file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led feed post 1200×1350", "width": 1200, "height": 1350, "title": "What One Longform Story Actually Takes", "headline": "What one longform story actually takes.", "summary": "Reporting-notes infographic with sample figures and a reporting timeline, making the case for slow sports journalism." },
+    { "file": "03-x.svg", "platform": "x", "format": "Announcement post 1600×900", "width": 1600, "height": 900, "title": "Halfway Lines Series Announcement", "headline": "Halfway Lines.", "summary": "Launch of a five-sport documentary series with a stacked strip of monochrome sport plates." },
+    { "file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "Every Town Has a Halfway Line", "headline": "Every town has a halfway line.", "summary": "Front-page style reader campaign inviting stories about local grounds, with a dusk stadium plate." },
+    { "file": "05-signature.svg", "platform": "instagram", "format": "Story / contact-sheet feature launch 1080×1920", "width": 1080, "height": 1920, "title": "Climb, Then Descend Contact Sheet", "headline": "Climb, Then Descend.", "summary": "Darkroom contact sheet marked in red grease pencil, launching Chapter Five about a fictional cyclist." }
+  ]
+}

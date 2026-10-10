@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-label="Halfline Journal Instagram carousel cover: The Long Quiet of Lane Eight">
+<title>Halfline Journal Instagram carousel cover: The Long Quiet of Lane Eight</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Libre+Franklin:wght@400;500;700;800&amp;display=swap');
+.d{font-family:'DM Serif Display',Georgia,'Times New Roman',serif}
+.di{font-family:'DM Serif Display',Georgia,serif;font-style:italic}
+.b{font-family:'Libre Franklin','Helvetica Neue',Arial,sans-serif}
+.k{font-family:'Libre Franklin','Helvetica Neue',Arial,sans-serif;font-weight:700;letter-spacing:4px}
+</style>
+<defs><filter id="g1" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.3"/></feComponentTransfer></filter>
+<clipPath id="plate"><rect x="72" y="176" width="936" height="640"/></clipPath>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E0E0E"/><stop offset="0.36" stop-color="#2A2A2A"/><stop offset="0.37" stop-color="#5C5C5C"/><stop offset="1" stop-color="#9C9A95"/></linearGradient>
+<radialGradient id="flood" cx="0.82" cy="0.06" r="0.55"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.85"/><stop offset="0.25" stop-color="#FFFFFF" stop-opacity="0.18"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.55" stop-color="#121212" stop-opacity="0"/><stop offset="1" stop-color="#121212" stop-opacity="0.75"/></linearGradient>
+</defs>
+<rect width="1080" height="1350" fill="#F2F0EB"/>
+<rect width="1080" height="1350" filter="url(#g1)" opacity="0.5"/>
+<g transform="translate(72 64) scale(0.5333333333333333)"><circle cx="60" cy="60" r="46" fill="none" stroke="#121212" stroke-width="7"/><path d="M14 60 A46 46 0 0 1 106 60 Z" fill="#121212"/><rect x="0" y="55" width="120" height="10" fill="#B91C1C"/></g><text class="d" x="147.51999999999998" y="109.4912" font-size="39.68" fill="#121212">Halfline Journal</text>
+<text class="k" x="1008" y="92" font-size="18" fill="#B91C1C" text-anchor="end">SAMPLE STORY</text>
+<text class="b" x="1008" y="118" font-size="18" fill="#6B6B6B" text-anchor="end">Issue 17 · 10 Oct 2026</text>
+<rect x="72" y="148" width="936" height="4" fill="#121212"/>
+<g clip-path="url(#plate)">
+<rect x="72" y="176" width="936" height="640" fill="url(#sky)"/>
+<line x1="372" y1="386" x2="-1368" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-1178" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-988" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-798" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-608" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-418" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-228" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.0"/><line x1="372" y1="386" x2="-38" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="3.6"/><line x1="372" y1="386" x2="152" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="4.2"/><line x1="372" y1="386" x2="342" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="4.8"/><line x1="372" y1="386" x2="532" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="5.4"/><line x1="372" y1="386" x2="722" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="6.0"/><line x1="372" y1="386" x2="912" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="6.6"/><line x1="372" y1="386" x2="1102" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="7.2"/><line x1="372" y1="386" x2="1292" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="7.8"/><line x1="372" y1="386" x2="1482" y2="856" stroke="#E5E1D8" stroke-opacity="0.55" stroke-width="8.4"/>
+<line x1="72" y1="736" x2="1008" y2="716" stroke="#F2F0EB" stroke-width="10" stroke-opacity="0.85"/>
+<g transform="translate(832 786) skewX(-28) scale(1 0.42)"><text class="d" x="0" y="0" font-size="300" fill="#F2F0EB" fill-opacity="0.5">8</text></g>
+<g transform="translate(492 732) scale(1.15)" stroke="#0B0B0B" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<circle cx="18" cy="-102" r="21" fill="#0B0B0B" stroke="none"/>
+<path d="M44 -72 L160 -112" stroke-width="36"/>
+<path d="M44 -72 L10 -2" stroke-width="16"/><path d="M60 -78 L34 -2" stroke-width="14"/>
+<path d="M160 -112 L112 -46 L140 0" stroke-width="22"/>
+<path d="M160 -112 L222 -54 L252 0" stroke-width="22"/>
+</g>
+<path d="M492 736 q140 22 300 6" stroke="#000" stroke-opacity="0.35" stroke-width="18" fill="none"/>
+<rect x="72" y="176" width="936" height="640" fill="url(#flood)"/>
+<rect x="72" y="176" width="936" height="640" fill="url(#fade)"/>
+<rect x="72" y="176" width="936" height="640" filter="url(#g1)"/>
+<text class="d" x="112" y="776" font-size="210" fill="#F2F0EB">01</text>
+<text class="k" x="372" y="746" font-size="20" fill="#F2F0EB">CHAPTER ONE</text>
+<text class="b" x="372" y="774" font-size="20" fill="#E5E1D8">The year nobody called</text>
+</g>
+<rect x="72" y="830" width="80" height="4" fill="#B91C1C"/>
+<text class="b" x="168" y="838" font-size="19" fill="#6B6B6B">Plate I. Lane eight before dawn, Molberg Stadium. Illustration.</text>
+<text class="d" x="72" y="960" font-size="92" fill="#121212">The Long Quiet</text>
+<text class="di" x="72" y="1056" font-size="92" fill="#121212">of Lane Eight</text>
+<text class="b" x="72" y="1124" font-size="30" fill="#121212">Two years away from the track. One race</text>
+<text class="b" x="72" y="1166" font-size="30" fill="#121212">to find out what is left of Ilse Varenko.</text>
+<rect x="72" y="1212" width="936" height="2" fill="#121212"/>
+<rect x="72" y="1236" width="480" height="58" fill="#B91C1C"/>
+<text class="k" x="96" y="1273" font-size="20" fill="#FFFFFF">SWIPE FOR CHAPTER ONE  →</text>
+<text class="b" x="1008" y="1272" font-size="20" fill="#6B6B6B" text-anchor="end">A longform feature · 9,400 words</text>
+</svg>

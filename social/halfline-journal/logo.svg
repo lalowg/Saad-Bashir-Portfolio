@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="160" viewBox="0 0 760 160" role="img" aria-label="Halfline Journal logo">
+  <title>Halfline Journal</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Libre+Franklin:wght@500;700&amp;display=swap');
+  .w{font-family:'DM Serif Display',Georgia,serif;font-size:78px;fill:#121212}
+  .s{font-family:'Libre Franklin',Arial,sans-serif;font-size:19px;font-weight:700;letter-spacing:9px;fill:#121212}</style>
+  <g transform="translate(20 20)">
+    <circle cx="60" cy="60" r="46" fill="none" stroke="#121212" stroke-width="7"/>
+    <path d="M14 60 A46 46 0 0 1 106 60 Z" fill="#121212"/>
+    <rect x="0" y="55" width="120" height="10" fill="#B91C1C"/>
+  </g>
+  <text class="w" x="170" y="98">Halfline</text>
+  <rect x="172" y="114" width="44" height="4" fill="#B91C1C"/>
+  <text class="s" x="228" y="124">JOURNAL</text>
+</svg>
