@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-label="Chainmere field guide: five scam red flags">
+<title>Chainmere field guide: five scam red flags</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&amp;family=Inter+Tight:wght@400;500;600;700&amp;display=swap');.d{font-family:'Syne','Arial Black',Arial,sans-serif}.b{font-family:'Inter Tight','Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<linearGradient id="mT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient>
+<linearGradient id="mL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26D0CE"/><stop offset="1" stop-color="#16808E"/></linearGradient>
+<g id="mk">
+<polygon points="256,106 386,181 256,256 126,181" fill="url(#mT)"/>
+<polygon points="256,106 256,256 126,181" fill="#FFFFFF" fill-opacity="0.14"/>
+<polygon points="126,181 256,256 256,406 126,331" fill="url(#mL)"/>
+<polygon points="126,331 256,406 256,256" fill="#0A0E1F" fill-opacity="0.18"/>
+<polygon points="256,256 386,181 386,331 256,406" fill="#E7E9F5" fill-opacity="0.07" stroke="#E7E9F5" stroke-opacity="0.6" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="386" cy="181" r="20" fill="#F5C26B"/>
+<circle cx="386" cy="331" r="20" fill="#F5C26B"/>
+<circle cx="256" cy="256" r="15" fill="#0A0E1F" stroke="#F5C26B" stroke-width="7"/>
+</g>
+<linearGradient id="cTv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFC4FF"/><stop offset="1" stop-color="#9A85FF"/></linearGradient>
+<linearGradient id="cLv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#5A3BE0"/></linearGradient>
+<linearGradient id="cRv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A32C4"/><stop offset="1" stop-color="#2B1C80"/></linearGradient>
+<linearGradient id="cTt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A6F5F3"/><stop offset="1" stop-color="#26D0CE"/></linearGradient>
+<linearGradient id="cLt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1FB5B4"/><stop offset="1" stop-color="#11808A"/></linearGradient>
+<linearGradient id="cRt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F6470"/><stop offset="1" stop-color="#0A3F4E"/></linearGradient>
+<linearGradient id="cTg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE3AE"/><stop offset="1" stop-color="#F5C26B"/></linearGradient>
+<linearGradient id="cLg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9A24A"/><stop offset="1" stop-color="#A8752C"/></linearGradient>
+<linearGradient id="cRg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A5420"/><stop offset="1" stop-color="#4E3514"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/></linearGradient>
+<linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E7E9F5" stop-opacity="0.45"/><stop offset="0.5" stop-color="#E7E9F5" stop-opacity="0.08"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0.35"/></linearGradient>
+<radialGradient id="gV"><stop offset="0" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gT"><stop offset="0" stop-color="#26D0CE" stop-opacity="0.32"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0"/></radialGradient>
+<radialGradient id="gG"><stop offset="0" stop-color="#F5C26B" stop-opacity="0.22"/><stop offset="1" stop-color="#F5C26B" stop-opacity="0"/></radialGradient>
+<linearGradient id="crys" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF" stop-opacity="0.9"/><stop offset="0.55" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0.5"/></linearGradient>
+<pattern id="iso" width="56" height="32.33" patternUnits="userSpaceOnUse">
+<path d="M0 0 L56 32.33 M56 0 L0 32.33" stroke="#E7E9F5" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+</defs>
+
+<rect width="1080" height="1920" fill="#0A0E1F"/>
+<rect width="1080" height="1920" fill="url(#iso)"/>
+<circle cx="900" cy="360" r="700" fill="url(#gV)"/>
+<circle cx="120" cy="1500" r="700" fill="url(#gT)"/>
+<circle cx="160" cy="420" r="300" fill="url(#gG)"/>
+<g opacity="0.9"><polygon points="930.0,290.0 995.0,388.8 930.0,550.0 865.0,388.8" fill="url(#crys)"/><polygon points="930.0,290.0 906.6,407.0 865.0,388.8" fill="#FFFFFF" fill-opacity="0.28"/><polygon points="930.0,290.0 995.0,388.8 956.0,425.2" fill="#FFFFFF" fill-opacity="0.1"/><polygon points="865.0,388.8 906.6,407.0 930.0,550.0" fill="#0A0E1F" fill-opacity="0.15"/><polygon points="956.0,425.2 995.0,388.8 930.0,550.0" fill="#0A0E1F" fill-opacity="0.3"/><polyline points="930.0,290.0 906.6,407.0 930.0,550.0 956.0,425.2 930.0,290.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.5"/><polygon points="930.0,290.0 995.0,388.8 930.0,550.0 865.0,388.8" fill="none" stroke="#E7E9F5" stroke-opacity="0.55" stroke-width="2" stroke-linejoin="round"/></g>
+<g opacity="0.6"><polygon points="960.0,585.0 988.0,626.8 960.0,695.0 932.0,626.8" fill="url(#crys)"/><polygon points="960.0,585.0 949.9,634.5 932.0,626.8" fill="#FFFFFF" fill-opacity="0.28"/><polygon points="960.0,585.0 988.0,626.8 971.2,642.2" fill="#FFFFFF" fill-opacity="0.1"/><polygon points="932.0,626.8 949.9,634.5 960.0,695.0" fill="#0A0E1F" fill-opacity="0.15"/><polygon points="971.2,642.2 988.0,626.8 960.0,695.0" fill="#0A0E1F" fill-opacity="0.3"/><polyline points="960.0,585.0 949.9,634.5 960.0,695.0 971.2,642.2 960.0,585.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.5"/><polygon points="960.0,585.0 988.0,626.8 960.0,695.0 932.0,626.8" fill="none" stroke="#E7E9F5" stroke-opacity="0.55" stroke-width="2" stroke-linejoin="round"/></g>
+<g><use href="#mk" transform="translate(72 130) scale(0.1250)"/><text class="d" x="148" y="176.4" font-size="40" font-weight="700" fill="#E7E9F5" letter-spacing="-0.5">Chainmere</text></g>
+<text class="b" x="72" y="320" font-size="24" font-weight="600" fill="#26D0CE" letter-spacing="5"><tspan x="72" dy="0">FIELD GUIDE · SAFETY</tspan></text>
+<text class="d" x="72" y="430" font-size="88" font-weight="800" fill="#E7E9F5" letter-spacing="-2"><tspan x="72" dy="0">Five red</tspan><tspan x="72" dy="96">flags, before</tspan><tspan x="72" dy="96" fill="#F5C26B">you connect.</tspan></text>
+<rect x="72" y="720" width="936" height="154" rx="26" fill="url(#glass)"/><rect x="73" y="721" width="934" height="152" rx="26" fill="none" stroke="url(#glassEdge)" stroke-width="2"/><line x1="98" y1="721.5" x2="586.8000000000001" y2="721.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+<polygon points="156,751 196,774 196,820 156,843 116,820 116,774" fill="#7C5CFF" fill-opacity="0.85"/>
+<polygon points="156,751 196,774 156,797 116,774" fill="#FFFFFF" fill-opacity="0.18"/>
+<text class="d" x="156" y="809" font-size="34" font-weight="800" fill="#E7E9F5" text-anchor="middle"><tspan x="156" dy="0">1</tspan></text>
+<text class="d" x="236" y="786" font-size="40" font-weight="700" fill="#E7E9F5"><tspan x="236" dy="0">Promised returns</tspan></text>
+<text class="b" x="236" y="832" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="236" dy="0">Anyone guaranteeing profit is selling something.</tspan></text>
+<rect x="72" y="898" width="936" height="154" rx="26" fill="url(#glass)"/><rect x="73" y="899" width="934" height="152" rx="26" fill="none" stroke="url(#glassEdge)" stroke-width="2"/><line x1="98" y1="899.5" x2="586.8000000000001" y2="899.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+<polygon points="156,929 196,952 196,998 156,1021 116,998 116,952" fill="#16808E" fill-opacity="0.85"/>
+<polygon points="156,929 196,952 156,975 116,952" fill="#FFFFFF" fill-opacity="0.18"/>
+<text class="d" x="156" y="987" font-size="34" font-weight="800" fill="#E7E9F5" text-anchor="middle"><tspan x="156" dy="0">2</tspan></text>
+<text class="d" x="236" y="964" font-size="40" font-weight="700" fill="#E7E9F5"><tspan x="236" dy="0">Urgency timers</tspan></text>
+<text class="b" x="236" y="1010" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="236" dy="0">Real opportunities don't expire in ten minutes.</tspan></text>
+<rect x="72" y="1076" width="936" height="154" rx="26" fill="url(#glass)"/><rect x="73" y="1077" width="934" height="152" rx="26" fill="none" stroke="url(#glassEdge)" stroke-width="2"/><line x1="98" y1="1077.5" x2="586.8000000000001" y2="1077.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+<polygon points="156,1107 196,1130 196,1176 156,1199 116,1176 116,1130" fill="#7C5CFF" fill-opacity="0.85"/>
+<polygon points="156,1107 196,1130 156,1153 116,1130" fill="#FFFFFF" fill-opacity="0.18"/>
+<text class="d" x="156" y="1165" font-size="34" font-weight="800" fill="#E7E9F5" text-anchor="middle"><tspan x="156" dy="0">3</tspan></text>
+<text class="d" x="236" y="1142" font-size="40" font-weight="700" fill="#E7E9F5"><tspan x="236" dy="0">Seed phrase requests</tspan></text>
+<text class="b" x="236" y="1188" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="236" dy="0">No legitimate support team ever needs it.</tspan></text>
+<rect x="72" y="1254" width="936" height="154" rx="26" fill="url(#glass)"/><rect x="73" y="1255" width="934" height="152" rx="26" fill="none" stroke="url(#glassEdge)" stroke-width="2"/><line x1="98" y1="1255.5" x2="586.8000000000001" y2="1255.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+<polygon points="156,1285 196,1308 196,1354 156,1377 116,1354 116,1308" fill="#16808E" fill-opacity="0.85"/>
+<polygon points="156,1285 196,1308 156,1331 116,1308" fill="#FFFFFF" fill-opacity="0.18"/>
+<text class="d" x="156" y="1343" font-size="34" font-weight="800" fill="#E7E9F5" text-anchor="middle"><tspan x="156" dy="0">4</tspan></text>
+<text class="d" x="236" y="1320" font-size="40" font-weight="700" fill="#E7E9F5"><tspan x="236" dy="0">Surprise airdrops</tspan></text>
+<text class="b" x="236" y="1366" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="236" dy="0">Unknown tokens can carry malicious approvals.</tspan></text>
+<rect x="72" y="1432" width="936" height="154" rx="26" fill="url(#glass)"/><rect x="73" y="1433" width="934" height="152" rx="26" fill="none" stroke="url(#glassEdge)" stroke-width="2"/><line x1="98" y1="1433.5" x2="586.8000000000001" y2="1433.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+<polygon points="156,1463 196,1486 196,1532 156,1555 116,1532 116,1486" fill="#7C5CFF" fill-opacity="0.85"/>
+<polygon points="156,1463 196,1486 156,1509 116,1486" fill="#FFFFFF" fill-opacity="0.18"/>
+<text class="d" x="156" y="1521" font-size="34" font-weight="800" fill="#E7E9F5" text-anchor="middle"><tspan x="156" dy="0">5</tspan></text>
+<text class="d" x="236" y="1498" font-size="40" font-weight="700" fill="#E7E9F5"><tspan x="236" dy="0">Look-alike links</tspan></text>
+<text class="b" x="236" y="1544" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="236" dy="0">Check the domain, letter by letter.</tspan></text>
+<line x1="72" y1="1640" x2="1008" y2="1640" stroke="#E7E9F5" stroke-opacity="0.15" stroke-width="2"/>
+<text class="b" x="72" y="1700" font-size="30" font-weight="600" fill="#E7E9F5"><tspan x="72" dy="0">Save this. Share it with someone new to crypto.</tspan></text>
+<text class="b" x="72" y="1750" font-size="22" font-weight="400" fill="#A3A8C3"><tspan x="72" dy="0">Educational, not financial advice.</tspan></text>
+</svg>

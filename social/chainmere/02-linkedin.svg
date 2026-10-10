@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1350" viewBox="0 0 1200 1350" role="img" aria-label="Chainmere anatomy of a block field note">
+<title>Chainmere anatomy of a block field note</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&amp;family=Inter+Tight:wght@400;500;600;700&amp;display=swap');.d{font-family:'Syne','Arial Black',Arial,sans-serif}.b{font-family:'Inter Tight','Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<linearGradient id="mT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient>
+<linearGradient id="mL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26D0CE"/><stop offset="1" stop-color="#16808E"/></linearGradient>
+<g id="mk">
+<polygon points="256,106 386,181 256,256 126,181" fill="url(#mT)"/>
+<polygon points="256,106 256,256 126,181" fill="#FFFFFF" fill-opacity="0.14"/>
+<polygon points="126,181 256,256 256,406 126,331" fill="url(#mL)"/>
+<polygon points="126,331 256,406 256,256" fill="#0A0E1F" fill-opacity="0.18"/>
+<polygon points="256,256 386,181 386,331 256,406" fill="#E7E9F5" fill-opacity="0.07" stroke="#E7E9F5" stroke-opacity="0.6" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="386" cy="181" r="20" fill="#F5C26B"/>
+<circle cx="386" cy="331" r="20" fill="#F5C26B"/>
+<circle cx="256" cy="256" r="15" fill="#0A0E1F" stroke="#F5C26B" stroke-width="7"/>
+</g>
+<linearGradient id="cTv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFC4FF"/><stop offset="1" stop-color="#9A85FF"/></linearGradient>
+<linearGradient id="cLv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#5A3BE0"/></linearGradient>
+<linearGradient id="cRv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A32C4"/><stop offset="1" stop-color="#2B1C80"/></linearGradient>
+<linearGradient id="cTt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A6F5F3"/><stop offset="1" stop-color="#26D0CE"/></linearGradient>
+<linearGradient id="cLt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1FB5B4"/><stop offset="1" stop-color="#11808A"/></linearGradient>
+<linearGradient id="cRt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F6470"/><stop offset="1" stop-color="#0A3F4E"/></linearGradient>
+<linearGradient id="cTg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE3AE"/><stop offset="1" stop-color="#F5C26B"/></linearGradient>
+<linearGradient id="cLg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9A24A"/><stop offset="1" stop-color="#A8752C"/></linearGradient>
+<linearGradient id="cRg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A5420"/><stop offset="1" stop-color="#4E3514"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/></linearGradient>
+<linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E7E9F5" stop-opacity="0.45"/><stop offset="0.5" stop-color="#E7E9F5" stop-opacity="0.08"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0.35"/></linearGradient>
+<radialGradient id="gV"><stop offset="0" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gT"><stop offset="0" stop-color="#26D0CE" stop-opacity="0.32"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0"/></radialGradient>
+<radialGradient id="gG"><stop offset="0" stop-color="#F5C26B" stop-opacity="0.22"/><stop offset="1" stop-color="#F5C26B" stop-opacity="0"/></radialGradient>
+<linearGradient id="crys" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF" stop-opacity="0.9"/><stop offset="0.55" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0.5"/></linearGradient>
+<pattern id="iso" width="56" height="32.33" patternUnits="userSpaceOnUse">
+<path d="M0 0 L56 32.33 M56 0 L0 32.33" stroke="#E7E9F5" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+</defs>
+
+<rect width="1200" height="1350" fill="#0A0E1F"/>
+<rect width="1200" height="1350" fill="url(#iso)"/>
+<circle cx="1050" cy="200" r="620" fill="url(#gV)"/>
+<circle cx="120" cy="1200" r="600" fill="url(#gT)"/>
+<circle cx="1000" cy="1000" r="300" fill="url(#gG)"/>
+<g><use href="#mk" transform="translate(72 64) scale(0.1172)"/><text class="d" x="144" y="107.7" font-size="38" font-weight="700" fill="#E7E9F5" letter-spacing="-0.5">Chainmere</text></g>
+<text class="b" x="1128" y="104" font-size="22" font-weight="600" fill="#A3A8C3" text-anchor="end" letter-spacing="4"><tspan x="1128" dy="0">FIELD NOTES · NO. 14</tspan></text>
+<text class="b" x="72" y="228" font-size="24" font-weight="600" fill="#26D0CE" letter-spacing="5"><tspan x="72" dy="0">ANATOMY OF A BLOCK</tspan></text>
+<text class="d" x="72" y="318" font-size="76" font-weight="700" fill="#E7E9F5" letter-spacing="-1.5"><tspan x="72" dy="0">Five fields hold</tspan><tspan x="72" dy="90" fill="#B7A6FF">the chain together.</tspan></text>
+<rect x="72" y="470" width="800" height="640" rx="28" fill="url(#glass)"/><rect x="73" y="471" width="798" height="638" rx="28" fill="none" stroke="url(#glassEdge)" stroke-width="2"/><line x1="100" y1="471.5" x2="512.0" y2="471.5" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="1.5"/>
+<polygon points="140,518 172,536 172,572 140,590 108,572 108,536" fill="none" stroke="#26D0CE" stroke-width="2.5"/>
+<text class="b" x="140" y="563" font-size="22" font-weight="700" fill="#26D0CE" text-anchor="middle"><tspan x="140" dy="0">01</tspan></text>
+<text class="d" x="200" y="550" font-size="34" font-weight="700" fill="#E7E9F5"><tspan x="200" dy="0">Previous hash</tspan></text>
+<text class="b" x="200" y="590" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="200" dy="0">Links this block to the one before it.</tspan></text>
+<line x1="108" y1="616" x2="836" y2="616" stroke="#E7E9F5" stroke-opacity="0.1" stroke-width="1.5"/>
+<polygon points="140,638 172,656 172,692 140,710 108,692 108,656" fill="none" stroke="#26D0CE" stroke-width="2.5"/>
+<text class="b" x="140" y="683" font-size="22" font-weight="700" fill="#26D0CE" text-anchor="middle"><tspan x="140" dy="0">02</tspan></text>
+<text class="d" x="200" y="670" font-size="34" font-weight="700" fill="#E7E9F5"><tspan x="200" dy="0">Timestamp</tspan></text>
+<text class="b" x="200" y="710" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="200" dy="0">Records when the block was assembled.</tspan></text>
+<line x1="108" y1="736" x2="836" y2="736" stroke="#E7E9F5" stroke-opacity="0.1" stroke-width="1.5"/>
+<polygon points="140,758 172,776 172,812 140,830 108,812 108,776" fill="none" stroke="#F5C26B" stroke-width="2.5"/>
+<text class="b" x="140" y="803" font-size="22" font-weight="700" fill="#F5C26B" text-anchor="middle"><tspan x="140" dy="0">03</tspan></text>
+<text class="d" x="200" y="790" font-size="34" font-weight="700" fill="#E7E9F5"><tspan x="200" dy="0">Merkle root</tspan></text>
+<text class="b" x="200" y="830" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="200" dy="0">One fingerprint for every transaction.</tspan></text>
+<line x1="108" y1="856" x2="836" y2="856" stroke="#E7E9F5" stroke-opacity="0.1" stroke-width="1.5"/>
+<polygon points="140,878 172,896 172,932 140,950 108,932 108,896" fill="none" stroke="#26D0CE" stroke-width="2.5"/>
+<text class="b" x="140" y="923" font-size="22" font-weight="700" fill="#26D0CE" text-anchor="middle"><tspan x="140" dy="0">04</tspan></text>
+<text class="d" x="200" y="910" font-size="34" font-weight="700" fill="#E7E9F5"><tspan x="200" dy="0">Nonce</tspan></text>
+<text class="b" x="200" y="950" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="200" dy="0">The value varied in proof-of-work.</tspan></text>
+<line x1="108" y1="976" x2="836" y2="976" stroke="#E7E9F5" stroke-opacity="0.1" stroke-width="1.5"/>
+<polygon points="140,998 172,1016 172,1052 140,1070 108,1052 108,1016" fill="none" stroke="#26D0CE" stroke-width="2.5"/>
+<text class="b" x="140" y="1043" font-size="22" font-weight="700" fill="#26D0CE" text-anchor="middle"><tspan x="140" dy="0">05</tspan></text>
+<text class="d" x="200" y="1030" font-size="34" font-weight="700" fill="#E7E9F5"><tspan x="200" dy="0">Transactions</tspan></text>
+<text class="b" x="200" y="1070" font-size="26" font-weight="400" fill="#A3A8C3"><tspan x="200" dy="0">The payload: transfers in this block.</tspan></text>
+<g><polygon points="1010.0,494.0 1067.2,527.0 1010.0,560.0 952.8,527.0" fill="url(#cTt)"/><polygon points="952.8,527.0 1010.0,560.0 1010.0,626.0 952.8,593.0" fill="url(#cLt)"/><polygon points="1010.0,560.0 1067.2,527.0 1067.2,593.0 1010.0,626.0" fill="url(#cRt)"/><polyline points="952.8,527.0 1010.0,560.0 1067.2,527.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/><line x1="1010" y1="560" x2="1010" y2="626" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/></g>
+<text class="b" x="1010" y="658" font-size="20" font-weight="600" fill="#A3A8C3" text-anchor="middle" letter-spacing="1"><tspan x="1010" dy="0">#812,405</tspan></text>
+<g><polygon points="1010.0,714.0 1067.2,747.0 1010.0,780.0 952.8,747.0" fill="url(#cTv)"/><polygon points="952.8,747.0 1010.0,780.0 1010.0,846.0 952.8,813.0" fill="url(#cLv)"/><polygon points="1010.0,780.0 1067.2,747.0 1067.2,813.0 1010.0,846.0" fill="url(#cRv)"/><polyline points="952.8,747.0 1010.0,780.0 1067.2,747.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="2"/><line x1="1010" y1="780" x2="1010" y2="846" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/></g>
+<text class="b" x="1010" y="878" font-size="20" font-weight="600" fill="#A3A8C3" text-anchor="middle" letter-spacing="1"><tspan x="1010" dy="0">#812,406</tspan></text>
+<g><polygon points="1010.0,934.0 1067.2,967.0 1010.0,1000.0 952.8,967.0" fill="#E7E9F5" fill-opacity="0.05" stroke="#E7E9F5" stroke-opacity="0.45" stroke-width="2" stroke-linejoin="round"/><polygon points="952.8,967.0 1010.0,1000.0 1010.0,1066.0 952.8,1033.0" fill="#E7E9F5" fill-opacity="0.05" stroke="#E7E9F5" stroke-opacity="0.45" stroke-width="2" stroke-linejoin="round"/><polygon points="1010.0,1000.0 1067.2,967.0 1067.2,1033.0 1010.0,1066.0" fill="#E7E9F5" fill-opacity="0.05" stroke="#E7E9F5" stroke-opacity="0.45" stroke-width="2" stroke-linejoin="round"/></g>
+<text class="b" x="1010" y="1098" font-size="20" font-weight="600" fill="#A3A8C3" text-anchor="middle" letter-spacing="1"><tspan x="1010" dy="0">#812,407</tspan></text>
+<line x1="1010" y1="670" x2="1010" y2="704" stroke="#F5C26B" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round"/>
+<circle cx="1010" cy="687.0" r="7" fill="#F5C26B"/>
+<line x1="1010" y1="890" x2="1010" y2="924" stroke="#F5C26B" stroke-width="3" stroke-dasharray="3 8" stroke-linecap="round"/>
+<circle cx="1010" cy="907.0" r="7" fill="#F5C26B"/>
+<path d="M872 560 C 920 560, 930 560, 944 560" stroke="#26D0CE" stroke-opacity="0.6" stroke-width="2" fill="none"/>
+<text class="b" x="72" y="1190" font-size="30" font-weight="600" fill="#E7E9F5"><tspan x="72" dy="0">Understand the mechanism before you touch the market.</tspan></text>
+<text class="b" x="72" y="1236" font-size="26" font-weight="600" fill="#F5C26B"><tspan x="72" dy="0">Free full lesson inside Chainmere Academy  →</tspan></text>
+<text class="b" x="72" y="1290" font-size="20" font-weight="400" fill="#A3A8C3"><tspan x="72" dy="0">Illustrative block numbers. Educational, not financial advice.</tspan></text>
+</svg>

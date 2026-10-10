@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Chainmere mark">
+<title>Chainmere mark</title>
+<defs>
+<linearGradient id="mT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient>
+<linearGradient id="mL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26D0CE"/><stop offset="1" stop-color="#16808E"/></linearGradient>
+<g id="mk">
+<polygon points="256,106 386,181 256,256 126,181" fill="url(#mT)"/>
+<polygon points="256,106 256,256 126,181" fill="#FFFFFF" fill-opacity="0.14"/>
+<polygon points="126,181 256,256 256,406 126,331" fill="url(#mL)"/>
+<polygon points="126,331 256,406 256,256" fill="#0A0E1F" fill-opacity="0.18"/>
+<polygon points="256,256 386,181 386,331 256,406" fill="#E7E9F5" fill-opacity="0.07" stroke="#E7E9F5" stroke-opacity="0.6" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="386" cy="181" r="20" fill="#F5C26B"/>
+<circle cx="386" cy="331" r="20" fill="#F5C26B"/>
+<circle cx="256" cy="256" r="15" fill="#0A0E1F" stroke="#F5C26B" stroke-width="7"/>
+</g>
+<radialGradient id="ibg" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color="#2A2370"/><stop offset="0.6" stop-color="#121735"/><stop offset="1" stop-color="#0A0E1F"/></radialGradient>
+</defs>
+<rect width="512" height="512" rx="112" fill="url(#ibg)"/>
+<rect x="3" y="3" width="506" height="506" rx="110" fill="none" stroke="#E7E9F5" stroke-opacity="0.12" stroke-width="4"/>
+<use href="#mk"/>
+</svg>

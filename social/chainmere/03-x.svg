@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Chainmere custody and keys cohort announcement">
+<title>Chainmere custody and keys cohort announcement</title>
+<style>@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&amp;family=Inter+Tight:wght@400;500;600;700&amp;display=swap');.d{font-family:'Syne','Arial Black',Arial,sans-serif}.b{font-family:'Inter Tight','Helvetica Neue',Arial,sans-serif}</style>
+<defs>
+<linearGradient id="mT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF"/><stop offset="1" stop-color="#7C5CFF"/></linearGradient>
+<linearGradient id="mL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#26D0CE"/><stop offset="1" stop-color="#16808E"/></linearGradient>
+<g id="mk">
+<polygon points="256,106 386,181 256,256 126,181" fill="url(#mT)"/>
+<polygon points="256,106 256,256 126,181" fill="#FFFFFF" fill-opacity="0.14"/>
+<polygon points="126,181 256,256 256,406 126,331" fill="url(#mL)"/>
+<polygon points="126,331 256,406 256,256" fill="#0A0E1F" fill-opacity="0.18"/>
+<polygon points="256,256 386,181 386,331 256,406" fill="#E7E9F5" fill-opacity="0.07" stroke="#E7E9F5" stroke-opacity="0.6" stroke-width="8" stroke-linejoin="round"/>
+<circle cx="386" cy="181" r="20" fill="#F5C26B"/>
+<circle cx="386" cy="331" r="20" fill="#F5C26B"/>
+<circle cx="256" cy="256" r="15" fill="#0A0E1F" stroke="#F5C26B" stroke-width="7"/>
+</g>
+<linearGradient id="cTv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#CFC4FF"/><stop offset="1" stop-color="#9A85FF"/></linearGradient>
+<linearGradient id="cLv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7C5CFF"/><stop offset="1" stop-color="#5A3BE0"/></linearGradient>
+<linearGradient id="cRv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4A32C4"/><stop offset="1" stop-color="#2B1C80"/></linearGradient>
+<linearGradient id="cTt" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A6F5F3"/><stop offset="1" stop-color="#26D0CE"/></linearGradient>
+<linearGradient id="cLt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1FB5B4"/><stop offset="1" stop-color="#11808A"/></linearGradient>
+<linearGradient id="cRt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0F6470"/><stop offset="1" stop-color="#0A3F4E"/></linearGradient>
+<linearGradient id="cTg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE3AE"/><stop offset="1" stop-color="#F5C26B"/></linearGradient>
+<linearGradient id="cLg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9A24A"/><stop offset="1" stop-color="#A8752C"/></linearGradient>
+<linearGradient id="cRg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A5420"/><stop offset="1" stop-color="#4E3514"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.13"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/></linearGradient>
+<linearGradient id="glassEdge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E7E9F5" stop-opacity="0.45"/><stop offset="0.5" stop-color="#E7E9F5" stop-opacity="0.08"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0.35"/></linearGradient>
+<radialGradient id="gV"><stop offset="0" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/></radialGradient>
+<radialGradient id="gT"><stop offset="0" stop-color="#26D0CE" stop-opacity="0.32"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0"/></radialGradient>
+<radialGradient id="gG"><stop offset="0" stop-color="#F5C26B" stop-opacity="0.22"/><stop offset="1" stop-color="#F5C26B" stop-opacity="0"/></radialGradient>
+<linearGradient id="crys" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B7A6FF" stop-opacity="0.9"/><stop offset="0.55" stop-color="#7C5CFF" stop-opacity="0.55"/><stop offset="1" stop-color="#26D0CE" stop-opacity="0.5"/></linearGradient>
+<pattern id="iso" width="56" height="32.33" patternUnits="userSpaceOnUse">
+<path d="M0 0 L56 32.33 M56 0 L0 32.33" stroke="#E7E9F5" stroke-opacity="0.045" stroke-width="1"/>
+</pattern>
+</defs>
+
+<rect width="1600" height="900" fill="#0A0E1F"/>
+<rect width="1600" height="900" fill="url(#iso)"/>
+<circle cx="1300" cy="420" r="620" fill="url(#gV)"/>
+<circle cx="200" cy="900" r="520" fill="url(#gT)"/>
+<circle cx="1450" cy="120" r="280" fill="url(#gG)"/>
+<g><use href="#mk" transform="translate(80 72) scale(0.1172)"/><text class="d" x="152" y="115.7" font-size="38" font-weight="700" fill="#E7E9F5" letter-spacing="-0.5">Chainmere</text></g>
+<text class="b" x="80" y="236" font-size="26" font-weight="600" fill="#26D0CE" letter-spacing="4"><tspan x="80" dy="0">NEW COHORT · OPENS 3 NOV 2026</tspan></text>
+<text class="d" x="80" y="340" font-size="92" font-weight="800" fill="#E7E9F5" letter-spacing="-2"><tspan x="80" dy="0">Keys, wallets &amp;</tspan><tspan x="80" dy="100">custody, minus</tspan><tspan x="80" dy="100" fill="#F5C26B">the panic.</tspan></text>
+<text class="b" x="80" y="600" font-size="30" font-weight="400" fill="#A3A8C3"><tspan x="80" dy="0">A 4-week cohort on seed phrases, hardware</tspan><tspan x="80" dy="42">wallets and recovery plans. Live, small-group.</tspan></text>
+<rect x="80" y="690" width="330" height="80" rx="40.0" fill="#F5C26B"/><text class="b" x="245.0" y="740.5" font-size="30" font-weight="600" fill="#0A0E1F" text-anchor="middle"><tspan x="245.0" dy="0">Join the waitlist</tspan></text>
+<rect x="431" y="691" width="328" height="78" rx="40.0" fill="#FFFFFF" fill-opacity="0.04" stroke="#E7E9F5" stroke-opacity="0.6" stroke-width="2"/><text class="b" x="595.0" y="740.5" font-size="30" font-weight="600" fill="#E7E9F5" text-anchor="middle"><tspan x="595.0" dy="0">Free intro session</tspan></text>
+<line x1="1300" y1="450" x2="1110" y2="230" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1300" y1="450" x2="1500" y2="270" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1300" y1="450" x2="1330" y2="770" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1110" y1="230" x2="1120" y2="640" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1500" y1="270" x2="1490" y2="640" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1120" y1="640" x2="1330" y2="770" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1490" y1="640" x2="1330" y2="770" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<line x1="1110" y1="230" x2="1500" y2="270" stroke="#26D0CE" stroke-opacity="0.45" stroke-width="2"/>
+<circle cx="1300" cy="450" r="20.8" fill="#26D0CE" fill-opacity="0.12"/>
+<circle cx="1300" cy="450" r="8" fill="#26D0CE"/>
+<circle cx="1110" cy="230" r="20.8" fill="#F5C26B" fill-opacity="0.12"/>
+<circle cx="1110" cy="230" r="8" fill="#F5C26B"/>
+<circle cx="1500" cy="270" r="20.8" fill="#F5C26B" fill-opacity="0.12"/>
+<circle cx="1500" cy="270" r="8" fill="#F5C26B"/>
+<circle cx="1330" cy="770" r="20.8" fill="#F5C26B" fill-opacity="0.12"/>
+<circle cx="1330" cy="770" r="8" fill="#F5C26B"/>
+<circle cx="1120" cy="640" r="20.8" fill="#26D0CE" fill-opacity="0.12"/>
+<circle cx="1120" cy="640" r="8" fill="#26D0CE"/>
+<circle cx="1490" cy="640" r="20.8" fill="#26D0CE" fill-opacity="0.12"/>
+<circle cx="1490" cy="640" r="8" fill="#26D0CE"/>
+<circle cx="1300" cy="450" r="170" fill="none" stroke="#E7E9F5" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="4 10"/>
+<g opacity="1"><polygon points="1300.0,315.0 1385.0,417.6 1300.0,585.0 1215.0,417.6" fill="url(#crys)"/><polygon points="1300.0,315.0 1269.4,436.5 1215.0,417.6" fill="#FFFFFF" fill-opacity="0.28"/><polygon points="1300.0,315.0 1385.0,417.6 1334.0,455.4" fill="#FFFFFF" fill-opacity="0.1"/><polygon points="1215.0,417.6 1269.4,436.5 1300.0,585.0" fill="#0A0E1F" fill-opacity="0.15"/><polygon points="1334.0,455.4 1385.0,417.6 1300.0,585.0" fill="#0A0E1F" fill-opacity="0.3"/><polyline points="1300.0,315.0 1269.4,436.5 1300.0,585.0 1334.0,455.4 1300.0,315.0" fill="none" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.5"/><polygon points="1300.0,315.0 1385.0,417.6 1300.0,585.0 1215.0,417.6" fill="none" stroke="#E7E9F5" stroke-opacity="0.55" stroke-width="2" stroke-linejoin="round"/></g>
+<text class="b" x="1080" y="196" font-size="20" font-weight="700" fill="#F5C26B" letter-spacing="3"><tspan x="1080" dy="0">SHARE A</tspan></text>
+<text class="b" x="1520" y="236" font-size="20" font-weight="700" fill="#F5C26B" text-anchor="end" letter-spacing="3"><tspan x="1520" dy="0">SHARE B</tspan></text>
+<text class="b" x="1356" y="778" font-size="20" font-weight="700" fill="#F5C26B" letter-spacing="3"><tspan x="1356" dy="0">SHARE C</tspan></text>
+<text class="b" x="1520" y="848" font-size="22" font-weight="500" fill="#A3A8C3" text-anchor="end"><tspan x="1520" dy="0">2-of-3 recovery, explained in week 3</tspan></text>
+<text class="b" x="80" y="848" font-size="20" font-weight="400" fill="#A3A8C3"><tspan x="80" dy="0">Educational, not financial advice.</tspan></text>
+</svg>

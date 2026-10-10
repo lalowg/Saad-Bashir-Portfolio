@@ -1,0 +1,47 @@
+{
+  "slug": "chainmere",
+  "name": "Chainmere",
+  "industry": "finance",
+  "category": "Digital-asset & blockchain education",
+  "tagline": "Understand the chain before you trust it.",
+  "positioning": "Chainmere is the calm, academic night school for people who want to understand how blockchains and digital assets actually work, without price predictions, hype or trading signals.",
+  "audience": "Curious beginners and career-switchers (25-45) who feel left behind by crypto jargon, plus product, legal and finance professionals who need a rigorous mental model of the technology.",
+  "strategy": "Own the trust gap in a hype-saturated category by teaching mechanisms, not markets: every piece of content explains how something works and how to stay safe, never what to buy. A nocturnal, crystalline visual world signals depth and seriousness, while free community formats (Night School, field guides) build habit before the paid cohorts.",
+  "voice": ["Sophisticated", "Calm", "Precise", "Quietly curious"],
+  "palette": [
+    {"name": "Midnight Ledger", "hex": "#0A0E1F", "role": "bg"},
+    {"name": "Frost Ink", "hex": "#E7E9F5", "role": "ink"},
+    {"name": "Amethyst Node", "hex": "#7C5CFF", "role": "primary"},
+    {"name": "Lagoon Hash", "hex": "#26D0CE", "role": "secondary"},
+    {"name": "Lantern Gold", "hex": "#F5C26B", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#E7E9F5", "bg": "#0A0E1F", "ratio": "15.86:1", "use": "body text and headlines"},
+    {"fg": "#A3A8C3", "bg": "#0A0E1F", "ratio": "8.17:1", "use": "secondary body text (muted ink tint)"},
+    {"fg": "#26D0CE", "bg": "#0A0E1F", "ratio": "10.04:1", "use": "eyebrows, links, labels"},
+    {"fg": "#F5C26B", "bg": "#0A0E1F", "ratio": "11.69:1", "use": "highlight words and accent labels"},
+    {"fg": "#B7A6FF", "bg": "#0A0E1F", "ratio": "9.05:1", "use": "highlighted headline words (primary tint)"},
+    {"fg": "#0A0E1F", "bg": "#F5C26B", "ratio": "11.69:1", "use": "primary CTA button label"},
+    {"fg": "#E7E9F5", "bg": "#141A33", "ratio": "14.18:1", "use": "body text on glass card surface"},
+    {"fg": "#7C5CFF", "bg": "#0A0E1F", "ratio": "4.41:1", "use": "large display text and graphics only (not body)"}
+  ],
+  "fonts": {"display": "Syne", "body": "Inter Tight", "mono": "None - Inter Tight with tabular numerals for hashes and figures"},
+  "designSystem": {
+    "spacing": "8px base grid; section rhythm of 96-128px on desktop, 64px on mobile; social canvases keep 72-80px safe margins.",
+    "radius": "Glass cards 24-28px, pills fully rounded, small chips 10px; hard isometric edges on all block graphics for contrast.",
+    "borders": "1-2px gradient hairlines (frost ink to lagoon) on glass panels, with a short bright top-edge highlight to suggest refracted light.",
+    "imagery": "Original vector only: isometric linked blocks, faceted crystals, glowing node graphs and constellations over a midnight mesh gradient. No photos, no coins, no rocket or moon-shot tropes.",
+    "shapes": "Isometric cubes (solid amethyst, solid lagoon, and wireframe glass), hexagon number badges, elongated faceted gems, dashed gold chain links between blocks.",
+    "buttons": "Primary: Lantern Gold pill with midnight label. Secondary: frosted ghost pill with 2px frost-ink outline. Visible gold focus ring offset 3px.",
+    "cards": "Layered glass: translucent white 3-13% fill, backdrop blur on web, gradient hairline border, lifted on hover with a soft violet glow.",
+    "motifs": "The Chainmere mark (two solid facets plus a glass facet with gold nodes) recurs as a rhythm: solid-solid-glass sequences, gold nodes marking connections, and a faint isometric lattice across every background."
+  },
+  "artDirection": "Every creative is set at night: a midnight base with two or three soft violet, lagoon and gold glows forming a mesh, plus a faint isometric lattice. One hero object (block staircase, crystal, node graph or stacked glass cards) sits opposite a confident Syne headline where one phrase is lifted in lavender or gold. Supporting copy stays in Inter Tight muted ink, CTAs are always the gold pill, and every finance post carries the 'Educational, not financial advice' line. Never show price charts, coins, profits or hype language.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Carousel cover 1080x1350", "width": 1080, "height": 1350, "title": "Blockchain 101 carousel cover", "headline": "Learn the chain, block by block.", "summary": "Opens a six-part beginner carousel with a linked isometric block staircase and faceted crystal."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership field note 1200x1350", "width": 1200, "height": 1350, "title": "Field Notes: Anatomy of a block", "headline": "Five fields hold the chain together.", "summary": "Data-led glass panel explaining the five fields inside a block, paired with a linked chain of three blocks."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement 1600x900", "width": 1600, "height": 900, "title": "Custody & Keys cohort announcement", "headline": "Keys, wallets & custody, minus the panic.", "summary": "Announces a sample November cohort with a 2-of-3 key-share recovery node graph around a crystal vault."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community promo 1200x1500", "width": 1200, "height": 1500, "title": "Night School community study hall", "headline": "Night School.", "summary": "Invites beginners to a free weekly live study hall with floating glass question cards under a constellation."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080x1920", "width": 1080, "height": 1920, "title": "Field Guide: five scam red flags", "headline": "Five red flags, before you connect.", "summary": "Signature safety infographic listing five scam warning signs on hexagon-badged glass rows."}
+  ]
+}
