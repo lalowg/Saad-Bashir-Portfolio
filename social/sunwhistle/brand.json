@@ -1,0 +1,46 @@
+{
+  "slug": "sunwhistle",
+  "name": "Sunwhistle",
+  "industry": "fitness",
+  "category": "Healthy lifestyle & everyday wellness",
+  "tagline": "Feel-good days, one tiny habit at a time.",
+  "positioning": "Sunwhistle makes everyday wellness feel light and doable, swapping all-or-nothing fitness pressure for small, sunny habits anyone can start before breakfast.",
+  "audience": "Busy 25-45 year olds who want to feel a bit better day to day (more movement, water, rest and fresh air) but are put off by intense gym culture and rigid plans.",
+  "strategy": "Lead with warmth and permission rather than performance: every touchpoint offers one small, specific action instead of a transformation promise. A free daily nudge and a 30-day community walk challenge build habit and belonging, while a playful sticker-and-sunshine visual system keeps the brand instantly recognisable in busy feeds.",
+  "voice": ["Optimistic", "Playful", "Warm", "Encouraging"],
+  "palette": [
+    { "name": "Morning Cream", "hex": "#FFF6E9", "role": "bg" },
+    { "name": "Toasted Cocoa", "hex": "#3A2416", "role": "ink" },
+    { "name": "Sunrise Orange", "hex": "#FF8A3D", "role": "primary" },
+    { "name": "Dandelion", "hex": "#FFC93C", "role": "secondary" },
+    { "name": "Garden Mint", "hex": "#7FB7A4", "role": "accent" }
+  ],
+  "contrastPairs": [
+    { "fg": "#3A2416", "bg": "#FFF6E9", "ratio": "13.58:1", "use": "body text on cream background" },
+    { "fg": "#FFF6E9", "bg": "#3A2416", "ratio": "13.58:1", "use": "cream text on cocoa buttons and footer" },
+    { "fg": "#3A2416", "bg": "#FFC93C", "ratio": "9.47:1", "use": "text on dandelion stickers and cards" },
+    { "fg": "#3A2416", "bg": "#7FB7A4", "ratio": "6.38:1", "use": "text on mint panels and pills" },
+    { "fg": "#3A2416", "bg": "#FF8A3D", "ratio": "6.20:1", "use": "text on orange CTA buttons" },
+    { "fg": "#FFC93C", "bg": "#3A2416", "ratio": "9.47:1", "use": "dandelion highlights on cocoa" },
+    { "fg": "#A84B12", "bg": "#FFF6E9", "ratio": "5.33:1", "use": "deep-orange link text on cream (Sunrise Orange is fill-only on cream at 2.19:1)" }
+  ],
+  "fonts": { "display": "Fraunces", "body": "DM Sans", "mono": "" },
+  "designSystem": {
+    "spacing": "8px base scale (8/16/24/40/64/96); generous section padding, cards breathe with 24-32px inner padding.",
+    "radius": "Very round: 28-44px on cards, 999px pills and buttons, 120px-radius app icon; nothing has a sharp corner.",
+    "borders": "3px cocoa outlines on stickers, cards and pills, paired with an offset solid cocoa drop shadow (6-8px) for a cut-out sticker feel.",
+    "imagery": "Original vector suns, wavy water lines, dotted walking paths and simple habit icons; no photography, no bodies or before/after imagery.",
+    "shapes": "Circles with rounded sunburst rays, wavy lines, soft blobs, dashed inner rings on badges.",
+    "buttons": "Pill buttons: cocoa fill with cream text (primary) or orange fill with cocoa text (sunny CTA); lift slightly on hover with a bigger offset shadow.",
+    "cards": "Bouncy rounded cards in paper, dandelion or mint, slightly rotated (-2 to 2 degrees) and overlapping, with offset cocoa shadows.",
+    "motifs": "Sunburst rays, wavy lines, sticker-like badges, rounded pills, soft cream-to-peach gradients."
+  },
+  "artDirection": "Every creative is built around a sun: rising from the bottom edge, peeking from a corner, or stamped as a sticker badge, always with rounded pill rays. Headlines are set big in Fraunces with one italic phrase for warmth, supported by short DM Sans copy and a single small, specific action. Layer bouncy outlined cards and rotated stickers over cream or sunny gradients, and thread wavy lines or dotted paths through the composition to suggest movement. Keep copy kind and non-clinical: invitations, never prescriptions or health claims.",
+  "assets": [
+    { "file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Tiny Habits, Big Sunshine", "headline": "Tiny habits, big sunshine.", "summary": "Carousel cover introducing five micro-habits with a rising sunburst and a '5 mini habits' sticker." },
+    { "file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "The Ten-Minute Wellness Day", "headline": "Wellness doesn't need an hour. Try ten minutes.", "summary": "Data-led field note breaking a 10-minute daily routine into stretch, breathe and walk segments on a donut chart." },
+    { "file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "Introducing Sunwhistle Daily", "headline": "A sunnier nudge, every morning.", "summary": "Launch announcement for the free daily wellness prompt, with a tilted 'today's nudge' card over a sunburst." },
+    { "file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "The Sunny Walk Club", "headline": "The Sunny Walk Club.", "summary": "Community challenge invite with a 30-day sun badge and a tick-a-sun walk streak card." },
+    { "file": "05-signature.svg", "platform": "instagram", "format": "Instagram Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Your Sunny Morning Map", "headline": "Your sunny morning map.", "summary": "Signature story infographic: five gentle morning stops linked by a dotted walking path on bouncy cards." }
+  ]
+}
