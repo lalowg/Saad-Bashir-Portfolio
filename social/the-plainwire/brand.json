@@ -1,0 +1,50 @@
+{
+  "slug": "the-plainwire",
+  "name": "The Plainwire",
+  "industry": "news",
+  "category": "News explainers & current affairs",
+  "tagline": "News, explained plainly.",
+  "positioning": "The Plainwire turns complicated local and current-affairs stories into clear, neutral, numbered explainers that separate what is known from what is not yet known.",
+  "audience": "Busy, curious adults (25–60) who want to understand civic, transport, energy and community news without spin, jargon or a doom-scroll.",
+  "strategy": "Lead with wire-service rigor and a repeatable explainer format: numbered cards, timeline strips and 'What we know' boxes that readers learn to trust at a glance. Grow habit through The Daily Five newsletter and community formats like Ask the Explainer, keeping every story sourced, neutral and dated.",
+  "voice": ["Clear", "Neutral", "Explanatory", "Precise"],
+  "palette": [
+    {"name": "Paper White", "hex": "#FFFFFF", "role": "bg"},
+    {"name": "Newsprint Ink", "hex": "#111827", "role": "ink"},
+    {"name": "Wire Blue", "hex": "#1D4ED8", "role": "primary"},
+    {"name": "Bulletin Red", "hex": "#DC2626", "role": "secondary"},
+    {"name": "Desk Grey", "hex": "#F3F4F6", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#111827", "bg": "#FFFFFF", "ratio": "17.74:1", "use": "body text and headlines"},
+    {"fg": "#111827", "bg": "#F3F4F6", "ratio": "16.12:1", "use": "body text in What we know boxes and cards"},
+    {"fg": "#1D4ED8", "bg": "#FFFFFF", "ratio": "6.70:1", "use": "links, kickers, italic headline accents"},
+    {"fg": "#FFFFFF", "bg": "#1D4ED8", "ratio": "6.70:1", "use": "button labels and blue panels"},
+    {"fg": "#1D4ED8", "bg": "#F3F4F6", "ratio": "6.09:1", "use": "kickers inside grey modules"},
+    {"fg": "#DC2626", "bg": "#FFFFFF", "ratio": "4.83:1", "use": "SAMPLE STORY labels and alert kickers"},
+    {"fg": "#FFFFFF", "bg": "#DC2626", "ratio": "4.83:1", "use": "SAMPLE STORY badges (bold, uppercase)"},
+    {"fg": "#4B5563", "bg": "#FFFFFF", "ratio": "7.56:1", "use": "secondary text, timestamps"},
+    {"fg": "#4B5563", "bg": "#F3F4F6", "ratio": "6.87:1", "use": "secondary text on grey"},
+    {"fg": "#F3F4F6", "bg": "#111827", "ratio": "16.12:1", "use": "footer text on ink"},
+    {"fg": "#93C5FD", "bg": "#111827", "ratio": "9.84:1", "use": "footer links on ink"}
+  ],
+  "fonts": {"display": "Newsreader", "body": "Public Sans", "mono": "Public Sans (tabular numerals; no separate mono face)"},
+  "designSystem": {
+    "spacing": "8px base grid; modules separated by 32/48/64px; social safe margins of 64px",
+    "radius": "0 on modules, cards and buttons (square, wire-service feel); circles reserved for timeline nodes and numbered markers",
+    "borders": "1–3px Newsprint Ink rules as section dividers; 8–10px Wire Blue left bars on 'What we know' boxes; red outline for 'What we don't know yet'",
+    "imagery": "Original flat SVG: stylised maps with grid lines, rivers and map pins; no photography",
+    "shapes": "Horizontal wire rules ending in a red node, numbered square cards, timeline strips with circular nodes, teardrop map pins",
+    "buttons": "Solid Wire Blue rectangles with white bold Public Sans labels and an arrow; secondary buttons are 2px ink outlines",
+    "cards": "Square explainer cards with a large Newsreader numeral block, bold Public Sans headline, red SAMPLE STORY label and read-time",
+    "motifs": "Wire-line logo (P whose stem runs into a wire ending in a red node), numbered explainer cards, timeline strips, 'What we know' boxes, map pins"
+  },
+  "artDirection": "Every creative reads like a calm front page: a hairline ink rule under the logo, a blue uppercase kicker, then a Newsreader headline with one italic blue phrase. Structure carries the design, so use numbered cards, What we know boxes, timeline strips and pinned maps instead of decoration. Red is reserved for SAMPLE labels, the wire's end node and 'not yet known' signals; never for alarmism. Keep backgrounds white or Desk Grey, with one full-bleed Wire Blue panel at most per piece.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Tide-gate vote explainer cover", "headline": "What the tide-gate vote means for Ostbridge", "summary": "Carousel cover pairing a What we know box with a pinned river map for a fictional council vote."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led feed post 1200×1350", "width": 1200, "height": 1350, "title": "Timetable reset by the numbers", "headline": "Shorter waits, fewer late trains? What the data says so far", "summary": "Before/after bar chart and timeline strip for a fictional transit timetable change."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement image 1600×900", "width": 1600, "height": 900, "title": "The Daily Five launch", "headline": "Five stories. Explained in five minutes.", "summary": "Newsletter launch with five numbered explainer cards hung on a vertical wire."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "Ask the Explainer campaign", "headline": "You ask. We explain.", "summary": "Community call for reader questions on a fictional harbor budget, with question cards and a pinned map."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Instagram Story 1080×1920", "width": 1080, "height": 1920, "title": "What we know / What we don't know yet", "headline": "Tamsford's overnight outage: the facts so far", "summary": "Signature format: confirmed facts, open questions and a timeline strip for a fictional outage."}
+  ]
+}

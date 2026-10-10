@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="The Plainwire mark">
+  <title>The Plainwire mark</title>
+  <rect width="512" height="512" rx="96" fill="#1D4ED8"/>
+  <path d="M176 140 H286 A80 80 0 0 1 286 300 H176" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linejoin="round"/>
+  <path d="M176 118 V392 H380" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linejoin="round"/>
+  <circle cx="430" cy="392" r="30" fill="#DC2626"/>
+  <circle cx="430" cy="392" r="12" fill="#FFFFFF"/>
+</svg>

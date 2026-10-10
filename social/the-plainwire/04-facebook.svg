@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="The Plainwire Facebook community campaign: Ask the Explainer, Velloria Harbor budget questions">
+  <title>Community campaign: Ask the Explainer</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..800&family=Public+Sans:wght@400..800&display=swap');
+  .d{font-family:'Newsreader',Georgia,serif}
+  .b{font-family:'Public Sans',Arial,Helvetica,sans-serif}]]></style>
+  <defs>
+    <g id="mk">
+      <rect width="512" height="512" rx="96" fill="#1D4ED8"/>
+      <path d="M176 140 H286 A80 80 0 0 1 286 300 H176" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linejoin="round"/>
+      <path d="M176 118 V392 H380" fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linejoin="round"/>
+      <circle cx="430" cy="392" r="30" fill="#DC2626"/>
+      <circle cx="430" cy="392" r="12" fill="#FFFFFF"/>
+    </g>
+    <g id="pin"><path d="M0 0 C-18 -18 -22 -33 -22 -44 A22 22 0 0 1 22 -44 C22 -33 18 -18 0 0 Z"/><circle cy="-44" r="8" fill="#FFFFFF"/></g>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="2" fill="#3B63E0"/></pattern>
+  </defs>
+  <rect width="1200" height="1500" fill="#FFFFFF"/>
+  <!-- header -->
+  <use href="#mk" transform="translate(64 64) scale(0.11)"/>
+  <text class="d" x="136" y="106" font-size="36" font-weight="700" fill="#111827">The Plainwire</text>
+  <rect x="824" y="68" width="312" height="48" fill="#DC2626"/>
+  <text class="b" x="980" y="100" font-size="19" font-weight="800" fill="#FFFFFF" letter-spacing="2" text-anchor="middle">SAMPLE CAMPAIGN</text>
+  <!-- blue panel -->
+  <rect x="0" y="172" width="1200" height="600" fill="#1D4ED8"/>
+  <rect x="760" y="172" width="440" height="600" fill="url(#dots)" opacity="0.6"/>
+  <text class="d" x="1100" y="690" font-size="560" font-weight="800" fill="none" stroke="#93C5FD" stroke-width="4" text-anchor="end">?</text>
+  <text class="b" x="64" y="260" font-size="24" font-weight="800" fill="#BFDBFE" letter-spacing="3">ASK THE EXPLAINER · COMMUNITY</text>
+  <text class="d" font-size="132" font-weight="700" fill="#FFFFFF" letter-spacing="-1.5">
+    <tspan x="64" y="400">You ask.</tspan>
+    <tspan x="64" y="530" font-style="italic">We explain.</tspan>
+  </text>
+  <text class="b" font-size="30" fill="#FFFFFF">
+    <tspan x="64" y="620">Ask the Explainer returns for the Velloria</tspan>
+    <tspan x="64" y="662">Harbor budget. Send a question; we answer</tspan>
+    <tspan x="64" y="704">the most-asked, in plain language, on Fridays.</tspan>
+  </text>
+  <!-- question cards -->
+  <text class="b" x="64" y="846" font-size="22" font-weight="800" fill="#1D4ED8" letter-spacing="2.5">QUESTIONS SO FAR</text>
+  <g class="b">
+    <g transform="translate(64 876)">
+      <rect width="640" height="112" fill="#F3F4F6"/><rect width="8" height="112" fill="#1D4ED8"/>
+      <text x="36" y="50" font-size="28" font-weight="800" fill="#111827">What does the budget fund first?</text>
+      <text x="36" y="86" font-size="20" fill="#4B5563">Reader question · North Quay</text>
+    </g>
+    <g transform="translate(64 1008)">
+      <rect width="640" height="112" fill="#F3F4F6"/><rect width="8" height="112" fill="#DC2626"/>
+      <text x="36" y="50" font-size="28" font-weight="800" fill="#111827">How will harbor fees change?</text>
+      <text x="36" y="86" font-size="20" fill="#4B5563">Reader question · Saltmarsh Row</text>
+    </g>
+    <g transform="translate(64 1140)">
+      <rect width="640" height="112" fill="#F3F4F6"/><rect width="8" height="112" fill="#1D4ED8"/>
+      <text x="36" y="50" font-size="28" font-weight="800" fill="#111827">When can residents comment?</text>
+      <text x="36" y="86" font-size="20" fill="#4B5563">Reader question · Old Lantern Hill</text>
+    </g>
+  </g>
+  <!-- map -->
+  <g transform="translate(744 846)">
+    <rect width="392" height="406" fill="#FFFFFF" stroke="#111827" stroke-width="2"/>
+    <path d="M0 406 L0 250 C60 240 90 200 150 210 C210 220 220 290 290 300 C340 306 370 280 392 270 L392 406 Z" fill="#DBEAFE"/>
+    <path d="M160 300 L220 300 L220 340 L160 340 Z" fill="none" stroke="#1D4ED8" stroke-width="3"/>
+    <g stroke="#D1D5DB" stroke-width="2"><line x1="40" y1="0" x2="80" y2="230"/><line x1="0" y1="110" x2="392" y2="80"/><line x1="250" y1="0" x2="270" y2="290"/></g>
+    <g fill="#1D4ED8"><use href="#pin" transform="translate(96 150)"/><use href="#pin" transform="translate(300 120)"/></g>
+    <use href="#pin" transform="translate(190 290)" fill="#DC2626"/>
+    <text class="b" x="24" y="384" font-size="18" font-weight="700" fill="#111827" letter-spacing="1.5">VELLORIA HARBOR</text>
+  </g>
+  <!-- CTA -->
+  <rect x="64" y="1300" width="520" height="96" fill="#1D4ED8"/>
+  <text class="b" x="324" y="1360" font-size="32" font-weight="800" fill="#FFFFFF" text-anchor="middle">Send your question →</text>
+  <text class="b" x="1136" y="1336" font-size="22" fill="#4B5563" text-anchor="end">Questions close Oct 30, 2026.</text>
+  <text class="b" x="1136" y="1368" font-size="22" fill="#4B5563" text-anchor="end">Velloria Harbor is fictional.</text>
+  <line x1="64" y1="1436" x2="1120" y2="1436" stroke="#111827" stroke-width="3"/>
+  <circle cx="1128" cy="1436" r="8" fill="#DC2626"/>
+</svg>
