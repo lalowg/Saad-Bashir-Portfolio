@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-labelledby="t">
+<title id="t">Family Wealth Evenings — VaultNorth community series</title>
+<style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Lato:wght@300;400;700&display=swap');
+.d{font-family:'Cormorant','Cormorant Garamond',Georgia,'Times New Roman',serif}
+.b{font-family:'Lato','Helvetica Neue',Arial,sans-serif}]]></style>
+<defs>
+<radialGradient id="glow" cx="50%" cy="42%" r="65%"><stop offset="0" stop-color="#18393D"/><stop offset="1" stop-color="#0F2A2E"/></radialGradient>
+<pattern id="eng" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="7" stroke="#C9A96E" stroke-width="0.8" opacity="0.07"/></pattern>
+<pattern id="engDk" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="6" stroke="#0F2A2E" stroke-width="0.8" opacity="0.12"/></pattern>
+
+</defs>
+
+<rect width="1200" height="1500" fill="url(#glow)"/>
+<rect width="1200" height="1500" fill="url(#eng)"/>
+<polygon points="120,334 600,150 1080,334" fill="#1B3F44" stroke="#C9A96E" stroke-width="1.5"/>
+<polygon points="168,322 600,166 1032,322" fill="none" stroke="#C9A96E" stroke-width="0.7" opacity="0.7"/>
+<g transform="translate(552 214) scale(0.96)">
+<circle cx="50" cy="50" r="47.6" fill="none" stroke="#C9A96E" stroke-width="1.3"/>
+<circle cx="50" cy="50" r="42.5" fill="none" stroke="#C9A96E" stroke-width="0.6"/>
+<line x1="50" y1="7.5" x2="50" y2="3" transform="rotate(0 50 50)" stroke="#C9A96E" stroke-width="1"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(11.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(22.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(33.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4" transform="rotate(45 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(56.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(67.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(78.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="3" transform="rotate(90 50 50)" stroke="#C9A96E" stroke-width="1"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(101.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(112.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(123.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4" transform="rotate(135 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(146.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(157.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(168.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="3" transform="rotate(180 50 50)" stroke="#C9A96E" stroke-width="1"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(191.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(202.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(213.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4" transform="rotate(225 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(236.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(247.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(258.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="3" transform="rotate(270 50 50)" stroke="#C9A96E" stroke-width="1"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(281.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(292.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(303.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4" transform="rotate(315 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(326.25 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(337.5 50 50)" stroke="#C9A96E" stroke-width="0.55"/><line x1="50" y1="7.5" x2="50" y2="4.8" transform="rotate(348.75 50 50)" stroke="#C9A96E" stroke-width="0.55"/>
+<polygon points="50,25 53,47 75,50 53,53 50,75 47,53 25,50 47,47" transform="rotate(45 50 50)" fill="#7FA39A"/>
+<polygon points="50,5 44,44 50,50" fill="#C9A96E"/><polygon points="50,5 56,44 50,50" fill="#9A7F4E"/>
+<polygon points="83,50 56,44 50,50" fill="#C9A96E"/><polygon points="83,50 56,56 50,50" fill="#9A7F4E"/>
+<polygon points="50,86 56,56 50,50" fill="#C9A96E"/><polygon points="50,86 44,56 50,50" fill="#9A7F4E"/>
+<polygon points="17,50 44,56 50,50" fill="#C9A96E"/><polygon points="17,50 44,44 50,50" fill="#9A7F4E"/>
+<circle cx="50" cy="50" r="2.4" fill="#1B3F44" stroke="#C9A96E" stroke-width="0.7"/>
+</g>
+<rect x="108" y="334" width="984" height="16" fill="#0F2A2E" stroke="#C9A96E" stroke-width="1.2"/>
+<line x1="108" y1="358" x2="1092" y2="358" stroke="#C9A96E" stroke-width="0.7"/>
+<rect x="108" y="370" width="104" height="18" fill="none" stroke="#C9A96E" stroke-width="1.2"/>
+<rect x="114" y="388" width="92" height="14" fill="none" stroke="#C9A96E" stroke-width="1"/>
+<rect x="120" y="402" width="80" height="836" fill="#1B3F44" stroke="#C9A96E" stroke-width="1.2"/><line x1="133.3" y1="404" x2="133.3" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="146.6" y1="404" x2="146.6" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="159.9" y1="404" x2="159.9" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="173.2" y1="404" x2="173.2" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="186.5" y1="404" x2="186.5" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/>
+<rect x="114" y="1238" width="92" height="14" fill="none" stroke="#C9A96E" stroke-width="1"/>
+<rect x="108" y="1252" width="104" height="18" fill="none" stroke="#C9A96E" stroke-width="1.2"/><rect x="988" y="370" width="104" height="18" fill="none" stroke="#C9A96E" stroke-width="1.2"/>
+<rect x="994" y="388" width="92" height="14" fill="none" stroke="#C9A96E" stroke-width="1"/>
+<rect x="1000" y="402" width="80" height="836" fill="#1B3F44" stroke="#C9A96E" stroke-width="1.2"/><line x1="1013.3" y1="404" x2="1013.3" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="1026.6" y1="404" x2="1026.6" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="1039.9" y1="404" x2="1039.9" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="1053.2" y1="404" x2="1053.2" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/><line x1="1066.5" y1="404" x2="1066.5" y2="1236" stroke="#C9A96E" stroke-width="0.8" opacity="0.7"/>
+<rect x="994" y="1238" width="92" height="14" fill="none" stroke="#C9A96E" stroke-width="1"/>
+<rect x="988" y="1252" width="104" height="18" fill="none" stroke="#C9A96E" stroke-width="1.2"/>
+<rect x="96" y="1270" width="1008" height="14" fill="none" stroke="#C9A96E" stroke-width="1.2"/>
+<rect x="76" y="1284" width="1048" height="14" fill="none" stroke="#C9A96E" stroke-width="1.2"/>
+<text x="600" y="432" text-anchor="middle" class="d" font-size="34" font-weight="600" letter-spacing="12" fill="#F3EEE3">VAULT<tspan fill="#C9A96E">NORTH</tspan></text>
+<text x="600" y="486" text-anchor="middle" class="b" font-size="22" font-weight="700" letter-spacing="6" fill="#C9A96E">A FREE COMMUNITY SERIES</text>
+<text class="d" font-size="88" font-weight="600" fill="#F3EEE3" text-anchor="middle"><tspan x="600" y="594">Family Wealth</tspan><tspan x="600" y="684" font-style="italic" fill="#C9A96E">Evenings</tspan></text>
+<text class="b" font-size="26" font-weight="300" fill="#B8C9C2" text-anchor="middle"><tspan x="600" y="748">Four online evenings for families to talk</tspan><tspan x="600" y="786">about money across generations.</tspan></text>
+<line x1="330" y1="822" x2="586" y2="822" stroke="#C9A96E" stroke-width="1"/><line x1="614" y1="822" x2="870" y2="822" stroke="#C9A96E" stroke-width="1"/><rect x="595" y="817" width="10" height="10" transform="rotate(45 600 822)" fill="#C9A96E"/>
+<text x="262" y="880" class="d" font-size="40" font-weight="600" font-style="italic" fill="#C9A96E">I.</text>
+<text x="350" y="876" class="b" font-size="26" fill="#F3EEE3">Money as a family value</text>
+<text x="938" y="876" text-anchor="end" class="b" font-size="22" font-weight="700" letter-spacing="1" fill="#7FA39A">Thu 22 Oct</text>
+<line x1="262" y1="904" x2="938" y2="904" stroke="#C9A96E" stroke-width="0.6" opacity="0.5"/><text x="262" y="946" class="d" font-size="40" font-weight="600" font-style="italic" fill="#C9A96E">II.</text>
+<text x="350" y="942" class="b" font-size="26" fill="#F3EEE3">Understanding risk, plainly</text>
+<text x="938" y="942" text-anchor="end" class="b" font-size="22" font-weight="700" letter-spacing="1" fill="#7FA39A">Thu 29 Oct</text>
+<line x1="262" y1="970" x2="938" y2="970" stroke="#C9A96E" stroke-width="0.6" opacity="0.5"/><text x="262" y="1012" class="d" font-size="40" font-weight="600" font-style="italic" fill="#C9A96E">III.</text>
+<text x="350" y="1008" class="b" font-size="26" fill="#F3EEE3">Estate planning basics</text>
+<text x="938" y="1008" text-anchor="end" class="b" font-size="22" font-weight="700" letter-spacing="1" fill="#7FA39A">Thu 5 Nov</text>
+<line x1="262" y1="1036" x2="938" y2="1036" stroke="#C9A96E" stroke-width="0.6" opacity="0.5"/><text x="262" y="1078" class="d" font-size="40" font-weight="600" font-style="italic" fill="#C9A96E">IV.</text>
+<text x="350" y="1074" class="b" font-size="26" fill="#F3EEE3">Raising patient savers</text>
+<text x="938" y="1074" text-anchor="end" class="b" font-size="22" font-weight="700" letter-spacing="1" fill="#7FA39A">Thu 12 Nov</text>
+<line x1="262" y1="1102" x2="938" y2="1102" stroke="#C9A96E" stroke-width="0.6" opacity="0.5"/>
+<rect x="390" y="1140" width="420" height="72" fill="#C9A96E"/>
+<text x="600" y="1184" text-anchor="middle" class="b" font-size="24" font-weight="700" letter-spacing="3" fill="#0F2A2E">RESERVE A FREE SEAT</text>
+<text x="600" y="1366" text-anchor="middle" class="b" font-size="22" fill="#B8C9C2">Thursdays at 7:00 pm, online · Seats are limited</text>
+<text x="600" y="1404" text-anchor="middle" class="b" font-size="20" fill="#7FA39A">Educational sessions, not financial advice.</text>
+</svg>

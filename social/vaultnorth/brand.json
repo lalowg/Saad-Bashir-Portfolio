@@ -1,0 +1,49 @@
+{
+  "slug": "vaultnorth",
+  "name": "VaultNorth",
+  "industry": "finance",
+  "category": "Wealth management & financial literacy",
+  "tagline": "Wealth, understood quietly.",
+  "positioning": "VaultNorth brings the calm, long-horizon thinking of private banking to anyone who wants to understand their money, through patient education rather than products or predictions.",
+  "audience": "Thoughtful professionals and multi-generational families, roughly 30 to 65, who are building or stewarding wealth and want plain-spoken financial literacy without hype.",
+  "strategy": "Borrow the codes of heritage private banking (engraving, gold hairlines, roman numerals, symmetry) and use them to make financial education feel premium, trustworthy and unhurried. Every piece of content teaches a principle, never sells a product, and carries a clear educational-not-advice disclaimer. Social output is organised as numbered series (field guides, notes, letters) to build a collectible, library-like presence.",
+  "voice": ["Composed", "Discreet", "Erudite", "Reassuring"],
+  "palette": [
+    {"name": "Vault Teal", "hex": "#0F2A2E", "role": "bg"},
+    {"name": "Vellum", "hex": "#F3EEE3", "role": "ink"},
+    {"name": "Engraver's Gold", "hex": "#C9A96E", "role": "primary"},
+    {"name": "Patina Sage", "hex": "#7FA39A", "role": "secondary"},
+    {"name": "Deep Ledger", "hex": "#1B3F44", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#F3EEE3", "bg": "#0F2A2E", "ratio": "13.05:1", "use": "body text and headlines on dark"},
+    {"fg": "#0F2A2E", "bg": "#F3EEE3", "ratio": "13.05:1", "use": "body text on light ledger panels"},
+    {"fg": "#F3EEE3", "bg": "#1B3F44", "ratio": "9.86:1", "use": "text on accent panels and cards"},
+    {"fg": "#1B3F44", "bg": "#F3EEE3", "ratio": "9.86:1", "use": "secondary text on light surfaces"},
+    {"fg": "#B8C9C2", "bg": "#0F2A2E", "ratio": "8.75:1", "use": "muted body copy (mist tint) on dark"},
+    {"fg": "#B8C9C2", "bg": "#1B3F44", "ratio": "6.61:1", "use": "muted body copy on accent panels"},
+    {"fg": "#C9A96E", "bg": "#0F2A2E", "ratio": "6.75:1", "use": "gold eyebrows, numerals and links on dark"},
+    {"fg": "#0F2A2E", "bg": "#C9A96E", "ratio": "6.75:1", "use": "solid gold button labels"},
+    {"fg": "#7FA39A", "bg": "#0F2A2E", "ratio": "5.47:1", "use": "disclaimers and meta text on dark"},
+    {"fg": "#C9A96E", "bg": "#1B3F44", "ratio": "5.10:1", "use": "gold labels on accent panels"}
+  ],
+  "fonts": {"display": "Cormorant", "body": "Lato", "mono": "none (tabular lining numerals in Cormorant for figures)"},
+  "designSystem": {
+    "spacing": "Generous 8px-based scale; sections breathe at 88-168px vertical padding; content held in a centered 1180px column with symmetrical gutters.",
+    "radius": "0px everywhere: square, engraved edges; the only curves are circular rosettes and compass rings.",
+    "borders": "Fine 1px Engraver's Gold hairlines, often doubled (1px + offset 0.6px) like a banknote frame, with small rotated-diamond terminals.",
+    "imagery": "No photography. Original line-engraved SVG: guilloche rosettes, compass roses, porticos and diagonal engraving hatch textures.",
+    "shapes": "Circles, diamonds, triangular pediments and fluted columns; strict bilateral symmetry.",
+    "buttons": "Uppercase Lato 700 with wide 0.22em tracking; primary is solid gold with teal label, secondary is a gold outline with an offset second hairline.",
+    "cards": "Transparent or deep-teal panels framed by a gold hairline plus an inset second frame that expands on hover; centered content led by an italic roman numeral.",
+    "motifs": "North-star compass monogram, guilloche rosettes, fine gold hairlines, engraved hatch textures, roman-numeral sequencing (I-VII) for sections and series."
+  },
+  "artDirection": "Compose every creative like a page from a private bank's annual letter: symmetrical, framed by a double gold hairline, with one engraved centrepiece (rosette, compass or portico) and abundant negative space. Headlines are set in Cormorant with one italic gold phrase for emphasis; supporting copy is light Lato in a muted mist tint. Number everything in roman numerals to build a collectible series, and keep a visible educational-not-advice line on any piece that discusses money. Never show photography, price charts with real tickers, or promised returns; figures are always labelled hypothetical.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "The Quiet Art of Compounding", "headline": "The Quiet Art of Compounding", "summary": "Carousel cover opening a five-part series on patient wealth, built around a guilloche rosette and the compass monogram."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "Time in the Market, Not Timing It", "headline": "Time in the market, not timing it.", "summary": "Light vellum field note charting a hypothetical $10,000 at a constant 5% over X, XX and XXX years, fully disclaimed."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement card 1600×900", "width": 1600, "height": 900, "title": "Introducing The North Ledger", "headline": "The North Ledger", "summary": "Split composition announcing the free monthly wealth-literacy letter, with an engraved monogram panel and subscribe CTA."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community event promo 1200×1500", "width": 1200, "height": 1500, "title": "Family Wealth Evenings", "headline": "Family Wealth Evenings", "summary": "Classical portico frame listing four free online family sessions (22 Oct to 12 Nov 2026) with a reserve-a-seat CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "The Four Cardinal Points of Wealth", "headline": "The Four Cardinal Points of Wealth", "summary": "Signature compass-rose infographic mapping four literacy principles to North, East, South and West."}
+  ]
+}
