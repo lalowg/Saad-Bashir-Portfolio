@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" role="img" aria-label="Tillorbit logo">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&amp;display=swap'); .wm{font-family:'Outfit',system-ui,sans-serif;font-weight:700;font-size:96px;letter-spacing:-3px;fill:#140F2D}</style>
+  <defs>
+    <linearGradient id="tl-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B3DF5"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
+  </defs>
+  <g transform="translate(100 100)">
+    <circle r="46" fill="url(#tl-g)"/>
+    <rect x="-22" y="-19" width="44" height="10" rx="5" fill="#F5F3FF"/>
+    <rect x="-5" y="-19" width="10" height="46" rx="5" fill="#F5F3FF"/>
+    <ellipse rx="84" ry="31" fill="none" stroke="#140F2D" stroke-width="7" transform="rotate(-24)" stroke-dasharray="240 30" stroke-linecap="round"/>
+    <circle cx="70" cy="-34" r="13" fill="#2EE6A8"/>
+  </g>
+  <text class="wm" x="206" y="133">tillorbit</text>
+</svg>

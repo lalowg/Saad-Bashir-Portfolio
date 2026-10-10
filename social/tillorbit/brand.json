@@ -1,0 +1,48 @@
+{
+  "slug": "tillorbit",
+  "name": "Tillorbit",
+  "industry": "finance",
+  "category": "Payments & fintech",
+  "tagline": "Money that moves like you do.",
+  "positioning": "Tillorbit is a consumer-first payments app that makes paying, splitting and getting paid feel as fluid as a tap, for people and the independent shops they love.",
+  "audience": "Digitally native 20-40 year-olds who share costs with friends, plus independent shop owners who want simple, transparent card acceptance.",
+  "strategy": "Lead with motion and clarity: every touchpoint shows money in orbit, moving smoothly from tap to settled. Pair vibrant consumer-tech energy with plain-language explainers so trust grows from understanding, never from hype or promised outcomes.",
+  "voice": ["vibrant", "fluid", "clear", "friendly"],
+  "palette": [
+    {"name": "Lavender Mist", "hex": "#F5F3FF", "role": "bg"},
+    {"name": "Deep Space", "hex": "#140F2D", "role": "ink"},
+    {"name": "Orbit Violet", "hex": "#5B3DF5", "role": "primary"},
+    {"name": "Flare Pink", "hex": "#FF5FA2", "role": "secondary"},
+    {"name": "Signal Mint", "hex": "#2EE6A8", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#140F2D", "bg": "#F5F3FF", "ratio": "16.86:1", "use": "body text on light background"},
+    {"fg": "#4A4566", "bg": "#F5F3FF", "ratio": "8.20:1", "use": "secondary body text"},
+    {"fg": "#5B3DF5", "bg": "#F5F3FF", "ratio": "5.58:1", "use": "links and highlighted headings"},
+    {"fg": "#FFFFFF", "bg": "#5B3DF5", "ratio": "6.12:1", "use": "primary button labels"},
+    {"fg": "#F5F3FF", "bg": "#140F2D", "ratio": "16.86:1", "use": "body text on dark sections"},
+    {"fg": "#B9B3D9", "bg": "#140F2D", "ratio": "9.25:1", "use": "muted text on dark sections"},
+    {"fg": "#2EE6A8", "bg": "#140F2D", "ratio": "11.44:1", "use": "accent labels on dark"},
+    {"fg": "#140F2D", "bg": "#2EE6A8", "ratio": "11.44:1", "use": "mint button labels"},
+    {"fg": "#140F2D", "bg": "#FF5FA2", "ratio": "6.52:1", "use": "pink badges and chips"}
+  ],
+  "fonts": {"display": "Outfit", "body": "Plus Jakarta Sans", "mono": "Plus Jakarta Sans (tabular figures)"},
+  "designSystem": {
+    "spacing": "8px base grid; section padding 96-128px desktop, 64px mobile; generous 24px bento gaps",
+    "radius": "Soft and pill-shaped: 28px cards, 999px buttons and chips, 40px large panels",
+    "borders": "Hairline 1-2px borders in ink at 10-16% opacity; glass panels on dark use lavender at 6% fill",
+    "imagery": "Original vector only: floating card and receipt mockups, phones and terminals as simple geometric UI, never photos",
+    "shapes": "Tilted ellipses (orbits), circles, pills; blurred radial gradient blobs in violet, pink and mint",
+    "buttons": "Pill buttons; primary violet with white label, secondary mint with ink label, ghost with ink outline; arrow glyph for forward actions",
+    "cards": "White floating cards with soft violet-tinted drop shadow, slight rotation (-8 to 6 degrees) when shown as mockups; bento tiles with mixed spans",
+    "motifs": "Orbital rings at -12 to -24 degrees, satellite dots in mint, gradient motion trails fading along an orbit arc, floating UI chips"
+  },
+  "artDirection": "Every creative centres on an orbit: a tilted ring system with a hero object (card, receipt, terminal or phone) at its core and UI chips floating around it. Use the violet-to-pink gradient for the hero object and one motion trail per composition, with mint reserved for success states and satellite dots. Keep headlines in heavy Outfit with tight tracking and a single violet or mint highlight word; supporting copy in Plus Jakarta Sans stays short and factual. Alternate light lavender and deep-space backgrounds across a feed to keep rhythm, and always label sample figures as illustrative.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Money in Motion carousel cover", "headline": "Money that moves like you do.", "summary": "Carousel opener with a gradient card at the centre of an orbit and floating payment chips."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "Checkout Friction field notes", "headline": "Every extra field is a reason to walk away.", "summary": "Data-led comparison of an 11-field checkout versus a single tap, clearly marked illustrative."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement card 1600×900", "width": 1600, "height": 900, "title": "Orbit Split launch", "headline": "Split any bill in one tap.", "summary": "Feature announcement with a receipt mockup and three friends orbiting the shared bill."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Campaign post 1200×1500", "width": 1200, "height": 1500, "title": "Paid in Orbit small business campaign", "headline": "Local shops, paid in orbit.", "summary": "Community campaign inviting followers to tag independent shops, with a terminal at the core of the orbit."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Anatomy of a Tap infographic", "headline": "Anatomy of a tap.", "summary": "Educational explainer mapping tap, verify, route and settle onto four concentric orbits."}
+  ]
+}

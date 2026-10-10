@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1350" viewBox="0 0 1200 1350" role="img" aria-label="Tillorbit LinkedIn post: Every extra field is a reason to walk away">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap');
+    .d{font-family:'Outfit',system-ui,sans-serif}.b{font-family:'Plus Jakarta Sans',system-ui,sans-serif}</style>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B3DF5"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
+    <radialGradient id="bp"><stop offset="0" stop-color="#5B3DF5" stop-opacity=".6"/><stop offset="1" stop-color="#5B3DF5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bk"><stop offset="0" stop-color="#FF5FA2" stop-opacity=".35"/><stop offset="1" stop-color="#FF5FA2" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2EE6A8" stop-opacity="0"/><stop offset="1" stop-color="#2EE6A8"/></linearGradient>
+    <symbol id="mark" viewBox="-100 -100 200 200">
+      <circle r="46" fill="url(#g1)"/><rect x="-22" y="-19" width="44" height="10" rx="5" fill="#F5F3FF"/><rect x="-5" y="-19" width="10" height="46" rx="5" fill="#F5F3FF"/>
+      <ellipse rx="84" ry="31" fill="none" stroke="currentColor" stroke-width="7" transform="rotate(-24)" stroke-dasharray="240 30" stroke-linecap="round"/><circle cx="70" cy="-34" r="13" fill="#2EE6A8"/>
+    </symbol>
+  </defs>
+  <rect width="1200" height="1350" fill="#140F2D"/>
+  <circle cx="1060" cy="230" r="520" fill="url(#bp)"/>
+  <circle cx="140" cy="1260" r="440" fill="url(#bk)"/>
+  <g fill="none" stroke="#F5F3FF" stroke-opacity=".08" stroke-width="2">
+    <circle cx="1060" cy="230" r="300"/><circle cx="1060" cy="230" r="420"/>
+  </g>
+
+  <use href="#mark" xlink:href="#mark" x="56" y="52" width="96" height="96" color="#F5F3FF"/>
+  <text class="d" x="150" y="114" font-size="44" font-weight="700" letter-spacing="-1" fill="#F5F3FF">tillorbit</text>
+  <text class="b" x="1136" y="110" font-size="20" font-weight="700" letter-spacing="3" fill="#2EE6A8" text-anchor="end">FIELD NOTES · PAYMENTS UX</text>
+
+  <text class="d" x="64" y="270" font-size="84" font-weight="700" letter-spacing="-2" fill="#F5F3FF"><tspan x="64">Every extra field</tspan><tspan x="64" dy="92">is a reason to</tspan><tspan x="64" dy="92" fill="#FF5FA2">walk away.</tspan></text>
+  <text class="b" x="64" y="540" font-size="30" fill="#B9B3D9"><tspan x="64">We redesigned checkout around one idea: fewer</tspan><tspan x="64" dy="42">decisions between intent and done.</tspan></text>
+
+  <rect x="64" y="630" width="1072" height="500" rx="36" fill="#F5F3FF" fill-opacity=".06" stroke="#F5F3FF" stroke-opacity=".16" stroke-width="2"/>
+  <text class="b" x="112" y="694" font-size="20" font-weight="700" letter-spacing="3" fill="#B9B3D9">TYPICAL FLOW</text>
+  <text class="d" x="106" y="810" font-size="120" font-weight="800" fill="#F5F3FF">11</text>
+  <text class="b" x="112" y="852" font-size="26" fill="#B9B3D9">form fields to complete</text>
+  <g fill="#F5F3FF">
+    <rect x="112" y="886" width="380" height="12" rx="6" fill-opacity=".55"/>
+    <rect x="112" y="904" width="340" height="12" rx="6" fill-opacity=".5"/>
+    <rect x="112" y="922" width="360" height="12" rx="6" fill-opacity=".46"/>
+    <rect x="112" y="940" width="300" height="12" rx="6" fill-opacity=".42"/>
+    <rect x="112" y="958" width="370" height="12" rx="6" fill-opacity=".38"/>
+    <rect x="112" y="976" width="320" height="12" rx="6" fill-opacity=".34"/>
+    <rect x="112" y="994" width="350" height="12" rx="6" fill-opacity=".3"/>
+    <rect x="112" y="1012" width="280" height="12" rx="6" fill-opacity=".26"/>
+    <rect x="112" y="1030" width="360" height="12" rx="6" fill-opacity=".22"/>
+    <rect x="112" y="1048" width="310" height="12" rx="6" fill-opacity=".18"/>
+    <rect x="112" y="1066" width="340" height="12" rx="6" fill-opacity=".14"/>
+  </g>
+  <path d="M 540 960 C 580 930 610 990 650 960" fill="none" stroke="url(#tr)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 636 946 l 16 14 l -16 14" fill="none" stroke="#2EE6A8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="b" x="700" y="694" font-size="20" font-weight="700" letter-spacing="3" fill="#2EE6A8">WITH TILLORBIT</text>
+  <text class="d" x="694" y="810" font-size="120" font-weight="800" fill="#F5F3FF">1</text>
+  <text class="b" x="700" y="852" font-size="26" fill="#B9B3D9">confident tap to pay</text>
+  <g transform="translate(900 990) rotate(-8)">
+    <ellipse rx="200" ry="72" fill="none" stroke="#2EE6A8" stroke-opacity=".55" stroke-width="3"/>
+    <path d="M -200 0 A 200 72 0 0 1 -60 -69" fill="none" stroke="url(#tr)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <rect x="740" y="946" width="320" height="88" rx="44" fill="url(#g1)"/>
+  <text class="d" x="900" y="1002" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">Pay €48.00</text>
+  <circle cx="1084" cy="954" r="14" fill="#2EE6A8"/>
+
+  <text class="b" x="64" y="1172" font-size="18" fill="#B9B3D9">Illustrative comparison from a fictional concept brand · educational, not financial advice.</text>
+  <rect x="64" y="1212" width="440" height="80" rx="40" fill="#2EE6A8"/>
+  <text class="d" x="284" y="1261" font-size="26" font-weight="700" fill="#140F2D" text-anchor="middle">Read the full teardown →</text>
+  <text class="b" x="1136" y="1260" font-size="22" fill="#B9B3D9" text-anchor="end">Follow for weekly payments UX notes</text>
+</svg>

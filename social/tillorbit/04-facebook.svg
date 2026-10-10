@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Tillorbit Facebook campaign: Local shops, paid in orbit">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap');
+    .d{font-family:'Outfit',system-ui,sans-serif}.b{font-family:'Plus Jakarta Sans',system-ui,sans-serif}</style>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B3DF5"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
+    <linearGradient id="bgv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5B3DF5"/><stop offset=".72" stop-color="#140F2D"/></linearGradient>
+    <radialGradient id="bk"><stop offset="0" stop-color="#FF5FA2" stop-opacity=".55"/><stop offset="1" stop-color="#FF5FA2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bg"><stop offset="0" stop-color="#2EE6A8" stop-opacity=".35"/><stop offset="1" stop-color="#2EE6A8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2EE6A8" stop-opacity="0"/><stop offset="1" stop-color="#2EE6A8"/></linearGradient>
+    <linearGradient id="trk" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#FF5FA2" stop-opacity="0"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#000000" flood-opacity=".3"/></filter>
+    <symbol id="mark" viewBox="-100 -100 200 200">
+      <circle r="46" fill="url(#g1)"/><rect x="-22" y="-19" width="44" height="10" rx="5" fill="#F5F3FF"/><rect x="-5" y="-19" width="10" height="46" rx="5" fill="#F5F3FF"/>
+      <ellipse rx="84" ry="31" fill="none" stroke="currentColor" stroke-width="7" transform="rotate(-24)" stroke-dasharray="240 30" stroke-linecap="round"/><circle cx="70" cy="-34" r="13" fill="#2EE6A8"/>
+    </symbol>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bgv)"/>
+  <circle cx="1080" cy="120" r="420" fill="url(#bk)"/>
+  <circle cx="160" cy="900" r="380" fill="url(#bg)"/>
+
+  <use href="#mark" xlink:href="#mark" x="56" y="52" width="96" height="96" color="#F5F3FF"/>
+  <text class="d" x="150" y="114" font-size="44" font-weight="700" letter-spacing="-1" fill="#F5F3FF">tillorbit</text>
+  <text class="b" x="1136" y="110" font-size="20" font-weight="700" letter-spacing="3" fill="#F5F3FF" text-anchor="end">CAMPAIGN · OCT 2026</text>
+
+  <text class="d" x="600" y="300" font-size="108" font-weight="800" letter-spacing="-3" fill="#FFFFFF" text-anchor="middle"><tspan x="600">Local shops,</tspan><tspan x="600" dy="116">paid in <tspan fill="#2EE6A8">orbit.</tspan></tspan></text>
+  <text class="b" x="600" y="500" font-size="32" fill="#F5F3FF" text-anchor="middle"><tspan x="600">Small Business Month: no setup fees in October</tspan><tspan x="600" dy="46">and next-day payouts for independent shops.</tspan></text>
+
+  <g transform="translate(600 850) rotate(-6)">
+    <ellipse rx="480" ry="170" fill="none" stroke="#F5F3FF" stroke-opacity=".28" stroke-width="3"/>
+    <ellipse rx="340" ry="118" fill="none" stroke="#FF5FA2" stroke-opacity=".55" stroke-width="3" stroke-dasharray="10 14"/>
+    <path d="M -480 0 A 480 170 0 0 1 -200 -155" fill="none" stroke="url(#tr)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 480 0 A 480 170 0 0 1 220 151" fill="none" stroke="url(#trk)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(600 850)" filter="url(#sh)">
+    <rect x="-120" y="-200" width="240" height="380" rx="40" fill="#F5F3FF"/>
+    <rect x="-96" y="-172" width="192" height="200" rx="24" fill="#140F2D"/>
+    <use href="#mark" xlink:href="#mark" x="-26" y="-164" width="52" height="52" color="#F5F3FF"/>
+    <text class="d" x="0" y="-48" font-size="48" font-weight="800" fill="#FFFFFF" text-anchor="middle">€18.50</text>
+    <text class="b" x="0" y="-12" font-size="18" font-weight="600" fill="#2EE6A8" text-anchor="middle">Tap to pay</text>
+    <path d="M -18 70 a 26 26 0 0 1 0 40 M -4 60 a 40 40 0 0 1 0 60 M 10 50 a 54 54 0 0 1 0 80" fill="none" stroke="#5B3DF5" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-50" y="150" width="100" height="10" rx="5" fill="#140F2D" fill-opacity=".2"/>
+  </g>
+
+  <g transform="translate(64 640)" filter="url(#sh)">
+    <rect width="340" height="112" rx="28" fill="#FFFFFF"/>
+    <circle cx="56" cy="56" r="32" fill="#FF5FA2"/>
+    <path d="M 56 40 c -10 8 -10 24 0 32 c 10 -8 10 -24 0 -32 z M 40 56 c 8 -10 24 -10 32 0 c -8 10 -24 10 -32 0 z" fill="#140F2D"/>
+    <text class="d" x="104" y="50" font-size="26" font-weight="700" fill="#140F2D">Fern &amp; Fold</text>
+    <text class="b" x="104" y="82" font-size="20" font-weight="600" fill="#5B3DF5">+€184.20 today</text>
+  </g>
+  <g transform="translate(796 960)" filter="url(#sh)">
+    <rect width="340" height="112" rx="28" fill="#FFFFFF"/>
+    <circle cx="56" cy="56" r="32" fill="#2EE6A8"/>
+    <path d="M 42 44 h 28 l -4 28 h -20 z" fill="#140F2D"/>
+    <text class="d" x="104" y="50" font-size="26" font-weight="700" fill="#140F2D">Kiln Street</text>
+    <text class="b" x="104" y="82" font-size="20" font-weight="600" fill="#4A4566">Payout sent</text>
+    <circle cx="300" cy="56" r="16" fill="#2EE6A8"/>
+    <path d="M 293 56 l 5 5 l 10 -11" fill="none" stroke="#140F2D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(880 650)">
+    <rect width="200" height="60" rx="30" fill="#140F2D" stroke="#F5F3FF" stroke-opacity=".3" stroke-width="2"/>
+    <circle cx="32" cy="30" r="8" fill="#2EE6A8"/>
+    <text class="b" x="52" y="38" font-size="20" font-weight="700" fill="#F5F3FF">Next-day</text>
+  </g>
+
+  <rect x="64" y="1130" width="1072" height="306" rx="40" fill="#F5F3FF"/>
+  <text class="d" x="112" y="1214" font-size="44" font-weight="700" letter-spacing="-1" fill="#140F2D">Tag a shop you love: #PaidInOrbit</text>
+  <text class="b" x="112" y="1260" font-size="24" fill="#4A4566">We’ll spotlight local favourites from our community all month.</text>
+  <rect x="112" y="1308" width="380" height="84" rx="42" fill="#5B3DF5"/>
+  <text class="d" x="302" y="1361" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle">Join the waitlist</text>
+  <text class="b" x="1088" y="1346" font-size="18" fill="#4A4566" text-anchor="end">Fees and availability vary by region.</text>
+  <text class="b" x="1088" y="1372" font-size="18" fill="#4A4566" text-anchor="end">Fictional concept brand.</text>
+</svg>

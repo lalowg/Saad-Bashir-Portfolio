@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-label="Tillorbit Instagram carousel cover: Money that moves like you do">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap');
+    .d{font-family:'Outfit',system-ui,sans-serif}.b{font-family:'Plus Jakarta Sans',system-ui,sans-serif}</style>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B3DF5"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
+    <radialGradient id="bp"><stop offset="0" stop-color="#5B3DF5" stop-opacity=".45"/><stop offset="1" stop-color="#5B3DF5" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bk"><stop offset="0" stop-color="#FF5FA2" stop-opacity=".42"/><stop offset="1" stop-color="#FF5FA2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bg"><stop offset="0" stop-color="#2EE6A8" stop-opacity=".4"/><stop offset="1" stop-color="#2EE6A8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="tr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B3DF5" stop-opacity="0"/><stop offset="1" stop-color="#5B3DF5"/></linearGradient>
+    <linearGradient id="trk" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#FF5FA2" stop-opacity="0"/><stop offset="1" stop-color="#FF5FA2"/></linearGradient>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#140F2D" flood-opacity=".18"/></filter>
+    <symbol id="mark" viewBox="-100 -100 200 200">
+      <circle r="46" fill="url(#g1)"/><rect x="-22" y="-19" width="44" height="10" rx="5" fill="#F5F3FF"/><rect x="-5" y="-19" width="10" height="46" rx="5" fill="#F5F3FF"/>
+      <ellipse rx="84" ry="31" fill="none" stroke="currentColor" stroke-width="7" transform="rotate(-24)" stroke-dasharray="240 30" stroke-linecap="round"/><circle cx="70" cy="-34" r="13" fill="#2EE6A8"/>
+    </symbol>
+  </defs>
+  <rect width="1080" height="1350" fill="#F5F3FF"/>
+  <circle cx="940" cy="170" r="440" fill="url(#bp)"/>
+  <circle cx="110" cy="1160" r="400" fill="url(#bk)"/>
+  <circle cx="840" cy="1080" r="320" fill="url(#bg)"/>
+
+  <use href="#mark" xlink:href="#mark" x="56" y="52" width="96" height="96" color="#140F2D"/>
+  <text class="d" x="150" y="114" font-size="44" font-weight="700" letter-spacing="-1" fill="#140F2D">tillorbit</text>
+  <rect x="852" y="72" width="164" height="56" rx="28" fill="#140F2D"/>
+  <text class="b" x="934" y="108" font-size="22" font-weight="700" fill="#F5F3FF" text-anchor="middle" letter-spacing="2">01 / 05</text>
+
+  <text class="d" x="64" y="320" font-size="116" font-weight="800" letter-spacing="-3" fill="#140F2D"><tspan x="64">Money that</tspan><tspan x="64" dy="124">moves like</tspan><tspan x="64" dy="124" fill="#5B3DF5">you do.</tspan></text>
+  <text class="b" x="64" y="650" font-size="34" font-weight="500" fill="#4A4566"><tspan x="64">Tap, split and send in seconds —</tspan><tspan x="64" dy="48">one wallet orbiting your whole day.</tspan></text>
+
+  <g transform="translate(540 1000) rotate(-12)">
+    <ellipse rx="410" ry="150" fill="none" stroke="#5B3DF5" stroke-opacity=".3" stroke-width="3"/>
+    <ellipse rx="300" ry="104" fill="none" stroke="#FF5FA2" stroke-opacity=".5" stroke-width="3" stroke-dasharray="10 14"/>
+    <path d="M -410 0 A 410 150 0 0 1 -150 -140" fill="none" stroke="url(#tr)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="-150" cy="-140" r="16" fill="#5B3DF5"/>
+    <path d="M 300 0 A 300 104 0 0 1 120 95" fill="none" stroke="url(#trk)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(540 1000) rotate(-8)" filter="url(#sh)">
+    <rect x="-190" y="-118" width="380" height="236" rx="28" fill="url(#g1)"/>
+    <circle cx="150" cy="-120" r="110" fill="#F5F3FF" fill-opacity=".1"/>
+    <rect x="-150" y="-66" width="58" height="44" rx="9" fill="#F5F3FF" fill-opacity=".85"/>
+    <path d="M -70 -60 a 22 22 0 0 1 0 32 M -58 -68 a 34 34 0 0 1 0 48" fill="none" stroke="#F5F3FF" stroke-width="5" stroke-linecap="round"/>
+    <use href="#mark" xlink:href="#mark" x="84" y="-106" width="80" height="80" color="#F5F3FF"/>
+    <text class="d" x="-150" y="76" font-size="30" font-weight="700" fill="#F5F3FF">tillorbit</text>
+    <text class="b" x="152" y="76" font-size="22" font-weight="600" fill="#F5F3FF" text-anchor="end">•••• 2048</text>
+  </g>
+  <g transform="translate(540 1000) rotate(-12)">
+    <path d="M -300 0 A 300 104 0 0 0 300 0" fill="none" stroke="#5B3DF5" stroke-width="4"/>
+    <circle cx="300" cy="0" r="14" fill="#FF5FA2"/>
+  </g>
+
+  <g transform="translate(80 770)" filter="url(#sh)">
+    <rect width="372" height="100" rx="50" fill="#FFFFFF"/>
+    <circle cx="50" cy="50" r="30" fill="#2EE6A8"/>
+    <path d="M 37 51 l 9 9 l 18 -19" fill="none" stroke="#140F2D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="d" x="96" y="46" font-size="28" font-weight="600" fill="#140F2D">Paid · €24.00</text>
+    <text class="b" x="96" y="76" font-size="19" fill="#4A4566">Café Nebula · just now</text>
+  </g>
+  <g transform="translate(640 1100)" filter="url(#sh)">
+    <rect width="360" height="100" rx="50" fill="#FFFFFF"/>
+    <circle cx="50" cy="50" r="30" fill="#FF5FA2"/>
+    <circle cx="50" cy="36" r="5" fill="#140F2D"/><rect x="34" y="47" width="32" height="6" rx="3" fill="#140F2D"/><circle cx="50" cy="64" r="5" fill="#140F2D"/>
+    <text class="d" x="96" y="46" font-size="28" font-weight="600" fill="#140F2D">Split 3 ways</text>
+    <text class="b" x="96" y="76" font-size="19" fill="#4A4566">€12.40 each, settled</text>
+  </g>
+  <g transform="translate(790 800)">
+    <rect width="190" height="64" rx="32" fill="#140F2D"/>
+    <circle cx="34" cy="32" r="9" fill="#2EE6A8"/>
+    <text class="b" x="56" y="41" font-size="24" font-weight="700" fill="#F5F3FF">Instant</text>
+  </g>
+
+  <text class="b" x="64" y="1268" font-size="30" font-weight="700" fill="#140F2D">Swipe for 5 everyday money moves</text>
+  <circle cx="980" cy="1258" r="36" fill="#5B3DF5"/>
+  <path d="M 964 1258 h 30 m -12 -12 l 12 12 l -12 12" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
