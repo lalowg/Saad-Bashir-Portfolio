@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Wayfinch AI announcement: new trail, summarize a long report in 6 steps">
+  <title>New trail: summarize a long report in 6 steps</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;700&display=swap');
+  .d{font-family:'Archivo Black','Arial Black',sans-serif}.b{font-family:'Archivo',Arial,sans-serif}]]></style>
+  <defs>
+    <g id="finch">
+      <path d="M18 60 C18 38 36 24 57 26 C69 27 77 34 80 42 L80 52 C77 68 63 78 45 78 L22 88 L30 72 C22 69 18 65 18 60 Z" fill="#2563EB"/>
+      <path d="M32 56 C42 44 58 44 68 54 C58 64 42 66 32 56 Z" fill="#FDFBF4"/>
+      <path d="M79 41 L95 47 L79 53 Z" fill="#F97316"/>
+      <circle cx="66" cy="40" r="3.6" fill="#1E2A3A"/>
+    </g>
+    <g id="finchL">
+      <path d="M18 60 C18 38 36 24 57 26 C69 27 77 34 80 42 L80 52 C77 68 63 78 45 78 L22 88 L30 72 C22 69 18 65 18 60 Z" fill="#FDFBF4"/>
+      <path d="M32 56 C42 44 58 44 68 54 C58 64 42 66 32 56 Z" fill="#FDE68A"/>
+      <path d="M79 41 L95 47 L79 53 Z" fill="#F97316"/>
+      <circle cx="66" cy="40" r="3.6" fill="#1E2A3A"/>
+    </g>
+    <clipPath id="panel"><rect x="860" y="64" width="676" height="772" rx="36"/></clipPath>
+  </defs>
+  <rect width="1600" height="900" fill="#FDFBF4"/>
+  <!-- left column -->
+  <rect x="64" y="64" width="330" height="52" rx="26" fill="#F97316"/>
+  <text x="90" y="98" class="b" font-size="22" font-weight="700" fill="#1E2A3A" letter-spacing="2">NEW TRAIL · 12 MIN</text>
+  <text class="d" font-size="88" fill="#1E2A3A">
+    <tspan x="64" y="238" fill="#2563EB">New trail:</tspan>
+    <tspan x="64" y="338">Summarize a</tspan>
+    <tspan x="64" y="438">long report</tspan>
+    <tspan x="64" y="538">in 6 steps.</tspan>
+  </text>
+  <text class="b" font-size="28" fill="#4A5668">
+    <tspan x="64" y="608">A beginner route with Pebblequery:</tspan>
+    <tspan x="64" y="646">upload, ask, check, cite, trim, share.</tspan>
+  </text>
+  <g transform="translate(64 770)">
+    <rect width="66" height="66" rx="16" fill="#2563EB"/>
+    <g transform="translate(9 6) scale(0.52)"><use xlink:href="#finchL" href="#finchL"/></g>
+    <text x="84" y="46" class="d" font-size="34" fill="#1E2A3A">Wayfinch<tspan fill="#2563EB" dx="10">AI</tspan></text>
+  </g>
+  <rect x="470" y="772" width="300" height="62" rx="31" fill="#1E2A3A"/>
+  <text x="620" y="813" text-anchor="middle" class="b" font-size="24" font-weight="700" fill="#FDE68A">Start the trail →</text>
+  <!-- map panel -->
+  <rect x="860" y="64" width="676" height="772" rx="36" fill="#FDE68A"/>
+  <g clip-path="url(#panel)" fill="none" stroke="#1E2A3A" stroke-opacity="0.12" stroke-width="2">
+    <path d="M820 200 C960 140 1100 260 1260 180 S1520 120 1600 160"/>
+    <path d="M820 260 C980 200 1100 320 1270 240 S1520 190 1600 230"/>
+    <path d="M820 520 C960 460 1120 600 1280 520 S1520 470 1600 500"/>
+    <path d="M820 590 C980 530 1120 660 1290 590 S1520 540 1600 570"/>
+    <ellipse cx="1420" cy="380" rx="120" ry="60"/>
+    <ellipse cx="1420" cy="380" rx="70" ry="32"/>
+  </g>
+  <rect x="860" y="64" width="676" height="772" rx="36" fill="none" stroke="#1E2A3A" stroke-width="4"/>
+  <path d="M940 160 C1080 160 1060 260 1190 260 S1060 380 940 380 S1060 490 1190 490 S1060 610 940 610 S1060 730 1190 730" fill="none" stroke="#2563EB" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 16"/>
+  <g class="b" font-size="24" font-weight="700" fill="#1E2A3A">
+    <circle cx="940" cy="160" r="30" fill="#2563EB"/><text x="940" y="170" text-anchor="middle" class="d" font-size="28" fill="#FDFBF4">1</text>
+    <text x="988" y="150">Upload</text><text x="988" y="178" font-weight="400" font-size="20">the report</text>
+    <circle cx="1190" cy="260" r="30" fill="#2563EB"/><text x="1190" y="270" text-anchor="middle" class="d" font-size="28" fill="#FDFBF4">2</text>
+    <text x="1238" y="250">Ask for</text><text x="1238" y="278" font-weight="400" font-size="20">a section outline</text>
+    <circle cx="940" cy="380" r="30" fill="#2563EB"/><text x="940" y="390" text-anchor="middle" class="d" font-size="28" fill="#FDFBF4">3</text>
+    <text x="988" y="370">Check</text><text x="988" y="398" font-weight="400" font-size="20">each claim</text>
+    <circle cx="1190" cy="490" r="30" fill="#2563EB"/><text x="1190" y="500" text-anchor="middle" class="d" font-size="28" fill="#FDFBF4">4</text>
+    <text x="1238" y="480">Cite</text><text x="1238" y="508" font-weight="400" font-size="20">page numbers</text>
+    <circle cx="940" cy="610" r="30" fill="#2563EB"/><text x="940" y="620" text-anchor="middle" class="d" font-size="28" fill="#FDFBF4">5</text>
+    <text x="988" y="600">Trim</text><text x="988" y="628" font-weight="400" font-size="20">to one page</text>
+    <circle cx="1190" cy="730" r="30" fill="#F97316"/><text x="1190" y="740" text-anchor="middle" class="d" font-size="28" fill="#1E2A3A">6</text>
+    <text x="1238" y="720">Share</text><text x="1238" y="748" font-weight="400" font-size="20">with your team</text>
+  </g>
+  <g transform="translate(1390 570) scale(1.4)"><use xlink:href="#finch" href="#finch"/></g>
+</svg>

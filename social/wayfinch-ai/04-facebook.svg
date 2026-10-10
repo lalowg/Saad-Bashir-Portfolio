@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Wayfinch AI community promo: Saturday Tool Walks are back">
+  <title>Saturday Tool Walks are back</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;600;700&display=swap');
+  .d{font-family:'Archivo Black','Arial Black',sans-serif}.b{font-family:'Archivo',Arial,sans-serif}]]></style>
+  <defs>
+    <g id="finchL">
+      <path d="M18 60 C18 38 36 24 57 26 C69 27 77 34 80 42 L80 52 C77 68 63 78 45 78 L22 88 L30 72 C22 69 18 65 18 60 Z" fill="#FDFBF4"/>
+      <path d="M32 56 C42 44 58 44 68 54 C58 64 42 66 32 56 Z" fill="#FDE68A"/>
+      <path d="M79 41 L95 47 L79 53 Z" fill="#F97316"/>
+      <circle cx="66" cy="40" r="3.6" fill="#1E2A3A"/>
+    </g>
+    <g id="finch">
+      <path d="M18 60 C18 38 36 24 57 26 C69 27 77 34 80 42 L80 52 C77 68 63 78 45 78 L22 88 L30 72 C22 69 18 65 18 60 Z" fill="#2563EB"/>
+      <path d="M32 56 C42 44 58 44 68 54 C58 64 42 66 32 56 Z" fill="#FDE68A"/>
+      <path d="M79 41 L95 47 L79 53 Z" fill="#F97316"/>
+      <circle cx="66" cy="40" r="3.6" fill="#1E2A3A"/>
+    </g>
+  </defs>
+  <rect width="1200" height="1500" fill="#FDFBF4"/>
+  <!-- blue hero block -->
+  <path d="M0 0 H1200 V780 C980 830 820 760 600 800 S220 840 0 790 Z" fill="#2563EB"/>
+  <g fill="none" stroke="#FDFBF4" stroke-opacity="0.14" stroke-width="2">
+    <path d="M-20 640 C200 560 380 700 600 620 S1000 560 1220 620"/>
+    <path d="M-20 580 C200 500 380 640 600 560 S1000 500 1220 560"/>
+    <circle cx="960" cy="340" r="190"/>
+    <circle cx="960" cy="340" r="130"/>
+  </g>
+  <!-- compass rose -->
+  <g transform="translate(960 340)">
+    <path d="M0 -150 L26 0 L0 150 L-26 0 Z" fill="#1E2A3A" fill-opacity="0.35"/>
+    <path d="M-150 0 L0 -26 L150 0 L0 26 Z" fill="#1E2A3A" fill-opacity="0.35"/>
+    <path d="M0 -150 L26 0 L-26 0 Z" fill="#FDE68A"/>
+    <path d="M150 0 L0 -26 L0 26 Z" fill="#F97316"/>
+    <circle r="16" fill="#FDFBF4"/>
+    <text x="0" y="-168" text-anchor="middle" class="d" font-size="26" fill="#FDFBF4">N</text>
+  </g>
+  <!-- lockup -->
+  <g transform="translate(64 64)">
+    <rect width="66" height="66" rx="16" fill="#1E2A3A"/>
+    <g transform="translate(9 6) scale(0.52)"><use xlink:href="#finchL" href="#finchL"/></g>
+    <text x="84" y="46" class="d" font-size="34" fill="#FDFBF4">Wayfinch<tspan fill="#FDE68A" dx="10">AI</tspan></text>
+  </g>
+  <text class="d" font-size="96" fill="#FDFBF4">
+    <tspan x="64" y="320">Saturday</tspan>
+    <tspan x="64" y="422">Tool Walks</tspan>
+    <tspan x="64" y="524" fill="#FDE68A">are back.</tspan>
+  </text>
+  <text class="b" font-size="30" fill="#FFFFFF">
+    <tspan x="64" y="600">Bring one real task. We walk the route</tspan>
+    <tspan x="64" y="642">together, one numbered step at a time.</tspan>
+  </text>
+  <!-- route to cards -->
+  <path d="M234 700 C234 760 600 700 600 760 M600 760 C600 700 966 760 966 700" fill="none" stroke="#FDE68A" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 16"/>
+  <g>
+    <circle cx="234" cy="700" r="14" fill="#F97316" stroke="#FDFBF4" stroke-width="4"/>
+    <circle cx="966" cy="700" r="14" fill="#F97316" stroke="#FDFBF4" stroke-width="4"/>
+  </g>
+  <!-- event cards -->
+  <g>
+    <rect x="72" y="888" width="340" height="340" rx="22" fill="#1E2A3A"/>
+    <rect x="64" y="880" width="340" height="340" rx="22" fill="#FFFFFF" stroke="#1E2A3A" stroke-width="3"/>
+    <rect x="88" y="904" width="190" height="44" rx="22" fill="#F97316"/>
+    <text x="183" y="934" text-anchor="middle" class="b" font-size="20" font-weight="700" fill="#1E2A3A">SAT · OCT 17</text>
+    <text class="d" font-size="32" fill="#1E2A3A"><tspan x="88" y="1010">Write a</tspan><tspan x="88" y="1050">cover note</tspan></text>
+    <text class="b" font-size="22" fill="#4A5668"><tspan x="88" y="1096">with Quillwick, a</tspan><tspan x="88" y="1126">drafting helper</tspan></text>
+    <text x="88" y="1190" class="b" font-size="22" font-weight="700" fill="#2563EB">6 steps · 45 min</text>
+  </g>
+  <g>
+    <rect x="438" y="888" width="340" height="340" rx="22" fill="#1E2A3A"/>
+    <rect x="430" y="880" width="340" height="340" rx="22" fill="#FFFFFF" stroke="#1E2A3A" stroke-width="3"/>
+    <rect x="454" y="904" width="190" height="44" rx="22" fill="#F97316"/>
+    <text x="549" y="934" text-anchor="middle" class="b" font-size="20" font-weight="700" fill="#1E2A3A">SAT · OCT 24</text>
+    <text class="d" font-size="32" fill="#1E2A3A"><tspan x="454" y="1010">Tidy a</tspan><tspan x="454" y="1050">messy sheet</tspan></text>
+    <text class="b" font-size="22" fill="#4A5668"><tspan x="454" y="1096">with Tallyfern, a</tspan><tspan x="454" y="1126">table assistant</tspan></text>
+    <text x="454" y="1190" class="b" font-size="22" font-weight="700" fill="#2563EB">5 steps · 40 min</text>
+  </g>
+  <g>
+    <rect x="804" y="888" width="340" height="340" rx="22" fill="#1E2A3A"/>
+    <rect x="796" y="880" width="340" height="340" rx="22" fill="#FFFFFF" stroke="#1E2A3A" stroke-width="3"/>
+    <rect x="820" y="904" width="190" height="44" rx="22" fill="#F97316"/>
+    <text x="915" y="934" text-anchor="middle" class="b" font-size="20" font-weight="700" fill="#1E2A3A">SAT · OCT 31</text>
+    <text class="d" font-size="32" fill="#1E2A3A"><tspan x="820" y="1010">Voice memo</tspan><tspan x="820" y="1050">to notes</tspan></text>
+    <text class="b" font-size="22" fill="#4A5668"><tspan x="820" y="1096">with Murmurly, a</tspan><tspan x="820" y="1126">listening helper</tspan></text>
+    <text x="820" y="1190" class="b" font-size="22" font-weight="700" fill="#2563EB">4 steps · 30 min</text>
+  </g>
+  <!-- bottom CTA -->
+  <text x="64" y="1300" class="d" font-size="44" fill="#1E2A3A">Free. Beginner-friendly. Live.</text>
+  <text x="64" y="1342" class="b" font-size="26" fill="#4A5668">Fictional tools, real practice. RSVP in the Events tab.</text>
+  <rect x="64" y="1362" width="360" height="74" rx="37" fill="#F97316" stroke="#1E2A3A" stroke-width="3"/>
+  <text x="244" y="1409" text-anchor="middle" class="d" font-size="28" fill="#1E2A3A">Join the walk →</text>
+  <g transform="translate(1000 1330) scale(1.1)"><use xlink:href="#finch" href="#finch"/></g>
+  <path d="M480 1400 C620 1440 780 1360 990 1410" fill="none" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 14"/>
+</svg>

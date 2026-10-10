@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Wayfinch AI finch mark">
+  <title>Wayfinch AI mark</title>
+  <rect width="512" height="512" rx="112" fill="#2563EB"/>
+  <path d="M70 446 C150 380 230 470 318 410 S430 380 452 330" fill="none" stroke="#FDE68A" stroke-width="16" stroke-linecap="round" stroke-dasharray="1 30"/>
+  <circle cx="452" cy="330" r="18" fill="#F97316"/>
+  <circle cx="452" cy="330" r="7" fill="#FDFBF4"/>
+  <g transform="translate(88 56) scale(3.3)">
+    <path d="M18 60 C18 38 36 24 57 26 C69 27 77 34 80 42 L80 52 C77 68 63 78 45 78 L22 88 L30 72 C22 69 18 65 18 60 Z" fill="#FDFBF4"/>
+    <path d="M32 56 C42 44 58 44 68 54 C58 64 42 66 32 56 Z" fill="#FDE68A"/>
+    <path d="M79 41 L95 47 L79 53 Z" fill="#F97316"/>
+    <circle cx="66" cy="40" r="3.8" fill="#1E2A3A"/>
+  </g>
+</svg>

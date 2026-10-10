@@ -1,0 +1,48 @@
+{
+  "slug": "wayfinch-ai",
+  "name": "Wayfinch AI",
+  "industry": "tech",
+  "category": "AI-tool discovery & practical tutorials",
+  "tagline": "Find the right AI tool. Then learn the route.",
+  "positioning": "Wayfinch AI is the field guide for non-technical people who want to pick one AI tool for a real task and learn it through short, numbered tutorial trails instead of hype-driven lists.",
+  "audience": "Curious beginners, freelancers, teachers and small-team operators who feel overwhelmed by the number of AI tools and want plain-language guidance tied to everyday tasks.",
+  "strategy": "Organise discovery by task, not by hype: a filterable directory where every tool listing links to a step-by-step trail. Build trust with a transparent review method and privacy-first questions, then grow community through free live 'Tool Walk' sessions and a weekly newsletter.",
+  "voice": ["guide-like", "approachable", "curious", "plain-spoken"],
+  "palette": [
+    {"name": "Trail Paper", "hex": "#FDFBF4", "role": "bg"},
+    {"name": "Night Map", "hex": "#1E2A3A", "role": "ink"},
+    {"name": "Compass Blue", "hex": "#2563EB", "role": "primary"},
+    {"name": "Finch Orange", "hex": "#F97316", "role": "secondary"},
+    {"name": "Lantern Yellow", "hex": "#FDE68A", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#1E2A3A", "bg": "#FDFBF4", "ratio": "14.01:1", "use": "body text"},
+    {"fg": "#2563EB", "bg": "#FDFBF4", "ratio": "4.99:1", "use": "links and blue headline words"},
+    {"fg": "#FFFFFF", "bg": "#2563EB", "ratio": "5.17:1", "use": "primary button labels"},
+    {"fg": "#1E2A3A", "bg": "#FDE68A", "ratio": "11.65:1", "use": "text on yellow panels and highlights"},
+    {"fg": "#1E2A3A", "bg": "#F97316", "ratio": "5.18:1", "use": "text on orange chips, step numbers and CTA"},
+    {"fg": "#FDE68A", "bg": "#1E2A3A", "ratio": "11.65:1", "use": "accent text on dark blocks"},
+    {"fg": "#FDFBF4", "bg": "#1E2A3A", "ratio": "14.01:1", "use": "body text on dark blocks"},
+    {"fg": "#4A5668", "bg": "#FDFBF4", "ratio": "7.19:1", "use": "secondary/muted body text"},
+    {"fg": "#C2410C", "bg": "#FDFBF4", "ratio": "5.00:1", "use": "small orange labels on paper (darkened orange)"}
+  ],
+  "fonts": {"display": "Archivo Black", "body": "Archivo", "mono": "none (Archivo tabular figures)"},
+  "designSystem": {
+    "spacing": "8px base grid; 24/48/96px section rhythm; 64px minimum safe margin on social canvases",
+    "radius": "16-22px on cards, fully rounded pills for chips and buttons, 36-40px on map panels",
+    "borders": "3px Night Map outlines on cards with a solid 8px offset shadow, like a printed field-guide catalog",
+    "imagery": "Original inline SVG only: topographic contour lines, dotted routes, map pins, compass roses and the finch mark; no photos",
+    "shapes": "Teardrop map pins, numbered circles, organic 'region' blobs, rounded directory cards",
+    "buttons": "Pill buttons; primary Compass Blue with white label, secondary Finch Orange with ink label and ink outline",
+    "cards": "White tool cards with ink outline, offset shadow, category chip, learning-curve dots and a 'Wayfinch take' line",
+    "motifs": "Finch mark, dotted map routes connecting numbered tutorial steps, tool directory cards, filter chips"
+  },
+  "artDirection": "Every creative reads like a page from a friendly trail guide: warm paper background, Night Map ink, and one bold Compass Blue or Night Map block for weight. A dotted Finch Orange route should always lead the eye from headline to content to CTA, with numbered stops when steps are involved. Keep headlines short and set in Archivo Black, supporting copy in Archivo, and show the finch somewhere as the guide. Tool names are always fictional and framed as examples, never endorsements.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Your first-draft toolkit", "headline": "Your first-draft toolkit.", "summary": "Carousel cover mapping five fictional tools along a dotted route from idea to edit."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "Beginners need a route", "headline": "Beginners don't need more tools. They need a route.", "summary": "Bar chart of the questions readers ask before choosing a tool (illustrative concept data)."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement card 1600×900", "width": 1600, "height": 900, "title": "New trail: summarize a long report", "headline": "New trail: Summarize a long report in 6 steps.", "summary": "Launches a new numbered tutorial trail shown as a six-stop map."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community event promo 1200×1500", "width": 1200, "height": 1500, "title": "Saturday Tool Walks", "headline": "Saturday Tool Walks are back.", "summary": "Promotes free live beginner sessions with three dated event cards and an RSVP CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "The AI tool trail map", "headline": "The AI tool trail map.", "summary": "Signature infographic: six task regions, six fictional tools, one recommended beginner route."}
+  ]
+}
