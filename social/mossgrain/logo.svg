@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="160" viewBox="0 0 600 160" role="img" aria-label="Mossgrain logo">
+<title>Mossgrain logo</title>
+<defs><style>@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&amp;family=Nunito+Sans:wght@400;600;700;800&amp;display=swap');
+.d{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif}.b{font-family:'Nunito Sans','Helvetica Neue',Arial,sans-serif}</style></defs>
+<g transform="translate(20 18) scale(1.24)"><path d="M14 96V46a36 36 0 0 1 72 0v50z" fill="#5B7B4A"/><g fill="none" stroke="#F7F3EA" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 86h36"/><path d="M50 86V32"/><path d="M50 72c-9-2-15-9-15-18c8 1 15 8 15 18z"/><path d="M50 72c9-2 15-9 15-18c-8 1-15 8-15 18z"/><path d="M50 53c-7-2-12-7-12-14c7 1 12 6 12 14z"/><path d="M50 53c7-2 12-7 12-14c-7 1-12 6-12 14z"/><ellipse cx="50" cy="24" rx="4.6" ry="7.6"/></g></g>
+<text x="164" y="104" class="d" font-size="78" fill="#2F3A2C" font-weight="600">Mossgrain</text>
+<text x="168" y="136" class="b" font-size="15" fill="#4A6A3A" font-weight="800" letter-spacing="4.6">WHOLE-FOOD NUTRITION</text>
+</svg>

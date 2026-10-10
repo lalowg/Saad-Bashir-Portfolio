@@ -1,0 +1,49 @@
+{
+  "slug": "mossgrain",
+  "name": "Mossgrain",
+  "industry": "fitness",
+  "category": "Whole-food natural nutrition",
+  "tagline": "Nourishment, the way the field intended.",
+  "positioning": "Mossgrain is a calm, botanical whole-food pantry for people who want everyday nutrition they can recognise: sprouted, stone-milled and slow-dried staples with short, fully traceable ingredient lists.",
+  "audience": "Home cooks and active adults aged 25 to 45 who cook most meals themselves, read labels, and prefer simple whole foods to engineered supplements.",
+  "strategy": "Win trust through radical ingredient transparency and craft rather than performance claims: every post shows what is in the bag, how it was made and where it was grown. A slow, seasonal content rhythm (pantry drops, field-guide education, community cook-alongs) builds habit and loyalty instead of chasing trends.",
+  "voice": ["Calm", "Refined", "Warm", "Plain-spoken"],
+  "palette": [
+    {"name": "Parchment", "hex": "#F7F3EA", "role": "bg"},
+    {"name": "Forest Ink", "hex": "#2F3A2C", "role": "ink"},
+    {"name": "Moss", "hex": "#5B7B4A", "role": "primary"},
+    {"name": "Toasted Clay", "hex": "#B9824F", "role": "secondary"},
+    {"name": "Oat Husk", "hex": "#E6D9B8", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#2F3A2C", "bg": "#F7F3EA", "ratio": "10.76:1", "use": "body text"},
+    {"fg": "#2F3A2C", "bg": "#FBF8F1", "ratio": "11.23:1", "use": "body text on card surfaces"},
+    {"fg": "#2F3A2C", "bg": "#E6D9B8", "ratio": "8.50:1", "use": "body text on oat panels"},
+    {"fg": "#F7F3EA", "bg": "#2F3A2C", "ratio": "10.76:1", "use": "buttons and dark sections"},
+    {"fg": "#E6D9B8", "bg": "#2F3A2C", "ratio": "8.50:1", "use": "accents and eyebrows on dark"},
+    {"fg": "#E9E3D3", "bg": "#2F3A2C", "ratio": "9.30:1", "use": "footer and dark-section body text"},
+    {"fg": "#4A6A3A", "bg": "#F7F3EA", "ratio": "5.55:1", "use": "links, italics and small moss text (Moss deep tint)"},
+    {"fg": "#8A5A2E", "bg": "#F7F3EA", "ratio": "5.29:1", "use": "eyebrow labels (Clay deep tint)"},
+    {"fg": "#FFFFFF", "bg": "#4A6A3A", "ratio": "6.15:1", "use": "nav CTA and newsletter card text"},
+    {"fg": "#F7F3EA", "bg": "#5B7B4A", "ratio": "4.33:1", "use": "large display text only (18.66px bold / 24px+)"}
+  ],
+  "fonts": {"display": "Cormorant Garamond", "body": "Nunito Sans", "mono": ""},
+  "designSystem": {
+    "spacing": "Airy 8px base scale; generous section padding (72 to 128px) and wide margins so compositions breathe around a centred axis.",
+    "radius": "Full arches (999px top radii) for image frames and product cards; 22 to 30px on content cards; pills for buttons and chips.",
+    "borders": "Hairline 1 to 1.5px rules in ink or oat at low opacity; inset arch outlines echo each frame.",
+    "imagery": "Original hand-drawn botanical line illustrations (oat, spelt, millet, buckwheat, fern, beet, sunflower) set inside arched frames; no photography.",
+    "shapes": "Rounded arches, soft organic blobs in oat, clay and moss at low opacity, gentle rolling hills, a fine paper-grain texture.",
+    "buttons": "Pill buttons: Forest Ink fill with Parchment text as primary; outlined ink pill as secondary; subtle lift on hover.",
+    "cards": "Arch-topped parchment cards with a tonal illustration well, small uppercase clay eyebrow, serif title and short sans copy.",
+    "motifs": "The sprouting-seed-in-an-arch mark, botanical linework, leaf dividers, roman-numeral steps, circular stamp badges."
+  },
+  "artDirection": "Every creative is built on a centred or strongly balanced composition with one dominant arched frame holding botanical linework in Parchment or Oat on Moss, Clay or Forest Ink. Headlines are set large in Cormorant Garamond with a single italic moss phrase for warmth, supported by short Nunito Sans copy and an ink pill CTA. Layer soft blobs and a light paper grain behind the frame for an organic, tactile feel, and keep plenty of negative space. Copy states ingredients and craft facts only: no health promises, no fabricated studies.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Autumn Pantry carousel cover", "headline": "Eat closer to the soil.", "summary": "Carousel opener for the autumn range: a large moss arch of oat stalks with a small-batch stamp and a shop CTA."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "Sourcing Notes No. 07", "headline": "Seven ingredients. Nothing to hide.", "summary": "Concentric arch chart breaking down one bowl of Morning Oats by weight, with preparation notes and a team quote."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement post 1600×900", "width": 1600, "height": 900, "title": "Sprouted Grain Granola launch", "headline": "Sprouted grain granola, baked low and slow.", "summary": "Product launch: bold serif headline beside an arched illustration of a granola bowl framed by oats and fern."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign post 1200×1500", "width": 1200, "height": 1500, "title": "The Harvest Table campaign", "headline": "Pull up a chair at the Harvest Table.", "summary": "Four-week community cook-along with one arched theme per week (grains, greens, roots, seeds) and a join CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story / infographic 1080×1920", "width": 1080, "height": 1920, "title": "The Field Guide to Whole Grains", "headline": "The Field Guide to Whole Grains", "summary": "Dark botanical specimen plate with four arched frames for oat, spelt, millet and buckwheat, with Latin names and prep notes."}
+  ]
+}

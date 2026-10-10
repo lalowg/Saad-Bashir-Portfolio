@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Mossgrain mark">
+<title>Mossgrain mark</title>
+<rect width="512" height="512" rx="116" fill="#F7F3EA"/>
+<path d="M456.6 286C456.5 323.9 439.4 372.5 411.4 399.5C383.4 426.4 330.7 442.3 288.7 447.6C246.8 452.9 196.3 448.3 159.7 431.2C123 414.2 84.4 379.4 68.9 345.3C53.5 311.1 51.5 259.6 67 226.1C82.6 192.7 124.7 165.3 162.3 144.8C200 124.3 251.4 98.8 293 103.4C334.6 107.9 384.8 141.6 412.1 172C439.3 202.4 456.7 248.1 456.6 286Z" fill="#E6D9B8"/>
+<g transform="translate(76 64) scale(3.6)"><path d="M14 96V46a36 36 0 0 1 72 0v50z" fill="#5B7B4A"/><g fill="none" stroke="#F7F3EA" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 86h36"/><path d="M50 86V32"/><path d="M50 72c-9-2-15-9-15-18c8 1 15 8 15 18z"/><path d="M50 72c9-2 15-9 15-18c-8 1-15 8-15 18z"/><path d="M50 53c-7-2-12-7-12-14c7 1 12 6 12 14z"/><path d="M50 53c7-2 12-7 12-14c-7 1-12 6-12 14z"/><ellipse cx="50" cy="24" rx="4.6" ry="7.6"/></g></g>
+</svg>
