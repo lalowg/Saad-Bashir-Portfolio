@@ -1,0 +1,47 @@
+{
+  "slug": "paintcourt",
+  "name": "Paintcourt",
+  "industry": "news",
+  "category": "Basketball & sports culture",
+  "tagline": "Basketball culture, printed loud.",
+  "positioning": "Paintcourt is a riso-printed, zine-spirited basketball culture publication that covers the game from the blacktop up: players, sneakers, courts and style, told with the energy of a 90s photocopied fanzine.",
+  "audience": "Culture-first hoops fans aged 16 to 35 who care as much about the fit, the sneakers and the neighbourhood court as the box score; streetwear collectors, rec-league players and designers.",
+  "strategy": "Lead with a collectible weekly 'issue' format so every post feels like a page torn from a zine, not a scoreboard update. Pair editorial features with community moments (court repaints, sneaker anatomy, data zines) so the brand earns a place both online and on the court. Every story is clearly labelled as a fictional sample story for this concept brand.",
+  "voice": ["streetwise", "witty", "culture-forward", "warm"],
+  "palette": [
+    {"name": "Newsprint Cream", "hex": "#F3E9DC", "role": "bg"},
+    {"name": "Blacktop Ink", "hex": "#1C1C1C", "role": "ink"},
+    {"name": "Paint Orange", "hex": "#E85D04", "role": "primary"},
+    {"name": "Riso Purple", "hex": "#5A189A", "role": "secondary"},
+    {"name": "Fresh Court Teal", "hex": "#2EC4B6", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#1C1C1C", "bg": "#F3E9DC", "ratio": "14.2:1", "use": "body text on cream"},
+    {"fg": "#F3E9DC", "bg": "#1C1C1C", "ratio": "14.2:1", "use": "body text on ink sections and story-format creatives"},
+    {"fg": "#F3E9DC", "bg": "#5A189A", "ratio": "8.61:1", "use": "body text on purple color blocks"},
+    {"fg": "#5A189A", "bg": "#F3E9DC", "ratio": "8.61:1", "use": "labels and kickers on cream"},
+    {"fg": "#1C1C1C", "bg": "#E85D04", "ratio": "4.87:1", "use": "buttons, highlight bars and text on orange blocks"},
+    {"fg": "#1C1C1C", "bg": "#2EC4B6", "ratio": "7.86:1", "use": "stickers and tags on teal"},
+    {"fg": "#2EC4B6", "bg": "#1C1C1C", "ratio": "7.86:1", "use": "accent labels on ink"},
+    {"fg": "#E85D04", "bg": "#F3E9DC", "ratio": "2.92:1", "use": "decorative shapes only, never text"}
+  ],
+  "fonts": {"display": "Rubik Mono One", "body": "Space Grotesk", "mono": "Space Grotesk"},
+  "designSystem": {
+    "spacing": "8px base grid; sections breathe at 96px desktop / 56px mobile; collage elements deliberately break the grid by 8 to 24px offsets",
+    "radius": "Mostly hard corners (0px) for zine cards; fully rounded pills (999px) reserved for stickers and buttons",
+    "borders": "Chunky 3 to 6px Blacktop Ink outlines, dashed 'cut here' borders for forms and coupons, offset hard shadows (6px 6px 0 ink)",
+    "imagery": "Original flat vector illustration only: court key diagrams, fictional sneaker silhouettes, player cards; halftone dot fills and fractal grain to mimic risograph print",
+    "shapes": "Court key rectangles, free-throw arcs, starbursts, rotated tape strips, circular stamps",
+    "buttons": "Orange or ink blocks with ink outline and hard offset shadow; press state removes the shadow; Rubik Mono One label or bold Space Grotesk caps",
+    "cards": "Cream paper cards with thick ink borders, rotated -2 to +2 degrees, tape strips and SAMPLE STORY stickers; straighten on hover",
+    "motifs": "Court key lines, sneaker silhouettes, sticker collages, risograph halftone textures, rotated labels, bold color blocks"
+  },
+  "artDirection": "Every creative should feel like a page from a photocopied 90s fanzine: one bold color block, one oversized Rubik Mono One headline with an orange highlight bar, and a collage of stickers, tape and court-key linework. Use halftone dots and a light grain overlay for risograph texture; never use photography or real players, teams, leagues or sneaker brands. Rotate supporting labels 2 to 12 degrees, keep headlines straight and legible, and always label editorial content as a fictional SAMPLE STORY.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Who Owns the Paint?", "headline": "WHO OWNS THE PAINT?", "summary": "Zine-cover carousel opener for a fictional feature on center Marlo Quince, with court key, player card and sneaker collage."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led post 1200×1350", "width": 1200, "height": 1350, "title": "The Corner Three Ate the League", "headline": "THE CORNER THREE ATE THE LEAGUE", "summary": "Illustrative shot-chart infographic using clearly labelled sample data from a fictional league."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "Issue 07 Drops Oct 16", "headline": "ISSUE 07 DROPS OCT 16", "summary": "Split color-block launch post for the fall print zine with a stacked fictional sneaker collage."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign 1200×1500", "width": 1200, "height": 1500, "title": "Paint the Park", "headline": "PAINT THE PARK", "summary": "Community court-repaint day invite with a top-down court illustration, event details and RSVP CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Anatomy of a Grail", "headline": "ANATOMY OF A GRAIL", "summary": "Sneaker Lab story breaking down the fictional Loftline Halo '96 with numbered callouts."}
+  ]
+}

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Paintcourt X announcement: Issue 07 drops October 16">
+  <style><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Grotesk:wght@400;500;700&display=swap');
+    .d{font-family:'Rubik Mono One',Impact,'Arial Black',sans-serif}
+    .b{font-family:'Space Grotesk',Arial,Helvetica,sans-serif}
+  ]]></style>
+  <defs>
+    <pattern id="dotsT" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="4" fill="#2EC4B6"/></pattern>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.16"/></feComponentTransfer>
+    </filter>
+    <g id="mark">
+      <rect width="512" height="512" rx="104" fill="#5A189A"/>
+      <rect x="148" y="262" width="216" height="250" fill="#E85D04"/>
+      <path d="M148 512 V262 H364 V512" fill="none" stroke="#F3E9DC" stroke-width="18"/>
+      <path d="M148 262 A108 108 0 0 1 364 262" fill="none" stroke="#F3E9DC" stroke-width="18"/>
+      <path d="M364 262 A108 108 0 0 1 148 262" fill="none" stroke="#F3E9DC" stroke-width="10" stroke-dasharray="22 18"/>
+      <g transform="rotate(-14 380 132)">
+        <circle cx="380" cy="132" r="62" fill="#2EC4B6" stroke="#1C1C1C" stroke-width="10"/>
+        <path d="M318 132 H442 M380 70 V194 M336 88 C362 112 362 152 336 176 M424 88 C398 112 398 152 424 176" stroke="#1C1C1C" stroke-width="8" fill="none"/>
+      </g>
+    </g>
+    <g id="shoe" stroke="#1C1C1C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M18 64 C16 48 18 36 30 32 L62 26 C70 14 86 10 100 16 L112 24 C128 34 150 40 172 44 C188 47 196 54 196 64 Z"/>
+      <path d="M150 40 C170 43 194 50 196 64 L150 64 Z" fill="#F3E9DC"/>
+      <path d="M18 64 C16 48 18 36 30 32 L52 28 L44 64 Z" fill="#F3E9DC"/>
+      <path d="M10 64 H200 C202 70 200 78 194 80 H18 C11 80 8 72 10 64 Z" fill="#F3E9DC"/>
+      <path d="M16 72 L34 68 L52 72 L70 68 L88 72 L106 68 L124 72 L142 68 L160 72 L178 68 L194 72" fill="none" stroke-width="2.5"/>
+      <path d="M70 26 L80 40 M82 20 L92 34 M94 20 L104 33" fill="none"/>
+      <path d="M56 54 H146" fill="none" stroke-width="2.5" stroke-dasharray="6 5"/>
+      <circle cx="34" cy="46" r="6" fill="#E85D04"/>
+    </g>
+  </defs>
+
+  <rect width="1600" height="900" fill="#E85D04"/>
+  <!-- key lines motif on orange -->
+  <g fill="none" stroke="#1C1C1C" stroke-opacity="0.16" stroke-width="10">
+    <path d="M160 900 V620 H700 V900"/>
+    <path d="M160 620 A270 270 0 0 1 700 620"/>
+  </g>
+
+  <!-- right block -->
+  <rect x="980" y="0" width="620" height="900" fill="#5A189A"/>
+  <rect x="980" y="0" width="620" height="900" fill="url(#dotsT)" opacity="0.35"/>
+  <rect x="960" y="0" width="20" height="900" fill="#1C1C1C"/>
+
+  <!-- header -->
+  <use xlink:href="#mark" transform="translate(80 64) scale(0.140625)"/>
+  <text class="d" x="166" y="114" font-size="30" fill="#1C1C1C">PAINTCOURT</text>
+
+  <!-- headline -->
+  <text class="d" font-size="120" fill="#1C1C1C">
+    <tspan x="80" y="306">ISSUE 07</tspan>
+    <tspan x="80" y="436">DROPS</tspan>
+  </text>
+  <rect x="68" y="462" width="760" height="138" fill="#F3E9DC" transform="rotate(-2 448 531)"/>
+  <text class="d" x="88" y="580" font-size="120" fill="#5A189A">OCT 16</text>
+
+  <text class="b" font-size="28" font-weight="500" fill="#1C1C1C">
+    <tspan x="80" y="666">The fall zine: 48 riso pages of fictional hoopers,</tspan>
+    <tspan x="80" y="706">sneaker lore and blacktop maps.</tspan>
+  </text>
+
+  <rect x="80" y="752" width="470" height="72" rx="36" fill="#1C1C1C"/>
+  <text class="b" x="315" y="798" font-size="26" font-weight="700" letter-spacing="2" fill="#F3E9DC" text-anchor="middle">JOIN THE ZINE CLUB →</text>
+
+  <!-- sneaker collage -->
+  <use xlink:href="#shoe" fill="#2EC4B6" transform="translate(1040 190) rotate(-10) scale(2.1)"/>
+  <use xlink:href="#shoe" fill="#E85D04" transform="translate(1050 400) rotate(6) scale(2.1)"/>
+  <use xlink:href="#shoe" fill="#1C1C1C" transform="translate(1040 610) rotate(-4) scale(2.1)"/>
+
+  <g transform="rotate(-8 1180 120)">
+    <rect x="1040" y="92" width="280" height="56" fill="#F3E9DC" stroke="#1C1C1C" stroke-width="4"/>
+    <text class="b" x="1180" y="128" font-size="22" font-weight="700" letter-spacing="3" fill="#1C1C1C" text-anchor="middle">48 PP · RISO</text>
+  </g>
+  <g transform="rotate(10 1410 380)">
+    <circle cx="1410" cy="380" r="72" fill="#F3E9DC" stroke="#1C1C1C" stroke-width="4"/>
+    <text class="d" x="1410" y="376" font-size="26" fill="#1C1C1C" text-anchor="middle">VOL.</text>
+    <text class="d" x="1410" y="412" font-size="30" fill="#5A189A" text-anchor="middle">07</text>
+  </g>
+  <g transform="rotate(4 1300 796)">
+    <rect x="1120" y="770" width="360" height="52" fill="#2EC4B6" stroke="#1C1C1C" stroke-width="4"/>
+    <text class="b" x="1300" y="804" font-size="20" font-weight="700" letter-spacing="2.5" fill="#1C1C1C" text-anchor="middle">FICTIONAL SNEAKERS ONLY</text>
+  </g>
+
+  <text class="d" font-size="28" fill="#F3E9DC" transform="rotate(90 1506 200)" x="1506" y="200">PAINTCOURT ZINE</text>
+
+  <rect width="1600" height="900" filter="url(#grain)"/>
+</svg>

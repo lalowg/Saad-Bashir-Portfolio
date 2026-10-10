@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="140" viewBox="0 0 640 140" role="img" aria-label="Paintcourt logo">
+  <style><![CDATA[
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Space+Grotesk:wght@500;700&display=swap');
+    .d{font-family:'Rubik Mono One',Impact,'Arial Black',sans-serif}
+    .b{font-family:'Space Grotesk',Arial,Helvetica,sans-serif}
+  ]]></style>
+  <defs>
+    <clipPath id="lg-clip"><rect x="10" y="10" width="120" height="120" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#lg-clip)">
+    <rect x="10" y="10" width="120" height="120" fill="#5A189A"/>
+    <rect x="44.7" y="71.4" width="50.6" height="63" fill="#E85D04" stroke="#F3E9DC" stroke-width="4.2"/>
+    <path d="M44.7 71.4 A25.3 25.3 0 0 1 95.3 71.4" fill="none" stroke="#F3E9DC" stroke-width="4.2"/>
+    <path d="M95.3 71.4 A25.3 25.3 0 0 1 44.7 71.4" fill="none" stroke="#F3E9DC" stroke-width="2.4" stroke-dasharray="5 4"/>
+  </g>
+  <g transform="rotate(-14 99 41)">
+    <circle cx="99" cy="41" r="14.5" fill="#2EC4B6" stroke="#1C1C1C" stroke-width="2.4"/>
+    <path d="M84.5 41 H113.5 M99 26.5 V55.5 M88.7 30.6 C94.8 36.2 94.8 45.8 88.7 51.4 M109.3 30.6 C103.2 36.2 103.2 45.8 109.3 51.4" stroke="#1C1C1C" stroke-width="2" fill="none"/>
+  </g>
+  <text class="d" x="152" y="84" font-size="50" fill="#1C1C1C">PAINTCOURT</text>
+  <rect x="152" y="98" width="316" height="24" fill="#E85D04" transform="rotate(-2 310 110)"/>
+  <text class="b" x="160" y="115" font-size="14" font-weight="700" letter-spacing="2.6" fill="#1C1C1C" transform="rotate(-2 310 110)">BASKETBALL · CULTURE · ZINE</text>
+</svg>

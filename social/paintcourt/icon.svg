@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Paintcourt mark: a basketball court key with a ball">
+  <defs>
+    <clipPath id="pc-clip"><rect width="512" height="512" rx="104"/></clipPath>
+  </defs>
+  <g clip-path="url(#pc-clip)">
+    <rect width="512" height="512" fill="#5A189A"/>
+    <rect x="148" y="262" width="216" height="270" fill="#E85D04"/>
+    <rect x="148" y="262" width="216" height="270" fill="none" stroke="#F3E9DC" stroke-width="18"/>
+    <path d="M148 262 A108 108 0 0 1 364 262" fill="none" stroke="#F3E9DC" stroke-width="18"/>
+    <path d="M364 262 A108 108 0 0 1 148 262" fill="none" stroke="#F3E9DC" stroke-width="10" stroke-dasharray="22 18"/>
+    <rect x="40" y="430" width="70" height="18" fill="#F3E9DC" transform="rotate(-8 75 439)"/>
+    <rect x="402" y="430" width="70" height="18" fill="#F3E9DC" transform="rotate(8 437 439)"/>
+  </g>
+  <g transform="rotate(-14 380 132)">
+    <circle cx="380" cy="132" r="62" fill="#2EC4B6" stroke="#1C1C1C" stroke-width="10"/>
+    <path d="M318 132 H442 M380 70 V194" stroke="#1C1C1C" stroke-width="8" fill="none"/>
+    <path d="M336 88 C362 112 362 152 336 176 M424 88 C398 112 398 152 424 176" stroke="#1C1C1C" stroke-width="8" fill="none"/>
+  </g>
+</svg>
