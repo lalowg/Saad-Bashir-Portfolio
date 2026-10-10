@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="t">
+<title id="t">Fixturehaus X announcement: Matchweek 9 fixtures are live</title>
+<style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;500;700&display=swap');
+.d{font-family:'Bebas Neue','Arial Narrow',Impact,sans-serif;letter-spacing:1px}
+.b{font-family:'Rubik','Helvetica Neue',Arial,sans-serif}
+.bb{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:700}
+.bm{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:500}
+]]></style>
+<defs>
+<symbol id="fh-mark" viewBox="0 0 100 100">
+  <clipPath id="fh-mark-clip"><path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z"/></clipPath>
+  <g clip-path="url(#fh-mark-clip)">
+    <rect width="100" height="100" fill="#22C55E"/>
+    <rect x="31" width="12" height="100" fill="#0B1F14"/>
+    <rect x="57" width="12" height="100" fill="#0B1F14"/>
+    <rect width="100" height="22" fill="#FACC15"/>
+    <circle cx="36" cy="14" r="3.4" fill="#0B1F14"/><circle cx="50" cy="14" r="3.4" fill="#0B1F14"/><circle cx="64" cy="14" r="3.4" fill="#0B1F14"/>
+    <path d="M0 54H100" stroke="#FFFFFF" stroke-width="3.5"/>
+  </g>
+  <circle cx="50" cy="54" r="13" fill="#0B1F14" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="50" cy="54" r="3.2" fill="#FFFFFF"/>
+  <path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</symbol>
+<radialGradient id="flood" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset=".25" stop-color="#FACC15" stop-opacity=".22"/><stop offset="1" stop-color="#FACC15" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodG" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22C55E" stop-opacity=".35"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodR" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E11D48" stop-opacity=".35"/><stop offset="1" stop-color="#E11D48" stop-opacity="0"/></radialGradient>
+<pattern id="grass" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="60" fill="#FFFFFF" fill-opacity=".025"/></pattern>
+
+</defs>
+
+<rect width="1600" height="900" fill="#0B1F14"/>
+<rect width="1600" height="900" fill="url(#grass)"/>
+<circle cx="1500" cy="0" r="520" fill="url(#flood)"/>
+<circle cx="820" cy="0" r="360" fill="url(#flood)" opacity=".6"/>
+<g fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="4"><rect x="32" y="32" width="1536" height="836"/><path d="M800 32V868"/><circle cx="800" cy="450" r="150"/></g>
+<rect x="0" y="0" width="16" height="900" fill="#22C55E"/><rect x="16" y="0" width="10" height="900" fill="#FACC15"/>
+<g transform="translate(72 70)" aria-label="Fixturehaus logo">
+  <use href="#fh-mark" width="60" height="60"/>
+  <text class="d" x="67.2" y="48" font-size="46.800000000000004" fill="#FFFFFF">FIXTURE<tspan fill="#22C55E">HAUS</tspan></text>
+</g>
+<text class="d" font-size="124" fill="#FFFFFF"><tspan x="72" y="320">MATCHWEEK 9</tspan><tspan x="72" y="436">FIXTURES</tspan><tspan x="72" y="552" fill="#22C55E">ARE LIVE</tspan></text>
+<text class="b" font-size="30" fill="#FFFFFF"><tspan x="72" y="624">Every kickoff, preview and key</tspan><tspan x="72" y="664">battle on one matchday board.</tspan></text>
+<g><rect x="72" y="712" width="440" height="76" rx="38" fill="#FACC15"/><text class="d" x="292" y="764" font-size="44" fill="#0B1F14" text-anchor="middle">OPEN THE BOARD →</text></g>
+<g><rect x="1176" y="108" width="360" height="46" rx="23" fill="#E11D48"/><text class="bb" x="1356" y="139" font-size="20" letter-spacing="2" fill="#FFFFFF" text-anchor="middle">SAMPLE · SAT 17 OCT 2026</text></g>
+<text class="bm" x="844" y="222" font-size="22" letter-spacing="4" fill="#FACC15">MERIDIAN LEAGUE · SATURDAY</text>
+<g>
+  <rect x="844" y="250" width="692" height="88" rx="10" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="1102" y="308" font-size="40" fill="#FFFFFF" text-anchor="end">BRACKENFORD</text>
+  <rect x="1120" y="266" width="96" height="56" rx="6" fill="#FACC15"/>
+  <text class="d" x="1168" y="308" font-size="40" fill="#0B1F14" text-anchor="middle">12:30</text>
+  <text class="d" x="1234" y="308" font-size="40" fill="#FFFFFF">LUNMOUTH</text>
+</g>
+<g>
+  <rect x="844" y="354" width="692" height="88" rx="10" fill="#13301F" stroke="#22C55E" stroke-opacity="1" stroke-width="3"/>
+  <text class="d" x="1102" y="412" font-size="40" fill="#FFFFFF" text-anchor="end">SALTMERE</text>
+  <rect x="1120" y="370" width="96" height="56" rx="6" fill="#FACC15"/>
+  <text class="d" x="1168" y="412" font-size="40" fill="#0B1F14" text-anchor="middle">15:00</text>
+  <text class="d" x="1234" y="412" font-size="40" fill="#FFFFFF">KESTREL VALE</text>
+</g>
+<g>
+  <rect x="844" y="458" width="692" height="88" rx="10" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="1102" y="516" font-size="40" fill="#FFFFFF" text-anchor="end">CORVANE</text>
+  <rect x="1120" y="474" width="96" height="56" rx="6" fill="#FACC15"/>
+  <text class="d" x="1168" y="516" font-size="40" fill="#0B1F14" text-anchor="middle">15:00</text>
+  <text class="d" x="1234" y="516" font-size="40" fill="#FFFFFF">HALVERN</text>
+</g>
+<g>
+  <rect x="844" y="562" width="692" height="88" rx="10" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="1102" y="620" font-size="40" fill="#FFFFFF" text-anchor="end">DUNHOLT</text>
+  <rect x="1120" y="578" width="96" height="56" rx="6" fill="#FACC15"/>
+  <text class="d" x="1168" y="620" font-size="40" fill="#0B1F14" text-anchor="middle">17:30</text>
+  <text class="d" x="1234" y="620" font-size="40" fill="#FFFFFF">MOORGATE</text>
+</g>
+<g>
+  <rect x="844" y="666" width="692" height="88" rx="10" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="1102" y="724" font-size="40" fill="#FFFFFF" text-anchor="end">ASHVALE</text>
+  <rect x="1120" y="682" width="96" height="56" rx="6" fill="#FACC15"/>
+  <text class="d" x="1168" y="724" font-size="40" fill="#0B1F14" text-anchor="middle">19:45</text>
+  <text class="d" x="1234" y="724" font-size="40" fill="#FFFFFF">TARNWICK</text>
+</g>
+<text class="b" x="1536" y="806" font-size="20" fill="#B8CCBF" text-anchor="end">Fictional clubs · fixturehaus</text>
+</svg>

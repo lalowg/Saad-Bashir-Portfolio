@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="t">
+<title id="t">Fixturehaus Instagram matchday preview: Saltmere Rovers vs Kestrel Vale</title>
+<style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;500;700&display=swap');
+.d{font-family:'Bebas Neue','Arial Narrow',Impact,sans-serif;letter-spacing:1px}
+.b{font-family:'Rubik','Helvetica Neue',Arial,sans-serif}
+.bb{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:700}
+.bm{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:500}
+]]></style>
+<defs>
+<symbol id="fh-mark" viewBox="0 0 100 100">
+  <clipPath id="fh-mark-clip"><path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z"/></clipPath>
+  <g clip-path="url(#fh-mark-clip)">
+    <rect width="100" height="100" fill="#22C55E"/>
+    <rect x="31" width="12" height="100" fill="#0B1F14"/>
+    <rect x="57" width="12" height="100" fill="#0B1F14"/>
+    <rect width="100" height="22" fill="#FACC15"/>
+    <circle cx="36" cy="14" r="3.4" fill="#0B1F14"/><circle cx="50" cy="14" r="3.4" fill="#0B1F14"/><circle cx="64" cy="14" r="3.4" fill="#0B1F14"/>
+    <path d="M0 54H100" stroke="#FFFFFF" stroke-width="3.5"/>
+  </g>
+  <circle cx="50" cy="54" r="13" fill="#0B1F14" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="50" cy="54" r="3.2" fill="#FFFFFF"/>
+  <path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</symbol>
+<radialGradient id="flood" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset=".25" stop-color="#FACC15" stop-opacity=".22"/><stop offset="1" stop-color="#FACC15" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodG" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22C55E" stop-opacity=".35"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodR" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E11D48" stop-opacity=".35"/><stop offset="1" stop-color="#E11D48" stop-opacity="0"/></radialGradient>
+<pattern id="grass" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="60" fill="#FFFFFF" fill-opacity=".025"/></pattern>
+
+</defs>
+
+<rect width="1080" height="1350" fill="#0B1F14"/>
+<clipPath id="leftP"><polygon points="0,0 640,0 440,1350 0,1350"/></clipPath>
+<clipPath id="rightP"><polygon points="640,0 1080,0 1080,1350 440,1350"/></clipPath>
+<g clip-path="url(#leftP)">
+  <rect width="1080" height="1350" fill="#13301F"/>
+  <g fill="#22C55E" opacity=".16"><rect x="0" width="70" height="1350"/><rect x="140" width="70" height="1350"/><rect x="280" width="70" height="1350"/><rect x="420" width="70" height="1350"/><rect x="560" width="70" height="1350"/></g>
+  <circle cx="120" cy="80" r="420" fill="url(#floodG)"/>
+</g>
+<g clip-path="url(#rightP)">
+  <rect width="1080" height="1350" fill="#1A0E14"/>
+  <g fill="#E11D48" opacity=".14" transform="skewX(-8)"><rect x="500" width="56" height="1350"/><rect x="640" width="56" height="1350"/><rect x="780" width="56" height="1350"/><rect x="920" width="56" height="1350"/><rect x="1060" width="56" height="1350"/><rect x="1200" width="56" height="1350"/></g>
+  <circle cx="1000" cy="1240" r="460" fill="url(#floodR)"/>
+</g>
+<circle cx="90" cy="40" r="300" fill="url(#flood)"/>
+<circle cx="1010" cy="40" r="300" fill="url(#flood)"/>
+<g fill="none" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="4"><rect x="40" y="40" width="1000" height="1270"/><circle cx="540" cy="700" r="210"/><path d="M40 700H1040"/><rect x="290" y="40" width="500" height="150"/><rect x="290" y="1160" width="500" height="150"/></g>
+<polygon points="628,0 652,0 452,1350 428,1350" fill="#FACC15"/>
+<g transform="translate(64 64)" aria-label="Fixturehaus logo">
+  <use href="#fh-mark" width="64" height="64"/>
+  <text class="d" x="71.68" y="51.2" font-size="49.92" fill="#FFFFFF">FIXTURE<tspan fill="#22C55E">HAUS</tspan></text>
+</g>
+<g><rect x="776" y="72" width="240" height="46" rx="23" fill="#E11D48"/><text class="bb" x="896" y="103" font-size="20" letter-spacing="2" fill="#FFFFFF" text-anchor="middle">SAMPLE STORY</text></g>
+<text class="bm" x="64" y="226" font-size="28" letter-spacing="5" fill="#FACC15">MATCHWEEK 9 · PREVIEW</text>
+<text class="d" x="64" y="372" font-size="156" fill="#FFFFFF">SALTMERE</text>
+<text class="d" x="64" y="460" font-size="96" fill="#22C55E">ROVERS</text>
+<g transform="translate(120 510) scale(1.8)">
+  <path d="M10 4H90V48C90 74 70 90 50 97C30 90 10 74 10 48Z" fill="#22C55E"/>
+  <path d="M10 4H50V97C30 90 10 74 10 48Z" fill="#0B1F14" opacity=".9"/>
+  <path d="M10 4H90V48C90 74 70 90 50 97C30 90 10 74 10 48Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <text class="d" x="50" y="62" font-size="36" fill="#FFFFFF" text-anchor="middle" stroke="#0B1F14" stroke-width="1">SR</text>
+</g>
+<g><circle cx="540" cy="700" r="118" fill="#FACC15" stroke="#0B1F14" stroke-width="10"/><text class="d" x="540" y="752" font-size="150" fill="#0B1F14" text-anchor="middle">VS</text></g>
+<g transform="translate(780 710) scale(1.8)">
+  <path d="M10 4H90V48C90 74 70 90 50 97C30 90 10 74 10 48Z" fill="#E11D48"/>
+  <path d="M10 4H50V97C30 90 10 74 10 48Z" fill="#FFFFFF" opacity=".9"/>
+  <path d="M10 4H90V48C90 74 70 90 50 97C30 90 10 74 10 48Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <text class="d" x="50" y="62" font-size="36" fill="#FFFFFF" text-anchor="middle" stroke="#0B1F14" stroke-width="1">KV</text>
+</g>
+<text class="d" x="1016" y="1018" font-size="156" fill="#FFFFFF" text-anchor="end">KESTREL</text>
+<text class="d" x="1016" y="1102" font-size="96" fill="#E11D48" text-anchor="end" stroke="#FFFFFF" stroke-width="1.5">VALE</text>
+<g>
+  <rect x="64" y="1150" width="952" height="136" rx="14" fill="#071610" stroke="#22C55E" stroke-width="3"/>
+  <rect x="64" y="1150" width="12" height="136" fill="#FACC15"/>
+  <text class="d" x="110" y="1218" font-size="46" fill="#FFFFFF">SAT 17 OCT 2026</text>
+  <rect x="466" y="1180" width="3" height="48" fill="#22C55E"/>
+  <text class="d" x="486" y="1218" font-size="46" fill="#FACC15">KO 15:00</text>
+  <rect x="680" y="1180" width="3" height="48" fill="#22C55E"/>
+  <text class="d" x="700" y="1218" font-size="46" fill="#FFFFFF">HARBOUR LANE</text>
+  <text class="b" x="110" y="1262" font-size="24" fill="#B8CCBF">Full preview, lineups &amp; key battles at fixturehaus →</text>
+</g>
+</svg>

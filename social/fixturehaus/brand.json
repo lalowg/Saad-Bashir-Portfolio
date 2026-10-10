@@ -1,0 +1,49 @@
+{
+  "slug": "fixturehaus",
+  "name": "Fixturehaus",
+  "industry": "news",
+  "category": "Football media: previews & fixtures",
+  "tagline": "Every kickoff. Under the lights.",
+  "positioning": "Fixturehaus is the matchday football publication that turns fixture lists, previews and scorecards into bold, scannable kit-graphic stories for fans who plan their weekend around kickoff.",
+  "audience": "Matchday fans aged 18-40 who follow several clubs, check fixtures on their phone between Friday and Monday, and want fast, confident previews rather than long-form punditry.",
+  "strategy": "Own the 72 hours before kickoff with a fixture board, data-led previews and a free predictor league that builds a weekly ritual. Every format leads with the matchup (VS split, scoreboard, table) so a post reads in under three seconds in the feed. Community features reward opinions and bragging rights, never betting.",
+  "voice": ["Energetic", "Confident", "Terrace-sharp", "Clear"],
+  "palette": [
+    { "name": "Floodlit Pitch", "hex": "#0B1F14", "role": "bg" },
+    { "name": "Chalk White", "hex": "#FFFFFF", "role": "ink" },
+    { "name": "Kit Green", "hex": "#22C55E", "role": "primary" },
+    { "name": "Scoreboard Yellow", "hex": "#FACC15", "role": "secondary" },
+    { "name": "Away Red", "hex": "#E11D48", "role": "accent" }
+  ],
+  "contrastPairs": [
+    { "fg": "#FFFFFF", "bg": "#0B1F14", "ratio": "17.21:1", "use": "body text and headlines" },
+    { "fg": "#FFFFFF", "bg": "#13301F", "ratio": "14.28:1", "use": "body text on panel cards" },
+    { "fg": "#B8CCBF", "bg": "#0B1F14", "ratio": "10.18:1", "use": "secondary body text and captions" },
+    { "fg": "#B8CCBF", "bg": "#13301F", "ratio": "8.45:1", "use": "captions on panel cards" },
+    { "fg": "#FACC15", "bg": "#0B1F14", "ratio": "11.24:1", "use": "kickers, kickoff times, highlights" },
+    { "fg": "#22C55E", "bg": "#0B1F14", "ratio": "7.55:1", "use": "wordmark accent, data figures, links" },
+    { "fg": "#0B1F14", "bg": "#FACC15", "ratio": "11.24:1", "use": "primary CTA buttons, kickoff chips" },
+    { "fg": "#0B1F14", "bg": "#22C55E", "ratio": "7.55:1", "use": "active tabs, nav CTA, tags" },
+    { "fg": "#FFFFFF", "bg": "#E11D48", "ratio": "4.70:1", "use": "SAMPLE STORY labels, loss markers" },
+    { "fg": "#E11D48", "bg": "#0B1F14", "ratio": "3.66:1", "use": "large display type and graphics only (not body text)" }
+  ],
+  "fonts": { "display": "Bebas Neue", "body": "Rubik", "mono": "Rubik (tabular figures; no mono in brief)" },
+  "designSystem": {
+    "spacing": "8px base grid; section padding 64-112px; 64px minimum safe margin on social canvases",
+    "radius": "10-16px on cards and scoreboards, full pills for CTAs and labels",
+    "borders": "1px white at 14% for structure; 2-4px Kit Green or Scoreboard Yellow to signal the featured match",
+    "imagery": "Original vector only: tactical boards, floodlight towers, crests and pitch markings. No photography.",
+    "shapes": "Shield crests, diagonal VS splits, circular VS badges, LED digit boxes",
+    "buttons": "Scoreboard Yellow pill with Bebas Neue label and arrow; outline white secondary",
+    "cards": "Deep green panels with a coloured kit-stripe edge; featured items get a green border",
+    "motifs": "Pitch lines at low opacity, VS splits, scoreboards, vertical kit stripes, floodlight radial glows"
+  },
+  "artDirection": "Every creative leads with the matchup: a VS split, a fixture board or a table, set in towering Bebas Neue with Rubik doing the explaining. Night-pitch green is the stage, floodlight glows light it from the top corners, and faint pitch markings anchor the grid. Yellow is reserved for kickoff times and CTAs, red for the away side and SAMPLE labels, green for the home side and data. All clubs, players and numbers are fictional and every story is labelled as a sample.",
+  "assets": [
+    { "file": "01-instagram.svg", "platform": "instagram", "format": "Feed post 1080×1350", "width": 1080, "height": 1350, "title": "Matchday Preview: Saltmere vs Kestrel Vale", "headline": "Saltmere Rovers VS Kestrel Vale", "summary": "Diagonal VS-split preview cover with crests, kit stripes and a kickoff scoreboard strip." },
+    { "file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led post 1200×1350", "width": 1200, "height": 1350, "title": "The Data Desk: Five Numbers", "headline": "Five numbers that define Matchweek 9", "summary": "Big-number stat tiles and an xG-difference bar chart for a thought-leadership data post." },
+    { "file": "03-x.svg", "platform": "x", "format": "Announcement 1600×900", "width": 1600, "height": 900, "title": "Matchweek 9 Fixture Board", "headline": "Matchweek 9 fixtures are live", "summary": "Scoreboard-style fixture list with highlighted top match and an open-the-board CTA." },
+    { "file": "04-facebook.svg", "platform": "facebook", "format": "Community campaign 1200×1500", "width": 1200, "height": 1500, "title": "Haus Predictor League", "headline": "Call it before kickoff", "summary": "Floodlight-tower campaign visual with an LED score-prediction card; bragging rights only, no betting." },
+    { "file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "Table Watch Infographic", "headline": "Table Watch", "summary": "Kit-stripe header with a top-six league table, form dots and a preview CTA." }
+  ]
+}

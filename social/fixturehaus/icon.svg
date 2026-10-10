@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="t">
+<title id="t">Fixturehaus icon</title>
+<style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;500;700&display=swap');
+.d{font-family:'Bebas Neue','Arial Narrow',Impact,sans-serif;letter-spacing:1px}
+.b{font-family:'Rubik','Helvetica Neue',Arial,sans-serif}
+.bb{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:700}
+.bm{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:500}
+]]></style>
+<defs>
+<symbol id="fh-mark" viewBox="0 0 100 100">
+  <clipPath id="fh-mark-clip"><path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z"/></clipPath>
+  <g clip-path="url(#fh-mark-clip)">
+    <rect width="100" height="100" fill="#22C55E"/>
+    <rect x="31" width="12" height="100" fill="#0B1F14"/>
+    <rect x="57" width="12" height="100" fill="#0B1F14"/>
+    <rect width="100" height="22" fill="#FACC15"/>
+    <circle cx="36" cy="14" r="3.4" fill="#0B1F14"/><circle cx="50" cy="14" r="3.4" fill="#0B1F14"/><circle cx="64" cy="14" r="3.4" fill="#0B1F14"/>
+    <path d="M0 54H100" stroke="#FFFFFF" stroke-width="3.5"/>
+  </g>
+  <circle cx="50" cy="54" r="13" fill="#0B1F14" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="50" cy="54" r="3.2" fill="#FFFFFF"/>
+  <path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</symbol>
+<radialGradient id="flood" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset=".25" stop-color="#FACC15" stop-opacity=".22"/><stop offset="1" stop-color="#FACC15" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodG" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22C55E" stop-opacity=".35"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodR" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E11D48" stop-opacity=".35"/><stop offset="1" stop-color="#E11D48" stop-opacity="0"/></radialGradient>
+<pattern id="grass" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="60" fill="#FFFFFF" fill-opacity=".025"/></pattern>
+
+</defs>
+
+<rect width="512" height="512" rx="96" fill="#0B1F14"/>
+<circle cx="256" cy="120" r="260" fill="url(#flood)" opacity=".7"/>
+<g fill="none" stroke="#FFFFFF" stroke-opacity=".12" stroke-width="4"><rect x="40" y="40" width="432" height="432" rx="60"/><path d="M40 256H472"/></g>
+<use href="#fh-mark" x="76" y="70" width="360" height="360"/>
+</svg>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" role="img" aria-labelledby="t">
+<title id="t">Fixturehaus Instagram Story infographic: Table Watch, Meridian League top six after Matchweek 8</title>
+<style><![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;500;700&display=swap');
+.d{font-family:'Bebas Neue','Arial Narrow',Impact,sans-serif;letter-spacing:1px}
+.b{font-family:'Rubik','Helvetica Neue',Arial,sans-serif}
+.bb{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:700}
+.bm{font-family:'Rubik','Helvetica Neue',Arial,sans-serif;font-weight:500}
+]]></style>
+<defs>
+<symbol id="fh-mark" viewBox="0 0 100 100">
+  <clipPath id="fh-mark-clip"><path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z"/></clipPath>
+  <g clip-path="url(#fh-mark-clip)">
+    <rect width="100" height="100" fill="#22C55E"/>
+    <rect x="31" width="12" height="100" fill="#0B1F14"/>
+    <rect x="57" width="12" height="100" fill="#0B1F14"/>
+    <rect width="100" height="22" fill="#FACC15"/>
+    <circle cx="36" cy="14" r="3.4" fill="#0B1F14"/><circle cx="50" cy="14" r="3.4" fill="#0B1F14"/><circle cx="64" cy="14" r="3.4" fill="#0B1F14"/>
+    <path d="M0 54H100" stroke="#FFFFFF" stroke-width="3.5"/>
+  </g>
+  <circle cx="50" cy="54" r="13" fill="#0B1F14" stroke="#FFFFFF" stroke-width="3.5"/>
+  <circle cx="50" cy="54" r="3.2" fill="#FFFFFF"/>
+  <path d="M12 6H88V50C88 74 70 88 50 95C30 88 12 74 12 50Z" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+</symbol>
+<radialGradient id="flood" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".55"/><stop offset=".25" stop-color="#FACC15" stop-opacity=".22"/><stop offset="1" stop-color="#FACC15" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodG" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22C55E" stop-opacity=".35"/><stop offset="1" stop-color="#22C55E" stop-opacity="0"/></radialGradient>
+<radialGradient id="floodR" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#E11D48" stop-opacity=".35"/><stop offset="1" stop-color="#E11D48" stop-opacity="0"/></radialGradient>
+<pattern id="grass" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="60" fill="#FFFFFF" fill-opacity=".025"/></pattern>
+
+</defs>
+
+<clipPath id="band"><polygon points="0,0 1080,0 1080,420 0,560"/></clipPath>
+<rect width="1080" height="1920" fill="#0B1F14"/>
+<rect width="1080" height="1920" fill="url(#grass)"/>
+<g clip-path="url(#band)">
+  <rect width="1080" height="600" fill="#22C55E"/>
+  <g fill="#0B1F14"><rect x="90" width="90" height="600"/><rect x="270" width="90" height="600"/><rect x="450" width="90" height="600"/><rect x="630" width="90" height="600"/><rect x="810" width="90" height="600"/><rect x="990" width="90" height="600"/></g>
+  <circle cx="540" cy="0" r="520" fill="url(#flood)"/>
+</g>
+<polygon points="0,560 1080,420 1080,440 0,580" fill="#FACC15"/>
+<rect x="56" y="56" width="440" height="104" rx="14" fill="#0B1F14"/>
+<g transform="translate(80 76)" aria-label="Fixturehaus logo">
+  <use href="#fh-mark" width="64" height="64"/>
+  <text class="d" x="71.68" y="51.2" font-size="49.92" fill="#FFFFFF">FIXTURE<tspan fill="#22C55E">HAUS</tspan></text>
+</g>
+<g><rect x="760" y="76" width="256" height="62" rx="31" fill="#E11D48"/><text class="bb" x="888" y="116" font-size="22" letter-spacing="2" fill="#FFFFFF" text-anchor="middle">SAMPLE STORY</text></g>
+<text class="d" font-size="220" fill="#FFFFFF" stroke="#0B1F14" stroke-width="8" paint-order="stroke"><tspan x="64" y="350">TABLE</tspan><tspan x="64" y="560">WATCH</tspan></text>
+<text class="bm" x="64" y="660" font-size="30" letter-spacing="4" fill="#FACC15">MERIDIAN LEAGUE · TOP 6</text>
+<text class="b" x="64" y="712" font-size="30" fill="#FFFFFF">After Matchweek 8 · updated Mon 12 Oct 2026</text>
+<text class="bm" x="110" y="812" font-size="20" letter-spacing="3" fill="#B8CCBF" text-anchor="middle">POS</text>
+<text class="bm" x="232" y="812" font-size="20" letter-spacing="3" fill="#B8CCBF">CLUB</text>
+<text class="bm" x="709" y="812" font-size="20" letter-spacing="3" fill="#B8CCBF">LAST 5</text>
+<text class="bm" x="990" y="812" font-size="20" letter-spacing="3" fill="#B8CCBF" text-anchor="end">PTS</text>
+<g>
+  <rect x="64" y="840" width="952" height="104" rx="12" fill="#13301F" stroke="#FACC15" stroke-opacity="1" stroke-width="3"/>
+  <text class="d" x="110" y="914" font-size="60" fill="#FACC15" text-anchor="middle">1</text>
+  <g transform="translate(150 862)"><rect width="60" height="60" rx="8" fill="#22C55E"/><rect x="14" width="10" height="60" fill="#0B1F14"/><rect x="36" width="10" height="60" fill="#0B1F14"/><rect width="60" height="60" rx="8" fill="none" stroke="#FFFFFF" stroke-width="2"/></g>
+  <text class="d" x="232" y="910" font-size="52" fill="#FFFFFF">SALTMERE ROVERS</text>
+  <circle cx="726" cy="892" r="13" fill="#22C55E"/><text class="bb" x="726" y="898" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="760" cy="892" r="13" fill="#22C55E"/><text class="bb" x="760" y="898" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="794" cy="892" r="13" fill="#22C55E"/><text class="bb" x="794" y="898" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="828" cy="892" r="13" fill="#FACC15"/><text class="bb" x="828" y="898" font-size="15" fill="#0B1F14" text-anchor="middle">D</text><circle cx="862" cy="892" r="13" fill="#22C55E"/><text class="bb" x="862" y="898" font-size="15" fill="#0B1F14" text-anchor="middle">W</text>
+  <text class="d" x="990" y="914" font-size="64" fill="#FACC15" text-anchor="end">22</text>
+</g>
+<g>
+  <rect x="64" y="960" width="952" height="104" rx="12" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="110" y="1034" font-size="60" fill="#FFFFFF" text-anchor="middle">2</text>
+  <g transform="translate(150 982)"><rect width="60" height="60" rx="8" fill="#E11D48"/><rect x="14" width="10" height="60" fill="#FFFFFF"/><rect x="36" width="10" height="60" fill="#FFFFFF"/><rect width="60" height="60" rx="8" fill="none" stroke="#FFFFFF" stroke-width="2"/></g>
+  <text class="d" x="232" y="1030" font-size="52" fill="#FFFFFF">KESTREL VALE</text>
+  <circle cx="726" cy="1012" r="13" fill="#22C55E"/><text class="bb" x="726" y="1018" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="760" cy="1012" r="13" fill="#FACC15"/><text class="bb" x="760" y="1018" font-size="15" fill="#0B1F14" text-anchor="middle">D</text><circle cx="794" cy="1012" r="13" fill="#22C55E"/><text class="bb" x="794" y="1018" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="828" cy="1012" r="13" fill="#22C55E"/><text class="bb" x="828" y="1018" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="862" cy="1012" r="13" fill="#E11D48"/><text class="bb" x="862" y="1018" font-size="15" fill="#FFFFFF" text-anchor="middle">L</text>
+  <text class="d" x="990" y="1034" font-size="64" fill="#FFFFFF" text-anchor="end">19</text>
+</g>
+<g>
+  <rect x="64" y="1080" width="952" height="104" rx="12" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="110" y="1154" font-size="60" fill="#FFFFFF" text-anchor="middle">3</text>
+  <g transform="translate(150 1102)"><rect width="60" height="60" rx="8" fill="#2563EB"/><rect x="14" width="10" height="60" fill="#FACC15"/><rect x="36" width="10" height="60" fill="#FACC15"/><rect width="60" height="60" rx="8" fill="none" stroke="#FFFFFF" stroke-width="2"/></g>
+  <text class="d" x="232" y="1150" font-size="52" fill="#FFFFFF">BRACKENFORD CITY</text>
+  <circle cx="726" cy="1132" r="13" fill="#FACC15"/><text class="bb" x="726" y="1138" font-size="15" fill="#0B1F14" text-anchor="middle">D</text><circle cx="760" cy="1132" r="13" fill="#22C55E"/><text class="bb" x="760" y="1138" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="794" cy="1132" r="13" fill="#22C55E"/><text class="bb" x="794" y="1138" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="828" cy="1132" r="13" fill="#E11D48"/><text class="bb" x="828" y="1138" font-size="15" fill="#FFFFFF" text-anchor="middle">L</text><circle cx="862" cy="1132" r="13" fill="#22C55E"/><text class="bb" x="862" y="1138" font-size="15" fill="#0B1F14" text-anchor="middle">W</text>
+  <text class="d" x="990" y="1154" font-size="64" fill="#FFFFFF" text-anchor="end">17</text>
+</g>
+<g>
+  <rect x="64" y="1200" width="952" height="104" rx="12" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="110" y="1274" font-size="60" fill="#FFFFFF" text-anchor="middle">4</text>
+  <g transform="translate(150 1222)"><rect width="60" height="60" rx="8" fill="#FACC15"/><rect x="14" width="10" height="60" fill="#0B1F14"/><rect x="36" width="10" height="60" fill="#0B1F14"/><rect width="60" height="60" rx="8" fill="none" stroke="#FFFFFF" stroke-width="2"/></g>
+  <text class="d" x="232" y="1270" font-size="52" fill="#FFFFFF">LUNMOUTH ALBION</text>
+  <circle cx="726" cy="1252" r="13" fill="#22C55E"/><text class="bb" x="726" y="1258" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="760" cy="1252" r="13" fill="#E11D48"/><text class="bb" x="760" y="1258" font-size="15" fill="#FFFFFF" text-anchor="middle">L</text><circle cx="794" cy="1252" r="13" fill="#FACC15"/><text class="bb" x="794" y="1258" font-size="15" fill="#0B1F14" text-anchor="middle">D</text><circle cx="828" cy="1252" r="13" fill="#22C55E"/><text class="bb" x="828" y="1258" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="862" cy="1252" r="13" fill="#22C55E"/><text class="bb" x="862" y="1258" font-size="15" fill="#0B1F14" text-anchor="middle">W</text>
+  <text class="d" x="990" y="1274" font-size="64" fill="#FFFFFF" text-anchor="end">16</text>
+</g>
+<g>
+  <rect x="64" y="1320" width="952" height="104" rx="12" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="110" y="1394" font-size="60" fill="#FFFFFF" text-anchor="middle">5</text>
+  <g transform="translate(150 1342)"><rect width="60" height="60" rx="8" fill="#7C3AED"/><rect x="14" width="10" height="60" fill="#FFFFFF"/><rect x="36" width="10" height="60" fill="#FFFFFF"/><rect width="60" height="60" rx="8" fill="none" stroke="#FFFFFF" stroke-width="2"/></g>
+  <text class="d" x="232" y="1390" font-size="52" fill="#FFFFFF">DUNHOLT ATHLETIC</text>
+  <circle cx="726" cy="1372" r="13" fill="#E11D48"/><text class="bb" x="726" y="1378" font-size="15" fill="#FFFFFF" text-anchor="middle">L</text><circle cx="760" cy="1372" r="13" fill="#22C55E"/><text class="bb" x="760" y="1378" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="794" cy="1372" r="13" fill="#FACC15"/><text class="bb" x="794" y="1378" font-size="15" fill="#0B1F14" text-anchor="middle">D</text><circle cx="828" cy="1372" r="13" fill="#FACC15"/><text class="bb" x="828" y="1378" font-size="15" fill="#0B1F14" text-anchor="middle">D</text><circle cx="862" cy="1372" r="13" fill="#22C55E"/><text class="bb" x="862" y="1378" font-size="15" fill="#0B1F14" text-anchor="middle">W</text>
+  <text class="d" x="990" y="1394" font-size="64" fill="#FFFFFF" text-anchor="end">14</text>
+</g>
+<g>
+  <rect x="64" y="1440" width="952" height="104" rx="12" fill="#071610" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
+  <text class="d" x="110" y="1514" font-size="60" fill="#FFFFFF" text-anchor="middle">6</text>
+  <g transform="translate(150 1462)"><rect width="60" height="60" rx="8" fill="#F97316"/><rect x="14" width="10" height="60" fill="#0B1F14"/><rect x="36" width="10" height="60" fill="#0B1F14"/><rect width="60" height="60" rx="8" fill="none" stroke="#FFFFFF" stroke-width="2"/></g>
+  <text class="d" x="232" y="1510" font-size="52" fill="#FFFFFF">CORVANE UNITED</text>
+  <circle cx="726" cy="1492" r="13" fill="#22C55E"/><text class="bb" x="726" y="1498" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="760" cy="1492" r="13" fill="#E11D48"/><text class="bb" x="760" y="1498" font-size="15" fill="#FFFFFF" text-anchor="middle">L</text><circle cx="794" cy="1492" r="13" fill="#E11D48"/><text class="bb" x="794" y="1498" font-size="15" fill="#FFFFFF" text-anchor="middle">L</text><circle cx="828" cy="1492" r="13" fill="#22C55E"/><text class="bb" x="828" y="1498" font-size="15" fill="#0B1F14" text-anchor="middle">W</text><circle cx="862" cy="1492" r="13" fill="#FACC15"/><text class="bb" x="862" y="1498" font-size="15" fill="#0B1F14" text-anchor="middle">D</text>
+  <text class="d" x="990" y="1514" font-size="64" fill="#FFFFFF" text-anchor="end">13</text>
+</g>
+<g fill="none" stroke="#FFFFFF" stroke-opacity=".1" stroke-width="4"><path d="M0 1560H1080"/></g>
+<text class="d" x="540" y="1604" font-size="84" fill="#FFFFFF" text-anchor="middle">THREE POINTS. ONE GAP.</text>
+<text class="b" x="540" y="1652" font-size="28" fill="#B8CCBF" text-anchor="middle">Saltmere host second-placed Kestrel Vale on Saturday.</text>
+<g><rect x="200" y="1700" width="680" height="96" rx="48" fill="#FACC15"/><text class="d" x="540" y="1766" font-size="54" fill="#0B1F14" text-anchor="middle">READ THE MW9 PREVIEW ↑</text></g>
+<text class="b" x="540" y="1846" font-size="20" fill="#B8CCBF" text-anchor="middle">Fictional clubs &amp; sample data · fixturehaus</text>
+</svg>
