@@ -1,0 +1,48 @@
+{
+  "slug": "quantarc",
+  "name": "Quantarc",
+  "industry": "finance",
+  "category": "Financial analytics & market intelligence",
+  "tagline": "Market intelligence, rendered as signal.",
+  "positioning": "For analysts and serious self-directed learners, Quantarc is the terminal-grade research desk that turns market data into explainable signal — every chart traceable to a published method, never a tip.",
+  "audience": "Independent analysts, finance writers, students of markets and small research teams who want dense, disciplined, keyboard-first analytics with transparent methodology.",
+  "strategy": "Win trust through transparency rather than hype: every visual carries its method, its data lineage and an educational disclaimer. Lead with a signature visual language — regime quadrants and breadth arcs — so the brand is recognisable at feed speed, then convert curiosity into demo-desk access requests through free lessons and office hours.",
+  "voice": ["disciplined", "precise", "candid", "quietly confident"],
+  "palette": [
+    {"name": "Terminal Night", "hex": "#0D1117", "role": "bg"},
+    {"name": "Phosphor Grey", "hex": "#C9D1D9", "role": "ink"},
+    {"name": "Signal Amber", "hex": "#FFB000", "role": "primary"},
+    {"name": "Advance Green", "hex": "#3FB950", "role": "secondary"},
+    {"name": "Decline Red", "hex": "#F85149", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#C9D1D9", "bg": "#0D1117", "ratio": "12.26:1", "use": "body text"},
+    {"fg": "#C9D1D9", "bg": "#161B22", "ratio": "11.21:1", "use": "body text on panels"},
+    {"fg": "#FFB000", "bg": "#0D1117", "ratio": "10.33:1", "use": "headlines, function codes, links"},
+    {"fg": "#0D1117", "bg": "#FFB000", "ratio": "10.33:1", "use": "primary buttons and CTA blocks"},
+    {"fg": "#3FB950", "bg": "#0D1117", "ratio": "7.45:1", "use": "positive values"},
+    {"fg": "#F85149", "bg": "#0D1117", "ratio": "5.65:1", "use": "negative values"},
+    {"fg": "#8B949E", "bg": "#0D1117", "ratio": "6.15:1", "use": "secondary labels and captions"},
+    {"fg": "#8B949E", "bg": "#161B22", "ratio": "5.62:1", "use": "panel header labels"},
+    {"fg": "#FFB000", "bg": "#161B22", "ratio": "9.44:1", "use": "panel IDs and accents on panels"}
+  ],
+  "fonts": {"display": "JetBrains Mono", "body": "Inter", "mono": "JetBrains Mono"},
+  "designSystem": {
+    "spacing": "8px base unit; dense 16px panel padding; 1px gutters between dashboard panels; 64px+ safe margins on social canvases",
+    "radius": "0 on panels, buttons and inputs; the only rounded form is the app-icon mark",
+    "borders": "1px #30363D hairlines everywhere; #21262D for table row rules; amber 1–2px outline for featured or active states",
+    "imagery": "No photography. Inline SVG charts only: regime quadrants, breadth arcs, candlestick strips, sparklines — always labelled as illustrative sample data",
+    "shapes": "Quarter and half arcs, crosshair quadrants, concentric dashed rings, square bullets and terminal cursor blocks",
+    "buttons": "Square amber fill with dark ink, uppercase mono labels and a keycap hint (GO, F1, ENTER); ghost variant uses a 1px amber outline",
+    "cards": "Dashboard panels with a dark header strip carrying an amber function ID (QA-01, BR-02) and a muted status label on the right",
+    "motifs": "Arc gauges, four-quadrant regime maps with dotted trails, candlestick fragments, ticker tapes, monospace tables with tabular numerals, function-key navigation"
+  },
+  "artDirection": "Every creative is composed like a terminal screen: a grid-paper night background, 1px panels with ID headers, and one dominant amber arc or quadrant that carries the story. Headlines are set in heavy JetBrains Mono with the payoff word in Signal Amber; supporting copy uses Inter for readability. Green and red appear only as data colours, never as decoration, and every chart is marked as illustrative sample data with an 'educational, not financial advice' line. Vary the hero graphic per platform (arc sweep, gauge, quadrant, candle anatomy) while keeping the lockup, panel headers and amber CTA block constant.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Field Guide carousel cover", "headline": "Read the regime, not the noise.", "summary": "Carousel cover for a six-slide field guide to the four market regimes, built on a sweeping amber arc and a sample candle panel."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Data-led feed post 1200×1350", "width": 1200, "height": 1350, "title": "Data Note 07: Market breadth", "headline": "Breadth tells you who's really buying the rally.", "summary": "Thought-leadership data note pairing a breadth arc gauge, a readings table and a cap- vs equal-weight concentration check."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement card 1600×900", "width": 1600, "height": 900, "title": "Regime Map launch", "headline": "Regime Map is live.", "summary": "Feature-launch card with a terminal window showing the growth × liquidity quadrant and a sample trail into Expansion."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community event post 1200×1500", "width": 1200, "height": 1500, "title": "Office Hours: Candlesticks, decoded", "headline": "Candlesticks, decoded.", "summary": "Free beginner live-class promo with an annotated candlestick anatomy diagram, agenda and save-your-seat CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Square infographic 1080×1080", "width": 1080, "height": 1080, "title": "How to read a breadth arc", "headline": "How to read a breadth arc.", "summary": "Signature infographic: a large tick-marked arc gauge with four numbered reading cues and a plain-language legend."}
+  ]
+}

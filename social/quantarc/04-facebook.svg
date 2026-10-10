@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Quantarc Facebook community event: Candlesticks, decoded — free live class">
+  <title>Quantarc Facebook community event: Candlesticks, decoded — free live class</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+  .m{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace} .s{font-family:'Inter',system-ui,'Segoe UI',Arial,sans-serif}]]></style>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#161C24" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFB000" stop-opacity=".28"/><stop offset="1" stop-color="#FFB000" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="#0D1117"/>
+  <rect width="1200" height="1500" fill="url(#grid)"/>
+  <g transform="translate(64 64) scale(0.1015625)">
+    <rect x="4" y="4" width="504" height="504" rx="96" fill="#0D1117" stroke="#30363D" stroke-width="10"/>
+    <path d="M256 104V408M104 256H408" stroke="#30363D" stroke-width="6"/>
+    <path d="M406 256A150 150 0 1 0 256 406" fill="none" stroke="#FFB000" stroke-width="44"/>
+    <path d="M300 300L420 420" stroke="#FFB000" stroke-width="44"/>
+    <path d="M196 236V330M246 186V300" stroke="#3FB950" stroke-width="6"/>
+    <rect x="183" y="256" width="26" height="54" fill="#3FB950"/><rect x="233" y="206" width="26" height="74" fill="#3FB950"/>
+    <path d="M296 170V250" stroke="#F85149" stroke-width="6"/><rect x="283" y="186" width="26" height="46" fill="#F85149"/>
+  </g>
+  <text class="m" x="132" y="100.08" font-size="28" font-weight="800" letter-spacing="3.36" fill="#E6EDF3">QUANTARC</text>
+  <text class="m" x="1136" y="98" font-size="18" font-weight="700" text-anchor="end" letter-spacing="2" fill="#8B949E">COMMUNITY · SESSION 03</text>
+  <path d="M64 146H1136" stroke="#30363D"/>
+  <text class="m" x="64" y="214" font-size="22" font-weight="700" letter-spacing="2" fill="#FFB000">▸ QUANTARC OFFICE HOURS · FREE LIVE CLASS</text>
+  <text class="m" x="64" y="320" font-size="92" font-weight="800" letter-spacing="-2" fill="#E6EDF3"><tspan x="64" dy="0">Candlesticks,</tspan><tspan x="64" dy="104" fill="#FFB000">decoded.</tspan></text>
+  <text class="s" x="64" y="494" font-size="28" font-weight="400" fill="#C9D1D9">Free 45-minute live class. Beginners welcome.</text>
+  <rect x="64" y="540" width="1072" height="540" fill="#161B22" stroke="#30363D"/>
+  <rect x="64" y="540" width="1072" height="44" fill="#11161D" stroke="#30363D"/>
+  <text class="m" x="82" y="568.48" font-size="18" font-weight="700" letter-spacing="1.5" fill="#FFB000">LSN-01 · ANATOMY OF A CANDLE</text>
+  <text class="m" x="1118" y="568.48" font-size="18" font-weight="500" text-anchor="end" letter-spacing="1.5" fill="#8B949E">ONE BAR · FOUR PRICES</text>
+  <clipPath id="clipF"><rect x="65" y="585" width="1070" height="494"/></clipPath>
+  <g opacity=".22" clip-path="url(#clipF)"><path d="M91 969V992" stroke="#3FB950" stroke-width="2"/><rect x="84" y="973" width="14" height="7" fill="#3FB950"/><path d="M120 959V978" stroke="#3FB950" stroke-width="2"/><rect x="113" y="968" width="14" height="5" fill="#3FB950"/><path d="M149 961V985" stroke="#F85149" stroke-width="2"/><rect x="142" y="968" width="14" height="11" fill="#F85149"/><path d="M178 964V989" stroke="#3FB950" stroke-width="2"/><rect x="171" y="976" width="14" height="3" fill="#3FB950"/><path d="M207 962V986" stroke="#3FB950" stroke-width="2"/><rect x="200" y="971" width="14" height="5" fill="#3FB950"/><path d="M236 943V981" stroke="#3FB950" stroke-width="2"/><rect x="229" y="955" width="14" height="16" fill="#3FB950"/><path d="M265 951V968" stroke="#F85149" stroke-width="2"/><rect x="258" y="955" width="14" height="8" fill="#F85149"/><path d="M294 945V972" stroke="#3FB950" stroke-width="2"/><rect x="287" y="956" width="14" height="7" fill="#3FB950"/><path d="M323 950V968" stroke="#F85149" stroke-width="2"/><rect x="316" y="956" width="14" height="7" fill="#F85149"/><path d="M352 959V977" stroke="#F85149" stroke-width="2"/><rect x="345" y="963" width="14" height="4" fill="#F85149"/><path d="M381 957V972" stroke="#3FB950" stroke-width="2"/><rect x="374" y="965" width="14" height="2" fill="#3FB950"/><path d="M410 963V971" stroke="#F85149" stroke-width="2"/><rect x="403" y="965" width="14" height="2" fill="#F85149"/><path d="M439 955V972" stroke="#3FB950" stroke-width="2"/><rect x="432" y="958" width="14" height="7" fill="#3FB950"/><path d="M468 934V970" stroke="#3FB950" stroke-width="2"/><rect x="461" y="946" width="14" height="12" fill="#3FB950"/><path d="M497 942V950" stroke="#F85149" stroke-width="2"/><rect x="490" y="946" width="14" height="2" fill="#F85149"/><path d="M526 942V964" stroke="#F85149" stroke-width="2"/><rect x="519" y="946" width="14" height="9" fill="#F85149"/><path d="M555 949V965" stroke="#F85149" stroke-width="2"/><rect x="548" y="955" width="14" height="2" fill="#F85149"/><path d="M584 937V967" stroke="#3FB950" stroke-width="2"/><rect x="577" y="939" width="14" height="16" fill="#3FB950"/><path d="M613 928V951" stroke="#F85149" stroke-width="2"/><rect x="606" y="939" width="14" height="3" fill="#F85149"/><path d="M642 930V956" stroke="#F85149" stroke-width="2"/><rect x="635" y="942" width="14" height="11" fill="#F85149"/><path d="M671 931V965" stroke="#3FB950" stroke-width="2"/><rect x="664" y="943" width="14" height="10" fill="#3FB950"/><path d="M700 939V962" stroke="#F85149" stroke-width="2"/><rect x="693" y="943" width="14" height="11" fill="#F85149"/><path d="M729 951V958" stroke="#3FB950" stroke-width="2"/><rect x="722" y="953" width="14" height="2" fill="#3FB950"/><path d="M758 946V960" stroke="#3FB950" stroke-width="2"/><rect x="751" y="949" width="14" height="4" fill="#3FB950"/><path d="M787 941V969" stroke="#F85149" stroke-width="2"/><rect x="780" y="949" width="14" height="11" fill="#F85149"/><path d="M816 948V966" stroke="#F85149" stroke-width="2"/><rect x="809" y="960" width="14" height="2" fill="#F85149"/><path d="M845 952V977" stroke="#F85149" stroke-width="2"/><rect x="838" y="961" width="14" height="7" fill="#F85149"/><path d="M874 965V983" stroke="#F85149" stroke-width="2"/><rect x="867" y="968" width="14" height="10" fill="#F85149"/><path d="M903 965V986" stroke="#3FB950" stroke-width="2"/><rect x="896" y="975" width="14" height="3" fill="#3FB950"/><path d="M932 963V990" stroke="#F85149" stroke-width="2"/><rect x="925" y="975" width="14" height="3" fill="#F85149"/><path d="M961 964V987" stroke="#3FB950" stroke-width="2"/><rect x="954" y="967" width="14" height="11" fill="#3FB950"/><path d="M990 947V972" stroke="#3FB950" stroke-width="2"/><rect x="983" y="957" width="14" height="10" fill="#3FB950"/><path d="M1019 946V962" stroke="#3FB950" stroke-width="2"/><rect x="1012" y="950" width="14" height="7" fill="#3FB950"/><path d="M1048 939V971" stroke="#F85149" stroke-width="2"/><rect x="1041" y="950" width="14" height="8" fill="#F85149"/><path d="M1077 945V969" stroke="#3FB950" stroke-width="2"/><rect x="1070" y="949" width="14" height="9" fill="#3FB950"/><path d="M1106 940V963" stroke="#F85149" stroke-width="2"/><rect x="1099" y="949" width="14" height="10" fill="#F85149"/></g>
+  <path d="M300 612V1040" stroke="#3FB950" stroke-width="6"/>
+  <rect x="230" y="700" width="140" height="250" fill="#3FB950"/>
+  <path d="M310 612H420M380 700H420M380 950H420M310 1040H420" stroke="#8B949E" stroke-width="2" stroke-dasharray="4 4"/>
+  <text class="m" x="436" y="620" font-size="26" font-weight="800" fill="#E6EDF3">HIGH</text><text class="s" x="520" y="620" font-size="22" font-weight="500" fill="#8B949E">— the session peak</text>
+  <text class="m" x="436" y="708" font-size="26" font-weight="800" fill="#3FB950">CLOSE</text><text class="s" x="536" y="708" font-size="22" font-weight="500" fill="#8B949E">— where it finished</text>
+  <text class="m" x="436" y="958" font-size="26" font-weight="800" fill="#3FB950">OPEN</text><text class="s" x="520" y="958" font-size="22" font-weight="500" fill="#8B949E">— where it started</text>
+  <text class="m" x="436" y="1048" font-size="26" font-weight="800" fill="#E6EDF3">LOW</text><text class="s" x="504" y="1048" font-size="22" font-weight="500" fill="#8B949E">— the session floor</text>
+  <text class="m" x="436" y="830" font-size="20" font-weight="700" letter-spacing="2" fill="#FFB000">BODY</text><text class="s" x="436" y="862" font-size="20" font-weight="500" fill="#C9D1D9">open → close</text>
+  <path d="M390 700V950" stroke="#FFB000" stroke-width="2"/><path d="M384 700H396M384 950H396" stroke="#FFB000" stroke-width="2"/>
+  <rect x="860" y="640" width="236" height="400" fill="#11161D" stroke="#30363D"/>
+  <path d="M930 690V990" stroke="#3FB950" stroke-width="3"/><rect x="910" y="730" width="40" height="200" fill="#3FB950"/>
+  <path d="M1030 700V1000" stroke="#F85149" stroke-width="3"/><rect x="1010" y="740" width="40" height="190" fill="#F85149"/>
+  <text class="m" x="930" y="1024" font-size="16" font-weight="700" text-anchor="middle" fill="#3FB950">UP</text><text class="m" x="1030" y="1024" font-size="16" font-weight="700" text-anchor="middle" fill="#F85149">DOWN</text>
+  <text class="m" x="978" y="672" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="2" fill="#8B949E">COLOUR KEY</text>
+  <rect x="64" y="1112" width="1072" height="200" fill="#161B22" stroke="#30363D"/>
+  <rect x="64" y="1112" width="280" height="200" fill="#FFB000"/>
+  <text class="m" x="204" y="1164" font-size="26" font-weight="700" text-anchor="middle" letter-spacing="4" fill="#0D1117">THU</text>
+  <text class="m" x="204" y="1228" font-size="54" font-weight="800" text-anchor="middle" fill="#0D1117">22 OCT</text>
+  <text class="m" x="204" y="1276" font-size="18" font-weight="700" text-anchor="middle" fill="#0D1117">18:00 UTC · 2026</text>
+  <text class="m" x="376" y="1166" font-size="24" font-weight="800" fill="#FFB000">01</text><text class="m" x="428" y="1166" font-size="24" font-weight="500" fill="#E6EDF3">Anatomy of a candle</text>
+  <text class="m" x="376" y="1222" font-size="24" font-weight="800" fill="#FFB000">02</text><text class="m" x="428" y="1222" font-size="24" font-weight="500" fill="#E6EDF3">Reading wicks and bodies</text>
+  <text class="m" x="376" y="1278" font-size="24" font-weight="800" fill="#FFB000">03</text><text class="m" x="428" y="1278" font-size="24" font-weight="500" fill="#E6EDF3">Patterns vs. probabilities</text>
+  <rect x="64" y="1352" width="420" height="80" fill="#FFB000"/>
+  <text class="m" x="274" y="1404" font-size="30" font-weight="800" text-anchor="middle" letter-spacing="1" fill="#0D1117">SAVE YOUR SEAT ▸</text>
+  <text class="s" x="1136" y="1382" font-size="22" font-weight="400" text-anchor="end" fill="#8B949E"><tspan x="1136" dy="0">Educational, not financial advice.</tspan><tspan x="1136" dy="32">Free · no sales pitch · fictional event.</tspan></text>
+</svg>

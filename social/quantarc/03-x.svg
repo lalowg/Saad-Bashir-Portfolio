@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Quantarc X announcement: Regime Map is live">
+  <title>Quantarc X announcement: Regime Map is live</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+  .m{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace} .s{font-family:'Inter',system-ui,'Segoe UI',Arial,sans-serif}]]></style>
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#161C24" stroke-width="1"/></pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFB000" stop-opacity=".28"/><stop offset="1" stop-color="#FFB000" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#0D1117"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <g transform="translate(64 64) scale(0.1015625)">
+    <rect x="4" y="4" width="504" height="504" rx="96" fill="#0D1117" stroke="#30363D" stroke-width="10"/>
+    <path d="M256 104V408M104 256H408" stroke="#30363D" stroke-width="6"/>
+    <path d="M406 256A150 150 0 1 0 256 406" fill="none" stroke="#FFB000" stroke-width="44"/>
+    <path d="M300 300L420 420" stroke="#FFB000" stroke-width="44"/>
+    <path d="M196 236V330M246 186V300" stroke="#3FB950" stroke-width="6"/>
+    <rect x="183" y="256" width="26" height="54" fill="#3FB950"/><rect x="233" y="206" width="26" height="74" fill="#3FB950"/>
+    <path d="M296 170V250" stroke="#F85149" stroke-width="6"/><rect x="283" y="186" width="26" height="46" fill="#F85149"/>
+  </g>
+  <text class="m" x="132" y="100.08" font-size="28" font-weight="800" letter-spacing="3.36" fill="#E6EDF3">QUANTARC</text>
+  <text class="m" x="64" y="214" font-size="24" font-weight="700" letter-spacing="2" fill="#FFB000">▸ FEATURE LAUNCH · TERMINAL v2.6</text>
+  <text class="m" x="64" y="336" font-size="104" font-weight="800" letter-spacing="-2" fill="#E6EDF3"><tspan x="64" dy="0">Regime Map</tspan><tspan x="64" dy="118" fill="#FFB000">is live.</tspan></text>
+  <text class="s" x="64" y="548" font-size="30" font-weight="400" fill="#C9D1D9"><tspan x="64" dy="0">See where markets sit in the</tspan><tspan x="64" dy="44">growth × liquidity cycle — and</tspan><tspan x="64" dy="44">which way they're moving.</tspan></text>
+  <rect x="64" y="684" width="330" height="70" fill="#161B22" stroke="#FFB000" stroke-width="2"/>
+  <text class="m" x="88" y="729" font-size="28" font-weight="700" fill="#FFB000">&gt; RGM</text>
+  <rect x="236" y="700" width="138" height="38" fill="#FFB000"/>
+  <text class="m" x="305" y="727" font-size="22" font-weight="800" text-anchor="middle" fill="#0D1117">&lt;GO&gt;</text>
+  <text class="m" x="64" y="836" font-size="18" font-weight="500" fill="#8B949E">Educational, not financial advice · Sample data shown</text>
+  <rect x="800" y="64" width="736" height="772" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  <rect x="800" y="64" width="736" height="46" fill="#11161D" stroke="#30363D" stroke-width="2"/>
+  <rect x="818" y="81" width="12" height="12" fill="#FFB000"/><rect x="838" y="81" width="12" height="12" fill="#30363D"/><rect x="858" y="81" width="12" height="12" fill="#30363D"/>
+  <text class="m" x="890" y="93" font-size="16" font-weight="500" letter-spacing="1" fill="#8B949E">quantarc — RGM — ARC-50 SAMPLE</text>
+  <text class="m" x="1518" y="93" font-size="16" font-weight="700" text-anchor="end" fill="#FFB000">W41</text>
+  <rect x="830" y="140" width="676" height="540" fill="#11161D" stroke="#21262D"/>
+  <rect x="1168" y="140" width="338" height="270" fill="#3FB950" opacity=".07"/>
+  <rect x="830" y="410" width="338" height="270" fill="#F85149" opacity=".07"/>
+  <g fill="none" stroke="#30363D" stroke-width="1.5"><circle cx="1168" cy="410" r="90"/><circle cx="1168" cy="410" r="170" stroke-dasharray="4 6"/><circle cx="1168" cy="410" r="250"/></g>
+  <path d="M830 410H1506M1168 140V680" stroke="#8B949E" stroke-width="1.5"/>
+  <path d="M1418 410A250 250 0 0 0 1168 160" fill="none" stroke="#FFB000" stroke-width="6"/>
+  <text class="m" x="1490" y="172" font-size="16" font-weight="700" text-anchor="end" letter-spacing="1.5" fill="#3FB950">EXPANSION ▲</text>
+  <text class="m" x="846" y="172" font-size="16" font-weight="700" letter-spacing="1.5" fill="#FFB000">◆ RECOVERY</text>
+  <text class="m" x="846" y="664" font-size="16" font-weight="700" letter-spacing="1.5" fill="#F85149">▼ CONTRACTION</text>
+  <text class="m" x="1490" y="664" font-size="16" font-weight="700" text-anchor="end" letter-spacing="1.5" fill="#8B949E">OVERHEAT ◆</text>
+  <text class="m" x="1490" y="400" font-size="13" font-weight="500" text-anchor="end" fill="#8B949E">GROWTH +</text>
+  <text class="m" x="1178" y="196" font-size="13" font-weight="500" fill="#8B949E">LIQUIDITY +</text>
+  <path d="M930 560L972 520L1010 494L1050 452L1096 420L1140 388L1196 352L1250 320L1300 292L1342 262" fill="none" stroke="#FFB000" stroke-width="2" stroke-dasharray="5 5"/>
+  <circle cx="930" cy="560" r="3" fill="#FFB000" opacity="0.30"/><circle cx="972" cy="520" r="3.5" fill="#FFB000" opacity="0.37"/><circle cx="1010" cy="494" r="4" fill="#FFB000" opacity="0.44"/><circle cx="1050" cy="452" r="4.5" fill="#FFB000" opacity="0.51"/><circle cx="1096" cy="420" r="5" fill="#FFB000" opacity="0.58"/><circle cx="1140" cy="388" r="5.5" fill="#FFB000" opacity="0.65"/><circle cx="1196" cy="352" r="6" fill="#FFB000" opacity="0.72"/><circle cx="1250" cy="320" r="6.5" fill="#FFB000" opacity="0.79"/><circle cx="1300" cy="292" r="7" fill="#FFB000" opacity="0.86"/>
+  <circle cx="1342" cy="262" r="56" fill="url(#glow)"/><circle cx="1342" cy="262" r="11" fill="#FFB000"/><circle cx="1342" cy="262" r="21" fill="none" stroke="#FFB000" stroke-width="2"/>
+  <rect x="1312" y="290" width="180" height="58" fill="#0D1117" stroke="#FFB000" stroke-width="1.5"/>
+  <text class="m" x="1326" y="314" font-size="15" font-weight="700" fill="#FFB000">NOW · W41</text>
+  <text class="m" x="1326" y="336" font-size="14" font-weight="500" fill="#C9D1D9">G+0.84σ L+0.61σ</text>
+  <path d="M800 700H1536" stroke="#30363D"/>
+  <text class="m" x="830" y="742" font-size="15" font-weight="500" letter-spacing="1.5" fill="#8B949E">STATE</text><text class="m" x="830" y="778" font-size="24" font-weight="800" fill="#3FB950">EXPANSION</text>
+  <text class="m" x="1060" y="742" font-size="15" font-weight="500" letter-spacing="1.5" fill="#8B949E">Δ 12 WEEKS</text><text class="m" x="1060" y="778" font-size="24" font-weight="800" fill="#FFB000">↗ RISING</text>
+  <text class="m" x="1290" y="742" font-size="15" font-weight="500" letter-spacing="1.5" fill="#8B949E">INPUTS</text><text class="m" x="1290" y="778" font-size="24" font-weight="800" fill="#C9D1D9">12 · DOCUMENTED</text>
+  <text class="m" x="830" y="816" font-size="15" font-weight="500" fill="#8B949E">quantarc@desk:~$ rgm --explain</text><rect x="1124" y="803" width="10" height="16" fill="#FFB000"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-label="Quantarc logo">
+  <title>Quantarc</title>
+  <style><![CDATA[@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap');
+  .wm{font-family:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}]]></style>
+  <rect width="640" height="160" rx="12" fill="#0D1117"/>
+  <g transform="translate(24 24) scale(0.21875)">
+    <rect x="4" y="4" width="504" height="504" rx="96" fill="#0D1117" stroke="#30363D" stroke-width="8"/>
+    <path d="M256 104V408M104 256H408" stroke="#30363D" stroke-width="6"/>
+    <path d="M406 256A150 150 0 1 0 256 406" fill="none" stroke="#FFB000" stroke-width="44"/>
+    <path d="M300 300L420 420" stroke="#FFB000" stroke-width="44"/>
+    <path d="M196 236V330" stroke="#3FB950" stroke-width="6"/><rect x="183" y="256" width="26" height="54" fill="#3FB950"/>
+    <path d="M246 186V300" stroke="#3FB950" stroke-width="6"/><rect x="233" y="206" width="26" height="74" fill="#3FB950"/>
+    <path d="M296 170V250" stroke="#F85149" stroke-width="6"/><rect x="283" y="186" width="26" height="46" fill="#F85149"/>
+  </g>
+  <text class="wm" x="160" y="90" font-size="56" font-weight="800" letter-spacing="4" fill="#C9D1D9">QUANTARC</text>
+  <text class="wm" x="162" y="122" font-size="15" font-weight="500" letter-spacing="3.2" fill="#FFB000">MARKET INTELLIGENCE ▸ TERMINAL</text>
+</svg>
