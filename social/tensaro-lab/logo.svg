@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-label="Tensaro Lab logo">
+  <title>Tensaro Lab</title>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;family=IBM+Plex+Mono:wght@500&amp;display=swap');
+  .w{font-family:'Space Grotesk',Arial,sans-serif;font-weight:700}.m{font-family:'IBM Plex Mono','Courier New',monospace;font-weight:500}</style>
+  <g transform="translate(10 10) scale(0.3125)">
+    <rect width="512" height="512" rx="96" fill="#0E1A24"/>
+    <g stroke="#5E7A90" stroke-width="4" stroke-linecap="round"><path d="M96 432v-16M128 432v-16M160 432v-16M224 432v-16M256 432v-16M288 432v-16M352 432v-16M384 432v-16M416 432v-16"/><path d="M192 432v-32M320 432v-32" stroke="#C9D6DF"/></g>
+    <path d="M286 336A110 110 0 0 0 247 252" fill="none" stroke="#FF6B6B" stroke-width="12" stroke-linecap="round" stroke-dasharray="2 22"/>
+    <path d="M176 336H404" stroke="#EEF3F6" stroke-width="36" stroke-linecap="round"/>
+    <path d="M176 336L356 124" stroke="#00B4A0" stroke-width="36" stroke-linecap="round"/>
+    <circle cx="176" cy="336" r="40" fill="#0E1A24" stroke="#EEF3F6" stroke-width="14"/>
+    <circle cx="176" cy="336" r="12" fill="#FF6B6B"/>
+    <circle cx="356" cy="124" r="14" fill="#0E1A24" stroke="#00B4A0" stroke-width="8"/>
+  </g>
+  <text class="w" x="196" y="108" font-size="80" fill="#0E1A24" letter-spacing="-2">Tensaro</text>
+  <rect x="540" y="52" width="118" height="58" rx="6" fill="none" stroke="#0077B6" stroke-width="3"/>
+  <text class="m" x="599" y="92" font-size="30" fill="#0077B6" text-anchor="middle" letter-spacing="6">LAB</text>
+  <text class="m" x="198" y="148" font-size="17" fill="#4A5A68" letter-spacing="2.5">MOBILITY / RECOVERY / PERFORMANCE</text>
+</svg>

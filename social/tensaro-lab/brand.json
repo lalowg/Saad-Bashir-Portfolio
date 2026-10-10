@@ -1,0 +1,51 @@
+{
+  "slug": "tensaro-lab",
+  "name": "Tensaro Lab",
+  "industry": "fitness",
+  "category": "Mobility, recovery & sports performance",
+  "tagline": "Move better. Prove it in degrees.",
+  "positioning": "Tensaro Lab is the mobility and recovery studio for people who train seriously, turning range, load and recovery into numbers you can track instead of feelings you have to guess.",
+  "audience": "Recreational and amateur athletes aged 25-45, desk-bound lifters and runners, and small coaching teams who want measurable, structured mobility and recovery work.",
+  "strategy": "Own the 'measured mobility' space with a clinical, lab-report identity that makes progress visible: every piece of content shows a reading, a method or a protocol. Social leans on annotated diagrams and data callouts for credibility and saves, while community formats (Open Lab Saturdays) convert followers into in-person baseline screens.",
+  "voice": ["precise", "calm", "evidence-minded", "plainspoken"],
+  "palette": [
+    {"name": "Grid Paper", "hex": "#EEF3F6", "role": "bg"},
+    {"name": "Lab Ink", "hex": "#0E1A24", "role": "ink"},
+    {"name": "Instrument Blue", "hex": "#0077B6", "role": "primary"},
+    {"name": "Recovery Teal", "hex": "#00B4A0", "role": "secondary"},
+    {"name": "Marker Coral", "hex": "#FF6B6B", "role": "accent"}
+  ],
+  "contrastPairs": [
+    {"fg": "#0E1A24", "bg": "#EEF3F6", "ratio": "15.76:1", "use": "body text on grid paper"},
+    {"fg": "#0E1A24", "bg": "#FFFFFF", "ratio": "17.62:1", "use": "body text on white cards"},
+    {"fg": "#EEF3F6", "bg": "#0E1A24", "ratio": "15.76:1", "use": "body text on dark panels"},
+    {"fg": "#4A5A68", "bg": "#EEF3F6", "ratio": "6.36:1", "use": "secondary/muted body text"},
+    {"fg": "#005F92", "bg": "#EEF3F6", "ratio": "6.16:1", "use": "links and mono eyebrows on light"},
+    {"fg": "#FFFFFF", "bg": "#0077B6", "ratio": "4.87:1", "use": "primary button labels"},
+    {"fg": "#0E1A24", "bg": "#00B4A0", "ratio": "6.74:1", "use": "secondary button labels, teal tags"},
+    {"fg": "#0E1A24", "bg": "#FF6B6B", "ratio": "6.35:1", "use": "accent button labels"},
+    {"fg": "#00B4A0", "bg": "#0E1A24", "ratio": "6.74:1", "use": "teal data labels on dark"},
+    {"fg": "#3FA9E0", "bg": "#0E1A24", "ratio": "6.68:1", "use": "blue data labels on dark"},
+    {"fg": "#8FA3B3", "bg": "#0E1A24", "ratio": "6.76:1", "use": "muted captions on dark"},
+    {"fg": "#0077B6", "bg": "#EEF3F6", "ratio": "4.35:1", "use": "large display headings only (passes 3:1 large-text)"}
+  ],
+  "fonts": {"display": "Space Grotesk", "body": "IBM Plex Sans", "mono": "IBM Plex Mono"},
+  "designSystem": {
+    "spacing": "8px base unit; 24px grid gutters; sections at 96-128px vertical rhythm on desktop, 64px on mobile",
+    "radius": "Tight and instrument-like: 4px for labels and cards, 10px for panels, full pill only for primary CTAs",
+    "borders": "1-2px solid Lab Ink hairlines; 1px #C9D6DF grid rules; dashed lines reserved for reference/target positions",
+    "imagery": "No photography. Original annotated diagrams: joint-angle figures, goniometers, protractor arcs and floor plans on technical grid paper",
+    "shapes": "Straight segments with round caps for limbs, ringed circles for joints with a coral centre marker, corner crop marks around key panels",
+    "buttons": "Primary: Instrument Blue pill with white label; secondary: outlined ink rectangle with mono label; accent: coral pill with ink label",
+    "cards": "White specimen cards with 2px ink border, teal left tab, mono key label above a Space Grotesk value",
+    "motifs": "Measurement ticks and rulers, joint-angle diagrams, data callouts with leader lines, technical grid paper, specimen labels (SPEC. 04-A, FIG. 01)"
+  },
+  "artDirection": "Every creative reads like a page from a lab report: grid paper or ink field, one annotated diagram as hero, and data callouts connected by thin leader lines. Hierarchy runs mono eyebrow, then a Space Grotesk headline, then one plain sentence, then a single CTA. Coral is a marker, never a fill for large areas; it points to the reading that matters. Any numbers are clearly labelled as sample or illustrative, and wellness copy stays educational with no medical claims.",
+  "assets": [
+    {"file": "01-instagram.svg", "platform": "instagram", "format": "Feed post / carousel cover 1080×1350", "width": 1080, "height": 1350, "title": "Range Is a Number", "headline": "Range is a number. Train it like one.", "summary": "Annotated knee-angle specimen diagram that opens a carousel and drives baseline-screen bookings."},
+    {"file": "02-linkedin.svg", "platform": "linkedin", "format": "Thought-leadership post 1200×1350", "width": 1200, "height": 1350, "title": "Recovery Is a Trend Line", "headline": "Recovery isn't a feeling. It's a trend line.", "summary": "Data-led dark card grid explaining the four signals Tensaro logs every session."},
+    {"file": "03-x.svg", "platform": "x", "format": "Announcement image 1600×900", "width": 1600, "height": 900, "title": "Desk-Bound Hip Protocol Launch", "headline": "The Desk-Bound Hip Protocol.", "summary": "Split-panel launch announcement with a blueprint hip-angle figure and early-access CTA."},
+    {"file": "04-facebook.svg", "platform": "facebook", "format": "Community event post 1200×1500", "width": 1200, "height": 1500, "title": "Open Lab Saturdays", "headline": "Open Lab Saturdays.", "summary": "Community campaign with a five-station floor plan and a reserve-a-slot CTA."},
+    {"file": "05-signature.svg", "platform": "instagram", "format": "Story infographic 1080×1920", "width": 1080, "height": 1920, "title": "A Recovery Day, Logged", "headline": "A recovery day, logged.", "summary": "Signature vertical infographic: a seven-checkpoint recovery day on a measured timeline ruler."}
+  ]
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Tensaro Lab mark: a joint-angle diagram">
+  <title>Tensaro Lab mark</title>
+  <defs>
+    <pattern id="tl-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1B3247" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#0E1A24"/>
+  <rect x="32" y="32" width="448" height="448" rx="72" fill="url(#tl-grid)"/>
+  <g stroke="#5E7A90" stroke-width="4" stroke-linecap="round">
+    <path d="M96 432v-16M128 432v-16M160 432v-16M224 432v-16M256 432v-16M288 432v-16M352 432v-16M384 432v-16M416 432v-16"/>
+    <path d="M192 432v-32M320 432v-32" stroke="#C9D6DF"/>
+  </g>
+  <path d="M286 336A110 110 0 0 0 247 252" fill="none" stroke="#FF6B6B" stroke-width="12" stroke-linecap="round" stroke-dasharray="2 22"/>
+  <path d="M176 336H404" stroke="#EEF3F6" stroke-width="36" stroke-linecap="round"/>
+  <path d="M176 336L356 124" stroke="#00B4A0" stroke-width="36" stroke-linecap="round"/>
+  <circle cx="176" cy="336" r="40" fill="#0E1A24" stroke="#EEF3F6" stroke-width="14"/>
+  <circle cx="176" cy="336" r="12" fill="#FF6B6B"/>
+  <circle cx="356" cy="124" r="14" fill="#0E1A24" stroke="#00B4A0" stroke-width="8"/>
+</svg>
