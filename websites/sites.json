@@ -1,0 +1,366 @@
+[
+ {
+  "id": "01",
+  "slug": "nexora",
+  "name": "NEXORA",
+  "tagline": "The Living Intelligence",
+  "niche": "AI & Future Tech",
+  "concept": "An AI platform presented as a digital organism: agents, automation, perception and reasoning share one nervous system that grows as you explore.",
+  "signature": "a Three.js neural universe that rewires itself into a new topology for each capability you select.",
+  "tech": [
+   "Three.js",
+   "Custom shaders",
+   "SVG fallback"
+  ],
+  "webgl": true,
+  "bg": "#0B0D10",
+  "accent": "#29E3F2",
+  "repo": "https://github.com/lalowg/nexora",
+  "url": "https://nexora-ashy-ten.vercel.app"
+ },
+ {
+  "id": "02",
+  "slug": "quantumnest",
+  "name": "QUANTUMNEST",
+  "tagline": "Beyond the Possible",
+  "niche": "AI & Future Tech",
+  "concept": "A quantum-computing company that turns difficult science into an elegant museum-plate experience with clearly labelled illustrative visuals.",
+  "signature": "a crystalline 3D sculpture that re-forms for each concept, with animated scientific diagrams.",
+  "tech": [
+   "Three.js",
+   "SVG diagrams"
+  ],
+  "webgl": true,
+  "bg": "#070B1F",
+  "accent": "#9FB8FF",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "03",
+  "slug": "velora",
+  "name": "VÉLORA",
+  "tagline": "Wear the Unseen",
+  "niche": "Fashion & Luxury",
+  "concept": "An avant-garde fashion house whose website plays like a fashion film: four pinned scenes, sliced typography and a touchable silk surface.",
+  "signature": "a WebGL silk shader you can disturb, driving a scroll-scrubbed four-scene film.",
+  "tech": [
+   "WebGL shader",
+   "GSAP ScrollTrigger",
+   "SVG fashion plates"
+  ],
+  "webgl": true,
+  "bg": "#0A0908",
+  "accent": "#5A1A1F",
+  "repo": "https://github.com/lalowg/velora",
+  "url": "https://velora-theta-hazel.vercel.app"
+ },
+ {
+  "id": "04",
+  "slug": "terra-and-thread",
+  "name": "TERRA & THREAD",
+  "tagline": "Wear the Change",
+  "niche": "Fashion & Luxury",
+  "concept": "A sustainable label focused on materials and craft, told through tactile editorial spreads and an honest material story.",
+  "signature": "a material-to-garment journey: fibre becomes yarn, weave and finally a garment.",
+  "tech": [
+   "SVG animation",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#EFE6D6",
+  "accent": "#A65A3A",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "05",
+  "slug": "zenith",
+  "name": "ZENITH",
+  "tagline": "Your Mind, in Focus",
+  "niche": "Health & Wellness",
+  "concept": "A digital mindfulness sanctuary: an evening landscape where the sun rises and sets with your breath.",
+  "signature": "user-paced breathing sessions with pace control, pause/reset and a follow-my-breath mode.",
+  "tech": [
+   "Canvas 2D",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#2B2440",
+  "accent": "#F6C6A8",
+  "repo": "https://github.com/lalowg/zenith",
+  "url": "https://zenith-blue-beta.vercel.app"
+ },
+ {
+  "id": "06",
+  "slug": "vitalis",
+  "name": "VITALIS",
+  "tagline": "The Science of Better Living",
+  "niche": "Health & Wellness",
+  "concept": "A longevity education platform that explains the body through precise data graphics and a dark scientific dashboard.",
+  "signature": "an interactive human-body diagram linked to filterable education panels and sample-data charts.",
+  "tech": [
+   "SVG",
+   "Data visualisation"
+  ],
+  "webgl": false,
+  "bg": "#0A1014",
+  "accent": "#4FD1C5",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "07",
+  "slug": "solstice",
+  "name": "SOLSTICE",
+  "tagline": "Journeys That Change You",
+  "niche": "Travel & Exploration",
+  "concept": "A premium travel brand built on emotional storytelling, with destination chapters that move from dawn to dusk.",
+  "signature": "cinematic destination chapters plus a working itinerary builder.",
+  "tech": [
+   "SVG parallax",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#1A1410",
+  "accent": "#E8A15A",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "08",
+  "slug": "wayfarer",
+  "name": "WAYFARER",
+  "tagline": "The World, Reimagined",
+  "niche": "Travel & Exploration",
+  "concept": "A cartographic discovery platform where browsing places feels like navigating a living atlas.",
+  "signature": "an interactive world map with themed filters, animated routes and session-saved places.",
+  "tech": [
+   "d3-geo",
+   "TopoJSON",
+   "SVG"
+  ],
+  "webgl": false,
+  "bg": "#F4EFE3",
+  "accent": "#E4572E",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "09",
+  "slug": "ember",
+  "name": "EMBER",
+  "tagline": "Taste the Story",
+  "niche": "Food & Beverage",
+  "concept": "A chef-led dining room where each course is told as a story, from ingredient to finished plate.",
+  "signature": "a tasting journey connecting ingredient, preparation and dish, with a reservation inquiry.",
+  "tech": [
+   "SVG illustration",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#120D0A",
+  "accent": "#D9572B",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "10",
+  "slug": "the-alchemist",
+  "name": "THE ALCHEMIST",
+  "tagline": "More Than a Drink",
+  "niche": "Food & Beverage",
+  "concept": "An experimental beverage studio that turns flavour into living liquid compositions.",
+  "signature": "a flavour explorer that generates a fluid visual composition and a drink name from your choices.",
+  "tech": [
+   "Generative canvas",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#1B0B26",
+  "accent": "#FF2E88",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "11",
+  "slug": "skyline-academy",
+  "name": "SKYLINE ACADEMY",
+  "tagline": "Learn Beyond Limits",
+  "niche": "Education",
+  "concept": "A futuristic learning environment where subjects and courses form an explorable universe.",
+  "signature": "a navigable 3D knowledge universe with filterable courses and selectable learning paths.",
+  "tech": [
+   "Three.js",
+   "Vanilla JS"
+  ],
+  "webgl": true,
+  "bg": "#0A1230",
+  "accent": "#7CC4FF",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "12",
+  "slug": "mindcraft",
+  "name": "MINDCRAFT",
+  "tagline": "Build Your Future",
+  "niche": "Education",
+  "concept": "A hands-on learning studio for makers and designers, designed like a workshop pegboard.",
+  "signature": "a skill map that unlocks real project examples as you choose skills.",
+  "tech": [
+   "SVG",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#E8DCC4",
+  "accent": "#F26B1D",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "13",
+  "slug": "lumen-residences",
+  "name": "LUMEN RESIDENCES",
+  "tagline": "Modern Living, Elevated",
+  "niche": "Real Estate & Architecture",
+  "concept": "A residential brand that presents homes as architectural experiences of concrete, glass and light.",
+  "signature": "room-by-room exploration from an interactive floor plan, with property filters.",
+  "tech": [
+   "SVG floor plans",
+   "CSS 3D"
+  ],
+  "webgl": false,
+  "bg": "#141414",
+  "accent": "#F2C879",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "14",
+  "slug": "verdura-architects",
+  "name": "VERDURA ARCHITECTS",
+  "tagline": "Designing a Sustainable Tomorrow",
+  "niche": "Real Estate & Architecture",
+  "concept": "An architecture studio whose case studies connect sketches, materials, form and environmental decisions.",
+  "signature": "an interactive case study with drawings that draw on and toggleable sun, wind and water layers.",
+  "tech": [
+   "SVG path animation",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#ECE7DE",
+  "accent": "#8FA68A",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "15",
+  "slug": "lumina-films",
+  "name": "LUMINA FILMS",
+  "tagline": "Stories That Stay With You",
+  "niche": "Cinema & Gaming",
+  "concept": "An independent film studio with a letterboxed, credit-roll editorial world.",
+  "signature": "film discovery with cinematic reveals and an animated teaser player with play, pause and scrub.",
+  "tech": [
+   "Canvas",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#070707",
+  "accent": "#B3202C",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "16",
+  "slug": "pixelverse",
+  "name": "PIXELVERSE",
+  "tagline": "Enter Another Reality",
+  "niche": "Cinema & Gaming",
+  "concept": "A game-world studio whose website is a miniature floating world to explore.",
+  "signature": "a navigable 3D world with clickable locations and lore panels.",
+  "tech": [
+   "Three.js",
+   "Vanilla JS"
+  ],
+  "webgl": true,
+  "bg": "#0D0B2A",
+  "accent": "#FF5DA2",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "17",
+  "slug": "orion-capital",
+  "name": "ORION CAPITAL",
+  "tagline": "Wealth With Purpose",
+  "niche": "Finance & Cloud",
+  "concept": "A private-bank style planning room that makes long-term financial thinking clear, with every figure labelled hypothetical.",
+  "signature": "an illustrative planning simulator with purpose targets, scenario comparison and a star-chart timeline.",
+  "tech": [
+   "SVG charts",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#0B1530",
+  "accent": "#B89B5E",
+  "repo": "https://github.com/lalowg/orion-capital",
+  "url": "https://orion-capital-nine.vercel.app"
+ },
+ {
+  "id": "18",
+  "slug": "nimbus",
+  "name": "NIMBUS",
+  "tagline": "Your Business, in the Cloud",
+  "niche": "Finance & Cloud",
+  "concept": "A cloud-infrastructure company that explains systems through living architecture diagrams.",
+  "signature": "an interactive infrastructure map with a simulated configuration and live-updating sample metrics.",
+  "tech": [
+   "Canvas",
+   "SVG",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#061A40",
+  "accent": "#3FA9F5",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "19",
+  "slug": "canvas",
+  "name": "CANVAS",
+  "tagline": "Art for a Bolder Tomorrow",
+  "niche": "Digital Art & Music",
+  "concept": "A digital art platform designed as an evolving exhibition rather than an image grid.",
+  "signature": "walkable gallery rooms of interactive, regenerating generative artworks.",
+  "tech": [
+   "Generative canvas",
+   "Vanilla JS"
+  ],
+  "webgl": false,
+  "bg": "#F7F6F2",
+  "accent": "#E8452C",
+  "url": null,
+  "repo": null
+ },
+ {
+  "id": "20",
+  "slug": "harmonix",
+  "name": "HARMONIX",
+  "tagline": "See the Sound",
+  "niche": "Digital Art & Music",
+  "concept": "An audio-visual studio whose website is a playable instrument: sound, geometry and colour in one surface.",
+  "signature": "sixteen playable pads driving a Web Audio synth with reactive procedural visuals.",
+  "tech": [
+   "Web Audio API",
+   "Canvas 2D"
+  ],
+  "webgl": false,
+  "bg": "#05050A",
+  "accent": "#8B7CFF",
+  "repo": "https://github.com/lalowg/harmonix",
+  "url": "https://harmonix-one.vercel.app"
+ }
+]
