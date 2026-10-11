@@ -33,8 +33,8 @@
   "webgl": true,
   "bg": "#070B1F",
   "accent": "#9FB8FF",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/quantumnest",
+  "url": "https://quantumnest.vercel.app"
  },
  {
   "id": "03",
@@ -70,8 +70,8 @@
   "webgl": false,
   "bg": "#EFE6D6",
   "accent": "#A65A3A",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/terra-and-thread",
+  "url": "https://terra-and-thread.vercel.app"
  },
  {
   "id": "05",
@@ -106,8 +106,8 @@
   "webgl": false,
   "bg": "#0A1014",
   "accent": "#4FD1C5",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/vitalis",
+  "url": "https://vitalis-hazel-tau.vercel.app"
  },
  {
   "id": "07",
@@ -124,8 +124,8 @@
   "webgl": false,
   "bg": "#1A1410",
   "accent": "#E8A15A",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/solstice",
+  "url": "https://solstice-woad-eight.vercel.app"
  },
  {
   "id": "08",
@@ -143,8 +143,8 @@
   "webgl": false,
   "bg": "#F4EFE3",
   "accent": "#E4572E",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/wayfarer",
+  "url": "https://wayfarer-indol.vercel.app"
  },
  {
   "id": "09",
@@ -161,8 +161,8 @@
   "webgl": false,
   "bg": "#120D0A",
   "accent": "#D9572B",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/ember",
+  "url": "https://ember-pearl-eta.vercel.app"
  },
  {
   "id": "10",
@@ -179,8 +179,8 @@
   "webgl": false,
   "bg": "#1B0B26",
   "accent": "#FF2E88",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/the-alchemist",
+  "url": "https://the-alchemist-mu.vercel.app"
  },
  {
   "id": "11",
@@ -197,8 +197,8 @@
   "webgl": true,
   "bg": "#0A1230",
   "accent": "#7CC4FF",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/skyline-academy",
+  "url": "https://skyline-academy-omega.vercel.app"
  },
  {
   "id": "12",
@@ -215,8 +215,8 @@
   "webgl": false,
   "bg": "#E8DCC4",
   "accent": "#F26B1D",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/mindcraft",
+  "url": "https://mindcraft-ashy.vercel.app"
  },
  {
   "id": "13",
@@ -233,8 +233,8 @@
   "webgl": false,
   "bg": "#141414",
   "accent": "#F2C879",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/lumen-residences",
+  "url": "https://lumen-residences-three.vercel.app"
  },
  {
   "id": "14",
@@ -251,8 +251,8 @@
   "webgl": false,
   "bg": "#ECE7DE",
   "accent": "#8FA68A",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/verdura-architects",
+  "url": "https://verdura-architects.vercel.app"
  },
  {
   "id": "15",
@@ -269,8 +269,8 @@
   "webgl": false,
   "bg": "#070707",
   "accent": "#B3202C",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/lumina-films",
+  "url": "https://lumina-films-xi.vercel.app"
  },
  {
   "id": "16",
@@ -287,8 +287,8 @@
   "webgl": true,
   "bg": "#0D0B2A",
   "accent": "#FF5DA2",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/pixelverse",
+  "url": "https://pixelverse-tawny.vercel.app"
  },
  {
   "id": "17",
@@ -324,8 +324,8 @@
   "webgl": false,
   "bg": "#061A40",
   "accent": "#3FA9F5",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/nimbus",
+  "url": "https://nimbus-olive-five.vercel.app"
  },
  {
   "id": "19",
@@ -342,8 +342,8 @@
   "webgl": false,
   "bg": "#F7F6F2",
   "accent": "#E8452C",
-  "url": null,
-  "repo": null
+  "repo": "https://github.com/lalowg/canvas",
+  "url": "https://canvas-sand-tau.vercel.app"
  },
  {
   "id": "20",

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="480" height="120" role="img" aria-label="LUMINA FILMS">
+  <title>LUMINA FILMS</title>
+  <rect width="160" height="40" fill="#070707"/>
+  <circle cx="20" cy="20" r="16" fill="none" stroke="#D8D6D0" stroke-width="1.5"/>
+  <path d="M26.76 21.81L21.81 26.76L15.05 24.95L13.24 18.19L18.19 13.24L24.95 15.05Z" fill="#B3202C"/>
+  <path d="M26.76 21.81L21.39 35.94M21.81 26.76L6.89 29.18M15.05 24.95L5.5 13.24M13.24 18.19L18.61 4.06M18.19 13.24L33.11 10.82M24.95 15.05L34.5 26.76" fill="none" stroke="#D8D6D0" stroke-width="1.1"/>
+  <g fill="none" stroke="#D8D6D0" stroke-width="1.5" stroke-linecap="square">
+    <path d="M52 8V26H62"/>
+    <path d="M70 8V20.5A6 6 0 0 0 82 20.5V8"/>
+    <path d="M90 26V8L97 19L104 8V26"/>
+    <path d="M113 8V26"/>
+    <path d="M122 26V8L134 26V8"/>
+    <path d="M142 26L149 8L156 26M144.5 20H153.5"/>
+  </g>
+  <g fill="none" stroke="#5E5A55" stroke-width=".9" stroke-linecap="square">
+    <path d="M116 31H120M116 31V37M116 34H119"/>
+    <path d="M125 31V37"/>
+    <path d="M130 31V37H134"/>
+    <path d="M139 37V31L141.5 35L144 31V37"/>
+    <path d="M152 31.6Q152 31 151 31H149.5Q148.5 31 148.5 32.6Q148.5 34 150.2 34Q152 34 152 35.5Q152 37 151 37H149.5Q148.5 37 148.5 36.4"/>
+  </g>
+</svg>
