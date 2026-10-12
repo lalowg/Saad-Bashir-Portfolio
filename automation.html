@@ -123,6 +123,16 @@
             .foot a { margin: 0 16px 0 0; }
         }
     
+        /* Desktop nav fit: keep header on one row */
+        .logo { white-space: nowrap; }
+        nav .nav-links { gap: 22px; flex-wrap: nowrap; }
+        nav a { white-space: nowrap; font-size: 14px; }
+        header .cta-button { padding: 11px 20px; }
+        @media (max-width: 1140px) and (min-width: 769px) {
+            nav { flex-direction: column; gap: 14px; }
+            nav .nav-links { flex-wrap: wrap; justify-content: center; gap: 12px 22px; }
+        }
+
         /* ===== Mobile menu (phones) ===== */
         .nav-toggle { display: none; }
         @media (max-width: 768px) {
