@@ -201,6 +201,23 @@
         }
         @media (max-width: 480px) { .grid { grid-template-columns: 1fr; } .row-label { min-width: 100%; } }
         @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+    
+        /* ===== Mobile menu (phones) ===== */
+        .nav-toggle { display: none; }
+        @media (max-width: 768px) {
+            body > header { padding: 10px 0 !important; }
+            body > header > nav { flex-direction: row !important; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 0 !important; padding: 0 20px !important; }
+            body > header .logo img { height: 38px !important; }
+            body > header .nav-toggle { display: inline-flex; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; padding: 0 11px; background: transparent; border: 1px solid var(--border); border-radius: 6px; cursor: pointer; }
+            body > header .nav-toggle span { display: block; height: 2px; background: var(--navy); border-radius: 2px; transition: transform 0.2s ease, opacity 0.2s ease; }
+            body > header > nav.open .nav-toggle span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+            body > header > nav.open .nav-toggle span:nth-child(2) { opacity: 0; }
+            body > header > nav.open .nav-toggle span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+            body > header > nav .nav-links { display: none !important; width: 100%; flex-direction: column; align-items: stretch; gap: 0 !important; padding: 8px 0 6px; max-height: calc(100vh - 72px); overflow-y: auto; }
+            body > header > nav.open .nav-links { display: flex !important; }
+            body > header > nav .nav-links a:not(.cta-button) { font-size: 16px !important; padding: 12px 4px; border-bottom: 1px solid var(--border); }
+            body > header > nav .nav-links .cta-button { width: 100%; text-align: center; margin-top: 14px; padding: 14px 20px; }
+        }
     </style>
 </head>
 <body>
@@ -208,7 +225,8 @@
     <header>
         <nav aria-label="Main">
             <a href="index.html" class="logo" aria-label="Saad Bashir, home"><img src="logo.svg" alt="Saad Bashir" width="200" height="48" style="height:46px;width:auto;display:block"></a>
-            <div class="nav-links">
+            <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+            <div class="nav-links" id="nav-links">
                 <a href="index.html#about">About</a>
                 <a href="index.html#projects">Projects</a>
                 <a href="index.html#expertise">Expertise</a>
@@ -527,6 +545,17 @@
             grid.innerHTML = '<div class="empty" style="grid-column:1/-1">The gallery could not load. Please refresh the page.</div>';
         });
     })();
+    </script>
+    <script>
+        // Mobile menu
+        (function () {
+            const nav = document.querySelector('body > header > nav');
+            const btn = nav && nav.querySelector('.nav-toggle');
+            if (!btn) return;
+            const set = open => { nav.classList.toggle('open', open); btn.setAttribute('aria-expanded', open); btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu'); };
+            btn.addEventListener('click', () => set(!nav.classList.contains('open')));
+            nav.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => set(false)));
+        })();
     </script>
 </body>
 </html>
